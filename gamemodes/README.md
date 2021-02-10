@@ -1484,7 +1484,9 @@ SetTimer和SetTimerEx均适配为Timerfix的`SetTimer_`和`SetTimerEx_`
 
 (部分应该还是没适配的比如PRace(2020.12.27补充))
 
-### 2020.12.27
+
+
+## 2020.12.27
 
 *时间戳转日期* 
 
@@ -1534,9 +1536,7 @@ SetTimer和SetTimerEx均适配为Timerfix的`SetTimer_`和`SetTimerEx_`
 
 - 修复登录时没有移动镜头和音乐的场景
 
-
-
-### 2021.2.10
+## 2021.2.10
 
 - 尝试适配并修复`SetTimer_和SetTimerEx_`问题(npc,prace,gamemode)
 - 修复部分潜在的`settimer_和settimerex_` BUG(未被反馈)
