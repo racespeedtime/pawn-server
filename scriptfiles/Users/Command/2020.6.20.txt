@@ -1,0 +1,15 @@
+[21:59:22][指令][R_ST]Hygen(0):/c 411
+[21:59:43][指令][R_ST]Hygen(0):/sz
+[21:59:57][指令][R_ST]Hygen(0):/tianqi 7
+[21:59:57][指令][R_ST]Hygen(0):/sz
+[22:0:2][指令][R_ST]Hygen(0):/r s 
+[22:0:10][指令][R_ST]Hygen(0):/r s 5Round
+[22:0:18][指令][R_ST]Hygen(0):/r s
+[22:2:30][指令][R_ST]Hygen(0):/sz
+[22:2:31][指令][R_ST]Hygen(0):/help
+[22:2:36][指令][R_ST]Hygen(0):/help
+[22:2:37][指令][R_ST]Hygen(0):/help
+[22:2:38][指令][R_ST]Hygen(0):/help
+[22:2:39][指令][R_ST]Hygen(0):/help
+[22:2:40][指令][R_ST]Hygen(0):/help
+[22:2:42][指令][R_ST]Hygen(0):/help

@@ -1,0 +1,31 @@
+[11:47:16][指令][R_ST]peretDK(8):/c 562
+[11:47:24][指令][R_ST]peretDK(8):/help
+[11:47:39][指令][R_ST]peretDK(8):/help
+[11:47:43][指令][R_ST]peretDK(8):/telemenu
+[11:48:38][指令][R_ST]peretDK(8):/cc 0 0
+[11:48:41][指令][R_ST]peretDK(8):/time 
+[11:48:43][指令][R_ST]peretDK(8):/time  22 0
+[11:48:44][指令][R_ST]peretDK(8):/time  21 0
+[11:55:5][指令][R_ST]peretDK(8):/c 520
+[11:55:23][指令][R_ST]peretDK(8):/c 520
+[11:56:7][指令][R_ST]peretDK(8):/c 500
+[11:56:19][指令][R_ST]peretDK(8):/vmake pydd2
+[11:56:21][指令][R_ST]peretDK(8):/vmake pydd3
+[11:56:39][指令][R_ST]peretDK(8):/c 562
+[11:56:41][指令][R_ST]peretDK(8):/cc 0 0
+[11:56:41][指令][R_ST]peretDK(8):/c 562
+[11:56:44][指令][R_ST]peretDK(8):/cc 0 0
+[11:59:21][指令][R_ST]peretDK(8):/cc 6 6
+[11:59:29][指令][R_ST]peretDK(8):/cc 6 6
+[15:19:13][指令][R_ST]peretDK(8):/c 562
+[15:21:12][指令][R_ST]peretDK(8):/time 12
+[15:21:13][指令][R_ST]peretDK(8):/time 12 0
+[15:21:17][指令][R_ST]peretDK(8):/sz
+[15:21:21][指令][R_ST]peretDK(8):/tianqi 2
+[15:21:21][指令][R_ST]peretDK(8):/sz
+[15:21:37][指令][R_ST]peretDK(8):/tianqi 0
+[15:21:37][指令][R_ST]peretDK(8):/sz
+[15:25:54][指令][R_ST]peretDK(8):/infobj
+[15:25:59][指令][R_ST]peretDK(8):/infobj
+[15:26:41][指令][R_ST]peretDK(8):/infobj
+[15:26:42][指令][R_ST]peretDK(8):/infobj

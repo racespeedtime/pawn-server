@@ -1,0 +1,77 @@
+[0:54:45][指令]Kosaka.(8):/skin 177
+[0:54:53][指令]Kosaka.(8):/wdsz
+[22:40:51][指令][Zephyr]_Guy(8):/c 562
+[22:40:53][指令][Zephyr]_Guy(8):/c color 1 1
+[22:40:57][指令][Zephyr]_Guy(8):/skin 29
+[22:41:35][指令][Zephyr]3s_Kk(9):/C 562
+[22:42:54][指令][Zephyr]_Guy(8):/s
+[22:42:58][指令][Zephyr]3s_Kk(9):/C COLOR 1 1
+[22:43:5][指令][Zephyr]3s_Kk(9):/S
+[22:43:8][指令][Zephyr]_Guy(8):/s
+[22:43:14][指令][Zephyr]3s_Kk(9):/L
+[22:43:34][指令][Zephyr]_Guy(8):/l
+[22:43:37][指令][Zephyr]3s_Kk(9):/L
+[22:43:43][指令][Zephyr]_Guy(8):/l
+[22:43:58][指令][Zephyr]3s_Kk(9):/L
+[22:44:1][指令][Zephyr]_Guy(8):/l
+[22:44:6][指令][Zephyr]3s_Kk(9):/S
+[22:44:11][指令][Zephyr]_Guy(8):/s
+[22:44:25][指令][Zephyr]3s_Kk(9):/L
+[22:44:28][指令][Zephyr]_Guy(8):/l
+[22:44:49][指令][Zephyr]_Guy(8):/l
+[22:44:51][指令][Zephyr]3s_Kk(9):/L
+[22:45:6][指令][Zephyr]3s_Kk(9):/L
+[22:45:7][指令][Zephyr]_Guy(8):/l
+[22:46:3][指令][Zephyr]3s_Kk(9):/F
+[22:47:4][指令][Zephyr]_Guy(8):/c wode
+[22:47:4][指令][Zephyr]3s_Kk(9):/L
+[22:47:6][指令][Zephyr]_Guy(8):/l
+[22:47:28][指令][Zephyr]_Guy(8):/l
+[22:47:29][指令][Zephyr]3s_Kk(9):/L
+[22:47:59][指令][Zephyr]_Guy(8):/l
+[22:48:1][指令][Zephyr]3s_Kk(9):/L
+[22:48:25][指令][Zephyr]3s_Kk(9):/L
+[22:48:26][指令][Zephyr]_Guy(8):/l
+[22:48:43][指令][Zephyr]_Guy(8):/l
+[22:48:44][指令][Zephyr]3s_Kk(9):/L
+[22:49:2][指令][Zephyr]3s_Kk(9):/L
+[22:49:6][指令][Zephyr]_Guy(8):/l
+[22:49:26][指令][Zephyr]_Guy(8):/l
+[22:49:28][指令][Zephyr]3s_Kk(9):/L
+[22:49:54][指令][Zephyr]_Guy(8):/l
+[22:49:57][指令][Zephyr]3s_Kk(9):/L
+[22:50:20][指令][Zephyr]3s_Kk(9):/SZ
+[22:50:26][指令][Zephyr]_Guy(8):/kgobj
+[22:50:29][指令][Zephyr]_Guy(8):/kgobj
+[22:50:29][指令][Zephyr]3s_Kk(9):/HELP
+[22:50:37][指令][Zephyr]_Guy(8):/help
+[22:50:42][指令][Zephyr]_Guy(8):/help
+[22:51:58][指令][Zephyr]_Guy(8):/s
+[22:52:26][指令][Zephyr]_Guy(8):/l
+[22:52:29][指令][Zephyr]3s_Kk(9):/S
+[22:52:35][指令][Zephyr]_Guy(8):/l
+[22:52:40][指令][Zephyr]3s_Kk(9):/L
+[22:52:47][指令][Zephyr]_Guy(8):/s
+[22:52:49][指令][Zephyr]3s_Kk(9):/S
+[22:53:25][指令][Zephyr]_Guy(8):/l
+[22:53:46][指令][Zephyr]3s_Kk(9):/C 562
+[22:53:47][指令][Zephyr]3s_Kk(9):/L
+[22:53:47][指令][Zephyr]_Guy(8):/l
+[22:53:49][指令][Zephyr]3s_Kk(9):/C OCLOR 1 1
+[22:53:53][指令][Zephyr]3s_Kk(9):/C COLOR 1 1
+[22:55:0][指令][Zephyr]3s_Kk(9):/L
+[22:55:0][指令][Zephyr]_Guy(8):/l
+[22:55:37][指令][Zephyr]_Guy(8):/l
+[22:55:38][指令][Zephyr]3s_Kk(9):/L
+[22:55:56][指令][Zephyr]3s_Kk(9):/L
+[22:55:57][指令][Zephyr]_Guy(8):/l
+[22:56:20][指令][Zephyr]3s_Kk(9):/L
+[22:56:22][指令][Zephyr]_Guy(8):/l
+[22:56:36][指令][Zephyr]3s_Kk(9):/L
+[22:56:40][指令][Zephyr]_Guy(8):/l
+[22:57:0][指令][Zephyr]3s_Kk(9):/L
+[22:57:28][指令][Zephyr]3s_Kk(9):/L
+[22:57:28][指令][Zephyr]_Guy(8):/l
+[22:58:0][指令][Zephyr]3s_Kk(9):/L
+[22:58:1][指令][Zephyr]_Guy(8):/l
+[22:58:36][指令][Zephyr]3s_Kk(9):/L

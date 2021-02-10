@@ -1,0 +1,70 @@
+[12:32:18][指令]baby(8):/c
+[12:32:20][指令]baby(8):/c 411
+[12:32:55][指令]baby(8):/r s MISC3
+[12:34:0][指令]baby(8):/c 411 0 0
+[12:37:50][指令]baby(8):/ta
+[12:38:0][指令]body(9):/c 411
+[12:38:4][指令]baby(8):/help
+[12:38:20][指令]baby(8):/help
+[12:38:21][指令]body(9):/help
+[12:38:26][指令]baby(8):/help
+[12:38:35][指令]baby(8):/help
+[12:38:38][指令]body(9):/house buy
+[12:38:47][指令]baby(8):/help
+[12:39:5][指令]baby(8):/help
+[12:39:7][指令]baby(8):/wuqi
+[12:39:13][指令]baby(8):/wudi
+[12:39:18][指令]baby(8):/wuqi
+[12:39:25][指令]body(9):/help
+[12:39:45][指令]baby(8):/wuqi
+[12:40:9][指令]body(9):/help
+[12:40:11][指令]body(9):/wuqi
+[12:40:27][指令]body(9):/help
+[12:40:44][指令]body(9):/help
+[12:40:52][指令]body(9):/help
+[12:40:59][指令]body(9):/cars list
+[12:41:42][指令]body(9):/cars list
+[12:42:35][指令]body(9):/kill
+[12:43:15][指令]body(9):/house buy
+[12:43:23][指令]body(9):/ta
+[12:43:36][指令]baby(8):/house buy
+[12:43:39][指令]baby(8):/house buy
+[12:43:40][指令]baby(8):/house buy\
+[12:43:41][指令]baby(8):/house buy\
+[12:43:43][指令]baby(8):/house buy
+[12:43:54][指令]baby(8):/kill
+[12:43:55][指令]body(9):/cars list
+[12:44:1][指令]baby(8):/help
+[12:44:3][指令]body(9):/cars list
+[12:44:17][指令]baby(8):/help
+[12:44:22][指令]baby(8):/house goto
+[12:44:24][指令]baby(8):/house goto 12
+[12:44:29][指令]baby(8):/house buy
+[12:44:36][指令]baby(8):/house buy
+[12:44:41][指令]baby(8):/house goto 13
+[12:44:43][指令]baby(8):/house buy
+[12:44:49][指令]baby(8):/house goto 99
+[12:44:54][指令]body(9):/cars buy
+[12:44:55][指令]baby(8):/house buy
+[12:45:4][指令]baby(8):/house goto 1
+[12:45:8][指令]baby(8):/house goto 9
+[12:45:9][指令]body(9):/cars 6
+[12:45:11][指令]baby(8):/house goto 55
+[12:45:14][指令]body(9):/cars list
+[12:45:15][指令]baby(8):/house goto 100
+[12:45:18][指令]baby(8):/house goto 88.
+[12:45:22][指令]body(9):/cars list
+[12:45:23][指令]baby(8):/house buy
+[12:45:57][指令]baby(8):/c 451
+[12:45:57][指令]body(9):/cars list
+[12:45:59][指令]baby(8):/cc
+[12:46:1][指令]body(9):/help
+[12:46:1][指令]baby(8):/c 00
+[12:46:7][指令]baby(8):/cc
+[12:46:9][指令]baby(8):/cc 1
+[12:46:25][指令]body(9):/ta
+[16:16:57][指令]HazelnutR(8):/c 477
+[16:20:40][指令]HazelnutR(8):/c 560
+[16:22:50][指令]HazelnutR(8):/c 562
+[16:35:59][指令]HazelnutR(8):/c 429
+[16:36:29][指令]HazelnutR(8):/c 451

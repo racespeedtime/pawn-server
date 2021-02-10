@@ -1,0 +1,58 @@
+[9:38:11][指令]ASKKKKK(8):/C 411
+[9:49:25][指令]ASKKKKK(8):/C 411
+[9:54:33][指令]ASKKKKK(8):/C 411
+[9:54:45][指令]ASKKKKK(8):/C color 1 1
+[9:54:48][指令]ASKKKKK(8):/R S LDZ
+[9:54:52][指令]ASKKKKK(8):/r s LDZ
+[9:55:9][指令]ASKKKKK(8):/r s
+[9:55:38][指令]ASKKKKK(8):/R leave
+[9:55:40][指令]ASKKKKK(8):/r s LDZ
+[9:55:48][指令]ASKKKKK(8):/r s
+[9:58:21][指令]ASKKKKK(8):/r s LDZ
+[9:58:28][指令]ASKKKKK(8):/r s
+[10:1:6][指令]ASKKKKK(8):/r s LDZ
+[10:1:12][指令]ASKKKKK(8):/r s
+[10:4:1][指令]ASKKKKK(8):/r s LDZ
+[10:4:13][指令]ASKKKKK(8):/r s
+[10:6:46][指令]ASKKKKK(8):/r s LDZ
+[10:6:54][指令]ASKKKKK(8):/r s
+[10:7:30][指令]ASKKKKK(8):/r leave
+[10:7:38][指令]ASKKKKK(8):/r s LDZ
+[10:7:46][指令]ASKKKKK(8):/r s
+[10:9:50][指令]ASKKKKK(8):/R leave
+[10:14:15][指令]ASKKKKK(8):/r s
+[10:14:41][指令]ASKKKKK(8):/r s
+[10:14:55][指令]ASKKKKK(8):/r s
+[10:15:14][指令]ASKKKKK(8):/r sw
+[10:15:16][指令]ASKKKKK(8):/r s
+[10:15:34][指令]ASKKKKK(8):/r s
+[10:15:55][指令]ASKKKKK(8):/r s
+[10:16:9][指令]ASKKKKK(8):/r s
+[10:16:28][指令]ASKKKKK(8):/r s
+[10:16:37][指令]ASKKKKK(8):/r s
+[10:17:14][指令]ASKKKKK(8):/r s
+[10:18:2][指令]ASKKKKK(8):/C 541
+[10:20:45][指令]ASKKKKK(8):/r s LDZ
+[10:20:55][指令]ASKKKKK(8):/r s
+[10:22:32][指令]ASKKKKK(8):/r leave
+[10:22:36][指令]ASKKKKK(8):/C color 1 136
+[10:22:39][指令]ASKKKKK(8):/r s LDZ
+[10:22:51][指令]ASKKKKK(8):/r s
+[10:23:39][指令]ASKKKKK(8):/R l
+[10:23:42][指令]ASKKKKK(8):/R S LDZ
+[10:23:45][指令]ASKKKKK(8):/r s LDZ
+[10:23:51][指令]ASKKKKK(8):/r s
+[10:24:4][指令]ASKKKKK(8):/r l
+[10:24:9][指令]ASKKKKK(8):/r s LDZ
+[10:24:17][指令]ASKKKKK(8):/r s
+[10:24:30][指令]ASKKKKK(8):/r l
+[10:24:32][指令]ASKKKKK(8):/r s LDZ
+[10:24:39][指令]ASKKKKK(8):/r s
+[10:27:12][指令]ASKKKKK(8):/r s LDZ
+[10:27:20][指令]ASKKKKK(8):/r s
+[10:29:51][指令]ASKKKKK(8):/r s LDZ
+[10:29:58][指令]ASKKKKK(8):/r s
+[10:30:5][指令]ASKKKKK(8):/R l
+[10:30:8][指令]ASKKKKK(8):/r s LDZ
+[10:30:14][指令]ASKKKKK(8):/r s
+[10:32:53][指令]ASKKKKK(8):/C 411

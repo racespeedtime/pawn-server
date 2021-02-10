@@ -1,0 +1,637 @@
+[0:0:2][指令][R_ST]KiVen(8):/r l
+[0:0:4][指令][R_ST]KiVen(8):/tv 9
+[0:0:26][指令][Shadows]F_Hawk(9):/r s
+[0:0:45][指令][Shadows]F_Hawk(9):/r s Feathers
+[0:0:47][指令][R_ST]KiVen(8):/tv 9
+[0:0:51][指令][R_ST]KiVen(8):/r s
+[0:1:6][指令][Shadows]F_Hawk(9):/r s
+[0:5:13][指令][R_ST]KiVen(8):/tv off
+[0:5:16][指令][R_ST]KiVen(8):/tv 9
+[0:5:20][指令][R_ST]KiVen(8):/r s
+[0:5:25][指令][Shadows]F_Hawk(9):/r s
+[0:5:37][指令][Shadows]F_Hawk(9):/r s Feathers
+[0:5:57][指令][Shadows]F_Hawk(9):/r s
+[0:6:7][指令][R_ST]KiVen(8):/tv 9
+[0:6:48][指令][Shadows]F_Hawk(9):/r l
+[0:6:51][指令][Shadows]F_Hawk(9):/r s
+[0:6:53][指令][R_ST]KiVen(8):/s
+[0:6:54][指令][R_ST]KiVen(8):/tv off
+[0:6:56][指令][R_ST]KiVen(8):/l
+[0:6:56][指令][Shadows]F_Hawk(9):/r s Feathers
+[0:6:57][指令][R_ST]KiVen(8):/c 411
+[0:7:3][指令][Shadows]F_Hawk(9):/r s
+[0:7:19][指令][R_ST]KiVen(8):/s
+[0:7:27][指令][R_ST]KiVen(8):/l
+[0:7:38][指令][R_ST]KiVen(8):/l
+[0:7:50][指令][R_ST]KiVen(8):/l
+[0:7:58][指令][R_ST]KiVen(8):/l
+[0:8:10][指令][R_ST]KiVen(8):/l
+[0:8:18][指令][R_ST]KiVen(8):/l
+[0:8:31][指令][R_ST]KiVen(8):/tv 9
+[0:9:3][指令][R_ST]KiVen(8):/tv off
+[0:9:4][指令][R_ST]KiVen(8):/c 411
+[0:9:5][指令][R_ST]KiVen(8):/l
+[0:9:19][指令][R_ST]KiVen(8):/l
+[0:9:26][指令][R_ST]KiVen(8):/l
+[0:9:37][指令][R_ST]KiVen(8):/l
+[0:9:50][指令][R_ST]KiVen(8):/l
+[0:10:1][指令][R_ST]KiVen(8):/l
+[0:10:15][指令][R_ST]KiVen(8):/l
+[0:10:25][指令][R_ST]KiVen(8):/l
+[0:10:30][指令][R_ST]KiVen(8):/l
+[0:10:33][指令][Shadows]F_Hawk(9):/r l
+[0:10:41][指令][R_ST]KiVen(8):/l
+[0:10:56][指令][R_ST]KiVen(8):/l
+[0:11:9][指令][R_ST]KiVen(8):/l
+[0:11:19][指令][R_ST]KiVen(8):/l
+[0:11:31][指令][R_ST]KiVen(8):/l
+[0:11:56][指令][R_ST]KiVen(8):/help
+[0:12:3][指令][R_ST]KiVen(8):/help
+[6:23:43][指令][R_ST]Amouons(8):/help
+[6:23:45][指令][R_ST]Amouons(8):/help
+[6:24:13][指令][R_ST]Amouons(8):/c 562
+[6:24:16][指令][R_ST]Amouons(8):/c color 0 0
+[6:24:31][指令][R_ST]Amouons(8):/infobj
+[6:26:49][指令][R_ST]Amouons(8):/help
+[6:26:56][指令][R_ST]Amouons(8):/c 562
+[6:26:59][指令][R_ST]Amouons(8):/c color 1 1
+[6:27:3][指令][R_ST]Amouons(8):/infobj
+[6:34:36][指令][R_ST]Amouons(8):/help
+[6:34:42][指令][R_ST]Amouons(8):/help
+[6:34:49][指令][R_ST]Amouons(8):/c 562
+[6:34:52][指令][R_ST]Amouons(8):/c color 0 0
+[6:34:58][指令][R_ST]Amouons(8):/infobj
+[6:36:49][指令][R_ST]Amouons(8):/infobj
+[6:36:51][指令][R_ST]Amouons(8):/kgobj
+[6:41:33][指令][R_ST]Amouons(8):/time 0`24
+[6:41:38][指令][R_ST]Amouons(8):/time 0 24
+[6:48:0][指令][R_ST]Amouons(8):/f
+[6:48:6][指令][R_ST]Amouons(8):/kgobj
+[6:48:8][指令][R_ST]Amouons(8):/infobj
+[6:49:26][指令][R_ST]Amouons(8):/infobj
+[6:49:28][指令][R_ST]Amouons(8):/infobj
+[6:49:31][指令][R_ST]Amouons(8):/infobj
+[6:49:33][指令][R_ST]Amouons(8):/infobj
+[6:56:42][指令][R_ST]Amouons(8):/infobj
+[6:58:4][指令][R_ST]Amouons(8):/infobj
+[6:58:6][指令][R_ST]Amouons(8):/help
+[6:58:14][指令][R_ST]Amouons(8):/help
+[6:58:22][指令][R_ST]Amouons(8):/wdac
+[6:58:26][指令][R_ST]Amouons(8):/help
+[6:58:44][指令][R_ST]Amouons(8):/help
+[6:58:55][指令][R_ST]Amouons(8):/help
+[6:59:1][指令][R_ST]Amouons(8):/help
+[6:59:14][指令][R_ST]Amouons(8):/help
+[6:59:18][指令][R_ST]Amouons(8):/tianqi 17
+[7:10:35][指令][R_ST]Amouons(8):/help
+[7:10:41][指令][R_ST]Amouons(8):/c 558
+[7:10:45][指令][R_ST]Amouons(8):/c 585
+[7:10:49][指令][R_ST]Amouons(8):/c 488
+[7:10:53][指令][R_ST]Amouons(8):/c 485
+[7:10:57][指令][R_ST]Amouons(8):/c
+[7:11:3][指令][R_ST]Amouons(8):/c list
+[7:11:9][指令][R_ST]Amouons(8):/c list
+[7:11:33][指令][R_ST]Amouons(8):/time 0
+[7:11:36][指令][R_ST]Amouons(8):/time 0 4
+[7:11:45][指令][R_ST]Amouons(8):/c color 0 1
+[7:11:48][指令][R_ST]Amouons(8):/c color 1 0
+[7:12:53][指令][R_ST]Amouons(8):/c list
+[7:13:40][指令][R_ST]Amouons(8):/c list
+[7:13:45][指令][R_ST]Amouons(8):/c list
+[7:13:51][指令][R_ST]Amouons(8):/c list
+[7:14:7][指令][R_ST]Amouons(8):/c list
+[7:14:31][指令][R_ST]Amouons(8):/c list
+[7:14:45][指令][R_ST]Amouons(8):/c list
+[7:14:51][指令][R_ST]Amouons(8):/c list
+[7:15:20][指令][R_ST]Amouons(8):/c list
+[7:15:30][指令][R_ST]Amouons(8):/c list
+[7:15:34][指令][R_ST]Amouons(8):/c list
+[7:15:40][指令][R_ST]Amouons(8):/c list
+[7:15:48][指令][R_ST]Amouons(8):/c list
+[7:16:5][指令][R_ST]Amouons(8):/c list
+[7:16:13][指令][R_ST]Amouons(8):/c list
+[7:16:18][指令][R_ST]Amouons(8):/c list
+[7:16:23][指令][R_ST]Amouons(8):/c list
+[7:16:26][指令][R_ST]Amouons(8):/c list
+[7:16:30][指令][R_ST]Amouons(8):/c list
+[7:16:33][指令][R_ST]Amouons(8):/c list
+[7:17:14][指令][R_ST]Amouons(8):/wdac
+[7:17:18][指令][R_ST]Amouons(8):/help
+[7:17:22][指令][R_ST]Amouons(8):/help
+[7:17:28][指令][R_ST]Amouons(8):/cars buys
+[7:17:31][指令][R_ST]Amouons(8):/c 562
+[7:17:34][指令][R_ST]Amouons(8):/c color 0 0
+[7:17:36][指令][R_ST]Amouons(8):/cars buys
+[7:17:39][指令][R_ST]Amouons(8):/help
+[7:17:44][指令][R_ST]Amouons(8):/help
+[7:17:48][指令][R_ST]Amouons(8):/cars buy
+[7:17:50][指令][R_ST]Amouons(8):/cars buy
+[7:18:2][指令][R_ST]Amouons(8):/c 562
+[7:18:3][指令][R_ST]Amouons(8):/cars buy
+[7:18:9][指令][R_ST]Amouons(8):/help
+[7:18:19][指令][R_ST]Amouons(8):/help
+[7:18:35][指令][R_ST]Amouons(8):/cars 585
+[7:18:39][指令][R_ST]Amouons(8):/c 585
+[7:18:42][指令][R_ST]Amouons(8):/c 588
+[7:18:46][指令][R_ST]Amouons(8):/c 558
+[7:18:50][指令][R_ST]Amouons(8):/c 587
+[14:33:26][指令][R_ST]DONJI(8):/c 562
+[14:33:28][指令][R_ST]DONJI(8):/r s LDZ
+[14:33:29][指令][R_ST]DONJI(8):/r s
+[14:35:22][指令][R_ST]DONJI(8):/r l
+[14:35:23][指令][R_ST]DONJI(8):/r s LDZ
+[14:35:25][指令][R_ST]DONJI(8):/r s
+[14:38:16][指令][R_ST]DONJI(8):/r s LDZ
+[14:38:19][指令][R_ST]DONJI(8):/r s
+[14:41:8][指令][R_ST]DONJI(8):/r s LDZ
+[14:41:12][指令][R_ST]DONJI(8):/r s
+[14:41:34][指令][R_ST]DONJI(8):/r l
+[14:41:37][指令][R_ST]DONJI(8):/r s LDZ
+[14:41:40][指令][R_ST]DONJI(8):/r s
+[14:42:4][指令][R_ST]DONJI(8):/r l
+[14:42:6][指令][R_ST]DONJI(8):/r s LDZ
+[14:42:8][指令][R_ST]DONJI(8):/r s
+[14:43:40][指令][R_ST]DONJI(8):/r l
+[14:43:44][指令][R_ST]DONJI(8):/c 541
+[14:43:46][指令][R_ST]DONJI(8):/r s LDZ
+[14:43:49][指令][R_ST]DONJI(8):/r s
+[14:44:15][指令][R_ST]DONJI(8):/r l
+[14:44:18][指令][R_ST]DONJI(8):/r s LDZ
+[14:44:19][指令][R_ST]DONJI(8):/r s
+[14:44:39][指令][R_ST]DONJI(8):/r l
+[14:44:40][指令][R_ST]DONJI(8):/r s LDZ
+[14:44:43][指令][R_ST]DONJI(8):/r s
+[14:45:8][指令][R_ST]DONJI(8):/r l
+[14:45:12][指令][R_ST]DONJI(8):/r s LDZ
+[14:45:13][指令][R_ST]DONJI(8):/r s
+[14:46:9][指令][R_ST]DONJI(8):/r l
+[14:46:12][指令][R_ST]DONJI(8):/r s LZ
+[14:46:15][指令][R_ST]DONJI(8):/r s LDZ
+[14:46:16][指令][R_ST]DONJI(8):/r s
+[14:46:28][指令][R_ST]DONJI(8):/r l
+[14:46:31][指令][R_ST]DONJI(8):/r s LDZ
+[14:46:32][指令][R_ST]DONJI(8):/r s
+[14:49:1][指令][R_ST]DONJI(8):/r l
+[14:49:6][指令][R_ST]DONJI(8):/c 562
+[14:49:7][指令][R_ST]DONJI(8):/r s LDZ
+[14:49:8][指令][R_ST]DONJI(8):/r s
+[14:49:13][指令][R_ST]DONJI(8):/r l
+[14:49:14][指令][R_ST]DONJI(8):/r s lDZ
+[14:49:17][指令][R_ST]DONJI(8):/r s ldz
+[14:49:20][指令][R_ST]DONJI(8):/r s LDZ
+[14:49:21][指令][R_ST]DONJI(8):/r s
+[14:49:39][指令][R_ST]DONJI(8):/r l
+[14:49:42][指令][R_ST]DONJI(8):/r s LDZ
+[14:49:45][指令][R_ST]DONJI(8):/r s
+[14:50:45][指令][R_ST]DONJI(8):/r l
+[14:50:47][指令][R_ST]DONJI(8):/r s LDZ
+[14:50:50][指令][R_ST]DONJI(8):/r s
+[14:51:3][指令][R_ST]DONJI(8):/r l
+[14:51:5][指令][R_ST]DONJI(8):/r s LDZ
+[14:51:7][指令][R_ST]DONJI(8):/r s
+[14:51:36][指令][R_ST]DONJI(8):/r l
+[14:51:37][指令][R_ST]DONJI(8):/r s LDZ
+[14:51:38][指令][R_ST]DONJI(8):/r s
+[14:53:13][指令][R_ST]DONJI(8):/r l
+[14:53:14][指令][R_ST]DONJI(8):/r s lDZ
+[14:53:17][指令][R_ST]DONJI(8):/r s LDZ
+[14:53:18][指令][R_ST]DONJI(8):/r s
+[14:54:41][指令][R_ST]DONJI(8):/r l
+[14:54:42][指令][R_ST]DONJI(8):/r s LDZ
+[14:54:43][指令][R_ST]DONJI(8):/r s
+[14:55:51][指令][R_ST]DONJI(8):/r l
+[14:55:53][指令][R_ST]DONJI(8):/r s LDZ
+[14:55:54][指令][R_ST]DONJI(8):/r s
+[14:56:10][指令][R_ST]DONJI(8):/r l
+[14:57:19][指令][R_ST]Shoumar(8):/C 562
+[14:57:24][指令][R_ST]Shoumar(8):/C COLOR 0 0
+[14:57:25][指令][R_ST]Shoumar(8):/SZ
+[14:57:29][指令][R_ST]Shoumar(8):/tianqi 2
+[14:57:29][指令][R_ST]Shoumar(8):/sz
+[14:57:31][指令][R_ST]Shoumar(8):/time 6 0
+[14:57:31][指令][R_ST]Shoumar(8):/sz
+[15:7:47][指令][R_ST]Safford(9):/weather 0
+[15:7:48][指令][R_ST]Safford(9):/c 562
+[15:7:50][指令][R_ST]Safford(9):/cc 00 00
+[15:8:31][指令][R_ST]Shoumar(8):/SZ
+[15:8:35][指令][R_ST]Shoumar(8):/kgobj
+[15:8:35][指令][R_ST]Shoumar(8):/sz
+[15:8:39][指令][R_ST]Shoumar(8):/SZ
+[15:10:16][指令][R_ST]Safford(9):/sz
+[15:10:48][指令][R_ST]Safford(9):/s
+[15:10:59][指令][R_ST]Safford(9):/w 8
+[15:11:0][指令][R_ST]Safford(9):/l
+[15:11:16][指令][R_ST]Safford(9):/l
+[15:11:26][指令][R_ST]Safford(9):/l
+[15:11:44][指令][R_ST]Safford(9):/l
+[15:11:56][指令][R_ST]Safford(9):/l
+[15:12:15][指令][R_ST]Safford(9):/l
+[15:12:41][指令][R_ST]Safford(9):/l
+[15:12:58][指令][R_ST]Safford(9):/l
+[15:13:46][指令][R_ST]Safford(9):/l
+[15:13:56][指令][R_ST]Safford(9):/l
+[15:14:15][指令][R_ST]Safford(9):/l
+[15:14:28][指令][R_ST]Safford(9):/l
+[15:15:14][指令][R_ST]Safford(9):/l
+[15:15:27][指令][R_ST]Safford(9):/l
+[15:15:40][指令][R_ST]Safford(9):/l
+[15:16:7][指令][R_ST]Safford(9):/l
+[15:16:44][指令][R_ST]Shoumar(8):/SZ
+[15:16:48][指令][R_ST]Shoumar(8):/time 7 0
+[15:16:48][指令][R_ST]Shoumar(8):/sz
+[15:16:52][指令][R_ST]Shoumar(8):/tianqi 0
+[15:16:52][指令][R_ST]Shoumar(8):/sz
+[15:16:52][指令][R_ST]Safford(9):/l
+[15:17:7][指令][R_ST]Safford(9):/l
+[15:17:18][指令][R_ST]Shoumar(8):/SZ
+[15:17:22][指令][R_ST]Shoumar(8):/time 6 0
+[15:17:22][指令][R_ST]Shoumar(8):/sz
+[15:17:39][指令][R_ST]Safford(9):/l
+[15:17:57][指令][R_ST]Safford(9):/l
+[15:18:18][指令][R_ST]Safford(9):/l
+[15:19:26][指令][R_ST]Safford(9):/l
+[15:20:34][指令][R_ST]Safford(9):/l
+[15:21:2][指令][R_ST]Safford(9):/l
+[15:21:17][指令][R_ST]Safford(9):/l
+[15:21:33][指令][R_ST]Safford(9):/l
+[15:21:44][指令][R_ST]Safford(9):/l
+[15:22:18][指令][R_ST]Safford(9):/l
+[15:22:31][指令][R_ST]Safford(9):/l
+[15:23:8][指令][R_ST]Safford(9):/l
+[15:23:40][指令][R_ST]Safford(9):/l
+[15:24:3][指令][R_ST]Safford(9):/l
+[15:24:17][指令][R_ST]Safford(9):/l
+[15:24:36][指令][R_ST]Safford(9):/l
+[15:24:51][指令][R_ST]Safford(9):/l
+[15:25:6][指令][R_ST]Safford(9):/l
+[15:25:34][指令][R_ST]Safford(9):/l
+[15:25:49][指令][R_ST]Safford(9):/l
+[15:26:4][指令][R_ST]Safford(9):/l
+[15:26:18][指令][R_ST]Safford(9):/l
+[15:26:28][指令][R_ST]Safford(9):/l
+[15:26:40][指令][R_ST]Safford(9):/l
+[15:27:7][指令][R_ST]Safford(9):/l
+[15:27:17][指令][R_ST]Safford(9):/l
+[15:27:45][指令][R_ST]Safford(9):/l
+[15:28:4][指令][R_ST]Safford(9):/l
+[15:28:26][指令][R_ST]Safford(9):/l
+[15:28:46][指令][R_ST]Safford(9):/l
+[15:29:5][指令][R_ST]Safford(9):/l
+[15:29:36][指令][R_ST]Safford(9):/l
+[15:29:53][指令][R_ST]Safford(9):/l
+[15:30:23][指令][R_ST]Safford(9):/l
+[15:30:40][指令][R_ST]Safford(9):/l
+[15:30:58][指令][R_ST]Safford(9):/l
+[15:31:49][指令][R_ST]Safford(9):/l
+[15:32:5][指令][R_ST]Safford(9):/l
+[15:32:36][指令][R_ST]Safford(9):/l
+[15:32:50][指令][R_ST]Safford(9):/l
+[15:33:8][指令][R_ST]Safford(9):/l
+[15:34:30][指令][R_ST]Safford(9):/s
+[15:34:44][指令][R_ST]Safford(9):/l
+[15:34:55][指令][R_ST]Safford(9):/l
+[15:35:7][指令][R_ST]Safford(9):/l
+[15:35:19][指令][R_ST]Safford(9):/l
+[15:35:31][指令][R_ST]Safford(9):/l
+[15:35:43][指令][R_ST]Safford(9):/l
+[15:36:45][指令][R_ST]Safford(9):/l
+[15:37:1][指令][R_ST]Safford(9):/l
+[15:37:13][指令][R_ST]Safford(9):/l
+[15:37:25][指令][R_ST]Safford(9):/l
+[15:37:39][指令][R_ST]Safford(9):/l
+[15:37:51][指令][R_ST]Safford(9):/l
+[15:38:3][指令][R_ST]Safford(9):/l
+[15:38:16][指令][R_ST]Safford(9):/l
+[15:38:27][指令][R_ST]Safford(9):/l
+[15:38:49][指令][R_ST]Safford(9):/l
+[15:39:2][指令][R_ST]Safford(9):/l
+[15:39:16][指令][R_ST]Safford(9):/l
+[15:39:42][指令][R_ST]Safford(9):/l
+[15:40:5][指令][R_ST]Safford(9):/l
+[15:40:18][指令][R_ST]Safford(9):/l
+[15:40:33][指令][R_ST]Safford(9):/l
+[15:40:44][指令][R_ST]Safford(9):/l
+[15:41:4][指令][R_ST]Safford(9):/l
+[15:41:20][指令][R_ST]Safford(9):/l
+[15:41:32][指令][R_ST]Safford(9):/l
+[15:41:53][指令][R_ST]Safford(9):/l
+[15:42:5][指令][R_ST]Safford(9):/l
+[15:42:16][指令][R_ST]Safford(9):/l
+[15:42:31][指令][R_ST]Safford(9):/l
+[15:42:45][指令][R_ST]Safford(9):/l
+[15:42:56][指令][R_ST]Safford(9):/l
+[15:43:7][指令][R_ST]Safford(9):/l
+[15:43:19][指令][R_ST]Safford(9):/l
+[15:43:35][指令][R_ST]Safford(9):/l
+[15:43:47][指令][R_ST]Safford(9):/l
+[15:44:21][指令][R_ST]Safford(9):/l
+[15:44:36][指令][R_ST]Safford(9):/l
+[15:44:47][指令][R_ST]Safford(9):/l
+[15:44:59][指令][R_ST]Safford(9):/l
+[15:45:10][指令][R_ST]Safford(9):/l
+[15:45:23][指令][R_ST]Safford(9):/l
+[15:45:43][指令][R_ST]Safford(9):/l
+[15:45:56][指令][R_ST]Safford(9):/l
+[15:46:5][指令][R_ST]Safford(9):/l
+[15:46:16][指令][R_ST]Safford(9):/l
+[15:46:31][指令][R_ST]Safford(9):/l
+[15:46:47][指令][R_ST]Safford(9):/l
+[15:47:3][指令][R_ST]Safford(9):/l
+[15:47:12][指令][R_ST]Safford(9):/l
+[15:47:27][指令][R_ST]Safford(9):/l
+[15:47:39][指令][R_ST]Safford(9):/l
+[15:47:53][指令][R_ST]Safford(9):/l
+[15:48:11][指令][R_ST]Safford(9):/l
+[15:48:25][指令][R_ST]Safford(9):/l
+[15:48:37][指令][R_ST]Safford(9):/l
+[15:48:50][指令][R_ST]Safford(9):/l
+[15:49:3][指令][R_ST]Safford(9):/l
+[15:49:27][指令][R_ST]Safford(9):/l
+[15:49:41][指令][R_ST]Safford(9):/l
+[15:49:52][指令][R_ST]Safford(9):/l
+[15:50:3][指令][R_ST]Safford(9):/l
+[15:50:15][指令][R_ST]Safford(9):/l
+[15:50:25][指令][R_ST]Safford(9):/l
+[15:50:37][指令][R_ST]Safford(9):/l
+[15:51:1][指令][R_ST]Safford(9):/l
+[15:51:20][指令][R_ST]Safford(9):/l
+[15:51:34][指令][R_ST]Safford(9):/l
+[15:51:48][指令][R_ST]Safford(9):/l
+[15:51:57][指令][R_ST]Safford(9):/l
+[15:52:10][指令][R_ST]Safford(9):/l
+[15:52:21][指令][R_ST]Safford(9):/l
+[15:52:35][指令][R_ST]Safford(9):/l
+[15:52:47][指令][R_ST]Safford(9):/l
+[15:53:2][指令][R_ST]Safford(9):/l
+[15:53:18][指令][R_ST]Safford(9):/l
+[15:53:31][指令][R_ST]Safford(9):/l
+[15:53:43][指令][R_ST]Safford(9):/l
+[15:53:55][指令][R_ST]Safford(9):/l
+[15:54:17][指令][R_ST]Safford(9):/l
+[15:54:40][指令][R_ST]Safford(9):/l
+[15:54:52][指令][R_ST]Safford(9):/l
+[15:55:6][指令][R_ST]Safford(9):/l
+[15:55:31][指令][R_ST]Safford(9):/l
+[15:55:43][指令][R_ST]Safford(9):/l
+[15:55:57][指令][R_ST]Safford(9):/l
+[15:56:15][指令][R_ST]Safford(9):/l
+[15:56:29][指令][R_ST]Safford(9):/l
+[15:56:41][指令][R_ST]Safford(9):/l
+[15:58:14][指令][R_ST]Safford(9):/s
+[15:58:29][指令][R_ST]Safford(9):/s
+[15:58:47][指令][R_ST]Safford(9):/l
+[15:59:8][指令][R_ST]Safford(9):/l
+[15:59:25][指令][R_ST]Safford(9):/l
+[15:59:44][指令][R_ST]Safford(9):/l
+[16:0:22][指令][R_ST]Safford(9):/l
+[16:0:37][指令][R_ST]Safford(9):/l
+[16:0:53][指令][R_ST]Safford(9):/l
+[16:1:6][指令][R_ST]Safford(9):/l
+[16:1:23][指令][R_ST]Safford(9):/l
+[16:1:39][指令][R_ST]Safford(9):/l
+[16:1:56][指令][R_ST]Safford(9):/l
+[16:3:37][指令][R_ST]Safford(9):/s
+[16:3:48][指令][R_ST]Safford(9):/l
+[16:4:1][指令][R_ST]Safford(9):/l
+[16:4:14][指令][R_ST]Safford(9):/l
+[16:4:26][指令][R_ST]Safford(9):/s
+[16:5:23][指令][R_ST]Safford(9):/l
+[16:5:39][指令][R_ST]Safford(9):/l
+[16:5:53][指令][R_ST]Safford(9):/l
+[16:6:8][指令][R_ST]Safford(9):/l
+[16:6:30][指令][R_ST]Safford(9):/l
+[16:6:46][指令][R_ST]Safford(9):/l
+[16:7:1][指令][R_ST]Safford(9):/l
+[16:7:21][指令][R_ST]Safford(9):/l
+[16:7:38][指令][R_ST]Safford(9):/l
+[16:7:52][指令][R_ST]Safford(9):/l
+[16:8:6][指令][R_ST]Safford(9):/l
+[16:9:8][指令][R_ST]Safford(9):/l
+[16:9:22][指令][R_ST]Safford(9):/l
+[16:10:8][指令][R_ST]Safford(9):/l
+[16:10:19][指令][R_ST]Safford(9):/l
+[16:10:33][指令][R_ST]Safford(9):/l
+[16:10:48][指令][R_ST]Safford(9):/l
+[16:11:5][指令][R_ST]Safford(9):/l
+[16:11:30][指令][R_ST]Safford(9):/l
+[16:11:41][指令][R_ST]Safford(9):/l
+[16:11:57][指令][R_ST]Safford(9):/l
+[16:12:10][指令][R_ST]Safford(9):/l
+[16:12:21][指令][R_ST]Safford(9):/l
+[16:12:37][指令][R_ST]Safford(9):/l
+[16:12:53][指令][R_ST]Safford(9):/l
+[16:13:7][指令][R_ST]Safford(9):/l
+[16:13:22][指令][R_ST]Safford(9):/l
+[16:14:45][指令][R_ST]Safford(9):/l
+[16:15:2][指令][R_ST]Safford(9):/l
+[16:15:16][指令][R_ST]Safford(9):/l
+[16:15:33][指令][R_ST]Safford(9):/l
+[16:15:47][指令][R_ST]Safford(9):/l
+[16:16:7][指令][R_ST]Safford(9):/l
+[16:16:22][指令][R_ST]Safford(9):/l
+[16:16:36][指令][R_ST]Safford(9):/l
+[16:16:51][指令][R_ST]Safford(9):/l
+[16:17:5][指令][R_ST]Safford(9):/l
+[16:17:16][指令][R_ST]Safford(9):/l
+[16:17:32][指令][R_ST]Safford(9):/l
+[16:17:48][指令][R_ST]Safford(9):/l
+[16:17:59][指令][R_ST]Safford(9):/l
+[16:18:15][指令][R_ST]Safford(9):/l
+[16:18:31][指令][R_ST]Safford(9):/l
+[16:19:2][指令][R_ST]Safford(9):/l
+[16:19:19][指令][R_ST]Safford(9):/l
+[16:19:33][指令][R_ST]Safford(9):/l
+[16:19:46][指令][R_ST]Safford(9):/l
+[16:20:3][指令][R_ST]Safford(9):/l
+[16:20:17][指令][R_ST]Safford(9):/l
+[16:20:32][指令][R_ST]Safford(9):/l
+[16:20:47][指令][R_ST]Safford(9):/l
+[16:21:1][指令][R_ST]Safford(9):/l
+[16:21:16][指令][R_ST]Safford(9):/l
+[16:21:30][指令][R_ST]Safford(9):/l
+[16:21:45][指令][R_ST]Safford(9):/l
+[16:24:2][指令][R_ST]Safford(9):/s
+[16:25:18][指令][R_ST]Safford(9):/l
+[16:25:27][指令][R_ST]Safford(9):/l
+[16:25:35][指令][R_ST]Safford(9):/l
+[16:25:52][指令][R_ST]Safford(9):/l
+[16:26:1][指令][R_ST]Safford(9):/l
+[16:26:14][指令][R_ST]Safford(9):/l
+[16:26:19][指令][R_ST]Safford(9):/s
+[16:26:39][指令][R_ST]Safford(9):/l
+[16:27:5][指令][R_ST]Safford(9):/l
+[16:27:7][指令][R_ST]Safford(9):/c 562
+[16:27:10][指令][R_ST]Safford(9):/cc 00 00
+[16:28:50][指令][R_ST]Safford(9):/l
+[16:29:9][指令][R_ST]Safford(9):/l
+[16:29:18][指令][R_ST]Safford(9):/l
+[16:29:34][指令][R_ST]Safford(9):/l
+[16:29:56][指令][R_ST]Safford(9):/l
+[16:30:15][指令][R_ST]Safford(9):/l
+[16:30:30][指令][R_ST]Safford(9):/l
+[16:30:42][指令][R_ST]Safford(9):/l
+[16:30:52][指令][R_ST]Safford(9):/l
+[16:31:12][指令][R_ST]Safford(9):/l
+[16:31:25][指令][R_ST]Safford(9):/l
+[16:31:40][指令][R_ST]Safford(9):/l
+[16:32:10][指令][R_ST]Safford(9):/l
+[16:32:34][指令][R_ST]Safford(9):/l
+[16:32:44][指令][R_ST]Safford(9):/l
+[16:33:2][指令][R_ST]Safford(9):/l
+[16:33:12][指令][R_ST]Safford(9):/l
+[16:33:24][指令][R_ST]Safford(9):/l
+[16:33:41][指令][R_ST]Safford(9):/l
+[16:34:35][指令][R_ST]Safford(9):/l
+[16:34:54][指令][R_ST]Safford(9):/l
+[16:35:7][指令][R_ST]Safford(9):/l
+[16:35:20][指令][R_ST]Safford(9):/l
+[16:35:57][指令][R_ST]Safford(9):/l
+[16:36:15][指令][R_ST]Safford(9):/l
+[16:36:40][指令][R_ST]Safford(9):/l
+[16:36:57][指令][R_ST]Safford(9):/l
+[16:37:11][指令][R_ST]Safford(9):/l
+[16:37:29][指令][R_ST]Safford(9):/l
+[16:37:47][指令][R_ST]Safford(9):/l
+[16:37:56][指令][R_ST]Safford(9):/l
+[16:38:9][指令][R_ST]Safford(9):/l
+[16:38:26][指令][R_ST]Safford(9):/l
+[16:38:48][指令][R_ST]Safford(9):/l
+[19:46:26][指令][R_ST]ArvinJM(8):/c 562
+[19:48:29][指令][R_ST]ArvinJM(8):/f
+[19:48:47][指令][R_ST]ArvinJM(8):/cc 1
+[19:48:49][指令][R_ST]ArvinJM(8):/cc 1 1
+[19:48:58][指令][R_ST]ArvinJM(8):/s
+[19:49:2][指令][R_ST]ArvinJM(8):/l
+[19:49:17][指令][R_ST]ArvinJM(8):/l
+[19:49:42][指令][R_ST]ArvinJM(8):/l
+[19:49:56][指令][R_ST]ArvinJM(8):/l
+[19:50:11][指令][R_ST]ArvinJM(8):/l
+[19:50:26][指令][R_ST]ArvinJM(8):/l
+[19:50:43][指令][R_ST]ArvinJM(8):/l
+[19:50:59][指令][R_ST]ArvinJM(8):/l
+[19:51:24][指令][R_ST]ArvinJM(8):/l
+[19:51:39][指令][R_ST]ArvinJM(8):/l
+[19:51:54][指令][R_ST]ArvinJM(8):/l
+[19:52:44][指令][R_ST]ArvinJM(8):/s
+[19:52:45][指令][R_ST]ArvinJM(8):/l
+[19:52:59][指令][R_ST]ArvinJM(8):/l
+[19:53:14][指令][R_ST]ArvinJM(8):/l
+[19:53:24][指令][R_ST]ArvinJM(8):/l
+[19:53:58][指令][R_ST]ArvinJM(8):/l
+[19:54:14][指令][R_ST]ArvinJM(8):/l
+[19:54:28][指令][R_ST]ArvinJM(8):/l
+[19:54:43][指令][R_ST]ArvinJM(8):/l
+[19:55:1][指令][R_ST]ArvinJM(8):/l
+[19:56:16][指令][R_ST]ArvinJM(8):/s
+[19:56:17][指令][R_ST]ArvinJM(8):/l
+[19:56:19][指令][R_ST]Shoumar(9):/C 562
+[19:56:21][指令][R_ST]Shoumar(9):/C COLOR 0 0
+[19:56:23][指令][R_ST]Shoumar(9):/SZ
+[19:56:27][指令][R_ST]Shoumar(9):/time 6 0
+[19:56:27][指令][R_ST]Shoumar(9):/sz
+[19:56:32][指令][R_ST]Shoumar(9):/tianqi 0
+[19:56:32][指令][R_ST]Shoumar(9):/sz
+[19:56:36][指令][R_ST]Shoumar(9):/tianqi 3
+[19:56:36][指令][R_ST]Shoumar(9):/sz
+[19:56:37][指令][R_ST]ArvinJM(8):/l
+[19:56:40][指令][R_ST]Shoumar(9):/tianqi 2
+[19:56:40][指令][R_ST]Shoumar(9):/sz
+[19:57:2][指令][R_ST]Shoumar(9):/SZ
+[19:57:5][指令][R_ST]Shoumar(9):/kgobj
+[19:57:5][指令][R_ST]Shoumar(9):/sz
+[19:57:25][指令][R_ST]ArvinJM(8):/l
+[19:57:34][指令][R_ST]ArvinJM(8):/l
+[19:57:42][指令][R_ST]ArvinJM(8):/l
+[19:58:7][指令][R_ST]ArvinJM(8):/l
+[19:58:25][指令][R_ST]ArvinJM(8):/l
+[19:58:35][指令][R_ST]ArvinJM(8):/l
+[19:58:48][指令][R_ST]ArvinJM(8):/l
+[19:59:7][指令][R_ST]ArvinJM(8):/l
+[19:59:18][指令][R_ST]ArvinJM(8):/l
+[20:0:56][指令][R_ST]ArvinJM(8):/t goto 8
+[20:1:0][指令][R_ST]ArvinJM(8):/t goto 9
+[20:1:16][指令][R_ST]ArvinJM(8):/t goto 9
+[20:2:57][指令][R_ST]ArvinJM(8):/C 562
+[20:3:11][指令][R_ST]ArvinJM(8):/cc 1
+[20:3:15][指令][R_ST]ArvinJM(8):/cc 1 1
+[20:3:39][指令][R_ST]ArvinJM(8):/sz
+[20:3:41][指令][R_ST]ArvinJM(8):/kgobj
+[20:3:41][指令][R_ST]ArvinJM(8):/sz
+[20:5:40][指令][R_ST]ArvinJM(8):/C 562
+[20:6:11][指令][R_ST]ArvinJM(8):/C 562
+[20:18:35][指令][R_ST]ArvinJM(8):/sz
+[20:18:38][指令][R_ST]ArvinJM(8):/kgobj
+[20:18:38][指令][R_ST]ArvinJM(8):/sz
+[20:20:57][指令][R_ST]ArvinJM(8):/C 555
+[20:21:24][指令][R_ST]ArvinJM(8):/C 600
+[20:38:57][指令][R_ST]Shoumar(9):/help
+[22:36:37][指令][R_ST]Shoumar(8):/C 562
+[22:37:5][指令][R_ST]Shoumar(8):/C COLOR 0 0
+[22:37:8][指令][R_ST]Shoumar(8):/SZ
+[22:37:10][指令][R_ST]Shoumar(8):/kgobj
+[22:37:10][指令][R_ST]Shoumar(8):/sz
+[22:37:13][指令][R_ST]Shoumar(8):/tianqi 0
+[22:37:13][指令][R_ST]Shoumar(8):/sz
+[22:37:16][指令][R_ST]Shoumar(8):/tianqi 0
+[22:37:16][指令][R_ST]Shoumar(8):/sz
+[22:37:17][指令][R_ST]Shoumar(8):/tianqi 2
+[22:37:17][指令][R_ST]Shoumar(8):/sz
+[22:37:19][指令][R_ST]Shoumar(8):/time 6 0
+[22:37:19][指令][R_ST]Shoumar(8):/sz
+[22:47:24][指令][R_ST]Shoumar(8):/S
+[22:48:16][指令][R_ST]Shoumar(8):/L
+[22:51:17][指令][R_ST]Shoumar(8):/L
+[22:52:28][指令][R_ST]Shoumar(8):/L
+[22:54:47][指令][R_ST]Shoumar(8):/L
+[22:55:1][指令][R_ST]Shoumar(8):/L
+[22:55:13][指令][R_ST]Shoumar(8):/L
+[22:55:30][指令][R_ST]Shoumar(8):/L
+[22:55:48][指令][R_ST]Shoumar(8):/L
+[22:56:9][指令][R_ST]Shoumar(8):/L
+[22:56:26][指令][R_ST]Shoumar(8):/L
+[22:57:16][指令][R_ST]Shoumar(8):/SZ
+[22:57:19][指令][R_ST]Shoumar(8):/time 8 0
+[22:57:19][指令][R_ST]Shoumar(8):/sz
+[22:57:51][指令][R_ST]Shoumar(8):/SZ
+[22:57:54][指令][R_ST]Shoumar(8):/L
+[23:3:32][指令][R_ST]Shoumar(8):/C 600
+[23:3:34][指令][R_ST]Shoumar(8):/C COLOR 1 1
+[23:4:51][指令][R_ST]Shoumar(8):/C 588
+[23:5:17][指令][R_ST]Shoumar(8):/C 451
+[23:5:20][指令][R_ST]Shoumar(8):/C 400
+[23:5:21][指令][R_ST]Shoumar(8):/C 400
+[23:5:59][指令][R_ST]Shoumar(8):/C 600
+[23:6:2][指令][R_ST]Shoumar(8):/C 601
+[23:6:3][指令][R_ST]Shoumar(8):/C 601
+[23:6:33][指令][R_ST]Shoumar(8):/C 650
+[23:6:34][指令][R_ST]Shoumar(8):/C 611
+[23:6:50][指令][R_ST]Shoumar(8):/C 610
+[23:6:54][指令][R_ST]Shoumar(8):/C 609
+[23:6:59][指令][R_ST]Shoumar(8):/C 608
+[23:7:1][指令][R_ST]Shoumar(8):/C 607
+[23:7:2][指令][R_ST]Shoumar(8):/C 607
+[23:7:18][指令][R_ST]Shoumar(8):/C 606
+[23:7:21][指令][R_ST]Shoumar(8):/C 604
+[23:7:22][指令][R_ST]Shoumar(8):/C 604
+[23:7:24][指令][R_ST]Shoumar(8):/C 603
+[23:7:27][指令][R_ST]Shoumar(8):/C 603
+[23:8:19][指令][R_ST]Shoumar(8):/C 601
+[23:8:21][指令][R_ST]Shoumar(8):/C 602
+[23:8:23][指令][R_ST]Shoumar(8):/C 599
+[23:8:24][指令][R_ST]Shoumar(8):/C 590
+[23:8:28][指令][R_ST]Shoumar(8):/C 580
+[23:8:30][指令][R_ST]Shoumar(8):/C 587
+[23:8:32][指令][R_ST]Shoumar(8):/C 586
+[23:8:33][指令][R_ST]Shoumar(8):/C 584
+[23:8:36][指令][R_ST]Shoumar(8):/C 583
+[23:8:39][指令][R_ST]Shoumar(8):/C 582
+[23:8:41][指令][R_ST]Shoumar(8):/C 577
+[23:8:44][指令][R_ST]Shoumar(8):/C 477
+[23:9:33][指令][R_ST]Shoumar(8):/C 40
+[23:10:23][指令][R_ST]Shoumar(8):/C 582
+[23:10:25][指令][R_ST]Shoumar(8):/C 582
+[23:10:43][指令][R_ST]Shoumar(8):/C 413
+[23:11:10][指令][R_ST]Shoumar(8):/C 418
+[23:11:17][指令][R_ST]Shoumar(8):/C 440
+[23:11:51][指令][R_ST]Shoumar(8):/C 459
+[23:12:56][指令][R_ST]Shoumar(8):/C 413

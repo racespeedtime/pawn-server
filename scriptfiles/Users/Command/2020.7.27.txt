@@ -1,0 +1,96 @@
+[10:20:34][指令]EMx_speed(8):/help
+[10:20:43][指令]EMx_speed(8):/c 560
+[10:23:25][指令]EMx_speed(8):/help
+[10:23:36][指令]EMx_speed(8):/c 560
+[10:24:26][指令]EMx_speed(8):/w 1
+[10:26:9][指令]EMx_speed(8):/help
+[10:26:18][指令]EMx_speed(8):/time 07 00
+[10:26:24][指令]EMx_speed(8):/time 12 00
+[10:26:33][指令]EMx_speed(8):/w 1
+[10:26:36][指令]EMx_speed(8):/c 560
+[10:56:25][指令][R_ST]Hygen(8):/gmx
+[10:57:9][指令][R_ST]Hygen(8):/r s
+[10:57:28][指令][R_ST]Hygen(8):/c 411
+[10:58:0][指令][R_ST]Hygen(8):/r s
+[10:58:1][指令][R_ST]Hygen(8):/r s 54321go
+[10:58:7][指令][R_ST]Hygen(8):/r l
+[11:0:40][指令][R_ST]Hygen(8):/gmx
+[11:4:26][指令][R_ST]Hygen(8):/gmx
+[11:16:2][指令][R_ST]Hygen(8):/c 411
+[11:16:13][指令][R_ST]Hygen(8):/c wode
+[12:13:19][指令][R_ST]Hygen(8):/gmx
+[12:16:41][指令][R_ST]Hygen(8):/GMX
+[12:17:48][指令][R_ST]Hygen(8):/c 411
+[12:20:47][指令][R_ST]Hygen(8):/c 562
+[12:28:23][指令][R_ST]Hygen(8):/gmx
+[12:29:59][指令][R_ST]Hygen(8):/C 411
+[12:34:5][指令][R_ST]Hygen(8):/TV 1
+[12:34:8][指令][R_ST]Hygen(8):/TV OFF
+[12:34:45][指令][R_ST]Hygen(8):/C 520
+[12:35:2][指令][R_ST]Hygen(8):/C WODE
+[15:25:15][指令]S3xM1se(8):/r s ldz
+[15:25:18][指令]S3xM1se(8):/r s LDZ
+[15:31:23][指令]S3xM1se(8):/r s LDZ
+[20:27:41][指令][R_ST]Hygen(8):/gmx
+[20:29:9][指令][R_ST]Hygen(8):/wdac
+[20:29:11][指令][R_ST]Hygen(8):/ac list
+[20:29:14][指令][R_ST]Hygen(8):/ac list
+[20:29:18][指令][R_ST]Hygen(8):/ac list
+[20:29:20][指令][R_ST]Hygen(8):/ac list
+[20:29:28][指令][R_ST]Hygen(8):/ac list
+[20:29:30][指令][R_ST]Hygen(8):/ac list
+[20:29:34][指令][R_ST]Hygen(8):/ac list
+[20:29:46][指令][R_ST]Hygen(8):/ac list
+[20:29:49][指令][R_ST]Hygen(8):/ac list
+[20:29:52][指令][R_ST]Hygen(8):/ac list
+[20:29:54][指令][R_ST]Hygen(8):/ac list
+[20:29:58][指令][R_ST]Hygen(8):/ac list
+[20:30:43][指令][R_ST]Hygen(8):/ac list
+[20:30:46][指令][R_ST]Hygen(8):/ac list
+[20:44:7][指令][R_ST]Hygen(8):/LLAC
+[20:44:10][指令][R_ST]Hygen(8):/LLAC
+[20:46:27][指令][R_ST]Hygen(8):/llac
+[21:40:56][指令][R_ST]Hygen(8):/selectnpc
+[21:41:2][指令][R_ST]Hygen(8):/gmx
+[21:41:51][指令][R_ST]Hygen(8):/llac
+[21:42:36][指令][R_ST]Hygen(8):/tv 1
+[21:45:7][指令][R_ST]Hygen(8):/tv 1
+[21:45:8][指令][R_ST]Hygen(8):/tv 6
+[21:45:9][指令][R_ST]Hygen(8):/tv 5
+[21:45:9][指令][R_ST]Hygen(8):/tv 0
+[21:45:9][指令][R_ST]Hygen(8):/tv 1
+[21:45:9][指令][R_ST]Hygen(8):/tv 7
+[21:45:9][指令][R_ST]Hygen(8):/tv 1
+[21:45:10][指令][R_ST]Hygen(8):/tv 5
+[21:45:10][指令][R_ST]Hygen(8):/tv 4
+[21:45:12][指令][R_ST]Hygen(8):/s
+[21:45:13][指令][R_ST]Hygen(8):/tv off
+[21:45:13][指令][R_ST]Hygen(8):/l
+[21:45:17][指令][R_ST]Hygen(8):/fxq
+[21:45:18][指令][R_ST]Hygen(8):/fxq
+[21:45:51][指令][R_ST]Hygen(8):/l
+[21:45:54][指令][R_ST]Hygen(8):/c 520
+[21:46:7][指令][R_ST]Hygen(8):/fxq
+[21:49:31][指令][R_ST]Hygen(8):/selectnpc
+[21:49:36][指令][R_ST]Hygen(8):/gmx
+[21:54:2][指令][R_ST]Hygen(8):/gmx
+[21:54:48][指令][R_ST]Hygen(8):/tv 1
+[21:54:54][指令][R_ST]Hygen(8):/tv 3
+[21:54:59][指令][R_ST]Hygen(8):/tv off
+[21:55:1][指令][R_ST]Hygen(8):/selectnpc
+[22:4:1][指令][R_ST]Hygen(8):/gmx
+[22:4:54][指令][R_ST]Hygen(8):/selectnpc
+[22:5:44][指令][R_ST]Hygen(8):/selectnpc
+[22:5:50][指令][R_ST]Hygen(8):/selectnpc
+[22:5:54][指令][R_ST]Hygen(8):/selectnpc
+[22:6:5][指令][R_ST]Hygen(8):/selectnpc
+[23:14:57][指令][R_ST]Hygen(8):/gmx
+[23:16:14][指令][R_ST]Hygen(8):/c 411
+[23:16:39][指令][R_ST]Hygen(8):/tpa
+[23:16:41][指令][R_ST]Hygen(8):/tpa 1
+[23:18:55][指令][R_ST]Hygen(8):/SELECTNPC
+[23:18:57][指令][R_ST]Hygen(8):/SELECTNPC
+[23:19:1][指令][R_ST]Hygen(8):/SELECTNPC
+[23:20:0][指令][R_ST]Hygen(8):/SELECTNPC
+[23:24:10][指令][R_ST]Hygen(8):/c 411
+[23:24:12][指令][R_ST]Hygen(8):/gmx

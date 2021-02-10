@@ -1,0 +1,4 @@
+[14:31:49][指令]Genndy_Chan(8):/c 520
+[14:31:59][指令]Genndy_Chan(8):/help
+[14:32:10][指令]Genndy_Chan(8):/help
+[14:34:22][指令]Genndy_Chan(8):/skin

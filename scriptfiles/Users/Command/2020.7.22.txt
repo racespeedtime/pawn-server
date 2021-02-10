@@ -1,0 +1,160 @@
+[0:11:7][指令][R_ST]Hygen(8):/gmx
+[0:48:42][指令][R_ST]Hygen(8):/c 411
+[0:48:45][指令][R_ST]Hygen(8):/r s 1314race
+[0:48:50][指令][R_ST]Hygen(8):/r l
+[0:50:37][指令][R_ST]Hygen(8):/sz
+[0:55:49][指令][Fire_ED]XuWei(8):/sz
+[0:55:57][指令][Fire_ED]XuWei(8):/sz
+[0:56:40][指令][Fire_ED]XuWei(8):/sz
+[0:56:51][指令][Fire_ED]XuWei(8):/sz
+[1:7:12][指令][Fire_ED]XuWei(8):/c 411
+[1:7:18][指令][Fire_ED]XuWei(8):/wdac
+[1:14:10][指令][Fire_ED]XuWei(8):/skin 188
+[1:19:27][指令][Fire_ED]XuWei(8):/kill
+[1:20:14][指令][Fire_ED]XuWei(8):/c 411
+[1:20:15][指令][Fire_ED]XuWei(8):/kill
+[1:20:16][指令][Fire_ED]XuWei(8):/kill
+[1:20:17][指令][Fire_ED]XuWei(8):/kill
+[1:20:18][指令][Fire_ED]XuWei(8):/wudi
+[1:20:20][指令][Fire_ED]XuWei(8):/kill
+[9:22:43][指令][Fire_ED]XuWei(8):/c 411
+[9:23:47][指令][Fire_ED]XuWei(8):/c 411
+[9:24:25][指令][Fire_ED]XuWei(8):/sz
+[9:24:43][指令][Fire_ED]XuWei(8):/sz
+[9:26:49][指令][Fire_ED]XuWei(8):/sz
+[9:26:52][指令][Fire_ED]XuWei(8):/wudi
+[9:26:53][指令][Fire_ED]XuWei(8):/tpa ban
+[9:26:54][指令][Fire_ED]XuWei(8):/sz
+[10:56:57][指令][R_ST]ArvinJM(8):/skin 185
+[10:57:32][指令][R_ST]ArvinJM(8):/c 550
+[10:57:46][指令][R_ST]ArvinJM(8):/fxq
+[11:6:25][指令][Fire_ED]XuWei(8):/c 411
+[11:20:52][指令][Fire_ED]XuWei(8):/c 411
+[11:43:22][指令][Fire_ED]XuWei(8):/c 411
+[11:46:39][指令][Fire_ED]XuWei(8):/kill
+[12:32:7][指令][Fire_ED]XuWei(8):/help
+[12:32:13][指令][Fire_ED]XuWei(8):/c 411
+[12:33:11][指令][Fire_ED]XuWei(8):/c 411
+[12:33:44][指令][Fire_ED]XuWei(8):/kill
+[12:33:53][指令][Fire_ED]XuWei(8):/help
+[12:33:56][指令][Fire_ED]XuWei(8):/kill
+[12:34:0][指令][Fire_ED]XuWei(8):/help
+[12:34:9][指令][Fire_ED]XuWei(8):/c 411
+[13:37:10][指令][Fire_ED]XuWei(8):/help
+[13:37:22][指令][Fire_ED]XuWei(8):/c 411
+[13:37:30][指令][Fire_ED]XuWei(8):/sz
+[13:37:33][指令][Fire_ED]XuWei(8):/tpa ban
+[13:37:34][指令][Fire_ED]XuWei(8):/sz
+[13:38:36][指令][Fire_ED]XuWei(8):/giveadmin
+[13:38:42][指令][Fire_ED]XuWei(8):/giveadmin [Fire_ED]
+[13:38:45][指令][Fire_ED]XuWei(8):/giveadmin [Fire_ED]XuWei
+[13:38:46][指令][Fire_ED]XuWei(8):/giveadmin [Fire_ED]XuWei 5
+[13:38:48][指令][Fire_ED]XuWei(8):/reset
+[13:38:53][指令][Fire_ED]XuWei(8):/reset [R_ST]Hygen AAaa1212
+[13:46:43][指令][R_ST]Hygen(8):/reset
+[13:46:47][指令][R_ST]Hygen(8):/reset [Fire_ED]XuWei AAaa1212
+[13:47:30][指令][Fire_ED]XuWei(8):/help
+[13:47:37][指令][Fire_ED]XuWei(8):/C 411
+[13:48:9][指令][Fire_ED]XuWei(8):/reset [R_ST]Hygen AAaa1212
+[13:48:32][指令][Fire_ED]XuWei(8):/selectnpc
+[13:48:50][指令][Fire_ED]XuWei(8):/selectnpc
+[13:49:1][指令][Fire_ED]XuWei(8):/goto 9
+[13:50:20][指令]LaoZhao(9):/help
+[13:50:27][指令]LaoZhao(9):/c 522
+[13:50:59][指令][Fire_ED]XuWei(8):/goto 9
+[13:51:59][指令]LaoZhao(8):/help
+[13:52:3][指令]LaoZhao(8):/c 522
+[13:56:42][指令][Fire_ED]XuWei(8):/help
+[13:56:53][指令][Fire_ED]XuWei(8):/gmx
+[13:58:5][指令][Fire_ED]XuWei(8):/help
+[13:58:16][指令][Fire_ED]XuWei(8):/c 411
+[13:58:27][指令]LaoZhao(9):/help
+[13:58:36][指令]LaoZhao(9):/c 522
+[14:0:2][指令][Fire_ED]XuWei(8):/goto 9
+[14:1:13][指令][Fire_ED]XuWei(8):/wuqi
+[14:1:22][指令][Fire_ED]XuWei(8):/sz
+[14:1:28][指令][Fire_ED]XuWei(8):/sz
+[14:1:33][指令][Fire_ED]XuWei(8):/sz
+[14:1:44][指令][Fire_ED]XuWei(8):/sz
+[14:1:49][指令][Fire_ED]XuWei(8):/sz
+[14:1:52][指令][Fire_ED]XuWei(8):/sz
+[14:2:11][指令]LaoZhao(9):/c 411
+[14:4:8][指令]LaoZhao(9):/c 522
+[14:4:15][指令]LaoZhao(9):/c 522
+[14:7:25][指令]LaoZhao(9):/c 522
+[14:8:51][指令]LaoZhao(9):/c 522
+[14:9:2][指令]LaoZhao(9):/c 522
+[14:29:30][指令][Fire_ED]XuWei(8):/help
+[14:29:31][指令]LaoZhao(9):/help
+[14:29:32][指令][Fire_ED]XuWei(8):/gmx
+[14:33:15][指令][R_ST]Hygen(8):/c 411
+[14:34:15][指令][R_ST]Hygen(8):/selectnpc
+[14:34:20][指令][R_ST]Hygen(8):/gmx
+[14:35:34][指令][R_ST]Hygen(8):/c 411
+[14:37:4][指令][R_ST]Hygen(8):/kill
+[14:37:15][指令][R_ST]Hygen(8):/c 411
+[14:37:16][指令][R_ST]Hygen(8):/f
+[14:37:19][指令][R_ST]Hygen(8):/kill
+[14:48:53][指令][R_ST]Hygen(8):/c 411
+[14:49:44][指令][R_ST]Hygen(8):/kill
+[14:51:9][指令][R_ST]Hygen(8):/c 411
+[14:56:53][指令][R_ST]Hygen(8):/c 411
+[15:43:26][指令][R_ST]Hygen(8):/c 411
+[15:46:30][指令]LaoZhao(8):/help
+[15:46:36][指令]LaoZhao(8):/c 522
+[15:48:22][指令][R_ST]Hygen(8):/gmx
+[15:49:31][指令]LaoZhao(9):/help
+[15:49:35][指令]LaoZhao(9):/c 522
+[15:49:51][指令][R_ST]Hygen(8):/c 411
+[15:50:58][指令][R_ST]Hygen(8):/goto 9
+[15:51:20][指令][R_ST]Hygen(8):/t goto 9
+[15:51:23][指令][R_ST]Hygen(8):/goto 9
+[15:51:25][指令][R_ST]Hygen(8):/tv 1
+[15:51:28][指令][R_ST]Hygen(8):/tv 2
+[15:51:29][指令][R_ST]Hygen(8):/tv off
+[15:51:29][指令]LaoZhao(9):/c 562
+[15:52:45][指令]LaoZhao(9):/c 522
+[15:54:10][指令]LaoZhao(9):/c 522
+[15:54:54][指令][R_ST]Hygen(8):/c 520
+[15:54:56][指令][R_ST]Hygen(8):/c 511
+[15:56:48][指令]LaoZhao(9):/c 522
+[15:56:52][指令][R_ST]Hygen(8):/tv 9
+[15:58:18][指令][R_ST]Hygen(8):/kick
+[15:58:20][指令][R_ST]Hygen(8):/kick 0
+[15:58:22][指令][R_ST]Hygen(8):/kick 0 .
+[16:2:21][指令][R_ST]Hygen(8):/c 411
+[16:2:40][指令][R_ST]Hygen(8):/mygoods
+[16:2:47][指令][R_ST]Hygen(8):/c 520
+[16:3:5][指令][R_ST]Hygen(8):/s
+[16:3:6][指令][R_ST]Hygen(8):/l
+[16:3:16][指令][R_ST]Hygen(8):/tv 1
+[16:3:32][指令][R_ST]Hygen(8):/tv 5
+[16:3:33][指令][R_ST]Hygen(8):/tv 4
+[16:3:33][指令][R_ST]Hygen(8):/tv 0
+[16:3:33][指令][R_ST]Hygen(8):/tv 1
+[16:3:34][指令][R_ST]Hygen(8):/tv 2
+[16:3:34][指令][R_ST]Hygen(8):/tv 0
+[16:3:34][指令][R_ST]Hygen(8):/tv 3
+[16:4:49][指令]LaoZhao(8):/help
+[16:4:52][指令]LaoZhao(8):/c 522
+[16:27:24][指令]LaoZhao(8):/help
+[16:27:27][指令]LaoZhao(8):/c 411
+[16:27:29][指令]LaoZhao(8):/help
+[16:30:56][指令]LaoZhao(8):/c 522
+[16:47:17][指令][R_ST]Hygen(8):/c 411
+[16:47:29][指令][R_ST]Hygen(8):/gmx
+[17:5:24][指令]OPLLLLLLLL(8):/help
+[17:5:35][指令]OPLLLLLLLL(8):/r s Misc
+[17:5:41][指令]OPLLLLLLLL(8):/r s
+[17:6:23][指令]LaoZhao(9):/help
+[17:6:26][指令]LaoZhao(9):/c 522
+[17:6:28][指令]LaoZhao(9):/help
+[17:12:53][指令]LaoZhao(8):/help
+[17:12:55][指令]LaoZhao(8):/c 522
+[17:12:57][指令]LaoZhao(8):/help
+[21:18:12][指令][ShadowTT]ByWind(8):/help
+[21:18:17][指令][ShadowTT]ByWind(8):/skin
+[21:19:35][指令][ShadowTT]ByWind(8):/c 562
+[21:20:58][指令][ShadowTT]ByWind(8):/help
+[21:23:2][指令][ShadowTT]MuineTawny(8):/help
+[21:24:41][指令][ShadowTT]MuineTawny(8):/C 526

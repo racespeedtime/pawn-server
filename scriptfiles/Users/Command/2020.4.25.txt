@@ -1,0 +1,268 @@
+[0:37:10][指令][R_ST]Amouons(8):/sdb
+[0:37:12][指令][R_ST]Amouons(8):/kgobj
+[0:37:43][指令][R_ST]Amouons(8):/c 562 1 1
+[0:37:45][指令][R_ST]Amouons(8):/cc 1
+[0:37:47][指令][R_ST]Amouons(8):/cc 1 1
+[0:37:53][指令][R_ST]Amouons(8):/sz
+[0:37:57][指令][R_ST]Amouons(8):/wudi
+[0:37:57][指令][R_ST]Amouons(8):/sz
+[0:38:0][指令][R_ST]Amouons(8):/tianqi 18
+[0:38:0][指令][R_ST]Amouons(8):/sz
+[0:38:2][指令][R_ST]Amouons(8):/time 24 0
+[0:38:2][指令][R_ST]Amouons(8):/sz
+[0:41:41][指令][R_ST]Amouons(8):/c color 0 0w
+[0:49:48][指令][R_ST]Amouons(8):/cc 1 1w
+[0:49:50][指令][R_ST]Amouons(8):/cc 1 1
+[0:52:16][指令][R_ST]Amouons(8):/vmake fd3
+[0:55:17][指令][R_ST]Amouons(8):/c 522
+[0:55:33][指令][R_ST]Amouons(8):/c 562
+[0:55:35][指令][R_ST]Amouons(8):/c color 1 1
+[0:55:39][指令][R_ST]Amouons(8):/vmake fd4
+[0:57:57][指令][R_ST]Amouons(8):/c 520
+[0:59:21][指令][R_ST]Amouons(8):/c 562
+[0:59:24][指令][R_ST]Amouons(8):/cc 1 1
+[1:0:8][指令][R_ST]Amouons(8):/vmake fd5+
+[1:0:10][指令][R_ST]Amouons(8):/vmake fd5
+[1:5:46][指令][R_ST]Amouons(8):/vmake fd6
+[1:14:55][指令][R_ST]Amouons(8):/ww
+[9:1:10][指令][R_ST]DONJI(8):/c 562
+[9:1:13][指令][R_ST]DONJI(8):/r s LDZ
+[9:1:14][指令][R_ST]DONJI(8):/r s
+[9:1:42][指令][R_ST]DONJI(8):/r l
+[9:1:43][指令][R_ST]DONJI(8):/r s LDZ
+[9:1:45][指令][R_ST]DONJI(8):/r s
+[9:2:22][指令][R_ST]DONJI(8):/r l
+[9:2:25][指令][R_ST]DONJI(8):/r s LD
+[9:2:27][指令][R_ST]DONJI(8):/r s LDZ
+[9:2:28][指令][R_ST]DONJI(8):/r s
+[9:2:56][指令][R_ST]DONJI(8):/r l
+[9:3:0][指令][R_ST]DONJI(8):/r s LDZ
+[9:3:1][指令][R_ST]DONJI(8):/r s
+[9:3:9][指令][R_ST]DONJI(8):/r l
+[9:3:11][指令][R_ST]DONJI(8):/r s LDZ
+[9:3:13][指令][R_ST]DONJI(8):/r s
+[9:4:38][指令][R_ST]DONJI(8):/r l
+[9:4:39][指令][R_ST]DONJI(8):/r s LDZ
+[9:4:42][指令][R_ST]DONJI(8):/r s
+[9:5:6][指令][R_ST]DONJI(8):/r l
+[9:5:8][指令][R_ST]DONJI(8):/r s LDZ
+[9:5:8][指令][R_ST]DONJI(8):/r s
+[9:5:37][指令][R_ST]DONJI(8):/r l
+[9:5:40][指令][R_ST]DONJI(8):/r s LDZ
+[9:5:42][指令][R_ST]DONJI(8):/r s
+[9:5:52][指令][R_ST]DONJI(8):/r l
+[9:5:54][指令][R_ST]DONJI(8):/r s LDZ
+[9:5:55][指令][R_ST]DONJI(8):/r s
+[9:8:43][指令][R_ST]DONJI(8):/r s LDZ
+[9:8:43][指令][R_ST]DONJI(8):/r s
+[9:11:37][指令][R_ST]DONJI(8):/r s LDZ
+[9:11:38][指令][R_ST]DONJI(8):/r s
+[9:12:3][指令][R_ST]DONJI(8):/r l
+[9:12:6][指令][R_ST]DONJI(8):/r s LDZ
+[9:12:6][指令][R_ST]DONJI(8):/r s
+[9:12:26][指令][R_ST]DONJI(8):/r l
+[9:12:28][指令][R_ST]DONJI(8):/r s LDZ
+[9:12:28][指令][R_ST]DONJI(8):/r s
+[9:15:19][指令][R_ST]DONJI(8):/r s LDZ
+[9:15:20][指令][R_ST]DONJI(8):/r s
+[9:15:45][指令][R_ST]DONJI(8):/r l
+[9:15:48][指令][R_ST]DONJI(8):/r s LDZ
+[9:15:49][指令][R_ST]DONJI(8):/r s
+[9:16:35][指令][R_ST]DONJI(8):/r l
+[9:16:39][指令][R_ST]DONJI(8):/r s LDZ
+[9:16:42][指令][R_ST]DONJI(8):/r s
+[9:19:32][指令][R_ST]DONJI(8):/r s LDZ
+[9:19:33][指令][R_ST]DONJI(8):/r s
+[14:7:17][指令][R_ST]DONJI(8):/c 562
+[14:7:19][指令][R_ST]DONJI(8):/r s LDZ
+[14:7:22][指令][R_ST]DONJI(8):/r s
+[14:7:51][指令][R_ST]DONJI(8):/r l
+[14:7:55][指令][R_ST]DONJI(8):/r s LDZ
+[14:7:56][指令][R_ST]DONJI(8):/r s
+[14:8:23][指令][R_ST]DONJI(8):/r l
+[14:8:24][指令][R_ST]DONJI(8):/r s LDZ
+[14:8:27][指令][R_ST]DONJI(8):/r s
+[14:9:48][指令][R_ST]DONJI(8):/r l
+[14:9:56][指令][R_ST]DONJI(8):/r s LDZ
+[14:9:57][指令][R_ST]DONJI(8):/r s
+[14:12:46][指令][R_ST]DONJI(8):/r s LDZ
+[14:12:49][指令][R_ST]DONJI(8):/r s
+[14:13:39][指令][R_ST]DONJI(8):/r l
+[14:13:41][指令][R_ST]DONJI(8):/c 541
+[14:13:42][指令][R_ST]DONJI(8):/r s LDZ
+[14:13:43][指令][R_ST]DONJI(8):/r s
+[14:15:3][指令]_Xyr_(9):/c 411
+[14:15:5][指令]_Xyr_(9):/cc 8
+[14:15:7][指令]_Xyr_(9):/cc 8 8
+[14:15:12][指令]_Xyr_(9):/r s FollowMe
+[14:15:16][指令]_Xyr_(9):/r s
+[14:16:35][指令][R_ST]DONJI(8):/r s LDZ
+[14:16:42][指令][R_ST]DONJI(8):/r s
+[14:16:49][指令][R_ST]DONJI(8):/r l
+[14:16:50][指令][R_ST]DONJI(8):/r s LDZ
+[14:16:57][指令][R_ST]DONJI(8):/r s
+[14:17:5][指令]_Xyr_(9):/r l
+[14:17:8][指令]_Xyr_(9):/tv 1
+[14:17:19][指令]_Xyr_(9):/tv 8
+[14:17:32][指令][R_ST]DONJI(8):/r l
+[14:17:33][指令][R_ST]DONJI(8):/r s LDZ
+[14:17:40][指令][R_ST]DONJI(8):/r s
+[14:18:23][指令][R_ST]DONJI(8):/r l
+[14:18:24][指令][R_ST]DONJI(8):/r s LDZ
+[14:18:25][指令][R_ST]DONJI(8):/r s
+[14:19:11][指令][R_ST]DONJI(8):/r l
+[14:19:24][指令]_Xyr_(9):/tv oss
+[14:19:26][指令][R_ST]DONJI(8):/r s LDZ
+[14:19:27][指令][R_ST]DONJI(8):/r s
+[14:20:50][指令]_Xyr_(9):/tv 7
+[14:20:51][指令]_Xyr_(9):/tv 4
+[14:20:57][指令]_Xyr_(9):/tv 0
+[14:21:6][指令]_Xyr_(9):/tv 7
+[14:21:10][指令]_Xyr_(9):/tv off
+[14:21:13][指令]_Xyr_(9):/c 411
+[14:21:17][指令]_Xyr_(9):/c color 8
+[14:21:23][指令]_Xyr_(9):/r s FollowMe
+[14:21:26][指令]_Xyr_(9):/r s
+[14:22:0][指令][R_ST]DONJI(8):/r s LDZ
+[14:22:6][指令][R_ST]DONJI(8):/r s
+[14:22:14][指令][R_ST]DONJI(8):/r l
+[14:22:15][指令][R_ST]DONJI(8):/r s LDZ
+[14:22:21][指令][R_ST]DONJI(8):/r s
+[14:23:57][指令][R_ST]DONJI(8):/r l
+[14:24:36][指令]_Xyr_(9):/r l
+[14:24:38][指令]_Xyr_(9):/r s FollowMe
+[14:24:39][指令]_Xyr_(9):/r s
+[14:26:23][指令]_Xyr_(9):/r l
+[14:26:24][指令]_Xyr_(9):/r s FollowMe
+[14:26:26][指令]_Xyr_(9):/r s
+[14:28:58][指令]_Xyr_(9):/r l
+[14:28:59][指令]_Xyr_(9):/r s FollowMe
+[14:29:2][指令]_Xyr_(9):/r s
+[14:31:8][指令]_Xyr_(9):/r l
+[14:31:9][指令]_Xyr_(9):/r s FollowMe
+[14:31:12][指令]_Xyr_(9):/r s
+[17:44:53][指令][R_omantic]ASKkK(8):/sz
+[17:45:24][指令][R_omantic]ASKkK(8):/c 411
+[17:45:27][指令][R_omantic]ASKkK(8):/r s bank
+[17:45:30][指令][R_omantic]ASKkK(8):/r s
+[17:45:44][指令][R_omantic]ASKkK(8):/r s bank
+[17:45:45][指令][R_omantic]ASKkK(8):/r s
+[17:45:54][指令][R_omantic]ASKkK(8):/r s bank
+[17:45:56][指令][R_omantic]ASKkK(8):/r s
+[17:46:5][指令][R_omantic]ASKkK(8):/r s bank
+[17:46:6][指令][R_omantic]ASKkK(8):/r s
+[17:46:16][指令][R_omantic]ASKkK(8):/r s bank
+[17:46:17][指令][R_omantic]ASKkK(8):/r s
+[17:46:27][指令][R_omantic]ASKkK(8):/r s bank
+[17:46:28][指令][R_omantic]ASKkK(8):/r s
+[17:46:37][指令][R_omantic]ASKkK(8):/r s bank
+[17:46:39][指令][R_omantic]ASKkK(8):/r s
+[17:46:48][指令][R_omantic]ASKkK(8):/r s bank
+[17:46:49][指令][R_omantic]ASKkK(8):/r s
+[17:46:59][指令][R_omantic]ASKkK(8):/r s bank
+[17:47:0][指令][R_omantic]ASKkK(8):/r s
+[17:47:18][指令][R_omantic]ASKkK(8):/sz
+[17:48:34][指令][R_omantic]AsK(8):/c 411
+[17:49:27][指令][R_omantic]AsK(8):/t wode
+[17:49:34][指令][R_omantic]AsK(8):/t list
+[17:54:22][指令][R_ST]DONJI(9):/c 562
+[17:54:25][指令][R_ST]DONJI(9):/r s LDZ
+[17:54:26][指令][R_ST]DONJI(9):/r s
+[17:55:54][指令][R_ST]DONJI(9):/C 562
+[17:55:57][指令][R_ST]DONJI(9):/r s LDZ
+[17:55:59][指令][R_ST]DONJI(9):/r s
+[17:56:49][指令][R_ST]DONJI(9):/r l
+[17:56:52][指令][R_ST]DONJI(9):/r s LDZ
+[17:56:55][指令][R_ST]DONJI(9):/r s
+[17:57:51][指令][R_omantic]AsK(8):/r s FollowMe
+[17:57:55][指令][R_omantic]AsK(8):/r s
+[17:59:4][指令][R_ST]DONJI(9):/r l
+[17:59:8][指令][R_ST]DONJI(9):/r s LDZ
+[17:59:12][指令][R_ST]DONJI(9):/r s
+[18:0:2][指令][R_omantic]AsK(8):/r leave
+[18:0:7][指令][R_ST]DONJI(9):/r l
+[18:0:8][指令][R_ST]DONJI(9):/r s LDZ
+[18:0:11][指令][R_ST]DONJI(9):/r s
+[18:0:22][指令][R_ST]DONJI(9):/r l
+[18:0:24][指令][R_ST]DONJI(9):/r s LDZ
+[18:0:25][指令][R_ST]DONJI(9):/r s
+[18:3:32][指令][R_ST]DONJI(9):/r s LDZ
+[18:3:33][指令][R_ST]DONJI(9):/r s
+[18:4:0][指令][R_ST]DONJI(9):/r l
+[18:4:2][指令][R_ST]DONJI(9):/r s LDZ
+[18:4:3][指令][R_ST]DONJI(9):/r s
+[18:4:42][指令][R_ST]DONJI(9):/r l
+[18:4:44][指令][R_ST]DONJI(9):/r s LDZ
+[18:4:45][指令][R_ST]DONJI(9):/r s
+[18:7:35][指令][R_ST]DONJI(9):/r s LDZ
+[18:7:36][指令][R_ST]DONJI(9):/r s
+[18:10:22][指令][R_ST]DONJI(9):/r l
+[18:10:27][指令][R_ST]DONJI(9):/r s LDZ
+[18:10:29][指令][R_ST]DONJI(9):/r s
+[18:13:19][指令][R_ST]DONJI(9):/r s LDZ
+[18:13:20][指令][R_ST]DONJI(9):/r s
+[19:48:35][指令][R_ST]Amouons(8):/kgobj
+[19:48:38][指令][R_ST]Amouons(8):/sdb
+[19:51:13][指令][R_ST]Amouons(8):/c 562
+[19:51:18][指令][R_ST]Amouons(8):/cc 1 1
+[20:19:50][指令]_Xyr_(8):/c 411
+[20:19:54][指令]_Xyr_(8):/c color 8
+[20:20:34][指令]_Xyr_(8):/r s FollowMe
+[20:20:36][指令]_Xyr_(8):/r s
+[20:21:41][指令]_Xyr_(8):/r l
+[20:21:45][指令]_Xyr_(8):/r s FollowMe
+[20:21:48][指令]_Xyr_(8):/r s
+[20:24:1][指令]_Xyr_(8):/r l
+[20:24:3][指令]_Xyr_(8):/r s FollowMe
+[20:24:5][指令]_Xyr_(8):/r s
+[20:25:13][指令]_Xyr_(8):/r l
+[20:25:14][指令]_Xyr_(8):/r s FollowMe
+[20:25:15][指令]_Xyr_(8):/r s
+[20:27:44][指令]_Xyr_(8):/r l
+[20:27:45][指令]_Xyr_(8):/r s FollowMe
+[20:27:46][指令]_Xyr_(8):/r s
+[20:29:32][指令]_Xyr_(8):/r l
+[20:29:33][指令]_Xyr_(8):/r s FollowMe
+[20:29:35][指令]_Xyr_(8):/r s
+[20:30:25][指令]_Xyr_(8):/r l
+[20:30:26][指令]_Xyr_(8):/r s FollowMe
+[20:30:27][指令]_Xyr_(8):/r s
+[20:32:12][指令]_Xyr_(8):/r l
+[20:32:13][指令]_Xyr_(8):/r s FollowMe
+[20:32:14][指令]_Xyr_(8):/r s
+[20:32:57][指令]_Xyr_(8):/r l
+[20:33:3][指令]_Xyr_(8):/r s FollowMe
+[20:33:5][指令]_Xyr_(8):/r s
+[20:33:35][指令]_Xyr_(8):/r l
+[20:33:36][指令]_Xyr_(8):/r s FollowMe
+[20:33:38][指令]_Xyr_(8):/r s
+[20:35:50][指令]_Xyr_(8):/r l
+[20:35:51][指令]_Xyr_(8):/r s FollowMe
+[20:35:52][指令]_Xyr_(8):/r s
+[20:36:6][指令]_Xyr_(8):/r l
+[20:36:8][指令]_Xyr_(8):/r s FollowMe
+[20:36:9][指令]_Xyr_(8):/r s
+[22:35:54][指令][R_ST]FunnySnake1111(8):/C 477
+[22:45:13][指令][R_ST]FunnySnake1111(8):/C 477
+[22:46:29][指令][R_ST]FunnySnake1111(8):/C 477
+[22:50:20][指令][R_ST]FunnySnake1111(8):/C 477
+[22:51:12][指令][R_ST]FunnySnake1111(8):/C 477
+[22:53:36][指令][R_ST]Amouons(8):/sdb
+[22:53:38][指令][R_ST]Amouons(8):/sz
+[22:53:39][指令][R_ST]Amouons(8):/wudi
+[22:53:39][指令][R_ST]Amouons(8):/sz
+[22:53:43][指令][R_ST]Amouons(8):/kgobj
+[22:53:46][指令][R_ST]Amouons(8):/c 562
+[22:54:36][指令][R_ST]Amouons(8):/c 411
+[22:54:42][指令][R_ST]Amouons(8):/r s ldz
+[22:54:47][指令][R_ST]Amouons(8):/r s LDZ
+[22:54:49][指令][R_ST]Amouons(8):/r s
+[22:55:20][指令][R_ST]FunnySnake1111(9):/C 477
+[22:59:9][指令][R_ST]Amouons(8):/c 562
+[22:59:12][指令][R_ST]Amouons(8):/c color 127 1
+[22:59:17][指令][R_ST]Amouons(8):/c color 123 1
+[22:59:19][指令][R_ST]Amouons(8):/c color 120 1
+[22:59:21][指令][R_ST]Amouons(8):/c color 122 1
+[22:59:23][指令][R_ST]Amouons(8):/c color 129 1
+[22:59:29][指令][R_ST]Amouons(8):/cc 3 1
+[23:2:18][指令][R_ST]Amouons(8):/cc 0 0

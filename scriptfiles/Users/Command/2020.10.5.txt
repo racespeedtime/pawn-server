@@ -1,0 +1,60 @@
+[11:22:1][指令]DONJIsama(8):/c 562
+[11:22:3][指令]DONJIsama(8):/r s LDZ
+[11:22:9][指令]DONJIsama(8):/r s
+[11:22:17][指令]DONJIsama(8):/r l
+[11:22:21][指令]DONJIsama(8):/r s LDZ
+[11:22:22][指令]DONJIsama(8):/r s
+[11:22:49][指令]DONJIsama(8):/r l
+[11:22:51][指令]DONJIsama(8):/r s LDZ
+[11:22:52][指令]DONJIsama(8):/r s
+[11:23:9][指令]DONJIsama(8):/r l
+[11:23:12][指令]DONJIsama(8):/r s LDZ
+[11:23:13][指令]DONJIsama(8):/r s
+[11:23:24][指令]DONJIsama(8):/r l
+[11:23:26][指令]DONJIsama(8):/r s LDZ
+[11:23:31][指令]DONJIsama(8):/r s
+[11:24:56][指令]DONJIsama(8):/r l
+[11:25:0][指令]DONJIsama(8):/r s LDZ
+[11:25:1][指令]DONJIsama(8):/r s
+[11:26:28][指令]DONJIsama(8):/r l
+[11:27:2][指令]DONJIsama(8):/r s LDZ
+[11:27:24][指令]DONJIsama(8):/r s
+[11:27:35][指令]DONJIsama(8):/r l
+[11:27:38][指令]DONJIsama(8):/r s LDZ
+[11:27:39][指令]DONJIsama(8):/r s
+[11:31:41][指令]DONJIsama(8):/c 562
+[11:31:52][指令]DONJIsama(8):/r s LDZ
+[11:32:8][指令]DONJIsama(8):/r s
+[11:36:21][指令]DONJIsama(8):/r s LDZ
+[11:36:21][指令]DONJIsama(8):/r s
+[11:36:45][指令]DONJIsama(8):/r l
+[11:36:49][指令]DONJIsama(8):/r s LDZ
+[11:36:50][指令]DONJIsama(8):/r s
+[11:37:14][指令]DONJIsama(8):/r l
+[11:37:29][指令]DONJIsama(8):/r s LDZ
+[11:37:29][指令]DONJIsama(8):/r s
+[11:38:6][指令]DONJIsama(8):/r l
+[11:38:8][指令]DONJIsama(8):/r s LDZ
+[11:38:9][指令]DONJIsama(8):/r s
+[11:38:21][指令]DONJIsama(8):/r l
+[11:38:24][指令]DONJIsama(8):/r s LDZ
+[11:38:25][指令]DONJIsama(8):/r s
+[11:41:7][指令]DONJIsama(8):/r l
+[11:41:33][指令]DONJIsama(8):/r s LDZ
+[11:41:34][指令]DONJIsama(8):/r s
+[11:41:41][指令]DONJIsama(8):/r l
+[11:41:43][指令]DONJIsama(8):/r s LDZ
+[11:41:43][指令]DONJIsama(8):/r s
+[11:42:12][指令]DONJIsama(8):/r l
+[11:42:13][指令]DONJIsama(8):/r s LDZ
+[11:42:13][指令]DONJIsama(8):/r s
+[11:42:43][指令]DONJIsama(8):/r l
+[11:42:44][指令]DONJIsama(8):/r s LDZ
+[11:42:46][指令]DONJIsama(8):/r s
+[11:43:10][指令]DONJIsama(8):/r l
+[11:43:25][指令]DONJIsama(8):/r s LDZ
+[11:43:27][指令]DONJIsama(8):/r s
+[11:43:35][指令]DONJIsama(8):/r l
+[11:43:36][指令]DONJIsama(8):/r s LDZ
+[11:43:37][指令]DONJIsama(8):/r s
+[13:52:50][指令]RpLl(8):/c 562

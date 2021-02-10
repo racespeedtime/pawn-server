@@ -1,0 +1,34 @@
+[23:9:43][指令][Zephyr]1s_Kk(8):/c 562
+[23:25:45][指令][Zephyr]1s_K(8):/help
+[23:25:51][指令][Zephyr]1s_K(8):/help
+[23:25:58][指令][Zephyr]1s_K(8):/sz
+[23:26:6][指令][Zephyr]1s_K(8):/sz
+[23:26:12][指令][Zephyr]1s_K(8):/help
+[23:26:20][指令][Zephyr]1s_K(8):/help
+[23:26:31][指令][Zephyr]1s_K(8):/sz
+[23:26:34][指令][Zephyr]1s_K(8):/sz
+[23:26:42][指令][Zephyr]1s_K(8):/c 611
+[23:26:50][指令][Zephyr]1s_K(8):/c 563
+[23:26:53][指令][Zephyr]1s_K(8):/c 560
+[23:27:9][指令][Zephyr]1s_K(8):/f
+[23:27:20][指令][Zephyr]1s_K(8):/help
+[23:27:27][指令][Zephyr]1s_K(8):/help
+[23:27:31][指令][Zephyr]1s_K(8):/t list
+[23:28:47][指令][Zephyr]1s_K(8):/r s quanquan
+[23:28:56][指令][Zephyr]1s_K(8):/r s
+[23:29:53][指令][Zephyr]1s_K(8):/c color 1 1
+[23:30:6][指令][Zephyr]1s_K(8):/r s ldz
+[23:30:11][指令][Zephyr]1s_K(8):/r s LDZ
+[23:30:14][指令][Zephyr]1s_K(8):/r s
+[23:33:34][指令][Zephyr]1s_K(8):/r s LDZ
+[23:33:36][指令][Zephyr]1s_K(8):/R S
+[23:33:39][指令][Zephyr]1s_K(8):/r s
+[23:36:44][指令][Zephyr]1s_K(8):/r s Misc
+[23:36:46][指令][Zephyr]1s_K(8):/r s
+[23:38:18][指令][Zephyr]1s_K(8):/r leave
+[23:39:1][指令][Zephyr]1s_K(8):/r s Air Race
+[23:39:28][指令][Zephyr]1s_K(8):/r s banj1
+[23:39:37][指令][Zephyr]1s_K(8):/r s bank1
+[23:39:40][指令][Zephyr]1s_K(8):/r s
+[23:40:14][指令][Zephyr]1s_K(8):/r s bank1
+[23:40:15][指令][Zephyr]1s_K(8):/r s

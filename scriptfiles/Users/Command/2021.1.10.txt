@@ -1,0 +1,106 @@
+[21:42:31][指令][Zephyr]_Guy(9):/c 562
+[21:42:34][指令][Zephyr]_Guy(9):/cc 1 1
+[21:44:44][指令]ASKKKKK(10):/c 411
+[21:44:47][指令]hamigua(8):/time 1
+[21:45:15][指令][Zephyr]_Guy(9):/c 562
+[21:45:20][指令][Zephyr]_Guy(9):/cc 1 1
+[21:46:34][指令]ASKKKKK(10):/C 411
+[21:46:54][指令]hamigua(8):/kgobj
+[21:46:55][指令][Zephyr]_Guy(9):/kgobj
+[21:46:57][指令]hamigua(8):/kgobj
+[21:46:57][指令][Zephyr]_Guy(9):/kgobj
+[21:47:8][指令][Zephyr]_Guy(9):/c 562
+[21:47:9][指令]hamigua(8):/c 562
+[21:47:11][指令][Zephyr]_Guy(9):/c 562
+[21:47:13][指令][Zephyr]_Guy(9):/c 411
+[21:47:16][指令][Zephyr]_Guy(9):/kill
+[21:47:34][指令]hamigua(8):/kill
+[21:47:44][指令]hamigua(8):/tp 9
+[21:47:48][指令][Zephyr]_Guy(9):/ta
+[21:47:54][指令]ASKKKKK(10):/kill
+[21:48:4][指令][Zephyr]_Guy(9):/tp 8
+[21:48:4][指令]hamigua(8):/kill
+[21:48:15][指令][Zephyr]_Guy(9):/tp 10
+[21:48:16][指令]hamigua(8):/TP 10
+[21:48:17][指令]ASKKKKK(10):/ta
+[21:48:19][指令][Zephyr]_Guy(9):/c 562
+[21:48:25][指令][Zephyr]_Guy(9):/cc 1 1
+[21:48:27][指令]ASKKKKK(10):/TA
+[21:48:30][指令][Zephyr]_Guy(9):/tianqi
+[21:48:32][指令][Zephyr]_Guy(9):/tianqi 1
+[21:48:40][指令]ASKKKKK(10):/C 411
+[21:48:47][指令]ASKKKKK(10):/C 562
+[21:48:49][指令]hamigua(8):/TP 10
+[21:48:51][指令]ASKKKKK(10):/TA
+[21:48:57][指令]hamigua(8):/c 562
+[21:54:24][指令]hamigua(8):/tp 9
+[21:54:27][指令]hamigua(8):/tp 10
+[21:54:28][指令][Zephyr]_Guy(9):/ta
+[21:54:31][指令]ASKKKKK(10):/TA
+[21:54:33][指令]hamigua(8):/c 562
+[21:56:17][指令]hamigua(8):/kill
+[21:56:28][指令]hamigua(8):/tp 19
+[21:56:29][指令][Zephyr]_Guy(9):/tp 10
+[21:56:30][指令]hamigua(8):/tp 19
+[21:56:31][指令]ASKKKKK(10):/TA
+[21:56:31][指令]hamigua(8):/tp 10
+[21:56:40][指令]hamigua(8):/time 10
+[21:56:43][指令]hamigua(8):/time 10 1
+[21:56:46][指令]hamigua(8):/tp 9
+[21:56:49][指令][Zephyr]_Guy(9):/ta
+[21:57:3][指令]ASKKKKK(10):/C 562
+[21:57:21][指令][Zephyr]_Guy(9):/tp 10
+[21:57:23][指令]ASKKKKK(10):/TA
+[21:57:29][指令]hamigua(8):/C 562
+[22:2:8][指令]hamigua(8):/c 562
+[23:5:35][指令][Zephyr]_Guy(9):/tp 8
+[23:5:52][指令]OtoriLR(8):/tp
+[23:6:4][指令]OtoriLR(8):/tp
+[23:6:13][指令][Zephyr]_Guy(9):/tp 8
+[23:6:23][指令]OtoriLR(8):/ta
+[23:6:45][指令][Zephyr]_Guy(9):/c 562
+[23:6:48][指令][Zephyr]_Guy(9):/cc 1 1
+[23:7:27][指令][Zephyr]_Guy(9):/c 411
+[23:7:36][指令][Zephyr]_Guy(9):/c wode
+[23:8:43][指令]OtoriLR(8):/help
+[23:8:50][指令][Zephyr]_Guy(9):/help
+[23:8:59][指令][Zephyr]_Guy(9):/help
+[23:9:19][指令]OtoriLR(8):/fxq
+[23:9:24][指令][Zephyr]_Guy(9):/help
+[23:9:28][指令][Zephyr]_Guy(9):/help
+[23:9:30][指令]OtoriLR(8):/help
+[23:9:34][指令][Zephyr]_Guy(9):/help
+[23:9:36][指令]OtoriLR(8):/help
+[23:9:38][指令][Zephyr]_Guy(9):/cam
+[23:9:38][指令]OtoriLR(8):/help
+[23:9:42][指令]OtoriLR(8):/cam
+[23:9:50][指令][Zephyr]_Guy(9):/camera
+[23:10:13][指令][Zephyr]_Guy(9):/camera
+[23:10:16][指令][Zephyr]_Guy(9):/camera
+[23:10:23][指令][Zephyr]_Guy(9):/help
+[23:11:7][指令]OtoriLR(8):/help
+[23:11:14][指令][Zephyr]_Guy(9):/help
+[23:11:22][指令][Zephyr]_Guy(9):/help
+[23:11:31][指令]OtoriLR(8):/help
+[23:11:31][指令][Zephyr]_Guy(9):/help
+[23:11:32][指令][Zephyr]_Guy(9):/help
+[23:11:34][指令][Zephyr]_Guy(9):/wuqi
+[23:11:36][指令]OtoriLR(8):/wuqi
+[23:11:57][指令][Zephyr]_Guy(9):/wuqi
+[23:12:13][指令]OtoriLR(8):/help
+[23:12:23][指令][Zephyr]_Guy(9):/cam
+[23:12:25][指令]OtoriLR(8):/cam
+[23:12:34][指令][Zephyr]_Guy(9):/camera
+[23:12:34][指令]OtoriLR(8):/camera
+[23:12:41][指令][Zephyr]_Guy(9):/camera
+[23:12:58][指令][Zephyr]_Guy(9):/cam
+[23:13:9][指令][Zephyr]_Guy(9):/c 562
+[23:13:57][指令][Zephyr]_Guy(9):/kgobj
+[23:14:1][指令][Zephyr]_Guy(9):/kgobj
+[23:14:9][指令]OtoriLR(8):/cam
+[23:14:11][指令][Zephyr]_Guy(9):/tp 8
+[23:14:25][指令]OtoriLR(8):/camera
+[23:14:28][指令][Zephyr]_Guy(9):/c 562
+[23:14:33][指令][Zephyr]_Guy(9):/cc 1 1
+[23:14:36][指令][Zephyr]_Guy(9):/kill
+[23:14:49][指令][Zephyr]_Guy(9):/c wode

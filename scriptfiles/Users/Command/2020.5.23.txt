@@ -1,0 +1,36 @@
+[0:33:39][指令][R_ST]Amouons(8):/sz
+[0:33:41][指令][R_ST]Amouons(8):/kgobj
+[0:33:41][指令][R_ST]Amouons(8):/sz
+[0:33:42][指令][R_ST]Amouons(8):/wudi
+[0:33:42][指令][R_ST]Amouons(8):/sz
+[0:33:45][指令][R_ST]Amouons(8):/c 562
+[0:33:48][指令][R_ST]Amouons(8):/cc 0 0
+[0:35:33][指令][R_ST]Amouons(8):/ww
+[0:36:2][指令][R_ST]Amouons(8):/sz
+[0:36:6][指令][R_ST]Amouons(8):/tianqi 1
+[0:36:6][指令][R_ST]Amouons(8):/sz
+[20:28:34][指令][R_ST]DONJI(8):/c 562
+[20:28:40][指令][R_ST]DONJI(8):/r s LDZz
+[20:28:41][指令][R_ST]DONJI(8):/r s LDZ
+[20:28:43][指令][R_ST]DONJI(8):/r s
+[20:29:21][指令][R_ST]DONJI(8):/r l
+[20:29:23][指令][R_ST]DONJI(8):/r s LDZz
+[20:29:25][指令][R_ST]DONJI(8):/r s LDZ
+[20:29:26][指令][R_ST]DONJI(8):/r s
+[20:30:55][指令][R_ST]DONJI(8):/r l
+[20:30:56][指令][R_ST]DONJI(8):/r s LDZ
+[20:30:58][指令][R_ST]DONJI(8):/r s
+[20:31:26][指令][R_ST]DONJI(8):/r l
+[20:31:27][指令][R_ST]DONJI(8):/r s LDZ
+[20:31:31][指令][R_ST]DONJI(8):/r s
+[20:32:0][指令][R_ST]DONJI(8):/r l
+[20:32:2][指令][R_ST]DONJI(8):/r s LDZ
+[20:32:4][指令][R_ST]DONJI(8):/r s
+[20:32:37][指令][R_ST]DONJI(8):/r l
+[20:32:38][指令][R_ST]DONJI(8):/r s
+[20:32:41][指令][R_ST]DONJI(8):/r s LDZ
+[20:32:43][指令][R_ST]DONJI(8):/r s
+[20:32:44][指令][R_ST]DONJI(8):/r s
+[20:33:22][指令][R_ST]DONJI(8):/r l
+[20:33:24][指令][R_ST]DONJI(8):/r s LDZ
+[20:33:26][指令][R_ST]DONJI(8):/r s

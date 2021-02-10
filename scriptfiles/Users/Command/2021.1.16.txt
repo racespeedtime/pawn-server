@@ -1,0 +1,138 @@
+[14:21:13][指令][R_omantic]ASK4(8):/C 411
+[14:27:4][指令][R_omantic]ASK4(8):/C 411
+[14:32:9][指令][R_omantic]ASK4(8):/C 411
+[14:32:13][指令][R_omantic]ASK4(8):/R S misc
+[14:32:19][指令][R_omantic]ASK4(8):/r s misc
+[14:32:24][指令][R_omantic]ASK4(8):/r s Misc
+[14:32:26][指令][R_omantic]ASK4(8):/r s
+[14:34:24][指令][R_omantic]ASK4(8):/C 411
+[14:34:28][指令][R_omantic]ASK4(8):/C color 136 1
+[14:34:36][指令][R_omantic]ASK4(8):/r s Misc
+[14:34:37][指令][R_omantic]ASK4(8):/R S
+[14:34:40][指令][R_omantic]ASK4(8):/r s
+[14:39:1][指令][R_omantic]ASK4(8):/r s Misc
+[14:39:3][指令][R_omantic]ASK4(8):/r s
+[14:39:19][指令][R_omantic]ASK4(8):/r l
+[14:39:21][指令][R_omantic]ASK4(8):/r s Misc
+[14:39:33][指令][R_omantic]ASK4(8):/r s
+[14:39:49][指令][R_omantic]ASK4(8):/r l
+[14:39:51][指令][R_omantic]ASK4(8):/r s Misc
+[14:40:5][指令][R_omantic]ASK4(8):/r s
+[14:40:20][指令][R_omantic]ASK4(8):/R l
+[14:40:23][指令][R_omantic]ASK4(8):/r s Misc
+[14:40:34][指令][R_omantic]ASK4(8):/r s
+[14:44:59][指令][R_omantic]ASK4(8):/r s Misc
+[14:45:9][指令][R_omantic]ASK4(8):/r s
+[14:45:32][指令][R_omantic]ASK4(8):/R l
+[14:45:35][指令][R_omantic]ASK4(8):/r s Misc
+[14:45:44][指令][R_omantic]ASK4(8):/r s
+[14:49:54][指令][R_omantic]ASK4(8):/r s Misc
+[14:50:6][指令][R_omantic]ASK4(8):/r s
+[14:52:13][指令][R_omantic]ASK4(8):/R l
+[14:52:43][指令][R_omantic]ASK4(8):/S
+[14:52:57][指令][R_omantic]ASK4(8):/l
+[14:53:12][指令][R_omantic]ASK4(8):/l
+[14:53:27][指令][R_omantic]ASK4(8):/l
+[14:53:40][指令][R_omantic]ASK4(8):/l
+[14:53:52][指令][R_omantic]ASK4(8):/l
+[14:54:3][指令][R_omantic]ASK4(8):/l
+[14:54:13][指令][R_omantic]ASK4(8):/l
+[14:54:24][指令][R_omantic]ASK4(8):/l
+[14:54:39][指令][R_omantic]ASK4(8):/l
+[14:54:50][指令][R_omantic]ASK4(8):/l
+[14:55:15][指令][R_omantic]ASK4(8):/l
+[14:55:30][指令][R_omantic]ASK4(8):/l
+[14:55:41][指令][R_omantic]ASK4(8):/l
+[14:55:52][指令][R_omantic]ASK4(8):/l
+[14:56:3][指令][R_omantic]ASK4(8):/l
+[14:56:13][指令][R_omantic]ASK4(8):/l
+[14:56:23][指令][R_omantic]ASK4(8):/l
+[14:56:38][指令][R_omantic]ASK4(8):/l
+[14:56:53][指令][R_omantic]ASK4(8):/l
+[14:57:7][指令][R_omantic]ASK4(8):/l
+[14:57:20][指令][R_omantic]ASK4(8):/l
+[14:57:31][指令][R_omantic]ASK4(8):/l
+[14:57:42][指令][R_omantic]ASK4(8):/l
+[14:57:56][指令][R_omantic]ASK4(8):/l
+[14:58:11][指令][R_omantic]ASK4(8):/l
+[14:58:23][指令][R_omantic]ASK4(8):/l
+[14:58:36][指令][R_omantic]ASK4(8):/l
+[14:58:46][指令][R_omantic]ASK4(8):/l
+[14:58:58][指令][R_omantic]ASK4(8):/l
+[14:59:8][指令][R_omantic]ASK4(8):/l
+[14:59:36][指令][R_omantic]ASK4(8):/l
+[14:59:48][指令][R_omantic]ASK4(8):/l
+[14:59:58][指令][R_omantic]ASK4(8):/l
+[15:0:8][指令][R_omantic]ASK4(8):/l
+[15:0:19][指令][R_omantic]ASK4(8):/l
+[15:0:40][指令][R_omantic]ASK4(8):/l
+[15:1:9][指令][R_omantic]ASK4(8):/l
+[15:1:50][指令][R_omantic]ASK4(8):/l
+[15:2:0][指令][R_omantic]ASK4(8):/l
+[15:2:27][指令][R_omantic]ASK4(8):/l
+[15:2:56][指令][R_omantic]ASK4(8):/l
+[15:3:8][指令][R_omantic]ASK4(8):/l
+[15:3:34][指令][R_omantic]ASK4(8):/l
+[15:3:45][指令][R_omantic]ASK4(8):/l
+[15:3:56][指令][R_omantic]ASK4(8):/l
+[15:4:6][指令][R_omantic]ASK4(8):/l
+[15:4:11][指令][R_omantic]ASK4(8):/l
+[15:4:21][指令][R_omantic]ASK4(8):/l
+[15:4:32][指令][R_omantic]ASK4(8):/l
+[15:5:2][指令][R_omantic]ASK4(8):/l
+[15:5:14][指令][R_omantic]ASK4(8):/l
+[15:5:39][指令][R_omantic]ASK4(8):/l
+[15:5:57][指令][R_omantic]ASK4(8):/l
+[15:6:8][指令][R_omantic]ASK4(8):/l
+[15:6:49][指令][R_omantic]ASK4(8):/l
+[15:6:59][指令][R_omantic]ASK4(8):/l
+[15:9:6][指令][R_omantic]ASK4(8):/l
+[15:9:24][指令][R_omantic]ASK4(8):/l
+[15:9:29][指令][R_omantic]ASK4(8):/l
+[15:12:1][指令][R_omantic]ASK4(8):/S
+[15:12:11][指令][R_omantic]ASK4(8):/S
+[15:12:14][指令][R_omantic]ASK4(8):/l
+[15:12:23][指令][R_omantic]ASK4(8):/S
+[15:12:39][指令][R_omantic]ASK4(8):/l
+[15:12:51][指令][R_omantic]ASK4(8):/l
+[15:30:26][指令][R_omantic]ASK4(8):/l
+[15:30:40][指令][R_omantic]ASK4(8):/l
+[15:31:11][指令][R_omantic]ASK4(8):/r s Misc
+[15:31:14][指令][R_omantic]ASK4(8):/r s
+[15:32:31][指令][R_omantic]ASK4(8):/r l
+[15:32:32][指令][R_omantic]ASK4(8):/r s Misc
+[15:32:34][指令][R_omantic]ASK4(8):/r s
+[15:34:25][指令][R_omantic]ASK4(8):/R l
+[15:34:44][指令][R_omantic]ASK4(8):/S
+[15:34:58][指令][R_omantic]ASK4(8):/l
+[15:35:14][指令][R_omantic]ASK4(8):/l
+[15:35:26][指令][R_omantic]ASK4(8):/l
+[15:35:47][指令][R_omantic]ASK4(8):/l
+[15:35:58][指令][R_omantic]ASK4(8):/l
+[15:36:10][指令][R_omantic]ASK4(8):/l
+[15:36:21][指令][R_omantic]ASK4(8):/l
+[15:36:32][指令][R_omantic]ASK4(8):/l
+[15:36:42][指令][R_omantic]ASK4(8):/l
+[15:36:58][指令][R_omantic]ASK4(8):/l
+[15:37:24][指令][R_omantic]ASK4(8):/l
+[15:37:32][指令][R_omantic]ASK4(8):/l
+[15:37:55][指令][R_omantic]ASK4(8):/r s Misc
+[15:37:57][指令][R_omantic]ASK4(8):/r s
+[15:39:52][指令][R_omantic]ASK4(8):/R l
+[15:39:56][指令][R_omantic]ASK4(8):/l
+[15:40:7][指令][R_omantic]ASK4(8):/l
+[15:40:23][指令][R_omantic]ASK4(8):/l
+[15:40:33][指令][R_omantic]ASK4(8):/l
+[15:40:51][指令][R_omantic]ASK4(8):/l
+[15:41:2][指令][R_omantic]ASK4(8):/l
+[15:41:11][指令][R_omantic]ASK4(8):/l
+[15:41:28][指令][R_omantic]ASK4(8):/l
+[15:41:39][指令][R_omantic]ASK4(8):/l
+[15:41:52][指令][R_omantic]ASK4(8):/l
+[15:42:16][指令][R_omantic]ASK4(8):/l
+[15:42:26][指令][R_omantic]ASK4(8):/l
+[15:42:36][指令][R_omantic]ASK4(8):/l
+[15:42:51][指令][R_omantic]ASK4(8):/l
+[15:43:2][指令][R_omantic]ASK4(8):/l
+[15:43:37][指令][R_omantic]ASK4(8):/l
+[15:43:49][指令][R_omantic]ASK4(8):/l

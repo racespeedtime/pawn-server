@@ -1,0 +1,32 @@
+[13:59:10][指令]Fanx(9):/skin
+[19:21:28][指令][R_omantic]ASK1(8):/C 411
+[19:21:30][指令][R_omantic]ASK1(8):/C COLOR 1
+[19:21:36][指令][R_omantic]ASK1(8):/R S LDZ
+[19:21:38][指令][R_omantic]ASK1(8):/R S
+[19:21:42][指令][R_omantic]ASK1(8):/help
+[19:21:47][指令][R_omantic]ASK1(8):/help
+[19:21:51][指令][R_omantic]ASK1(8):/r s LDZ
+[19:22:2][指令][R_omantic]ASK1(8):/r s
+[19:23:12][指令][R_omantic]ASK1(8):/r l
+[19:23:16][指令][R_omantic]ASK1(8):/r s LDZ
+[19:23:22][指令][R_omantic]ASK1(8):/r s
+[19:26:8][指令][R_omantic]ASK1(8):/r s LDZ
+[19:26:16][指令][R_omantic]ASK1(8):/r s
+[19:28:4][指令][R_omantic]ASK1(8):/r l
+[19:28:7][指令][R_omantic]ASK1(8):/r s
+[19:28:29][指令][R_omantic]ASK1(8):/r s
+[19:28:42][指令][R_omantic]ASK1(8):/r s
+[19:28:48][指令][R_omantic]ASK1(8):/r s Misc
+[19:28:54][指令][R_omantic]ASK1(8):/r s
+[19:30:19][指令][R_omantic]ASK1(8):/R L
+[20:39:44][指令]HazelnutR(8):/c 400
+[20:40:26][指令]HazelnutR(8):/c 561
+[20:42:9][指令]HazelnutR(8):/c 602
+[20:43:38][指令]HazelnutR(8):/f
+[20:45:10][指令]HazelnutR(8):/c 561
+[20:46:0][指令]HazelnutR(8):/c 562
+[20:50:23][指令]HazelnutR(8):/c 560
+[20:50:26][指令]HazelnutR(8):/c 561
+[20:51:14][指令]HazelnutR(8):/c 477
+[20:51:29][指令]HazelnutR(8):/c 402
+[20:54:48][指令]HazelnutR(8):/time 24 24

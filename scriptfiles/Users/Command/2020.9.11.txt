@@ -1,0 +1,17 @@
+[16:23:1][指令]iride3cent_ck(8):/help
+[16:23:8][指令]iride3cent_ck(8):/c 41
+[16:23:9][指令]iride3cent_ck(8):/c 411
+[16:23:13][指令]iride3cent_ck(8):/cc 1 1
+[16:23:36][指令]iride3cent_ck(8):/r s CHN4_Race_For_Tuners
+[16:23:39][指令]iride3cent_ck(8):/r s
+[16:25:24][指令]iride3cent_ck(8):/r l
+[19:7:13][指令]LanRen(8):/c 411
+[19:18:40][指令]LanRen(8):/c 562
+[19:40:0][指令]LanRen(8):/c 562
+[19:47:7][指令]LanRen(8):/c 5626
+[19:47:9][指令]LanRen(8):/c 562
+[19:52:46][指令]LanRen(8):/c 562
+[19:55:41][指令]LanRen(8):/c 562
+[19:58:12][指令]LanRen(8):/c 562
+[20:0:10][指令]LanRen(8):/c 562
+[20:2:30][指令]LanRen(8):/c 562

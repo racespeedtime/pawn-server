@@ -1,0 +1,149 @@
+[10:28:58][指令][R_ST]ArvinJM(8):/c 451
+[10:29:27][指令][R_ST]ArvinJM(8):/C 451
+[10:32:35][指令][R_ST]ArvinJM(8):/C 451
+[10:35:43][指令][R_ST]ArvinJM(8):/c 451
+[10:36:36][指令][R_ST]ArvinJM(8):/c 563
+[10:47:30][指令][R_ST]ArvinJM(8):/c 451
+[12:11:53][指令][R_ST]ArvinJM(8):/c 451
+[12:19:0][指令][R_ST]ArvinJM(8):/c 451
+[12:25:11][指令][R_ST]ArvinJM(8):/c 451
+[12:30:39][指令][R_ST]DONJI(8):/c 562
+[12:30:40][指令][R_ST]DONJI(8):/r s LDZt
+[12:30:41][指令][R_ST]DONJI(8):/r s LDZ
+[12:30:42][指令][R_ST]DONJI(8):/r s
+[12:30:54][指令][R_ST]DONJI(8):/r l
+[12:30:58][指令][R_ST]DONJI(8):/r s DLZ
+[12:31:0][指令][R_ST]DONJI(8):/r s LDZ
+[12:31:0][指令][R_ST]DONJI(8):/r s
+[12:31:28][指令][R_ST]DONJI(8):/r l
+[12:31:30][指令][R_ST]DONJI(8):/r s LDZ
+[12:31:32][指令][R_ST]DONJI(8):/r s
+[12:32:59][指令][R_ST]DONJI(8):/r l
+[12:33:0][指令][R_ST]DONJI(8):/r s DLZ
+[12:33:1][指令][R_ST]DONJI(8):/r s LDZ
+[12:33:3][指令][R_ST]DONJI(8):/r s
+[12:33:41][指令][R_ST]DONJI(8):/r l
+[12:33:42][指令][R_ST]DONJI(8):/r s LDZ
+[12:33:43][指令][R_ST]DONJI(8):/r s
+[12:34:23][指令][R_ST]DONJI(8):/r l
+[12:34:24][指令][R_ST]DONJI(8):/r s LDZ
+[12:34:26][指令][R_ST]DONJI(8):/r s
+[12:35:2][指令][R_ST]DONJI(8):/r l
+[12:35:3][指令][R_ST]DONJI(8):/r s LDZ
+[12:35:5][指令][R_ST]DONJI(8):/r s
+[12:36:32][指令][R_ST]DONJI(8):/r l
+[12:36:34][指令][R_ST]DONJI(8):/r s LDZt
+[12:36:35][指令][R_ST]DONJI(8):/r s LDZ
+[12:36:38][指令][R_ST]DONJI(8):/r s
+[12:37:5][指令][R_ST]DONJI(8):/r l
+[12:37:6][指令][R_ST]DONJI(8):/r s LDZt
+[12:37:8][指令][R_ST]DONJI(8):/r s LDZ
+[12:37:8][指令][R_ST]DONJI(8):/r s
+[12:37:53][指令][R_ST]DONJI(8):/r l
+[12:37:54][指令][R_ST]DONJI(8):/r s LDZ
+[12:37:54][指令][R_ST]DONJI(8):/r s
+[12:40:42][指令][R_ST]DONJI(8):/r s LDZ
+[12:40:43][指令][R_ST]DONJI(8):/r s
+[12:41:29][指令][R_ST]DONJI(8):/r l
+[12:41:32][指令][R_ST]DONJI(8):/r s LDZ
+[12:41:33][指令][R_ST]DONJI(8):/r s
+[12:42:43][指令][R_ST]DONJI(8):/r l
+[12:42:44][指令][R_ST]DONJI(8):/r s LDZ
+[12:42:44][指令][R_ST]DONJI(8):/r s
+[12:44:4][指令][R_ST]DONJI(8):/r l
+[12:44:21][指令][R_ST]DONJI(8):/r s LDZ
+[12:44:26][指令][R_ST]DONJI(8):/r s
+[12:45:55][指令][R_ST]DONJI(8):/r l
+[12:46:2][指令][R_ST]DONJI(8):/r s DLZ
+[12:46:3][指令][R_ST]DONJI(8):/r s LDZ
+[12:46:5][指令][R_ST]DONJI(8):/r s
+[12:48:52][指令][R_ST]DONJI(8):/r s LDZ
+[12:48:53][指令][R_ST]DONJI(8):/r s
+[12:49:21][指令][R_ST]DONJI(8):/r l
+[12:49:22][指令][R_ST]DONJI(8):/r s LDZ
+[12:49:22][指令][R_ST]DONJI(8):/r s
+[12:49:50][指令][R_ST]DONJI(8):/r l
+[12:49:51][指令][R_ST]DONJI(8):/r s LDZ
+[12:50:9][指令][R_ST]DONJI(8):/r s
+[12:50:33][指令][R_ST]DONJI(8):/r l
+[12:50:35][指令][R_ST]DONJI(8):/r s LDZ
+[12:50:35][指令][R_ST]DONJI(8):/r s
+[12:52:24][指令][R_ST]DONJI(8):/r l
+[12:52:26][指令][R_ST]DONJI(8):/r s LDZ
+[12:52:26][指令][R_ST]DONJI(8):/r s
+[12:54:30][指令][R_ST]DONJI(8):/r l
+[12:54:32][指令][R_ST]DONJI(8):/r s LDZ
+[12:54:44][指令][R_ST]DONJI(8):/r s
+[12:56:9][指令][R_ST]DONJI(8):/r l
+[12:56:12][指令][R_ST]DONJI(8):/r s LDZ
+[12:56:13][指令][R_ST]DONJI(8):/r s
+[12:57:14][指令][R_ST]DONJI(8):/r l
+[12:57:16][指令][R_ST]DONJI(8):/r s LDZ
+[12:57:16][指令][R_ST]DONJI(8):/r s
+[12:57:38][指令][R_ST]DONJI(8):/r l
+[12:57:40][指令][R_ST]DONJI(8):/r s LDZ
+[12:57:42][指令][R_ST]DONJI(8):/r s
+[12:58:24][指令][R_ST]DONJI(8):/r l
+[12:58:25][指令][R_ST]DONJI(8):/r s LDZt
+[12:58:27][指令][R_ST]DONJI(8):/r s LDZ
+[12:58:27][指令][R_ST]DONJI(8):/r s
+[12:58:39][指令][R_ST]DONJI(8):/r l
+[12:58:41][指令][R_ST]DONJI(8):/r s LDZ
+[12:58:41][指令][R_ST]DONJI(8):/r s
+[14:7:5][指令][R_ST]ArvinJM(8):/c 451
+[14:10:44][指令][R_ST]ArvinJM(8):/c 451
+[14:11:55][指令][R_ST]ArvinJM(8):/s
+[14:11:57][指令][R_ST]ArvinJM(8):/c 563
+[14:23:37][指令][R_ST]ArvinJM(8):/c 411
+[14:23:45][指令][R_ST]ArvinJM(8):/c 560
+[14:24:29][指令][R_ST]ArvinJM(8):/fxq 
+[14:24:43][指令][R_ST]ArvinJM(8):/c 560
+[15:47:29][指令][R_ST]ArvinJM(8):/c 560
+[15:49:46][指令][R_ST]ArvinJM(8):/s
+[15:49:47][指令][R_ST]ArvinJM(8):/fxq
+[15:50:5][指令][R_ST]ArvinJM(8):/c 560
+[15:50:34][指令][R_ST]ArvinJM(8):/l
+[15:50:42][指令][R_ST]ArvinJM(8):/l
+[15:50:45][指令][R_ST]ArvinJM(8):/fxq
+[15:51:0][指令][R_ST]ArvinJM(8):/c 560
+[15:51:27][指令][R_ST]ArvinJM(8):/s
+[15:51:30][指令][R_ST]ArvinJM(8):/c 563
+[15:52:5][指令][R_ST]ArvinJM(8):/c 562
+[16:6:24][指令][R_ST]ArvinJM(8):/c 415
+[16:7:9][指令][R_ST]ArvinJM(8):/s
+[16:7:11][指令][R_ST]ArvinJM(8):/fxq
+[16:7:22][指令][R_ST]ArvinJM(8):/c 415
+[16:7:25][指令][R_ST]ArvinJM(8):/s
+[16:8:12][指令][R_ST]ArvinJM(8):/l
+[16:8:40][指令][R_ST]ArvinJM(8):/c 563
+[16:9:4][指令][R_ST]ArvinJM(8):/s
+[16:9:6][指令][R_ST]ArvinJM(8):/c 563
+[16:9:9][指令][R_ST]ArvinJM(8):/c 415
+[16:9:24][指令][R_ST]ArvinJM(8):/l
+[16:9:36][指令][R_ST]ArvinJM(8):/l
+[16:19:22][指令][R_ST]ArvinJM(8):/c 415
+[16:19:49][指令][R_ST]ArvinJM(8):/s
+[16:20:17][指令][R_ST]ArvinJM(8):/s
+[16:20:56][指令][R_ST]ArvinJM(8):/l
+[16:22:0][指令][R_ST]ArvinJM(8):/cc 0 0
+[16:22:14][指令][R_ST]ArvinJM(8):/c 587
+[16:23:37][指令][R_ST]ArvinJM(8):/l
+[16:23:39][指令][R_ST]ArvinJM(8):/c 551
+[16:23:50][指令][R_ST]ArvinJM(8):/c 415
+[16:23:54][指令][R_ST]ArvinJM(8):/c 558
+[16:23:59][指令][R_ST]ArvinJM(8):/c 527
+[16:24:3][指令][R_ST]ArvinJM(8):/c 560
+[16:24:14][指令][R_ST]ArvinJM(8):/c 411
+[16:24:23][指令][R_ST]ArvinJM(8):/c 560
+[16:27:33][指令][R_ST]ArvinJM(8):/c 560
+[16:27:38][指令][R_ST]ArvinJM(8):/l
+[17:19:58][指令][R_ST]ArvinJM(8):/c 451
+[17:23:17][指令][R_ST]ArvinJM(8):/sz
+[17:23:21][指令][R_ST]ArvinJM(8):/tianqi 0
+[17:23:21][指令][R_ST]ArvinJM(8):/sz
+[17:23:24][指令][R_ST]ArvinJM(8):/tianqi 10
+[17:23:24][指令][R_ST]ArvinJM(8):/sz
+[17:23:25][指令][R_ST]ArvinJM(8):/time 0 0
+[17:23:25][指令][R_ST]ArvinJM(8):/sz
+[18:10:48][指令][R_ST]ArvinJM(8):/c 415
+[18:10:55][指令][R_ST]ArvinJM(8):/cc  0 0

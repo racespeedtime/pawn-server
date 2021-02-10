@@ -1,0 +1,247 @@
+[10:39:39][指令][Zephyr]8s_Kk(0):/help
+[10:39:50][指令][Zephyr]8s_Kk(0):/C 562
+[10:39:54][指令][Zephyr]8s_Kk(0):/C COLOR 1 1
+[10:40:47][指令][Zephyr]8s_Kk(0):/F
+[10:40:49][指令][Zephyr]8s_Kk(0):/SZ
+[10:40:54][指令][Zephyr]8s_Kk(0):/SZ
+[10:40:57][指令][Zephyr]8s_Kk(0):/HELP
+[10:41:16][指令][Zephyr]8s_Kk(0):/help
+[10:41:22][指令][Zephyr]8s_Kk(0):/DCAR
+[10:47:30][指令][Zephyr]8s_Kk(0):/F
+[10:47:51][指令][Zephyr]8s_Kk(0):/F
+[10:50:3][指令][Zephyr]8s_Kk(0):/SKIN 22
+[10:50:9][指令][Zephyr]8s_Kk(0):/C 520
+[10:50:20][指令][Zephyr]8s_Kk(0):/CC
+[10:52:33][指令][Zephyr]8s_Kk(0):/help
+[10:52:38][指令][Zephyr]8s_Kk(0):/C 541
+[10:52:47][指令][Zephyr]8s_Kk(0):/HYS
+[10:53:9][指令][Zephyr]8s_Kk(0):/HYS
+[10:53:19][指令][Zephyr]8s_Kk(0):/C 439
+[10:53:23][指令][Zephyr]8s_Kk(0):/C 520
+[10:54:23][指令][Zephyr]8s_Kk(0):/TIANQI 2
+[10:54:27][指令][Zephyr]8s_Kk(0):/TIANQI 4
+[10:54:30][指令][Zephyr]8s_Kk(0):/TIANQI 10
+[10:55:23][指令][Zephyr]8s_Kk(0):/C 562
+[12:3:54][指令][R_ST]FunnySnake1111(8):/C 411
+[12:4:0][指令][R_ST]FunnySnake1111(8):/r s Misc
+[12:4:4][指令][R_ST]FunnySnake1111(8):/r s
+[12:7:1][指令][R_ST]Hygen(9):/t goto 8
+[12:7:10][指令][R_ST]Hygen(9):/djs
+[12:7:17][指令][R_ST]Hygen(9):/c 411
+[12:7:19][指令][R_ST]FunnySnake1111(8):/r l
+[12:7:22][指令][R_ST]FunnySnake1111(8):/t 1
+[12:7:49][指令][R_ST]FunnySnake1111(8):/r s Misc
+[12:7:55][指令][R_ST]FunnySnake1111(8):/r l
+[12:8:7][指令][R_ST]FunnySnake1111(8):/DJS
+[12:8:8][指令][R_ST]Hygen(9):/r j 8
+[12:8:14][指令][R_ST]Hygen(9):/t goto 8
+[12:8:48][指令][R_ST]Hygen(9):/t goto 8
+[12:9:12][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:9:49][指令][R_ST]Hygen(9):/wuqi
+[12:10:28][指令][R_ST]Hygen(9):/sz
+[12:10:34][指令][R_ST]Hygen(9):/kgobj
+[12:10:36][指令][R_ST]Hygen(9):/kgobj
+[12:10:50][指令][R_ST]Hygen(9):/kgobj
+[12:10:53][指令][R_ST]Hygen(9):/kgobj
+[12:10:54][指令][R_ST]Hygen(9):/sz
+[12:11:18][指令][R_ST]FunnySnake1111(8):/wudi
+[12:11:58][指令][R_ST]Hygen(9):/c 411
+[12:12:0][指令][R_ST]Hygen(9):/r s 
+[12:12:12][指令][R_ST]Hygen(9):/wdac
+[12:12:43][指令][R_ST]Hygen(9):/wdac
+[12:12:51][指令][R_ST]Hygen(9):/wdac
+[12:13:6][指令][R_ST]Hygen(9):/wdac
+[12:15:12][指令][R_ST]Hygen(9):/djs
+[12:15:35][指令][R_ST]Hygen(9):/wdzb
+[12:15:41][指令][R_ST]Hygen(9):/wdzb
+[12:15:55][指令][R_ST]FunnySnake1111(8):/DJS
+[12:15:56][指令][R_ST]FunnySnake1111(8):/HELP
+[12:16:0][指令][R_ST]FunnySnake1111(8):/help
+[12:16:3][指令][R_ST]FunnySnake1111(8):/help
+[12:16:8][指令][R_ST]FunnySnake1111(8):/WDAC
+[12:17:24][指令][R_ST]Hygen(9):/c 411
+[12:17:26][指令][R_ST]Hygen(9):/c 562
+[12:17:36][指令][R_ST]Hygen(9):/r s
+[12:17:43][指令][R_ST]Hygen(9):/r s
+[12:19:35][指令][R_ST]FunnySnake1111(8):/skin 0
+[12:19:43][指令][R_ST]FunnySnake1111(8):/skin 230
+[12:19:46][指令][R_ST]FunnySnake1111(8):/skin 140
+[12:19:48][指令][R_ST]FunnySnake1111(8):/skin 120
+[12:19:52][指令][R_ST]FunnySnake1111(8):/skin 2
+[12:20:53][指令][R_ST]Hygen(9):/c
+[12:20:58][指令][R_ST]Hygen(9):/c 522
+[12:20:59][指令][R_ST]Hygen(9):/c 3d
+[12:21:7][指令][R_ST]FunnySnake1111(8):/C 520
+[12:21:11][指令][R_ST]FunnySnake1111(8):/C 523
+[12:21:12][指令][R_ST]Hygen(9):/c 3d
+[12:21:14][指令][R_ST]Hygen(9):/c 3d
+[12:21:15][指令][R_ST]FunnySnake1111(8):/C 522
+[12:21:35][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:21:53][指令][R_ST]FunnySnake1111(8):/C 411
+[12:21:58][指令][R_ST]Hygen(9):/c 411
+[12:21:58][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:22:0][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:22:1][指令][R_ST]Hygen(9):/c 3d
+[12:22:3][指令][R_ST]Hygen(9):/sz
+[12:22:7][指令][R_ST]Hygen(9):/sz
+[12:22:13][指令][R_ST]Hygen(9):/c 3d
+[12:22:36][指令][R_ST]FunnySnake1111(8):/C 522
+[12:22:38][指令][R_ST]FunnySnake1111(8):/C 411
+[12:23:14][指令][R_ST]Hygen(9):/sz
+[12:23:16][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:23:19][指令][R_ST]Hygen(9):/sz
+[12:23:25][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:23:26][指令][R_ST]FunnySnake1111(8):/C 3D
+[12:23:36][指令][R_ST]FunnySnake1111(8):/SKIN 0
+[12:24:58][指令][R_ST]Hygen(9):/c 411
+[12:25:0][指令][R_ST]Hygen(9):/r s
+[12:25:7][指令][R_ST]Hygen(9):/r s DiRT2
+[12:25:12][指令][R_ST]FunnySnake1111(8):/C 411
+[12:25:13][指令][R_ST]FunnySnake1111(8):/r j 9
+[12:25:17][指令][R_ST]Hygen(9):/r s
+[12:28:19][指令][R_ST]Hygen(9):/kill
+[12:29:7][指令][R_ST]Hygen(9):/r s DiRT2
+[12:29:9][指令][R_ST]FunnySnake1111(8):/C 411
+[12:29:11][指令][R_ST]FunnySnake1111(8):/r j 9
+[12:29:38][指令][R_ST]Hygen(9):/r l
+[12:29:40][指令][R_ST]Hygen(9):/r s 
+[12:29:44][指令][R_ST]Hygen(9):/r s DiRT3
+[12:29:47][指令][R_ST]FunnySnake1111(8):/r j 9
+[12:29:53][指令][R_ST]Hygen(9):/r s
+[12:33:30][指令][R_ST]Hygen(9):/r s 
+[12:34:0][指令][R_ST]Hygen(9):/t goto 8
+[12:34:7][指令][R_ST]Hygen(9):/tv 1
+[12:34:9][指令][R_ST]Hygen(9):/tv off
+[12:34:11][指令][R_ST]Hygen(9):/t goto 8
+[12:34:35][指令][R_ST]Hygen(9):/wuqi
+[12:34:39][指令][R_ST]Hygen(9):/wuqi
+[12:34:43][指令][R_ST]Hygen(9):/wuqi
+[12:36:16][指令][R_ST]Hygen(9):/wuqi
+[12:36:29][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:36:40][指令][R_ST]FunnySnake1111(8):/C 141
+[12:36:41][指令][R_ST]FunnySnake1111(8):/C 411
+[12:38:15][指令][R_ST]Hygen(9):/wuqi
+[12:38:51][指令][R_ST]FunnySnake1111(8):/r s Misc
+[12:40:42][指令][R_ST]FunnySnake1111(8):/wdsz
+[12:40:46][指令][R_ST]FunnySnake1111(8):/sz
+[12:40:51][指令][R_ST]FunnySnake1111(8):/wdsz
+[12:43:59][指令][R_ST]FunnySnake1111(8):/wUQI
+[12:46:6][指令][R_ST]Hygen(9):/t goto 8
+[12:46:44][指令][R_ST]Hygen(9):/t goto 8
+[12:47:34][指令][R_ST]Hygen(9):/t goto 8
+[12:48:16][指令][R_ST]FunnySnake1111(8):/c 411
+[12:49:41][指令][R_ST]FunnySnake1111(8):/t goto 9
+[12:50:47][指令][R_ST]Hygen(9):/wuqi
+[12:50:50][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:51:23][指令][R_ST]FunnySnake1111(8):/wuqi
+[12:51:34][指令][R_ST]FunnySnake1111(8):/wuqi
+[12:51:52][指令][R_ST]Hygen(9):/wuqi
+[12:51:53][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:52:17][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:52:26][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:52:43][指令][R_ST]Hygen(9):/wuqi
+[12:52:49][指令][R_ST]Hygen(9):/wuqi
+[12:53:17][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:53:40][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:54:19][指令][R_ST]FunnySnake1111(8):/WUQI
+[12:55:46][指令][R_ST]Hygen(9):/gmx
+[12:56:30][指令][R_ST]Hygen(9):/wuqi
+[12:56:39][指令][R_ST]Hygen(9):/t goto 8
+[12:56:40][指令][R_ST]Hygen(9):/wuqi
+[12:56:45][指令][R_ST]Hygen(9):/wuqi
+[12:57:37][指令][R_ST]FunnySnake1111(8):/WUQI
+[13:2:21][指令][R_ST]Hygen(9):/t goto 8
+[13:2:22][指令][R_ST]Hygen(9):/gmx
+[13:3:7][指令][R_ST]FunnySnake1111(8):/wuqi
+[13:3:13][指令][R_ST]Hygen(9):/t goto 8
+[13:3:36][指令][R_ST]Hygen(9):/fxq
+[13:3:55][指令][R_ST]FunnySnake1111(8):/FXQ
+[13:3:57][指令][R_ST]Hygen(9):/wuqi
+[13:4:23][指令][R_ST]FunnySnake1111(8):/WUQI
+[13:4:45][指令][R_ST]FunnySnake1111(8):/WUQI
+[13:5:7][指令][R_ST]Hygen(9):/c 411
+[13:5:19][指令][R_ST]Hygen(9):/wuqi
+[13:5:44][指令][R_ST]Hygen(9):/c 411
+[13:5:55][指令][R_ST]Hygen(9):/r s 
+[13:5:56][指令][R_ST]Hygen(9):/r s 5Round
+[13:5:57][指令][R_ST]Hygen(9):/r l
+[13:5:59][指令][R_ST]FunnySnake1111(8):/C 411
+[13:6:2][指令][R_ST]FunnySnake1111(8):/r j 9
+[13:6:2][指令][R_ST]Hygen(9):/t goto 8
+[13:6:46][指令][R_ST]FunnySnake1111(8):/t goto 9
+[13:6:47][指令][R_ST]Hygen(9):/t goto 8
+[13:6:48][指令][R_ST]Hygen(9):/sz
+[13:7:17][指令][R_ST]Hygen(9):/sz
+[13:7:21][指令][R_ST]Hygen(9):/sz
+[13:7:27][指令][R_ST]Hygen(9):/sz
+[13:7:37][指令][R_ST]Hygen(9):/sz
+[13:7:46][指令][R_ST]Hygen(9):/sz
+[13:8:1][指令][R_ST]Hygen(9):/sz
+[13:8:48][指令][R_ST]Hygen(9):/sz
+[13:9:0][指令][R_ST]FunnySnake1111(8):/SZ
+[13:9:23][指令][R_ST]FunnySnake1111(8):/sz
+[13:11:51][指令][R_ST]FunnySnake1111(8):/WUQI
+[13:12:48][指令][R_ST]Hygen(9):/c 522
+[13:12:54][指令][R_ST]Hygen(9):/wuqi
+[13:13:6][指令][R_ST]FunnySnake1111(8):/SZ
+[13:13:9][指令][R_ST]FunnySnake1111(8):/sz
+[13:13:35][指令][R_ST]FunnySnake1111(8):/sz
+[13:53:2][指令]husky(8):/help
+[13:53:11][指令]husky(8):/SOUND1
+[13:53:17][指令]husky(8):/C 411
+[13:53:29][指令]husky(8):/r s FollowMe2
+[13:53:33][指令]husky(8):/r s
+[13:54:2][指令]WINADOIASNDF2(9):/sz
+[13:54:6][指令]WINADOIASNDF2(9):/time 20 0
+[13:54:6][指令]WINADOIASNDF2(9):/sz
+[13:54:10][指令]WINADOIASNDF2(9):/sz
+[13:54:13][指令]WINADOIASNDF2(9):/tianqi 13
+[13:54:13][指令]WINADOIASNDF2(9):/sz
+[13:54:17][指令]WINADOIASNDF2(9):/tianqi 14
+[13:54:17][指令]WINADOIASNDF2(9):/sz
+[13:54:25][指令]WINADOIASNDF2(9):/sz
+[13:54:31][指令]WINADOIASNDF2(9):/c 411
+[13:54:37][指令]WINADOIASNDF2(9):/infobj
+[13:54:38][指令]husky(8):/r l
+[13:54:41][指令]WINADOIASNDF2(9):/r s FollowMe2
+[13:54:48][指令]WINADOIASNDF2(9):/r l
+[13:54:54][指令]WINADOIASNDF2(9):/r s FollowMe2
+[13:55:0][指令]husky(8):/r j 9
+[13:55:5][指令]WINADOIASNDF2(9):/r s
+[21:40:1][指令][R_ST]Hygen(8):/camera
+[22:48:21][指令]EmotionaI(8):/c 562
+[22:48:27][指令]EmotionaI(8):/c 411
+[22:48:33][指令]EmotionaI(8):/r s SFxLs
+[22:48:39][指令]EmotionaI(8):/r s SFxLS
+[22:48:41][指令]EmotionaI(8):/r s
+[22:51:31][指令]zyh6666(8):/SZ
+[22:52:11][指令]zyh6666(8):/sz
+[22:52:20][指令]zyh6666(8):/c 411
+[22:52:27][指令]zyh6666(8):/r s SFxLS
+[22:52:28][指令]zyh6666(8):/r s
+[22:53:7][指令]zyh6666(8):/r s FollowMe
+[22:53:9][指令]zyh6666(8):/r s
+[22:53:23][指令]zyh6666(8):/r l
+[22:53:27][指令]zyh6666(8):/r s FollowMe2
+[22:53:28][指令]zyh6666(8):/r s
+[22:57:7][指令]zyh6666(8):/c 411
+[23:1:51][指令]zyh6666(8):/c 411
+[23:2:27][指令]zyh6666(8):/r s SFxLS
+[23:2:28][指令]zyh6666(8):/R S
+[23:2:29][指令]zyh6666(8):/r s
+[23:6:22][指令]zyh6666(8):/r s SFxLS
+[23:6:23][指令]zyh6666(8):/r s
+[23:9:58][指令]zyh6666(8):/C 411
+[23:10:8][指令]zyh6666(8):/r s SFxLS
+[23:10:14][指令]zyh6666(8):/R L
+[23:10:18][指令]zyh6666(8):/r l
+[23:10:24][指令]zyh6666(8):/sz
+[23:10:32][指令]zyh6666(8):/sz
+[23:10:35][指令]zyh6666(8):/time 20 0
+[23:10:35][指令]zyh6666(8):/sz
+[23:10:45][指令]zyh6666(8):/tianqi 15
+[23:10:45][指令]zyh6666(8):/sz
+[23:12:40][指令]zyh6666(8):/r s SFxLS
+[23:12:41][指令]zyh6666(8):/r s
+[23:16:39][指令]zyh6666(8):/r s SFxLS
+[23:16:41][指令]zyh6666(8):/r s

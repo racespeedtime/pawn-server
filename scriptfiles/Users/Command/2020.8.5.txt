@@ -1,0 +1,40 @@
+[9:30:39][指令][R_ST]peretDK(10):/sz
+[9:31:13][指令][R_ST]peretDK(10):/sz
+[9:31:24][指令][R_ST]peretDK(10):/aczb
+[9:31:28][指令][R_ST]peretDK(10):/wdac
+[9:31:39][指令][R_ST]peretDK(10):/wdac
+[9:31:46][指令][R_ST]peretDK(10):/aczb
+[9:31:58][指令][R_ST]peretDK(10):/wdac
+[9:32:3][指令][R_ST]peretDK(10):/sz
+[9:32:6][指令][R_ST]peretDK(10):/kgobj
+[9:32:7][指令][R_ST]peretDK(10):/sz
+[9:32:20][指令][R_ST]peretDK(10):/wdac
+[9:32:28][指令][R_ST]peretDK(10):/aczb
+[9:32:38][指令][R_ST]peretDK(10):/aczb
+[9:32:44][指令][R_ST]peretDK(10):/sz
+[9:32:48][指令][R_ST]peretDK(10):/kgobj
+[9:32:53][指令][R_ST]peretDK(10):/sz
+[9:34:30][指令][R_ST]peretDK(10):/wdac
+[9:35:7][指令][R_ST]peretDK(10):/wdac
+[9:35:25][指令][R_ST]peretDK(10):/wdac
+[9:35:32][指令][R_ST]peretDK(10):/wdac
+[9:35:42][指令][R_ST]peretDK(10):/sz
+[9:35:44][指令][R_ST]peretDK(10):/kgobj
+[9:35:45][指令][R_ST]peretDK(10):/sz
+[9:36:14][指令][R_ST]peretDK(10):/wdac
+[9:36:30][指令][R_ST]peretDK(10):/wdac
+[9:36:41][指令][R_ST]peretDK(10):/wdac
+[9:37:50][指令][R_ST]peretDK(10):/sz
+[9:37:54][指令][R_ST]peretDK(10):/kgobj
+[9:37:55][指令][R_ST]peretDK(10):/sz
+[9:38:27][指令][R_ST]peretDK(10):/sz
+[9:38:55][指令][R_ST]peretDK(10):/aczb
+[9:39:18][指令][R_ST]peretDK(10):/aczb
+[22:33:34][指令]HazelnutR(10):/c 560
+[22:36:50][指令]Coid(9):/C 411
+[22:36:59][指令]Coid(9):/C 411
+[22:37:5][指令]Coid(9):/C 451
+[22:39:38][指令]Hunt_(9):/c 562
+[22:40:42][指令]HazelnutR(10):/c 562
+[22:41:38][指令]Coid(11):/c 411
+[22:41:45][指令]Coid(11):/c 411

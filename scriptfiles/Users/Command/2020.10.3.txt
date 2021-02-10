@@ -1,0 +1,51 @@
+[10:1:28][指令][R_ST]Amouons(8):/kgobj
+[10:1:31][指令][R_ST]Amouons(8):/sdb
+[10:1:37][指令][R_ST]Amouons(8):/sdb
+[10:1:40][指令][R_ST]Amouons(8):/kgobj
+[10:1:44][指令][R_ST]Amouons(8):/c 562
+[10:1:47][指令][R_ST]Amouons(8):/c color 1 1
+[11:34:30][指令][R_ST]Amouons(8):/ww
+[11:34:34][指令][R_ST]Amouons(8):/c 562
+[11:34:38][指令][R_ST]Amouons(8):/c color 0 0
+[11:46:29][指令][R_ST]Amouons(8):/ww
+[11:46:35][指令][R_ST]Amouons(8):/c 562
+[11:46:39][指令][R_ST]Amouons(8):/cc 0 0
+[13:18:40][指令]HazelnutR(8):/c 602
+[13:21:15][指令]HazelnutR(8):/c 559
+[13:22:51][指令]HazelnutR(8):/c 602
+[13:24:2][指令]HazelnutR(8):/time
+[13:24:6][指令]HazelnutR(8):/time 03
+[13:24:30][指令]HazelnutR(8):/time 23 34
+[13:25:27][指令]HazelnutR(8):/f
+[13:49:57][指令]HazelnutR(8):/c 602
+[13:52:41][指令]HazelnutR(8):/f
+[14:37:9][指令]TAHSNss(8):/c 562
+[14:41:58][指令]TAHSNss(8):/c 411
+[14:43:52][指令]TAHSNss(8):/c 411
+[14:43:55][指令]TAHSNss(8):/c 511
+[14:43:58][指令]TAHSNss(8):/c 566
+[14:45:23][指令]TAHSNss(8):/c 599
+[14:46:28][指令]HazelnutR(9):/c 602
+[14:50:51][指令]HazelnutR(9):/cc
+[14:50:54][指令]HazelnutR(9):/cc 1
+[14:51:0][指令]HazelnutR(9):/cc 2
+[14:51:6][指令]HazelnutR(9):/cc white
+[14:51:12][指令]HazelnutR(9):/c 602
+[14:55:38][指令]TAHSNss(8):/c 562
+[14:56:19][指令]HazelnutR(9):/c 562
+[14:59:48][指令]TAHSNss(8):/c 522
+[14:59:52][指令]TAHSNss(8):/c 520
+[15:0:36][指令]TAHSNss(8):/c 562
+[15:0:41][指令]TAHSNss(8):/c 522
+[15:0:43][指令]TAHSNss(8):/c 520
+[15:0:51][指令]TAHSNss(8):/c 562
+[17:39:30][指令]HazelnutR(8):/c 602
+[17:45:0][指令]HazelnutR(8):/c 561
+[17:45:24][指令]HazelnutR(8):/c 561
+[17:48:23][指令]HazelnutR(8):/c 561
+[17:57:47][指令]HazelnutR(8):/c 562
+[18:1:5][指令]HazelnutR(8):/c 560
+[18:2:2][指令]HazelnutR(8):/c 402
+[18:13:26][指令]HazelnutR(8):/c 400
+[18:16:1][指令]HazelnutR(8):/time 12 12
+[18:16:56][指令]HazelnutR(8):/c 561

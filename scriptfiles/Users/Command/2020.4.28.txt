@@ -1,0 +1,184 @@
+[9:15:19][指令][R_omantic]AsK(8):/c 411
+[9:15:21][指令][R_omantic]AsK(8):/c color 1 1
+[9:17:20][指令][R_omantic]AsK(8):/w 2
+[9:18:3][指令][R_omantic]AsK(8):/r s Misc
+[9:18:25][指令][R_omantic]AsK(8):/r s
+[9:18:46][指令][R_omantic]AsK(8):/r leave
+[9:18:48][指令][R_omantic]AsK(8):/r s Misc
+[9:18:50][指令][R_omantic]AsK(8):/r s
+[9:19:4][指令][R_omantic]AsK(8):/r leave
+[9:19:8][指令][R_omantic]AsK(8):/r s
+[9:19:23][指令][R_omantic]AsK(8):/r s
+[9:20:2][指令][R_omantic]AsK(8):/r s WorldRallyChampion
+[9:20:14][指令][R_omantic]AsK(8):/r s
+[9:20:46][指令][R_omantic]AsK(8):/r leave
+[9:20:49][指令][R_omantic]AsK(8):/r s
+[9:20:51][指令][R_omantic]AsK(8):/r s WorldRallyChampion
+[9:21:2][指令][R_omantic]AsK(8):/r s
+[12:28:6][指令][R_ST]Denver(8):/c 562
+[12:49:38][指令][R_ST]Denver(8):/cc 0 0\
+[12:49:40][指令][R_ST]Denver(8):/cc 0 0
+[12:53:30][指令][R_ST]Denver(8):/wdsz
+[12:53:34][指令][R_ST]Denver(8):/wdsz
+[12:53:39][指令][R_ST]Denver(8):/sz
+[12:53:41][指令][R_ST]Denver(8):/help
+[12:53:49][指令][R_ST]Denver(8):/kgobj
+[12:53:54][指令][R_ST]Denver(8):/c
+[12:53:58][指令][R_ST]Denver(8):/help
+[12:54:0][指令][R_ST]Denver(8):/c help
+[12:54:5][指令][R_ST]Denver(8):/c 562
+[12:54:8][指令][R_ST]Denver(8):/c 562
+[20:25:52][指令][R_omantic]AsK(8):/c 411
+[20:26:9][指令][R_omantic]AsK(8):/c color 1 1
+[20:33:8][指令][R_omantic]AsK(8):/r s WorldRallyChampion
+[20:33:10][指令][R_omantic]AsK(8):/r s
+[20:41:8][指令][R_omantic]AsK(8):/r leave
+[20:41:43][指令][R_omantic]AsK(8):/c 411
+[21:7:17][指令][R_ST]Denver(8):/c 562
+[21:7:21][指令][R_ST]Denver(8):/cc 0 3
+[21:7:25][指令][R_ST]Denver(8):/tianqi 14
+[21:7:27][指令][R_ST]Denver(8):/time 12
+[21:7:38][指令][R_ST]Denver(8):/time 7 7 7
+[21:8:42][指令][R_ST]Denver(8):/s
+[21:8:43][指令][R_ST]Denver(8):/l
+[21:9:57][指令][R_ST]Denver(8):/l
+[21:10:28][指令][R_ST]Denver(8):/l
+[21:10:40][指令][R_ST]Denver(8):/l
+[21:11:0][指令][R_ST]Denver(8):/l
+[21:11:28][指令][R_ST]Denver(8):/l
+[21:11:39][指令][R_ST]Denver(8):/l
+[21:12:21][指令][R_ST]Denver(8):/l
+[21:12:44][指令][R_ST]Denver(8):/l
+[21:13:1][指令][R_ST]Denver(8):/l
+[21:13:47][指令][R_ST]Denver(8):/l
+[21:14:13][指令][R_ST]Denver(8):/l
+[21:14:23][指令][R_ST]Denver(8):/l
+[21:15:14][指令][R_ST]Denver(8):/l
+[21:15:46][指令][R_ST]Denver(8):/l
+[21:16:13][指令][R_ST]Denver(8):/l
+[21:16:43][指令][R_ST]Denver(8):/l
+[21:17:0][指令][R_ST]Denver(8):/l
+[21:17:27][指令][R_ST]Denver(8):/l
+[21:18:3][指令][R_ST]Denver(8):/l
+[21:18:14][指令][R_ST]Denver(8):/l
+[21:18:26][指令][R_ST]Denver(8):/l
+[21:18:56][指令][R_ST]Denver(8):/l
+[21:19:6][指令][R_ST]Denver(8):/l
+[21:19:33][指令][R_ST]Denver(8):/l
+[21:20:1][指令][R_ST]Denver(8):/l
+[21:20:16][指令][R_ST]Denver(8):/l
+[21:21:6][指令][R_ST]Denver(8):/l
+[21:21:25][指令][R_ST]Denver(8):/l
+[21:21:38][指令][R_ST]Denver(8):/l
+[21:22:14][指令][R_ST]Denver(8):/l
+[21:22:42][指令][R_ST]Denver(8):/l
+[21:22:58][指令][R_ST]Denver(8):/l
+[21:23:26][指令][R_ST]Denver(8):/l
+[21:23:43][指令][R_ST]Denver(8):/l
+[21:24:14][指令][R_ST]Denver(8):/l
+[21:24:24][指令][R_ST]Denver(8):/l
+[21:24:35][指令][R_ST]Denver(8):/l
+[21:24:53][指令][R_ST]Denver(8):/l
+[21:25:35][指令][R_ST]Denver(8):/l
+[21:25:45][指令][R_ST]Denver(8):/l
+[21:25:50][指令][R_ST]Denver(8):/tianqi 1
+[21:26:14][指令][R_ST]Denver(8):/tianqi 1
+[21:26:15][指令][R_ST]Denver(8):/l
+[21:26:46][指令][R_ST]Denver(8):/l
+[21:26:59][指令][R_ST]Denver(8):/l
+[21:27:37][指令][R_ST]Denver(8):/l
+[21:27:49][指令][R_ST]Denver(8):/l
+[21:28:11][指令][R_ST]Denver(8):/l
+[21:28:21][指令][R_ST]Denver(8):/l
+[21:28:37][指令][R_ST]Denver(8):/l
+[21:29:5][指令][R_ST]Denver(8):/l
+[21:29:41][指令][R_ST]Denver(8):/l
+[21:29:58][指令][R_ST]Denver(8):/l
+[21:30:15][指令][R_ST]Denver(8):/l
+[21:30:19][指令][R_ST]Denver(8):/l
+[21:30:39][指令][R_ST]Denver(8):/l
+[21:31:10][指令][R_ST]Denver(8):/l
+[21:31:48][指令][R_ST]Denver(8):/l
+[21:31:58][指令][R_ST]Denver(8):/l
+[21:32:34][指令][R_ST]Denver(8):/l
+[21:33:14][指令][R_ST]Denver(8):/l
+[21:33:46][指令][R_ST]Denver(8):/l
+[21:33:56][指令][R_ST]Denver(8):/l
+[21:34:12][指令][R_ST]Denver(8):/l
+[21:34:22][指令][R_ST]Denver(8):/l
+[21:39:57][指令][R_ST]Denver(8):/l
+[21:40:12][指令][R_ST]Denver(8):/l
+[21:40:29][指令][R_ST]Denver(8):/l
+[21:40:47][指令][R_ST]Denver(8):/l
+[21:40:57][指令][R_ST]Denver(8):/l
+[21:41:12][指令][R_ST]Denver(8):/l
+[21:41:33][指令][R_ST]Denver(8):/l
+[21:41:49][指令][R_ST]Denver(8):/l
+[21:41:59][指令][R_ST]Denver(8):/l
+[21:42:18][指令][R_ST]Denver(8):/l
+[21:42:56][指令][R_ST]Denver(8):/l
+[21:43:9][指令][R_ST]Denver(8):/l
+[21:43:41][指令][R_ST]Denver(8):/l
+[21:44:2][指令][R_ST]Denver(8):/l
+[21:44:11][指令][R_ST]Denver(8):/l
+[21:44:43][指令][R_ST]Denver(8):/l
+[21:44:52][指令][R_ST]Denver(8):/l
+[21:45:5][指令][R_ST]Denver(8):/l
+[21:45:19][指令][R_ST]Denver(8):/l
+[21:45:21][指令][R_ST]Denver(8):/l
+[21:45:40][指令][R_ST]Denver(8):/l
+[21:45:53][指令][R_ST]Denver(8):/l
+[21:46:26][指令][R_ST]Denver(8):/l
+[21:46:36][指令][R_ST]Denver(8):/l
+[21:47:18][指令][R_ST]Denver(8):/l
+[21:47:45][指令][R_ST]Denver(8):/l
+[21:47:55][指令][R_ST]Denver(8):/l
+[21:48:21][指令][R_ST]Denver(8):/l
+[21:48:45][指令][R_ST]Denver(8):/l
+[21:49:22][指令][R_ST]Denver(8):/l
+[21:49:39][指令][R_ST]Denver(8):/l
+[21:49:56][指令][R_ST]Denver(8):/l
+[21:50:13][指令][R_ST]Denver(8):/l
+[21:50:40][指令][R_ST]Denver(8):/l
+[21:50:50][指令][R_ST]Denver(8):/l
+[21:51:11][指令][R_ST]Denver(8):/l
+[21:51:40][指令][R_ST]Denver(8):/l
+[21:52:35][指令][R_ST]Denver(8):/l
+[21:52:48][指令][R_ST]Denver(8):/l
+[21:53:5][指令][R_ST]Denver(8):/l
+[21:53:15][指令][R_ST]Denver(8):/l
+[21:53:31][指令][R_ST]Denver(8):/l
+[21:54:11][指令][R_ST]Denver(8):/l
+[21:54:22][指令][R_ST]Denver(8):/l
+[21:54:33][指令][R_ST]Denver(8):/l
+[21:54:43][指令][R_ST]Denver(8):/l
+[21:54:56][指令][R_ST]Denver(8):/l
+[21:55:9][指令][R_ST]Denver(8):/l
+[21:55:19][指令][R_ST]Denver(8):/l
+[21:55:43][指令][R_ST]Denver(8):/l
+[21:55:54][指令][R_ST]Denver(8):/l
+[21:56:12][指令][R_ST]Denver(8):/l
+[21:56:22][指令][R_ST]Denver(8):/l
+[21:56:38][指令][R_ST]Denver(8):/l
+[21:56:48][指令][R_ST]Denver(8):/l
+[21:57:32][指令][R_ST]Denver(8):/l
+[21:57:42][指令][R_ST]Denver(8):/l
+[21:57:53][指令][R_ST]Denver(8):/l
+[21:58:12][指令][R_ST]Denver(8):/l
+[21:58:36][指令][R_ST]Denver(8):/l
+[21:59:14][指令][R_ST]Denver(8):/l
+[21:59:39][指令][R_ST]Denver(8):/l
+[22:0:7][指令][R_ST]Denver(8):/l
+[22:0:37][指令][R_ST]Denver(8):/l
+[22:0:51][指令][R_ST]Denver(8):/l
+[22:1:14][指令][R_ST]Denver(8):/l
+[22:1:24][指令][R_ST]Denver(8):/l
+[22:1:36][指令][R_ST]Denver(8):/l
+[22:2:12][指令][R_ST]Denver(8):/l
+[22:2:22][指令][R_ST]Denver(8):/l
+[22:2:49][指令][R_ST]Denver(8):/l
+[22:2:59][指令][R_ST]Denver(8):/l
+[22:3:12][指令][R_ST]Denver(8):/l
+[22:3:39][指令][R_ST]Denver(8):/l
+[22:4:32][指令][R_ST]Denver(8):/l
+[22:4:42][指令][R_ST]Denver(8):/l

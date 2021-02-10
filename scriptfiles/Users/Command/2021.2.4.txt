@@ -1,0 +1,86 @@
+[2:7:59][指令][R_ST]ArvinJM(0):/C 562
+[2:8:3][指令][R_ST]ArvinJM(0):/C COLOR 0 0
+[2:9:56][指令][R_ST]ArvinJM(0):/FIX
+[2:9:59][指令][R_ST]ArvinJM(0):/SZ
+[2:10:4][指令][R_ST]ArvinJM(0):/dcar
+[2:10:4][指令][R_ST]ArvinJM(0):/sz
+[2:11:6][指令][R_ST]ArvinJM(0):/S
+[2:11:8][指令][R_ST]ArvinJM(0):/L
+[2:11:24][指令][R_ST]ArvinJM(0):/L
+[2:11:38][指令][R_ST]ArvinJM(0):/L
+[2:12:10][指令][R_ST]ArvinJM(0):/L
+[2:13:20][指令][R_ST]ArvinJM(0):/C 562
+[2:13:25][指令][R_ST]ArvinJM(0):/C COLOR 1 1
+[2:13:28][指令][R_ST]ArvinJM(0):/KILL
+[2:13:32][指令][R_ST]ArvinJM(0):/C 562
+[2:13:34][指令][R_ST]ArvinJM(0):/C COLOR 0 0
+[2:13:48][指令][R_ST]ArvinJM(0):/KILL
+[2:13:51][指令][R_ST]ArvinJM(0):/C 562
+[2:13:54][指令][R_ST]ArvinJM(0):/C COLOR 1 1
+[2:13:58][指令][R_ST]ArvinJM(0):/C COLOR 0 0
+[2:17:12][指令][R_ST]ArvinJM(0):/C 550
+[2:18:17][指令][R_ST]ArvinJM(0):/SZ
+[2:18:21][指令][R_ST]ArvinJM(0):/time 0 0
+[2:18:21][指令][R_ST]ArvinJM(0):/sz
+[2:20:1][指令][R_ST]ArvinJM(0):/KILL
+[10:27:51][指令]Harland_Mio(0):/c 562
+[10:27:54][指令]Harland_Mio(0):/cc 1
+[10:27:57][指令]Harland_Mio(0):/cc 1 1
+[10:28:7][指令]Harland_Mio(0):/help
+[10:29:51][指令][R_ST]Hygen(9):/help
+[10:29:58][指令][R_ST]Hygen(9):/help
+[10:30:4][指令][R_ST]Hygen(9):/help
+[10:30:6][指令][R_ST]Hygen(9):/telemenu
+[10:30:21][指令][R_ST]Hygen(9):/goto 09
+[10:30:22][指令][R_ST]Hygen(9):/goto 0
+[10:30:59][指令][R_ST]Hygen(9):/goto 0
+[10:32:2][指令][R_ST]Harland(0):/c 562
+[10:32:4][指令][R_ST]Harland(0):/cc 1 1
+[10:32:5][指令][R_ST]Hygen(9):/t goto 0
+[10:32:7][指令][R_ST]Hygen(9):/goto 0
+[10:32:18][指令][R_ST]Harland(0):/t yes
+[10:32:39][指令][R_ST]Hygen(9):/t goto 0
+[10:32:41][指令][R_ST]Hygen(9):/t
+[10:32:42][指令][R_ST]Harland(0):/c 411
+[10:32:53][指令][R_ST]Harland(0):/r s Misc
+[10:33:0][指令][R_ST]Hygen(9):/tv 0
+[10:33:5][指令][R_ST]Harland(0):/r l
+[10:33:12][指令][R_ST]Harland(0):/help
+[10:33:19][指令][R_ST]Harland(0):/tianqi 1
+[10:33:21][指令][R_ST]Hygen(9):/sz
+[10:33:22][指令][R_ST]Harland(0):/shijian 12
+[10:33:25][指令][R_ST]Harland(0):/time 12
+[10:33:25][指令][R_ST]Hygen(9):/sz
+[10:33:33][指令][R_ST]Harland(0):/time 12 0 0
+[10:33:35][指令][R_ST]Hygen(9):/sz
+[10:33:37][指令][R_ST]Harland(0):/r s Misc
+[10:33:41][指令][R_ST]Hygen(9):/wdtd
+[10:33:45][指令][R_ST]Hygen(9):/wdtd
+[10:33:52][指令][R_ST]Hygen(9):/wdtd
+[10:33:56][指令][R_ST]Harland(0):/r s
+[10:34:5][指令][R_ST]Harland(0):/r l
+[10:34:6][指令][R_ST]Harland(0):/r s Misc
+[10:34:19][指令][R_ST]Harland(0):/r s
+[10:34:32][指令][R_ST]Harland(0):/r l
+[10:34:40][指令][R_ST]Harland(0):/r s Misc
+[10:34:55][指令][R_ST]Harland(0):/r s
+[10:35:8][指令][R_ST]Harland(0):/r l
+[10:35:13][指令][R_ST]Harland(0):/r s Misc
+[10:35:25][指令][R_ST]Harland(0):/r s
+[10:35:33][指令][R_ST]Harland(0):/r l
+[10:35:34][指令][R_ST]Harland(0):/r s Misc
+[10:35:45][指令][R_ST]Harland(0):/r s
+[10:35:58][指令][R_ST]Harland(0):/r l
+[10:36:0][指令][R_ST]Harland(0):/r s Misc
+[10:36:12][指令][R_ST]Harland(0):/r s
+[10:36:24][指令][R_ST]Harland(0):/r l
+[10:36:25][指令][R_ST]Harland(0):/r s Misc
+[10:36:31][指令][R_ST]Harland(0):/r s
+[10:36:38][指令][R_ST]Harland(0):/r l
+[10:36:41][指令][R_ST]Harland(0):/r s Misc
+[10:36:46][指令][R_ST]Harland(0):/r s
+[10:37:2][指令][R_ST]Harland(0):/r l
+[10:37:16][指令][R_ST]Harland(0):/c 562
+[10:37:21][指令][R_ST]Harland(0):/tianqi 4
+[10:37:25][指令][R_ST]Harland(0):/shijian 0 0 0
+[10:37:30][指令][R_ST]Harland(0):/tianqi 2

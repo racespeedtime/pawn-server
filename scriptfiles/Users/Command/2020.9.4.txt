@@ -1,0 +1,11 @@
+[14:3:45][指令]Zed_99(8):/help
+[21:2:26][指令][R_ST]peretDK(8):/c 562
+[21:2:28][指令][R_ST]peretDK(8):/c c 0 0
+[21:2:31][指令][R_ST]peretDK(8):/c c 0 0
+[21:2:34][指令][R_ST]peretDK(8):/cc 0 0
+[21:6:6][指令][R_ST]peretDK(8):/c 562
+[21:6:8][指令][R_ST]peretDK(8):/cc 0 0
+[21:6:9][指令][R_ST]peretDK(8):/cc 2 2
+[21:6:12][指令][R_ST]peretDK(8):/cc 2 2
+[21:9:59][指令][R_ST]peretDK(8):/c 562
+[21:10:2][指令][R_ST]peretDK(8):/cc 2 2

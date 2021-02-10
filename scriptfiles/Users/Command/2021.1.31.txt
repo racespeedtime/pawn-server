@@ -1,0 +1,13 @@
+[13:19:20][指令]iTzMoonCake(0):/c 562
+[18:26:56][指令][R_ST]JoshenKM(0):/tianqi 14
+[18:26:58][指令][R_ST]JoshenKM(0):/time 8
+[18:27:0][指令][R_ST]JoshenKM(0):/time 80
+[18:27:1][指令][R_ST]JoshenKM(0):/time 8 0
+[18:27:7][指令][R_ST]JoshenKM(0):/c 562
+[18:27:12][指令][R_ST]JoshenKM(0):/kgobj
+[18:27:31][指令][R_ST]JoshenKM(0):/ww
+[18:28:0][指令][R_ST]JoshenKM(0):/c oclor 1 1
+[18:28:3][指令][R_ST]JoshenKM(0):/c color 11 1
+[18:28:47][指令][R_ST]JoshenKM(0):/kgobj
+[18:28:48][指令][R_ST]JoshenKM(0):/w
+[18:32:13][指令][R_ST]JoshenKM(0):/time 6 0

@@ -1,0 +1,552 @@
+[9:15:25][指令]Qian(8):/l 582
+[9:15:30][指令]Qian(8):/c 582
+[9:15:34][指令]Qian(8):/c 482
+[11:36:32][指令][R_ST]JoshenKM(8):/tianqi 14
+[11:36:33][指令][R_ST]JoshenKM(8):/time 8 0
+[11:36:36][指令][R_ST]JoshenKM(8):/c 411
+[11:36:40][指令][R_ST]JoshenKM(8):/cc 1 1
+[11:37:3][指令][R_ST]JoshenKM(8):/time 
+[11:37:5][指令][R_ST]JoshenKM(8):/time 21 0
+[11:37:9][指令][R_ST]JoshenKM(8):/time 8 0
+[11:38:11][指令][R_ST]JoshenKM(8):/time 21 0
+[11:38:24][指令][R_ST]JoshenKM(8):/time 21 0
+[11:38:27][指令][R_ST]JoshenKM(8):/time 6 0
+[11:38:30][指令][R_ST]JoshenKM(8):/time 8 0
+[11:38:32][指令][R_ST]JoshenKM(8):/time 7 0
+[11:38:38][指令][R_ST]JoshenKM(8):/time 24 0
+[11:38:42][指令][R_ST]JoshenKM(8):/time 6 0
+[11:38:43][指令][R_ST]JoshenKM(8):/time 21 0
+[11:39:1][指令][R_ST]JoshenKM(8):/time 8 0
+[11:39:32][指令][R_ST]JoshenKM(8):/c 520
+[11:41:3][指令][R_ST]JoshenKM(8):/c 520
+[11:41:57][指令][R_ST]JoshenKM(8):/time 6 0
+[11:52:0][指令][R_ST]JoshenKM(8):/tianqi 14
+[11:52:2][指令][R_ST]JoshenKM(8):/time 8 0
+[11:52:10][指令][R_ST]JoshenKM(8):/c 520
+[11:53:13][指令][R_ST]JoshenKM(8):/c 411
+[11:53:31][指令][R_ST]JoshenKM(8):/cc 1 1
+[11:53:33][指令][R_ST]JoshenKM(8):/c 487
+[11:53:57][指令][R_ST]JoshenKM(8):/c 411
+[11:54:0][指令][R_ST]JoshenKM(8):/s
+[11:54:10][指令][R_ST]JoshenKM(8):/cc 1 1
+[11:55:8][指令][R_ST]JoshenKM(8):/s
+[11:55:9][指令][R_ST]JoshenKM(8):/c 562
+[11:55:22][指令][R_ST]JoshenKM(8):/time 21 0
+[11:55:24][指令][R_ST]JoshenKM(8):/time 8 0
+[11:55:26][指令][R_ST]JoshenKM(8):/cc 1 1
+[11:55:47][指令][R_ST]JoshenKM(8):/c 411
+[11:55:50][指令][R_ST]JoshenKM(8):/cc 1 1
+[11:57:5][指令][R_ST]JoshenKM(8):/vmake lvsl1
+[11:58:36][指令][R_ST]ArvinJM(8):/c 551
+[11:58:39][指令][R_ST]ArvinJM(8):/cc 1 1
+[11:59:22][指令][R_ST]JoshenKM(9):/tianqi 14 
+[11:59:24][指令][R_ST]JoshenKM(9):/time 8 0
+[11:59:30][指令][R_ST]JoshenKM(9):/c 411
+[11:59:35][指令][R_ST]JoshenKM(9):/cc 1 1
+[11:59:36][指令][R_ST]ArvinJM(8):/cc 1 1
+[12:1:19][指令][R_ST]JoshenKM(9):/time 6 0
+[12:1:23][指令][R_ST]JoshenKM(9):/time 21 0
+[12:1:34][指令][R_ST]JoshenKM(9):/time 8 0
+[12:2:11][指令][R_ST]ArvinJM(8):/C 477
+[12:2:20][指令][R_ST]ArvinJM(8):/C 562
+[12:2:24][指令][R_ST]JoshenKM(9):/c 510
+[12:2:38][指令][R_ST]JoshenKM(9):/time 21 0
+[12:3:2][指令][R_ST]ArvinJM(8):/C 477
+[12:3:4][指令][R_ST]ArvinJM(8):/CC 1 1
+[12:10:42][指令][R_ST]ArvinJM(8):/Sz
+[12:10:43][指令][R_ST]ArvinJM(8):/kgobj
+[12:10:43][指令][R_ST]ArvinJM(8):/sz
+[12:12:42][指令][R_ST]JoshenKM(9):/sz
+[12:12:44][指令][R_ST]JoshenKM(9):/kgobj
+[12:12:44][指令][R_ST]JoshenKM(9):/sz
+[12:12:54][指令][R_ST]JoshenKM(9):/sz
+[12:12:55][指令][R_ST]JoshenKM(9):/kgobj
+[12:12:55][指令][R_ST]JoshenKM(9):/sz
+[12:15:14][指令][R_ST]JoshenKM(9):/s
+[12:16:26][指令][R_ST]JoshenKM(9):/c 411
+[12:16:30][指令][R_ST]JoshenKM(9):/cc 0 0
+[12:16:34][指令][R_ST]JoshenKM(9):/cc 1 1
+[12:16:39][指令][R_ST]JoshenKM(9):/time 8 0
+[12:16:42][指令][R_ST]JoshenKM(9):/c 520
+[12:17:21][指令][R_ST]JoshenKM(9):/c 411
+[12:17:22][指令][R_ST]ArvinJM(8):/t goto 9
+[12:19:56][指令][R_ST]JoshenKM(9):/c 411
+[12:20:14][指令][R_ST]ArvinJM(8):/c 551
+[12:20:16][指令][R_ST]ArvinJM(8):/cc 1 1
+[12:22:59][指令][R_ST]JoshenKM(9):/c 520
+[12:23:23][指令][R_ST]ArvinJM(8):/t goto 9
+[12:23:36][指令][R_ST]JoshenKM(9):/time 21 0
+[12:23:39][指令][R_ST]JoshenKM(9):/time 24 0
+[12:25:38][指令][R_ST]JoshenKM(9):/time 8 0
+[12:25:43][指令][R_ST]JoshenKM(9):/time 8 0
+[12:26:52][指令][R_ST]ArvinJM(8):/s
+[12:27:13][指令][R_ST]JoshenKM(9):/c 411
+[12:27:17][指令][R_ST]JoshenKM(9):/c color 1 0
+[12:28:1][指令][R_ST]JoshenKM(9):/time 21 0
+[12:28:8][指令][R_ST]JoshenKM(9):/time 8 0
+[12:29:2][指令][R_ST]JoshenKM(9):/time 3 1
+[12:29:6][指令][R_ST]JoshenKM(9):/time 6 0
+[12:29:10][指令][R_ST]JoshenKM(9):/time 12 0
+[12:29:12][指令][R_ST]JoshenKM(9):/time 21 0
+[12:29:22][指令][R_ST]JoshenKM(9):/sdb
+[12:29:26][指令][R_ST]JoshenKM(9):/time 8 0
+[12:29:47][指令][R_ST]JoshenKM(9):/time 6 0
+[12:29:57][指令][R_ST]JoshenKM(9):/time 21 0
+[12:30:11][指令][R_ST]JoshenKM(9):/time 8 0
+[12:30:58][指令][R_ST]JoshenKM(9):/time 21 0
+[12:31:4][指令][R_ST]JoshenKM(9):/time 6 0
+[12:31:6][指令][R_ST]JoshenKM(9):/time 21 0
+[12:31:10][指令][R_ST]JoshenKM(9):/time 6 0
+[12:31:16][指令][R_ST]JoshenKM(9):/time 21 0
+[12:31:28][指令][R_ST]JoshenKM(9):/time 8 0
+[12:58:1][指令]ming(8):/help
+[12:58:38][指令][R_ST]ArvinJM(9):/c 551
+[12:59:4][指令][R_ST]ArvinJM(9):/cc 1 1
+[12:59:47][指令]ming(8):/C 477
+[12:59:49][指令]ming(8):/CC 1 1
+[13:0:59][指令][R_ST]ArvinJM(9):/c 551
+[13:1:1][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:3:59][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:4:1][指令][R_ST]JoshenKM(10):/time 8 0
+[13:4:15][指令][R_ST]JoshenKM(10):/c 477
+[13:4:20][指令][R_ST]JoshenKM(10):/time 8 0
+[13:4:22][指令][R_ST]JoshenKM(10):/time 21 0
+[13:4:27][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:5:20][指令][R_ST]JoshenKM(10):/time 8 0
+[13:5:29][指令][R_ST]JoshenKM(10):/time 21 0
+[13:9:55][指令]ming(8):/C 477
+[13:9:56][指令]ming(8):/CC 1 1
+[13:10:24][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:10:27][指令][R_ST]JoshenKM(10):/time 8 0
+[13:10:34][指令][R_ST]JoshenKM(10):/c 411
+[13:10:38][指令][R_ST]JoshenKM(10):/c 477
+[13:10:42][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:10:51][指令][R_ST]JoshenKM(10):/time 12 0
+[13:10:53][指令][R_ST]JoshenKM(10):/time 21 0
+[13:12:0][指令][R_ST]JoshenKM(10):/time 8 0
+[13:12:3][指令][R_ST]JoshenKM(10):/time 6 0
+[13:12:8][指令]ming(8):/help
+[13:12:27][指令]ming(8):/c 477
+[13:12:30][指令]ming(8):/cc 1 1
+[13:12:54][指令][R_ST]JoshenKM(10):/time 8 0
+[13:13:19][指令][R_ST]JoshenKM(10):/c 477
+[13:13:21][指令][R_ST]JoshenKM(10):/c 477
+[13:13:28][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:13:36][指令][R_ST]JoshenKM(10):/time 21 0
+[13:14:0][指令][R_ST]JoshenKM(10):/c 477
+[13:14:4][指令][R_ST]JoshenKM(10):/time 1 1
+[13:14:6][指令][R_ST]JoshenKM(10):/time 6 0
+[13:14:8][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:15:3][指令][R_ST]JoshenKM(10):/c wode
+[13:15:8][指令][R_ST]JoshenKM(10):/time 6 0
+[13:15:10][指令][R_ST]JoshenKM(10):/time 21 0
+[13:15:13][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:16:19][指令][R_ST]JoshenKM(10):/sdb
+[13:16:32][指令][R_ST]JoshenKM(10):/ww
+[13:16:36][指令][R_ST]JoshenKM(10):/w
+[13:16:45][指令][R_ST]JoshenKM(10):/c 477
+[13:16:56][指令][R_ST]JoshenKM(10):/c 511
+[13:16:58][指令][R_ST]JoshenKM(10):/c 517
+[13:17:21][指令][R_ST]JoshenKM(10):/c 551
+[13:17:34][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:17:40][指令][R_ST]JoshenKM(10):/c 477
+[13:17:42][指令][R_ST]JoshenKM(10):/cc 6 1
+[13:17:46][指令][R_ST]JoshenKM(10):/cc 2 1
+[13:17:49][指令]ming(8):/c 477
+[13:17:50][指令][R_ST]JoshenKM(10):/cc 136 1
+[13:17:50][指令]ming(8):/cc 1 1
+[13:17:51][指令][R_ST]JoshenKM(10):/cc 137 1
+[13:17:53][指令][R_ST]JoshenKM(10):/cc 132 1
+[13:17:55][指令][R_ST]JoshenKM(10):/cc 134 1
+[13:17:56][指令][R_ST]JoshenKM(10):/cc 134 1
+[13:19:27][指令][R_ST]JoshenKM(10):/time 8 0
+[13:19:31][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:19:36][指令][R_ST]JoshenKM(10):/c 477
+[13:19:39][指令][R_ST]JoshenKM(10):/c 551
+[13:19:45][指令][R_ST]JoshenKM(10):/cc 126 1
+[13:19:48][指令][R_ST]JoshenKM(10):/cc 137 1
+[13:19:49][指令][R_ST]JoshenKM(10):/cc 10 1
+[13:19:51][指令][R_ST]JoshenKM(10):/cc 11 1
+[13:19:52][指令][R_ST]JoshenKM(10):/cc 12 1
+[13:19:54][指令][R_ST]JoshenKM(10):/cc 13 1
+[13:19:56][指令][R_ST]JoshenKM(10):/cc 14 1
+[13:20:5][指令][R_ST]JoshenKM(10):/time 6 0
+[13:20:10][指令][R_ST]JoshenKM(10):/sdb
+[13:20:13][指令][R_ST]JoshenKM(10):/time 21 0
+[13:21:41][指令][R_ST]JoshenKM(10):/time 6 0
+[13:21:52][指令][R_ST]JoshenKM(10):/tianqi 16
+[13:21:54][指令][R_ST]JoshenKM(10):/time 8 0
+[13:21:56][指令][R_ST]JoshenKM(10):/time 21 0
+[13:22:1][指令][R_ST]JoshenKM(10):/tianqi 13
+[13:22:5][指令][R_ST]JoshenKM(10):/time 8 0
+[13:22:10][指令][R_ST]JoshenKM(10):/time 7 0
+[13:22:13][指令][R_ST]JoshenKM(10):/time 5 0
+[13:22:16][指令]ming(8):/c 477
+[13:22:16][指令][R_ST]JoshenKM(10):/time 1 0
+[13:22:17][指令]ming(8):/cc 1 1
+[13:22:19][指令][R_ST]JoshenKM(10):/time 21 0
+[13:22:23][指令][R_ST]JoshenKM(10):/time 6 0
+[13:22:32][指令][R_ST]JoshenKM(10):/time 21 0
+[13:22:36][指令][R_ST]JoshenKM(10):/time 6 0
+[13:23:18][指令][R_ST]JoshenKM(10):/c wode
+[13:24:50][指令][R_ST]JoshenKM(10):/time 7 0
+[13:25:13][指令][R_ST]JoshenKM(10):/time 6 0
+[13:25:17][指令][R_ST]JoshenKM(10):/sz
+[13:25:19][指令][R_ST]JoshenKM(10):/kgobj
+[13:25:19][指令][R_ST]JoshenKM(10):/sz
+[13:25:24][指令][R_ST]JoshenKM(10):/sz
+[13:25:27][指令][R_ST]JoshenKM(10):/kgobj
+[13:25:27][指令][R_ST]JoshenKM(10):/sz
+[13:26:6][指令][R_ST]JoshenKM(10):/vmake ht
+[13:26:7][指令][R_ST]ArvinJM(9):/t goto 9
+[13:26:17][指令][R_ST]ArvinJM(9):/w
+[13:26:18][指令][R_ST]ArvinJM(9):/ww
+[13:26:20][指令][R_ST]ArvinJM(9):/w 
+[13:26:35][指令][R_ST]ArvinJM(9):/t goto 10
+[13:26:40][指令][R_ST]ArvinJM(9):/c 477
+[13:26:44][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:26:54][指令][R_ST]JoshenKM(10):/time 6 0
+[13:27:24][指令][R_ST]JoshenKM(10):/c 551
+[13:27:29][指令][R_ST]JoshenKM(10):/cc 4 7
+[13:27:31][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:27:32][指令][R_ST]ArvinJM(9):/c 477
+[13:27:35][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:27:40][指令][R_ST]JoshenKM(10):/c 447
+[13:27:41][指令][R_ST]ArvinJM(9):/c 551
+[13:27:42][指令][R_ST]JoshenKM(10):/c 447
+[13:27:43][指令][R_ST]JoshenKM(10):/c 477
+[13:27:45][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:27:49][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:29:5][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:29:7][指令][R_ST]JoshenKM(10):/time 6
+[13:30:16][指令][R_ST]JoshenKM(10):/tp
+[13:30:19][指令][R_ST]JoshenKM(10):/tp 9
+[13:30:21][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:30:24][指令][R_ST]JoshenKM(10):/time 8 0
+[13:30:28][指令][R_ST]JoshenKM(10):/help
+[13:30:34][指令][R_ST]ArvinJM(9):/ta
+[13:30:35][指令][R_ST]JoshenKM(10):/c 477
+[13:30:40][指令][R_ST]JoshenKM(10):/time 6 0
+[13:30:43][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:30:47][指令][R_ST]JoshenKM(10):/cc 1 1
+[13:30:59][指令][R_ST]JoshenKM(10):/cc 14
+[13:31:1][指令][R_ST]JoshenKM(10):/cc 14 1
+[13:31:2][指令][R_ST]JoshenKM(10):/cc 15 1
+[13:31:4][指令][R_ST]JoshenKM(10):/cc 14 1
+[13:31:22][指令][R_ST]JoshenKM(10):/sdb
+[13:31:37][指令][R_ST]JoshenKM(10):/camera
+[13:31:47][指令][R_ST]JoshenKM(10):/camera
+[13:33:4][指令][R_ST]JoshenKM(10):/camera
+[13:33:19][指令][R_ST]JoshenKM(10):/camera
+[13:33:57][指令][R_ST]JoshenKM(10):/camera
+[13:34:22][指令][R_ST]JoshenKM(10):/camera
+[13:34:29][指令][R_ST]JoshenKM(10):/camera
+[13:34:43][指令][R_ST]JoshenKM(10):/help
+[13:34:48][指令][R_ST]JoshenKM(10):/help
+[13:34:52][指令][R_ST]JoshenKM(10):/help
+[13:34:54][指令][R_ST]JoshenKM(10):/help
+[13:34:57][指令][R_ST]JoshenKM(10):/help
+[13:35:54][指令][R_ST]JoshenKM(10):/tianqi 16
+[13:35:57][指令][R_ST]JoshenKM(10):/tianqi 8
+[13:36:2][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:36:4][指令][R_ST]JoshenKM(10):/time 6 0
+[13:36:8][指令][R_ST]JoshenKM(10):/time 21 0
+[13:36:31][指令][R_ST]JoshenKM(10):/time 6 0
+[13:37:51][指令]ming(8):/t goto 8
+[13:37:54][指令]ming(8):/t goto 9
+[13:38:2][指令]ming(8):/t goto 9
+[13:38:12][指令]ming(8):/tp 9
+[13:38:17][指令][R_ST]ArvinJM(9):/ta
+[13:38:24][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:38:28][指令][R_ST]JoshenKM(10):/time 6 0
+[13:38:39][指令][R_ST]JoshenKM(10):/c 411
+[13:38:50][指令][R_ST]JoshenKM(10):/c 477
+[13:39:21][指令][R_ST]JoshenKM(10):/c 541
+[13:40:5][指令][R_ST]JoshenKM(10):/time 6 0
+[13:40:8][指令][R_ST]JoshenKM(10):/time 21 0
+[13:40:33][指令][R_ST]JoshenKM(10):/time 6 0
+[13:40:55][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:40:57][指令][R_ST]JoshenKM(10):/tianqi 15
+[13:41:1][指令]ming(8):/c 477
+[13:41:3][指令]ming(8):/cc 1 1
+[13:41:9][指令][R_ST]JoshenKM(10):/tianqi 13
+[13:41:18][指令][R_ST]JoshenKM(10):/c 510
+[13:41:23][指令]ming(8):/sz
+[13:41:27][指令][R_ST]JoshenKM(10):/tv 9
+[13:41:29][指令][R_ST]JoshenKM(10):/tv 8
+[13:41:32][指令][R_ST]ArvinJM(9):/sz
+[13:41:33][指令][R_ST]JoshenKM(10):/tianqi 14 0
+[13:41:36][指令][R_ST]JoshenKM(10):/time 21
+[13:41:38][指令][R_ST]JoshenKM(10):/time 21 0
+[13:41:41][指令][R_ST]JoshenKM(10):/time 6 0
+[13:42:15][指令][R_ST]JoshenKM(10):/tianqi 10
+[13:42:18][指令][R_ST]JoshenKM(10):/tianqi 1
+[13:42:20][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:42:21][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:42:23][指令][R_ST]JoshenKM(10):/tianqi 4
+[13:42:24][指令][R_ST]JoshenKM(10):/tianqi 5
+[13:42:27][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:42:28][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:42:48][指令][R_ST]JoshenKM(10):/tianqi 7
+[13:42:49][指令][R_ST]JoshenKM(10):/tianqi 8
+[13:42:51][指令][R_ST]JoshenKM(10):/tianqi 9
+[13:42:52][指令][R_ST]JoshenKM(10):/tianqi 10
+[13:42:53][指令][R_ST]JoshenKM(10):/tianqi 11
+[13:42:55][指令][R_ST]JoshenKM(10):/tianqi 12
+[13:42:56][指令][R_ST]JoshenKM(10):/tianqi 11
+[13:42:59][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:43:1][指令][R_ST]JoshenKM(10):/tianqi 11
+[13:43:3][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:43:6][指令][R_ST]JoshenKM(10):/tianqi 8
+[13:43:8][指令][R_ST]JoshenKM(10):/tianqi 9
+[13:43:16][指令][R_ST]JoshenKM(10):/tv 14
+[13:43:18][指令][R_ST]JoshenKM(10):/tv
+[13:43:20][指令][R_ST]JoshenKM(10):/tv off
+[13:43:30][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:43:33][指令][R_ST]JoshenKM(10):/tp 8
+[13:44:52][指令][R_ST]ArvinJM(9):/c 477
+[13:44:54][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:44:56][指令]ming(8):/c 551
+[13:44:58][指令]ming(8):/cc 1 1
+[13:45:5][指令][R_ST]JoshenKM(10):/time 21 0
+[13:45:7][指令][R_ST]JoshenKM(10):/time 6 0
+[13:45:9][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:45:22][指令][R_ST]JoshenKM(10):/sdb
+[13:46:26][指令][R_ST]JoshenKM(10):/time 5
+[13:46:29][指令][R_ST]JoshenKM(10):/tianqi 5
+[13:46:31][指令][R_ST]JoshenKM(10):/tianqi 4
+[13:46:33][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:46:36][指令][R_ST]JoshenKM(10):/tianqi 1
+[13:46:37][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:46:43][指令][R_ST]JoshenKM(10):/time 21
+[13:46:45][指令][R_ST]JoshenKM(10):/time 21 0
+[13:46:47][指令][R_ST]JoshenKM(10):/time 6 0
+[13:46:56][指令][R_ST]JoshenKM(10):/tianqi 6
+[13:46:59][指令][R_ST]JoshenKM(10):/tianqi 4
+[13:47:0][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:47:1][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:47:4][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:47:7][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:47:8][指令][R_ST]JoshenKM(10):/tianqi 4
+[13:47:10][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:50:17][指令][R_ST]ArvinJM(9):/c 551
+[13:50:18][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:50:30][指令][R_ST]ArvinJM(9):/c 477
+[13:50:31][指令][R_ST]ArvinJM(9):/cc 1 1
+[13:51:27][指令][R_ST]JoshenKM(10):/tianqi 14
+[13:51:33][指令][R_ST]JoshenKM(10):/tianqi 4 
+[13:51:37][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:51:39][指令][R_ST]JoshenKM(10):/time 8 0
+[13:51:43][指令][R_ST]JoshenKM(10):/time 21 0 
+[13:51:45][指令][R_ST]JoshenKM(10):/time 6 0 
+[13:51:49][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:51:53][指令][R_ST]JoshenKM(10):/c 477
+[13:52:12][指令][R_ST]JoshenKM(10):/sdb 
+[13:52:14][指令][R_ST]JoshenKM(10):/sdb 
+[13:52:28][指令][R_ST]JoshenKM(10):/sz
+[13:52:29][指令][R_ST]JoshenKM(10):/kgobj
+[13:52:29][指令][R_ST]JoshenKM(10):/sz
+[13:53:5][指令][R_ST]JoshenKM(10):/time 6 0
+[13:53:7][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:53:9][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:53:10][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:54:53][指令][R_ST]JoshenKM(10):/c 477
+[13:55:17][指令][R_ST]JoshenKM(10):/c 510
+[13:56:15][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:56:17][指令][R_ST]JoshenKM(10):/time 6
+[13:56:19][指令][R_ST]JoshenKM(10):/time 6 0
+[13:56:21][指令][R_ST]JoshenKM(10):/c 477
+[13:56:28][指令][R_ST]ArvinJM(9):/sz
+[13:56:31][指令][R_ST]ArvinJM(9):/time 0 0
+[13:56:31][指令][R_ST]ArvinJM(9):/sz
+[13:57:6][指令][R_ST]JoshenKM(10):/tianqi 3
+[13:57:18][指令][R_ST]JoshenKM(10):/tianqi 2
+[13:57:24][指令][R_ST]JoshenKM(10):/tv 9
+[13:57:26][指令][R_ST]JoshenKM(10):/tv 8
+[13:57:40][指令][R_ST]JoshenKM(10):/tv off
+[13:59:53][指令][R_ST]JoshenKM(10):/tv 8
+[14:0:26][指令][R_ST]JoshenKM(10):/tv off
+[14:0:27][指令][R_ST]JoshenKM(10):/c 411
+[14:0:29][指令][R_ST]JoshenKM(10):/c 477
+[14:0:31][指令][R_ST]JoshenKM(10):/tv 8
+[14:1:36][指令][R_ST]JoshenKM(10):/c 477
+[14:1:43][指令][R_ST]JoshenKM(10):/tv 8
+[14:1:48][指令][R_ST]JoshenKM(10):/tianqi 2
+[14:1:49][指令][R_ST]JoshenKM(10):/time 8 0
+[14:1:54][指令][R_ST]JoshenKM(10):/time 6 0
+[14:4:33][指令][R_ST]JoshenKM(10):/tianqi 2
+[14:4:35][指令][R_ST]JoshenKM(10):/time 8 0
+[14:4:41][指令][R_ST]JoshenKM(10):/time 6 0
+[14:4:44][指令][R_ST]JoshenKM(10):/tv 8
+[14:4:49][指令][R_ST]JoshenKM(10):/tv off
+[14:4:53][指令][R_ST]JoshenKM(10):/c 477
+[14:5:14][指令][R_ST]JoshenKM(10):/c 562
+[14:5:34][指令][R_ST]JoshenKM(10):/cc 1 1
+[14:6:23][指令][R_ST]JoshenKM(10):/time 6 0
+[14:6:25][指令][R_ST]JoshenKM(10):/tianqi 14
+[14:6:31][指令][R_ST]JoshenKM(10):/tianqi 14
+[14:6:33][指令][R_ST]JoshenKM(10):/time 6 0
+[14:6:40][指令][R_ST]JoshenKM(10):/sz
+[14:6:45][指令][R_ST]JoshenKM(10):/time 21
+[14:6:46][指令][R_ST]JoshenKM(10):/time 21 0
+[14:22:29][指令][R_ST]JoshenKM(8):/tianqi 2
+[14:22:31][指令][R_ST]JoshenKM(8):/time 6 0
+[14:22:39][指令][R_ST]JoshenKM(8):/c 477
+[14:22:41][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:24:13][指令][R_ST]JoshenKM(8):/tianqi 2
+[14:24:14][指令][R_ST]JoshenKM(8):/time 6 0
+[14:24:16][指令][R_ST]JoshenKM(8):/c 477
+[14:24:36][指令][R_ST]JoshenKM(8):/c 562
+[14:24:44][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:26:11][指令][R_ST]JoshenKM(8):/time 8 0
+[14:26:13][指令][R_ST]JoshenKM(8):/tianqi 14
+[14:26:14][指令][R_ST]JoshenKM(8):/time 8
+[14:26:17][指令][R_ST]JoshenKM(8):/time 8 0
+[14:26:31][指令][R_ST]JoshenKM(8):/time 21 0
+[14:26:34][指令][R_ST]JoshenKM(8):/time 6 0
+[14:27:42][指令][R_ST]JoshenKM(8):/sz
+[14:27:43][指令][R_ST]JoshenKM(8):/kgobj
+[14:27:43][指令][R_ST]JoshenKM(8):/sz
+[14:27:45][指令][R_ST]JoshenKM(8):/kgobj
+[14:27:45][指令][R_ST]JoshenKM(8):/sz
+[14:28:21][指令][R_ST]JoshenKM(8):/time 8 0
+[14:29:55][指令][R_ST]JoshenKM(8):/c color 0 1
+[14:30:0][指令][R_ST]JoshenKM(8):/c color 14
+[14:30:2][指令][R_ST]JoshenKM(8):/c color 15 1
+[14:30:5][指令][R_ST]JoshenKM(8):/c color 17
+[14:30:7][指令][R_ST]JoshenKM(8):/c color 7
+[14:30:8][指令][R_ST]JoshenKM(8):/c color 8
+[14:30:9][指令][R_ST]JoshenKM(8):/c color 9
+[14:30:10][指令][R_ST]JoshenKM(8):/c color 8
+[14:31:25][指令][R_ST]JoshenKM(8):/time 6 0
+[14:32:18][指令][R_ST]JoshenKM(8):/time 8 0
+[14:32:58][指令][R_ST]JoshenKM(8):/c 477
+[14:33:22][指令][R_ST]JoshenKM(8):/c 562
+[14:33:25][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:34:48][指令][R_ST]JoshenKM(8):/c 520
+[14:35:3][指令][R_ST]JoshenKM(8):/c wode
+[14:35:6][指令][R_ST]JoshenKM(8):/c 562
+[14:35:9][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:35:11][指令][R_ST]JoshenKM(8):/sz
+[14:35:12][指令][R_ST]JoshenKM(8):/kgobj
+[14:35:12][指令][R_ST]JoshenKM(8):/sz
+[14:35:13][指令][R_ST]JoshenKM(8):/kgobj
+[14:35:13][指令][R_ST]JoshenKM(8):/sz
+[14:35:40][指令][R_ST]JoshenKM(8):/c 520
+[14:36:14][指令][R_ST]JoshenKM(8):/c 562
+[14:36:18][指令][R_ST]JoshenKM(8):/f
+[14:36:20][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:37:32][指令][R_ST]JoshenKM(8):/cc 1 1
+[14:37:35][指令][R_ST]JoshenKM(8):/sdb
+[14:43:59][指令][R_ST]JoshenKM(8):/f
+[14:44:17][指令][R_ST]JoshenKM(8):/f
+[14:45:48][指令][R_ST]JoshenKM(8):/fxq
+[14:45:52][指令][R_ST]JoshenKM(8):/c wode
+[16:19:20][指令][R_ST]DONJI(8):/c 562
+[16:19:23][指令][R_ST]DONJI(8):/r s LDZ
+[16:19:24][指令][R_ST]DONJI(8):/r s
+[16:20:4][指令][R_ST]DONJI(8):/r l
+[16:20:6][指令][R_ST]DONJI(8):/r s LDZ
+[16:20:7][指令][R_ST]DONJI(8):/r s
+[16:21:21][指令][R_ST]DONJI(8):/r l
+[16:21:22][指令][R_ST]DONJI(8):/r s LDZ
+[16:21:23][指令][R_ST]DONJI(8):/r s
+[16:21:50][指令][R_ST]DONJI(8):/r l
+[16:21:51][指令][R_ST]DONJI(8):/r s LDZ
+[16:21:53][指令][R_ST]DONJI(8):/r s
+[16:22:17][指令][R_ST]DONJI(8):/r l
+[16:22:19][指令][R_ST]DONJI(8):/r s LDZ
+[16:22:21][指令][R_ST]DONJI(8):/r s
+[16:23:28][指令][R_ST]DONJI(8):/r l
+[16:23:29][指令][R_ST]DONJI(8):/r s LDZ
+[16:23:31][指令][R_ST]DONJI(8):/r s
+[16:23:39][指令][R_ST]DONJI(8):/r l
+[16:23:40][指令][R_ST]DONJI(8):/r s LDZ
+[16:23:40][指令][R_ST]DONJI(8):/r s
+[16:25:1][指令][R_ST]DONJI(8):/r l
+[16:25:2][指令][R_ST]DONJI(8):/r s LDZ
+[16:25:2][指令][R_ST]DONJI(8):/r s
+[16:25:23][指令][R_ST]DONJI(8):/r l
+[16:25:24][指令][R_ST]DONJI(8):/r s LZD
+[16:25:26][指令][R_ST]DONJI(8):/r s LDZ
+[16:25:26][指令][R_ST]DONJI(8):/r s
+[18:1:15][指令]Qian(8):/c 411
+[18:1:43][指令]Qian(8):/c 418
+[18:55:8][指令]John_David(8):/help
+[18:55:17][指令]John_David(8):/HELP
+[18:55:43][指令]John_David(8):/HELP
+[18:55:47][指令]John_David(8):/help
+[18:55:52][指令]John_David(8):/SOUND1
+[18:56:19][指令]John_David(8):/SKIN 106
+[18:56:28][指令]John_David(8):/HELP
+[18:56:41][指令]John_David(8):/help
+[18:56:42][指令]John_David(8):/help
+[18:57:18][指令]John_David(8):/HELP
+[18:57:36][指令]John_David(8):/C 411
+[18:57:51][指令]John_David(8):/F
+[18:58:2][指令]John_David(8):/HOUSE GOTO
+[18:58:10][指令]John_David(8):/HOUSE GOTO 1
+[18:58:24][指令]John_David(8):/HOUSE GOTO 45
+[18:58:36][指令]John_David(8):/HELP
+[18:58:44][指令]John_David(8):/help
+[18:58:51][指令]John_David(8):/HOUSE BUY
+[22:35:10][指令][R_ST]Hygen(8):/c 411
+[22:35:23][指令][R_ST]Hygen(8):/sz
+[22:35:26][指令][R_ST]Hygen(8):/sz
+[22:35:30][指令][R_ST]Hygen(8):/wudi
+[22:35:30][指令][R_ST]Hygen(8):/sz
+[22:35:31][指令][R_ST]Hygen(8):/wudi
+[22:35:31][指令][R_ST]Hygen(8):/sz
+[22:35:32][指令][R_ST]Hygen(8):/tpa ban
+[22:35:32][指令][R_ST]Hygen(8):/sz
+[22:35:33][指令][R_ST]Hygen(8):/tpa ban
+[22:35:33][指令][R_ST]Hygen(8):/sz
+[22:35:39][指令][R_ST]Hygen(8):/sz
+[22:35:42][指令][R_ST]Hygen(8):/sz
+[22:35:58][指令][R_ST]Hygen(8):/sz
+[22:36:8][指令][R_ST]Hygen(8):/help
+[22:36:12][指令][R_ST]Hygen(8):/help
+[22:36:12][指令][R_ST]Hygen(8):/help
+[22:36:14][指令][R_ST]Hygen(8):/help
+[22:36:15][指令][R_ST]Hygen(8):/help
+[22:36:18][指令][R_ST]Hygen(8):/help
+[22:36:19][指令][R_ST]Hygen(8):/help
+[22:36:21][指令][R_ST]Hygen(8):/help
+[22:36:22][指令][R_ST]Hygen(8):/help
+[22:36:25][指令][R_ST]Hygen(8):/help
+[22:36:27][指令][R_ST]Hygen(8):/help
+[22:36:28][指令][R_ST]Hygen(8):/help
+[22:36:30][指令][R_ST]Hygen(8):/help
+[22:36:32][指令][R_ST]Hygen(8):/help
+[22:36:33][指令][R_ST]Hygen(8):/help
+[22:36:35][指令][R_ST]Hygen(8):/help
+[22:36:38][指令][R_ST]Hygen(8):/help
+[22:36:40][指令][R_ST]Hygen(8):/help
+[22:36:42][指令][R_ST]Hygen(8):/help
+[22:36:42][指令][R_ST]Hygen(8):/help
+[22:36:46][指令][R_ST]Hygen(8):/help
+[22:36:49][指令][R_ST]Hygen(8):/help
+[22:36:51][指令][R_ST]Hygen(8):/help
+[22:36:51][指令][R_ST]Hygen(8):/goodshelp
+[22:36:54][指令][R_ST]Hygen(8):/help
+[22:36:56][指令][R_ST]Hygen(8):/help
+[22:36:58][指令][R_ST]Hygen(8):/help
+[22:37:0][指令][R_ST]Hygen(8):/help
+[22:37:1][指令][R_ST]Hygen(8):/help
+[22:37:3][指令][R_ST]Hygen(8):/help
+[22:37:4][指令][R_ST]Hygen(8):/help
+[22:38:52][指令][R_ST]Hygen(8):/c 562
+[22:40:9][指令][R_ST]Hygen(8):/help
+[22:40:12][指令][R_ST]Hygen(8):/help
+[22:40:14][指令][R_ST]Hygen(8):/help
+[22:40:15][指令][R_ST]Hygen(8):/help
+[22:40:15][指令][R_ST]Hygen(8):/help
+[22:40:21][指令][R_ST]Hygen(8):/wdac
+[22:40:32][指令][R_ST]Hygen(8):/time
+[22:40:33][指令][R_ST]Hygen(8):/time 24 0
+[22:40:38][指令][R_ST]Hygen(8):/aczb
+[22:41:23][指令][R_ST]Hygen(8):/sz
+[22:41:27][指令][R_ST]Hygen(8):/selectnpc
+[22:41:30][指令][R_ST]Hygen(8):/selectnpc
+[22:41:33][指令][R_ST]Hygen(8):/selectnpc
+[22:41:46][指令][R_ST]Hygen(8):/selectnpc

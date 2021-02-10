@@ -1,0 +1,2137 @@
+[0:1:3][指令]DIDI(8):/c 555
+[0:1:6][指令]DIDI(8):/c color 1
+[0:1:19][指令]KiVen(10):/VMAKE CW
+[0:1:22][指令]KiVen(10):/C 55
+[0:1:24][指令]KiVen(10):/C 555
+[0:1:32][指令][R_ST]Safford(11):/r s CCS
+[0:1:38][指令][R_ST]Safford(11):/r s
+[0:1:50][指令]DIDI(8):/r s
+[0:2:5][指令]KiVen(10):/r s
+[0:2:59][指令]KiVen(10):/c 520
+[0:3:5][指令][R_ST]Safford(11):/r s CCS
+[0:3:38][指令]KiVen(10):/fxq
+[0:3:40][指令]KiVen(10):/fxq
+[0:3:42][指令]KiVen(10):/fxq
+[0:3:43][指令]KiVen(10):/c 497
+[0:3:44][指令]KiVen(10):/f
+[0:3:45][指令]KiVen(10):/f
+[0:3:55][指令][R_ST]Safford(11):/r s
+[0:3:57][指令]KiVen(10):/c 560
+[0:4:4][指令]KiVen(10):/t get 8
+[0:4:23][指令]DIDI(8):/c 451
+[0:4:49][指令]DIDI(8):/c 560
+[0:5:14][指令]DIDI(8):/c 541
+[0:5:29][指令]KiVen(10):/C 541
+[0:6:20][指令][R_ST]Safford(11):/r s CCS
+[0:6:26][指令][R_ST]Safford(11):/r s
+[0:7:4][指令]DIDI(8):/t go 10
+[0:7:9][指令]DIDI(8):/t goto 10
+[0:7:54][指令][R_ST]Safford(11):/r l
+[0:7:55][指令][R_ST]Safford(11):/f
+[0:8:12][指令][R_ST]Safford(11):/r s CCS
+[0:8:18][指令][R_ST]Safford(11):/r s
+[0:8:42][指令]KiVen(10):/VMAKE 
+[0:8:56][指令]KiVen(10):/VMAKE xylp
+[0:8:58][指令]KiVen(10):/c 560
+[0:9:7][指令]DIDI(8):/c 4551
+[0:9:8][指令]KiVen(10):/infobj
+[0:9:10][指令]DIDI(8):/c 451
+[0:9:19][指令]DIDI(8):/c 560
+[0:9:44][指令][R_ST]Safford(11):/r s CCS
+[0:10:1][指令][R_ST]Safford(11):/r s
+[0:10:8][指令]DIDI(8):/c 451
+[0:10:13][指令]DIDI(8):/c 562
+[0:10:16][指令]KiVen(10):/c 562
+[0:11:18][指令][R_ST]Safford(11):/r l
+[0:11:20][指令][R_ST]Safford(11):/r s CCS
+[0:11:43][指令][R_ST]Safford(11):/r s
+[0:13:7][指令][R_ST]Safford(11):/r l
+[0:13:8][指令][R_ST]Safford(11):/r s CCS
+[0:13:12][指令]KiVen(10):/t goto 8
+[0:13:38][指令][R_ST]Safford(11):/r s
+[0:14:0][指令]KiVen(10):/c 560
+[0:14:8][指令]DIDI(8):/c 451
+[0:14:43][指令]KiVen(10):/t goto 8
+[0:14:44][指令]KiVen(10):/c 451
+[0:14:45][指令]KiVen(10):/c 451
+[0:14:47][指令]KiVen(10):/c 451
+[0:14:48][指令]KiVen(10):/c 451
+[0:14:58][指令][R_ST]Safford(11):/r l
+[0:15:0][指令][R_ST]Safford(11):/c 411
+[0:15:1][指令][R_ST]Safford(11):/r s CCS
+[0:15:6][指令][R_ST]Safford(11):/r s
+[0:15:11][指令]KiVen(10):/c 451
+[0:15:15][指令]KiVen(10):/t goto 8
+[0:17:30][指令][R_omantic]FS1111(9):/TP 11
+[0:17:31][指令]DIDI(8):/t goto 10
+[0:17:33][指令][R_ST]Safford(11):/ta
+[0:17:34][指令]DIDI(8):/f
+[0:17:45][指令][R_omantic]FS1111(9):/SZ
+[0:18:1][指令]KiVen(10):/VMAKE XMYS
+[0:18:15][指令]DIDI(8):/c 562
+[0:18:17][指令]KiVen(10):/C 562
+[0:18:18][指令][R_omantic]FS1111(9):/SZ
+[0:18:18][指令][R_ST]Safford(11):/c 541
+[0:18:58][指令][R_omantic]FS1111(9):/C 411
+[0:19:13][指令][R_ST]Safford(11):/r s CCS
+[0:19:19][指令][R_ST]Safford(11):/r s
+[0:19:46][指令][R_ST]Safford(11):/r l
+[0:19:48][指令][R_ST]Safford(11):/r s CCS
+[0:19:54][指令][R_ST]Safford(11):/r s
+[0:21:14][指令][R_ST]Safford(11):/r l
+[0:21:22][指令][R_ST]Safford(11):/r s CCS
+[0:21:29][指令][R_ST]Safford(11):/r s
+[0:21:29][指令]KiVen(10):/c 520
+[0:21:35][指令]DIDI(8):/c 411
+[0:21:42][指令]KiVen(10):/c 411
+[0:22:35][指令][R_omantic]FS1111(9):/HOUSE GOTO 1
+[0:23:22][指令]DIDI(8):/c 411
+[0:23:36][指令]KiVen(10):/T GET 8
+[0:24:44][指令]DIDI(8):/wdsz
+[0:24:47][指令]DIDI(8):/kgobj
+[0:24:47][指令]DIDI(8):/sz
+[0:25:12][指令][R_ST]Safford(11):/c 562
+[0:25:15][指令][R_ST]Safford(11):/cc 00 00
+[0:25:48][指令][R_omantic]FS1111(9):/TP 10
+[0:25:52][指令]DIDI(8):/c 411/c 562
+[0:25:56][指令]DIDI(8):/c 562
+[0:25:59][指令]DIDI(8):/c color 1
+[0:26:3][指令]DIDI(8):/wdsz
+[0:26:11][指令]KiVen(10):/TA
+[0:26:15][指令][R_omantic]FS1111(9):/C 411
+[0:26:23][指令]KiVen(10):/VMAKE 
+[0:26:57][指令]DIDI(8):/t goto 10
+[0:27:2][指令]DIDI(8):/c 562
+[0:27:3][指令]KiVen(10):/vmake XBFY
+[0:27:9][指令]KiVen(10):/C 541
+[0:27:46][指令]KiVen(10):/C 562
+[0:31:6][指令]KiVen(10):/FXQ
+[0:31:8][指令]DIDI(8):/t goto 10
+[0:31:11][指令][R_omantic]FS1111(9):/F
+[0:31:12][指令]KiVen(10):/C 497
+[0:31:13][指令]DIDI(8):/t goto 10
+[0:31:14][指令]KiVen(10):/F
+[0:31:15][指令]KiVen(10):/F
+[0:31:23][指令]DIDI(8):/t goto 10
+[0:31:25][指令]DIDI(8):/t goto 10
+[0:31:27][指令]DIDI(8):/t goto 10\
+[0:31:28][指令]DIDI(8):/t goto 10\
+[0:31:29][指令]DIDI(8):/t goto 10\
+[0:31:30][指令]DIDI(8):/t goto 10\
+[0:31:31][指令]DIDI(8):/t goto 10\
+[0:31:32][指令]DIDI(8):/t goto 10\
+[0:31:33][指令]KiVen(10):/F
+[0:31:34][指令]KiVen(10):/C 562
+[0:31:46][指令][R_omantic]FS1111(9):/TP 10
+[0:31:47][指令]KiVen(10):/VMAKE XBFYSD
+[0:31:47][指令]KiVen(10):/TA
+[0:31:48][指令]KiVen(10):/C 562
+[0:31:50][指令][R_omantic]FS1111(9):/F
+[0:31:51][指令]KiVen(10):/CC 0 0
+[0:31:55][指令][R_omantic]FS1111(9):/C 526
+[0:31:58][指令][R_omantic]FS1111(9):/C 562
+[0:32:3][指令][R_omantic]FS1111(9):/INFOBJ
+[0:34:0][指令][R_ST]Safford(11):/cc 01 01
+[0:36:12][指令]DIDI(8):/c 411
+[0:36:12][指令]KiVen(10):/c 411
+[0:36:15][指令]KiVen(10):/r s LDZ
+[0:36:23][指令][R_omantic]FS1111(9):/r j 10
+[0:36:23][指令]DIDI(8):/r j 10
+[0:36:47][指令]KiVen(10):/r s
+[0:38:53][指令][R_omantic]FS1111(9):/r l
+[0:39:20][指令]DIDI(8):/tv 10
+[0:39:22][指令]DIDI(8):/tv off
+[0:39:34][指令]KiVen(10):/r s
+[0:39:50][指令]KiVen(10):/r s
+[0:40:21][指令]KiVen(10):/r s
+[0:40:32][指令]DIDI(8):/c 411
+[0:40:32][指令]KiVen(10):/r s xcsd
+[0:40:37][指令]DIDI(8):/r j 10
+[0:40:41][指令][R_ST]Safford(11):/r j 10
+[0:40:46][指令][R_omantic]FS1111(9):/r j 10
+[0:40:55][指令][R_ST]Safford(11):/r l
+[0:40:55][指令]KiVen(10):/r s
+[0:40:56][指令][R_ST]Safford(11):/c 411
+[0:40:58][指令][R_ST]Safford(11):/r j 10
+[0:41:3][指令][R_ST]Safford(11):/r l
+[0:41:19][指令][R_omantic]FS1111(9):/r l
+[0:41:34][指令][R_ST]Safford(11):/c 562
+[0:41:36][指令][R_ST]Safford(11):/cc 00 00
+[0:44:16][指令]KiVen(10):/tv 8
+[0:44:20][指令]KiVen(10):/tv off
+[0:44:31][指令]KiVen(10):/r s 1314race
+[0:44:49][指令]DIDI(8):/r j 10
+[0:45:5][指令]KiVen(10):/R S
+[0:45:10][指令]KiVen(10):/r s
+[0:46:35][指令][R_omantic]FS1111(9):/r j 10
+[0:46:36][指令][R_ST]Safford(11):/r l
+[0:46:42][指令]KiVen(10):/kill
+[0:46:42][指令]DIDI(8):/r l
+[0:46:48][指令]DIDI(8):/r s 1314race
+[0:46:52][指令]KiVen(10):/c 411
+[0:46:52][指令][R_omantic]FS1111(9):/r j 8
+[0:46:53][指令]KiVen(10):/r j 8
+[0:47:13][指令]DIDI(8):/r s
+[0:47:15][指令][R_ST]Safford(11):/r l
+[0:47:18][指令][R_ST]Safford(11):/r s Misc
+[0:47:20][指令][R_ST]Safford(11):/r l
+[0:48:0][指令][R_ST]Safford(11):/weather 0
+[0:48:19][指令]DIDI(8):/r l
+[0:48:19][指令][R_ST]Safford(11):/w 8
+[0:48:20][指令]DIDI(8):/r s 1314race
+[0:48:22][指令][R_ST]Safford(11):/w
+[0:48:22][指令]KiVen(10):/r l
+[0:48:24][指令][R_omantic]FS1111(9):/r l
+[0:48:27][指令][R_omantic]FS1111(9):/r j 8
+[0:48:27][指令]KiVen(10):/r j 8
+[0:48:33][指令][R_ST]Safford(11):/c 562
+[0:48:38][指令][R_ST]Safford(11):/infobj
+[0:48:43][指令][R_ST]Safford(11):/infobj
+[0:48:44][指令]DIDI(8):/r s
+[0:48:49][指令][R_ST]Safford(11):/c 562
+[0:48:52][指令][R_ST]Safford(11):/cc 00 00
+[0:49:20][指令][R_omantic]FS1111(9):/r l
+[0:50:21][指令]DIDI(8):/tv 10
+[0:50:34][指令]DIDI(8):/tv off
+[0:50:40][指令]DIDI(8):/c 411
+[0:50:44][指令]DIDI(8):/r s 1314race
+[0:50:50][指令]KiVen(10):/r j 9
+[0:50:53][指令]KiVen(10):/r j 8
+[0:51:9][指令]DIDI(8):/r s
+[0:52:46][指令]DIDI(8):/tv 10
+[0:52:50][指令]DIDI(8):/tv off
+[0:52:56][指令]DIDI(8):/r s 1314race
+[0:53:0][指令]KiVen(10):/r j 8
+[0:53:18][指令]DIDI(8):/r s
+[0:54:12][指令]DIDI(8):/r l
+[0:54:14][指令]DIDI(8):/r s 1314race
+[0:54:15][指令]KiVen(10):/r l
+[0:54:18][指令]KiVen(10):/r j 8
+[0:54:32][指令]DIDI(8):/r s
+[0:54:35][指令][R_omantic]FS1111(9):/C 562
+[0:54:39][指令][R_omantic]FS1111(9):/INFOBJ
+[0:54:54][指令][R_ST]Safford(11):/s
+[0:55:28][指令][R_ST]Safford(11):/c 5623
+[0:55:28][指令]KiVen(10):/r l
+[0:55:30][指令][R_ST]Safford(11):/c 562
+[0:55:31][指令][R_ST]Safford(11):/w 8 
+[0:55:32][指令]KiVen(10):/r j 8
+[0:55:32][指令][R_ST]Safford(11):/w
+[0:55:34][指令]DIDI(8):/r l
+[0:55:34][指令][R_ST]Safford(11):/c 562
+[0:55:35][指令]KiVen(10):/r j 8
+[0:55:35][指令]DIDI(8):/r s 1314race
+[0:55:38][指令]KiVen(10):/r j 8
+[0:55:48][指令][R_ST]Safford(11):/infobj
+[0:55:52][指令]DIDI(8):/r s
+[0:55:53][指令][R_ST]Safford(11):/infobj
+[0:57:7][指令]LangShenXiaoGenBan(8):/help
+[0:57:17][指令]LangShenXiaoGenBan(8):/c 411
+[0:57:19][指令]LangShenXiaoGenBan(8):/r s 1314race
+[0:57:32][指令]LangShenXiaoGenBan(8):/r l
+[0:57:37][指令]LangShenXiaoGenBan(8):/c 411 1 1
+[0:57:40][指令]KiVen(10):/r j 8
+[0:57:41][指令]LangShenXiaoGenBan(8):/cc 1
+[0:57:43][指令]KiVen(10):/r j 8
+[0:57:47][指令]LangShenXiaoGenBan(8):/c color 1
+[0:57:49][指令]KiVen(10):/tv 8
+[0:57:53][指令]LangShenXiaoGenBan(8):/c color 0
+[0:57:55][指令]LangShenXiaoGenBan(8):/c color 1
+[0:57:56][指令]KiVen(10):/tv off
+[0:58:1][指令]LangShenXiaoGenBan(8):/c color 2
+[0:58:3][指令]LangShenXiaoGenBan(8):/c color 3
+[0:58:3][指令]KiVen(10):/goto 8
+[0:58:5][指令]LangShenXiaoGenBan(8):/c color 4
+[0:58:6][指令][R_omantic]FS1111(9):/CC
+[0:58:7][指令]LangShenXiaoGenBan(8):/c color 1
+[0:58:9][指令]KiVen(10):/c 411
+[0:58:20][指令][R_omantic]FS1111(9):/C 477
+[0:58:21][指令]LangShenXiaoGenBan(8):/r l
+[0:58:55][指令]KiVen(10):/s
+[0:59:7][指令]KiVen(10):/l
+[0:59:12][指令]LangShenXiaoGenBan(8):/r s 1314race
+[0:59:18][指令][R_omantic]FS1111(9):/r j 8
+[0:59:19][指令]KiVen(10):/r j 8
+[0:59:34][指令]LangShenXiaoGenBan(8):/r s
+[1:0:30][指令][R_ST]Safford(11):/c 562
+[1:0:35][指令][R_omantic]FS1111(9):/r l
+[1:4:11][指令]KiVen(10):/F
+[1:4:39][指令][R_omantic]FS1111(9):/FXQ
+[1:5:26][指令][R_omantic]FS1111(9):/C 410
+[1:5:35][指令][R_omantic]FS1111(9):/FXQ
+[1:6:39][指令][R_omantic]FS1111(9):/C 411
+[1:6:40][指令]KiVen(10):/F
+[1:9:8][指令][R_omantic]FS1111(9):/C 410
+[1:10:13][指令][R_omantic]FS1111(8):/C 41-
+[1:10:15][指令][R_omantic]FS1111(8):/C 410
+[1:10:37][指令]KiVen(10):/F
+[1:10:40][指令][R_omantic]FS1111(8):/C 411
+[1:10:43][指令][R_omantic]FS1111(8):/FXQ
+[1:10:57][指令][R_omantic]FS1111(8):/C 410
+[1:11:5][指令][R_omantic]FS1111(8):/FXQ
+[1:11:15][指令][R_omantic]FS1111(8):/C 410
+[1:11:22][指令][R_omantic]FS1111(8):/C 410
+[1:11:53][指令][R_omantic]FS1111(8):/C 425
+[1:14:32][指令][R_omantic]FS1111(8):/C 410
+[1:14:57][指令][R_omantic]FS1111(8):/F
+[1:15:23][指令][R_omantic]FS1111(8):/C 425
+[1:15:34][指令][R_omantic]FS1111(8):/C 425
+[1:17:4][指令][R_omantic]FS1111(8):/C 411
+[1:17:19][指令][R_omantic]FS1111(8):/VMAKE TBSD
+[1:17:26][指令][R_omantic]FS1111(8):/VMAKE TBSSD
+[1:17:40][指令][R_omantic]FS1111(8):/VMAKE XTBSSD
+[1:17:41][指令]KiVen(10):/S
+[1:17:50][指令]KiVen(10):/L
+[1:18:0][指令]KiVen(10):/L
+[1:18:10][指令]KiVen(10):/S
+[1:18:19][指令]KiVen(10):/L
+[1:18:50][指令]KiVen(10):/c 411
+[1:18:52][指令]KiVen(10):/l
+[1:21:27][指令]KiVen(10):/s
+[1:25:0][指令]KiVen(10):/tv 11
+[1:25:4][指令]KiVen(10):/tv off
+[1:25:12][指令]KiVen(10):/c 411
+[1:27:21][指令]KiVen(8):/wdac
+[1:28:52][指令]KiVen(8):/c 411
+[1:30:34][指令]KiVen(8):/c 522
+[1:30:41][指令]KiVen(8):/s
+[1:31:2][指令]KiVen(8):/l
+[1:31:3][指令]KiVen(8):/c 522
+[1:31:25][指令]KiVen(8):/c 411
+[1:33:55][指令]KiVen(8):/s
+[1:41:9][指令]KiVen(8):/s
+[1:41:29][指令]KiVen(8):/c 562
+[1:44:29][指令]KiVen(8):/c 411
+[1:53:26][指令]KiVen(8):/c 411
+[1:57:19][指令]KiVen(8):/F
+[1:57:33][指令]KiVen(8):/C 562
+[1:59:14][指令]KiVen(8):/C 563
+[1:59:16][指令]KiVen(8):/C 564
+[1:59:18][指令]KiVen(8):/C 451
+[1:59:42][指令]KiVen(8):/S
+[2:0:5][指令]KiVen(8):/S
+[2:0:11][指令]KiVen(8):/L
+[2:0:24][指令]KiVen(8):/L
+[2:0:31][指令]KiVen(8):/L
+[2:2:48][指令]KiVen(8):/C 411
+[2:3:15][指令]LangShenXiaoGenBan(9):/help
+[2:3:25][指令]LangShenXiaoGenBan(9):/c 562
+[2:3:55][指令]KiVen(8):/C 411
+[2:8:6][指令]KiVen(8):/GOTO 9
+[2:8:9][指令]KiVen(8):/GOTO 9
+[2:9:14][指令]KiVen(8):/GOTO 9
+[2:9:18][指令]KiVen(8):/GOTO 9
+[2:10:34][指令]LangShenXiaoGenBan(9):/c 562
+[2:18:26][指令]KiVen(8):/r s
+[2:19:14][指令]KiVen(8):/r s
+[2:21:39][指令]LangShenXiaoGenBan(9):/wdac
+[2:21:39][指令]KiVen(8):/wdac
+[2:21:48][指令]LangShenXiaoGenBan(9):/c 411
+[2:21:53][指令]LangShenXiaoGenBan(9):/wdac
+[2:21:58][指令]LangShenXiaoGenBan(9):/c 562
+[2:27:44][指令]KiVen(8):/help
+[2:27:48][指令]KiVen(8):/help
+[2:27:57][指令]KiVen(8):/help
+[2:28:11][指令]KiVen(8):/help
+[2:28:16][指令]KiVen(8):/help
+[2:28:25][指令]KiVen(8):/help
+[2:28:33][指令]KiVen(8):/c 562
+[2:28:35][指令]LangShenXiaoGenBan(9):/c 
+[2:28:39][指令]LangShenXiaoGenBan(9):/c 
+[2:28:43][指令]LangShenXiaoGenBan(9):/c 411
+[2:29:26][指令]LangShenXiaoGenBan(9):/fxq
+[2:29:28][指令]KiVen(8):/fxq
+[2:29:47][指令]LangShenXiaoGenBan(9):/c 411
+[2:29:47][指令]KiVen(8):/t goto 9
+[2:29:59][指令]KiVen(8):/goto 9
+[2:32:3][指令]LangShenXiaoGenBan(9):/fxq
+[2:32:5][指令]KiVen(8):/fxq
+[2:32:17][指令]KiVen(8):/c 411
+[2:32:29][指令]KiVen(8):/goto
+[2:32:32][指令]KiVen(8):/goto 9
+[2:32:41][指令]LangShenXiaoGenBan(9):/c 411
+[2:32:48][指令]KiVen(8):/c 562
+[2:33:19][指令]KiVen(8):/goto 9
+[2:33:36][指令]KiVen(8):/CC 0
+[2:33:39][指令]KiVen(8):/cc 0 0
+[2:33:40][指令]LangShenXiaoGenBan(9):/c 562
+[10:22:13][指令][R_ST]Hygen(8):/c 510
+[10:22:33][指令][R_ST]Hygen(8):/gmx
+[10:23:37][指令][R_ST]Hygen(8):/c 510
+[10:24:58][指令][R_ST]Hygen(8):/c 510
+[10:28:32][指令][Genesis]FengZi(9):/c 562
+[10:29:3][指令][R_ST]Hygen(8):/help
+[10:29:11][指令][R_ST]Hygen(8):/help
+[10:29:14][指令][R_ST]Hygen(8):/t 
+[10:29:17][指令][R_ST]Hygen(8):/t list
+[10:29:20][指令][R_ST]Hygen(8):/wdtd
+[10:29:39][指令][R_ST]Hygen(8):/help
+[10:29:45][指令][R_ST]Hygen(8):/help
+[10:29:48][指令][R_ST]Hygen(8):/c 510
+[10:30:5][指令]THOR_KD.(10):/help
+[10:30:8][指令]THOR_KD.(10):/help
+[10:30:11][指令][R_ST]Hygen(8):/help
+[10:30:14][指令][R_ST]Hygen(8):/help
+[10:30:18][指令][R_ST]Hygen(8):/t help
+[10:30:19][指令][R_ST]Hygen(8):/t list
+[10:30:42][指令][R_ST]Hygen(8):/t list
+[10:30:48][指令][R_ST]Hygen(8):/t list
+[10:30:56][指令]THOR_KD.(10):/help
+[10:31:3][指令]THOR_KD.(10):/help
+[10:31:7][指令]THOR_KD.(10):/sz
+[10:31:9][指令]THOR_KD.(10):/kgobj
+[10:31:9][指令]THOR_KD.(10):/sz
+[10:31:25][指令][R_ST]Hygen(8):/help
+[10:31:25][指令]THOR_KD.(10):/c 562
+[10:31:27][指令][R_ST]Hygen(8):/help
+[10:31:27][指令][Genesis]FengZi(9):/c 562
+[10:31:29][指令]THOR_KD.(10):/c color e e
+[10:31:44][指令][R_ST]Hygen(8):/tv 9
+[10:31:55][指令][R_ST]Hygen(8):/sz
+[10:32:2][指令][R_ST]Hygen(8):/help
+[10:32:17][指令][R_ST]Hygen(8):/help
+[10:32:22][指令][R_ST]Hygen(8):/help
+[10:32:29][指令][R_ST]Hygen(8):/help
+[10:32:32][指令][R_ST]Hygen(8):/help
+[10:32:38][指令][R_ST]Hygen(8):/help
+[10:32:49][指令][R_ST]Hygen(8):/help
+[10:33:0][指令][R_ST]Hygen(8):/tv 0
+[10:33:1][指令][R_ST]Hygen(8):/tv 7
+[10:33:1][指令][R_ST]Hygen(8):/tv 2
+[10:33:14][指令][R_ST]Hygen(8):/t list
+[10:33:27][指令][R_ST]Hygen(8):/tv 10
+[10:34:20][指令][Genesis]FengZi(9):/r s LDZ
+[10:34:28][指令]THOR_KD.(10):/r j 9
+[10:34:31][指令][Genesis]FengZi(9):/r s
+[10:34:46][指令][Genesis]FengZi(9):/r leave
+[10:34:49][指令]THOR_KD.(10):/r leave
+[10:34:53][指令][Genesis]FengZi(9):/r s LDZ
+[10:34:55][指令]THOR_KD.(10):/r ldz
+[10:34:58][指令]THOR_KD.(10):/r s ldz
+[10:35:13][指令]THOR_KD.(10):/r s LDZ
+[10:35:25][指令][Genesis]FengZi(9):/r s
+[10:35:26][指令]THOR_KD.(10):/r leave
+[10:35:31][指令]THOR_KD.(10):/r j 9
+[10:35:33][指令][Genesis]FengZi(9):/r leave
+[10:35:38][指令][Genesis]FengZi(9):/r s LDZ
+[10:35:41][指令]THOR_KD.(10):/r j 9
+[10:35:44][指令][R_ST]Hygen(8):/tv 9
+[10:35:45][指令][R_ST]Hygen(8):/tv 10
+[10:35:45][指令][R_ST]Hygen(8):/tv 9
+[10:35:47][指令][Genesis]FengZi(9):/r s
+[10:37:32][指令][Genesis]FengZi(9):/r leave
+[10:37:34][指令][Genesis]FengZi(9):/r s LDZ
+[10:37:44][指令][Genesis]FengZi(9):/r s
+[10:37:56][指令]THOR_KD.(10):/r leave
+[10:37:58][指令]THOR_KD.(10):/r j 9
+[10:38:15][指令]THOR_KD.(10):/sz
+[10:38:19][指令]THOR_KD.(10):/sz
+[10:38:25][指令]THOR_KD.(10):/sz
+[10:38:27][指令][Genesis]FengZi(9):/r leave
+[10:38:30][指令]THOR_KD.(10):/sz
+[10:38:31][指令][Genesis]FengZi(9):/r s LDZ
+[10:38:37][指令]THOR_KD.(10):/r j 9
+[10:38:45][指令][Genesis]FengZi(9):/r s
+[10:41:6][指令][Genesis]FengZi(9):/r leave
+[10:41:9][指令][Genesis]FengZi(9):/r s LDZ
+[10:41:19][指令][Genesis]FengZi(9):/r s
+[10:42:0][指令][Genesis]FengZi(9):/r leave
+[10:42:21][指令][Genesis]FengZi(9):/r s LDZ
+[10:42:30][指令][Genesis]FengZi(9):/r s
+[10:43:50][指令][Genesis]FengZi(9):/r leave
+[10:43:59][指令][Genesis]FengZi(9):/r s LDZ
+[10:44:13][指令][Genesis]FengZi(9):/r s
+[10:44:44][指令][Genesis]FengZi(9):/r leave
+[10:44:50][指令][Genesis]FengZi(9):/r s LDZ
+[10:45:2][指令][Genesis]FengZi(9):/r s
+[10:45:41][指令]THOR_KD.(10):/c 562
+[10:45:43][指令]THOR_KD.(10):/c color 1 1
+[10:46:37][指令]THOR_KD.(10):/w
+[10:46:40][指令]THOR_KD.(10):/w 9
+[10:46:43][指令]THOR_KD.(10):/w
+[10:46:48][指令][Genesis]FengZi(9):/r leave
+[10:47:52][指令][Genesis]FengZi(9):/r s LDZ
+[10:47:56][指令]THOR_KD.(10):/r j 9
+[10:48:6][指令][Genesis]FengZi(9):/r s
+[10:48:19][指令]THOR_KD.(10):/r leave
+[10:48:28][指令]THOR_KD.(10):/c color 3
+[10:48:30][指令][Genesis]FengZi(9):/r leave
+[10:48:36][指令]THOR_KD.(10):/r s LDZ
+[10:48:45][指令]THOR_KD.(10):/r leave
+[10:49:27][指令]CoiD(11):/help
+[10:49:46][指令][R_ST]Hygen(8):/tv off
+[10:49:50][指令]CoiD(11):/house goto 79
+[10:49:58][指令][R_ST]Hygen(8):/c 411
+[10:50:10][指令][R_ST]Hygen(8):/t list
+[10:50:51][指令][R_ST]Hygen(8):/house list
+[10:51:59][指令]Coid(11):/sz
+[10:52:15][指令]Coid(11):/sz
+[10:52:20][指令]Coid(11):/sz
+[10:52:27][指令]Coid(11):/sz
+[10:56:14][指令][Genesis]FengZi(9):/c 411
+[10:56:27][指令]THOR_KD.(10):/sz
+[10:56:30][指令]THOR_KD.(10):/kgobj
+[10:56:30][指令]THOR_KD.(10):/sz
+[10:56:32][指令]THOR_KD.(10):/sz
+[10:57:2][指令]THOR_KD.(10):/sz
+[10:57:5][指令]THOR_KD.(10):/kgobj
+[10:57:5][指令]THOR_KD.(10):/sz
+[10:57:17][指令]THOR_KD.(10):/sz
+[10:57:18][指令]THOR_KD.(10):/kgobj
+[10:57:18][指令]THOR_KD.(10):/sz
+[10:57:24][指令]THOR_KD.(10):/help
+[10:58:48][指令]THOR_KD.(10):/help
+[10:59:9][指令][Genesis]FengZi(9):/c 411
+[10:59:26][指令]Coid(11):/c 411
+[10:59:39][指令][Genesis]FengZi(9):/TIME 5 30
+[10:59:42][指令]THOR_KD.(10):/c 411
+[11:0:56][指令][Genesis]FengZi(9):/S
+[11:1:7][指令]Coid(11):/f
+[11:1:19][指令][Genesis]FengZi(9):/C 411
+[11:1:29][指令][Genesis]FengZi(9):/s
+[11:1:51][指令]THOR_KD.(10):/tp 9
+[11:1:56][指令][Genesis]FengZi(9):/TA
+[11:2:46][指令][Genesis]FengZi(9):/s
+[11:3:1][指令][Genesis]FengZi(9):/s
+[11:3:3][指令][Genesis]FengZi(9):/l
+[11:3:17][指令][Genesis]FengZi(9):/l
+[11:3:23][指令][Genesis]FengZi(9):/l
+[11:3:36][指令][Genesis]FengZi(9):/l
+[11:3:38][指令][Genesis]FengZi(9):/l
+[11:3:54][指令][Genesis]FengZi(9):/S
+[11:3:56][指令][Genesis]FengZi(9):/L
+[11:4:9][指令][Genesis]FengZi(9):/L
+[11:4:15][指令][Genesis]FengZi(9):/L
+[11:4:47][指令]THOR_KD.(10):/c 411
+[11:4:58][指令][Genesis]FengZi(9):/C 411
+[11:4:59][指令]THOR_KD.(10):/c 411
+[11:5:5][指令]Coid(11):/f
+[11:9:52][指令][Genesis]FengZi(9):/S
+[11:10:10][指令][Genesis]FengZi(9):/S
+[11:10:28][指令]Coid(11):/c 411
+[11:10:45][指令]Coid(11):/f
+[11:11:29][指令][Genesis]FengZi(9):/WDAC
+[11:12:4][指令]THOR_KD.(10):/c 447
+[11:12:5][指令][Genesis]FengZi(9):/l
+[11:12:7][指令][Genesis]FengZi(9):/l
+[11:12:11][指令][Genesis]FengZi(9):/l
+[11:12:47][指令]Coid(11):/time 5 30
+[11:13:6][指令]Coid(11):/c 411
+[11:13:25][指令][Genesis]FengZi(9):/s
+[11:13:32][指令][Genesis]FengZi(9):/l
+[11:13:43][指令][Genesis]FengZi(9):/l
+[11:13:46][指令][Genesis]FengZi(9):/l
+[11:13:49][指令][R_ST]Hygen(8):/fxq
+[11:14:0][指令]THOR_KD.(10):/c 411
+[11:14:27][指令][Genesis]FengZi(9):/l
+[11:14:28][指令][Genesis]FengZi(9):/l
+[11:14:34][指令][R_ST]Hygen(8):/r s Parkour_SmallRun
+[11:14:35][指令][R_ST]Hygen(8):/r s
+[11:14:37][指令]THOR_KD.(10):/c 3411
+[11:14:39][指令][Genesis]FengZi(9):/l
+[11:14:59][指令][Genesis]FengZi(9):/l
+[11:15:7][指令][R_ST]Hygen(8):/r l
+[11:15:9][指令][R_ST]Hygen(8):/r s paoku
+[11:15:9][指令][R_ST]Hygen(8):/r s paoku1
+[11:15:11][指令][R_ST]Hygen(8):/r s
+[11:15:21][指令][Genesis]FengZi(9):/l
+[11:15:31][指令][Genesis]FengZi(9):/l
+[11:16:4][指令][Genesis]FengZi(9):/l
+[11:16:26][指令][Genesis]FengZi(9):/l
+[11:16:29][指令]Coid(11):/sz
+[11:16:33][指令]THOR_KD.(10):/wuqi
+[11:17:4][指令]THOR_KD.(10):/c 447
+[11:17:7][指令][Genesis]FengZi(9):/l
+[11:17:9][指令]Coid(11):/sz
+[11:17:12][指令][R_ST]Hygen(8):/r s 
+[11:17:16][指令][Genesis]FengZi(9):/l
+[11:17:20][指令]Coid(11):/sz
+[11:17:39][指令][R_ST]Hygen(8):/r s paoku2
+[11:17:40][指令]Coid(11):/sz
+[11:17:41][指令][R_ST]Hygen(8):/r s
+[11:18:4][指令][Genesis]FengZi(9):/L
+[11:18:5][指令][R_ST]Hygen(8):/r l
+[11:18:8][指令][R_ST]Hygen(8):/r s paoku3
+[11:18:16][指令][R_ST]Hygen(8):/r l
+[11:18:17][指令]Coid(11):/sz
+[11:18:32][指令][Genesis]FengZi(9):/L
+[11:18:45][指令][Genesis]FengZi(9):/L
+[11:18:52][指令][R_ST]Hygen(8):/r l
+[11:18:54][指令][R_ST]Hygen(8):/c 411
+[11:19:1][指令]Coid(11):/sz
+[11:19:5][指令][Genesis]FengZi(9):/L
+[11:19:7][指令][Genesis]FengZi(9):/L
+[11:19:8][指令]Coid(11):/sz
+[11:19:55][指令][Genesis]FengZi(9):/l
+[11:20:3][指令][Genesis]FengZi(9):/l
+[11:20:28][指令]THOR_KD.(10):/c 520
+[11:20:36][指令]THOR_KD.(10):/c 521
+[11:20:53][指令]THOR_KD.(10):/c m411
+[11:20:59][指令]THOR_KD.(10):/c 411
+[11:20:59][指令][Genesis]FengZi(9):/l
+[11:21:15][指令][Genesis]FengZi(9):/l
+[11:21:19][指令]THOR_KD.(10):/f
+[11:21:31][指令][Genesis]FengZi(9):/l
+[11:21:50][指令][R_ST]Hygen(8):/f
+[11:22:12][指令][R_ST]Hygen(8):/f
+[11:22:25][指令][Genesis]FengZi(9):/s
+[11:22:27][指令][Genesis]FengZi(9):/l
+[11:23:14][指令][Genesis]FengZi(9):/s
+[11:23:25][指令][Genesis]FengZi(9):/s
+[11:23:40][指令][Genesis]FengZi(9):/l
+[11:23:50][指令][Genesis]FengZi(9):/l
+[11:24:8][指令][Genesis]FengZi(9):/c 411
+[11:24:24][指令][Genesis]FengZi(9):/l
+[11:24:52][指令][Genesis]FengZi(9):/s
+[11:25:6][指令][Genesis]FengZi(9):/s
+[11:25:11][指令][Genesis]FengZi(9):/l
+[11:25:25][指令][Genesis]FengZi(9):/l
+[11:25:33][指令][Genesis]FengZi(9):/l
+[11:25:57][指令][Genesis]FengZi(9):/l
+[11:26:1][指令][Genesis]FengZi(9):/l
+[11:26:9][指令][Genesis]FengZi(9):/l
+[11:26:27][指令][Genesis]FengZi(9):/l
+[11:26:44][指令][R_omantic]Ambrose(8):/wdsz
+[11:26:46][指令][Genesis]FengZi(9):/l
+[11:26:47][指令][R_omantic]Ambrose(8):/c 411
+[11:26:50][指令][R_omantic]Ambrose(8):/r s Bank
+[11:26:50][指令][Genesis]FengZi(9):/l
+[11:26:53][指令][R_omantic]Ambrose(8):/r s bank
+[11:26:56][指令][R_omantic]Ambrose(8):/r s
+[11:27:7][指令][Genesis]FengZi(9):/l
+[11:27:8][指令][R_omantic]Ambrose(8):/r s bank
+[11:27:8][指令][R_omantic]Ambrose(8):/r s
+[11:27:9][指令][Genesis]FengZi(9):/l
+[11:27:10][指令]THOR_KD.(10):/help
+[11:27:22][指令][R_omantic]Ambrose(8):/wdsz
+[11:27:26][指令]THOR_KD.(10):/sz
+[11:27:32][指令]Coid(11):/r s bank
+[11:27:35][指令]Coid(11):/r s
+[11:27:38][指令][Genesis]FengZi(9):/l
+[11:27:39][指令]THOR_KD.(10):/sz
+[11:27:40][指令][Genesis]FengZi(9):/l
+[11:27:42][指令]THOR_KD.(10):/wudi
+[11:27:42][指令]THOR_KD.(10):/sz
+[11:27:43][指令][Genesis]FengZi(9):/l
+[11:27:46][指令]THOR_KD.(10):/sz
+[11:27:48][指令]Coid(11):/r s bank
+[11:27:50][指令][Genesis]FengZi(9):/l
+[11:27:51][指令]Coid(11):/r s
+[11:28:7][指令][Genesis]FengZi(9):/l
+[11:28:15][指令]Coid(11):/r s bank
+[11:28:16][指令]Coid(11):/r s
+[11:28:17][指令][Genesis]FengZi(9):/l
+[11:28:28][指令][R_omantic]Ambrose(8):/r s BANK
+[11:28:34][指令][Genesis]FengZi(9):/l
+[11:28:44][指令][Genesis]FengZi(9):/S
+[11:28:45][指令][Genesis]FengZi(9):/L
+[11:28:47][指令][R_omantic]Ambrose(8):/r s
+[11:28:51][指令][Genesis]FengZi(9):/L
+[11:28:52][指令][R_omantic]Ambrose(8):/r s lgniz
+[11:28:56][指令][Genesis]FengZi(9):/L
+[11:28:56][指令][R_omantic]Ambrose(8):/r s Igniz
+[11:28:58][指令][R_omantic]Ambrose(8):/r s
+[11:29:3][指令][R_omantic]Ambrose(8):/r leave
+[11:29:13][指令][Genesis]FengZi(9):/L
+[11:29:16][指令][Genesis]FengZi(9):/L
+[11:29:27][指令][R_ST]Promise_DC(12):/help
+[11:29:33][指令][Genesis]FengZi(9):/L
+[11:29:41][指令][R_ST]Promise_DC(12):/C 562 0 0
+[11:29:45][指令][R_ST]Promise_DC(12):/r s
+[11:29:50][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:29:54][指令][Genesis]FengZi(9):/L
+[11:29:58][指令][R_ST]Promise_DC(12):/r s
+[11:30:4][指令][R_omantic]Ambros(8):/help
+[11:30:16][指令][R_omantic]Ambros(8):/c 411
+[11:30:18][指令][Genesis]FengZi(9):/L
+[11:30:33][指令][R_omantic]Ambros(8):/f
+[11:30:44][指令][R_omantic]Ambros(8):/f
+[11:30:46][指令][Genesis]FengZi(9):/s
+[11:31:10][指令][R_omantic]Ambros(8):/c 562 1
+[11:31:15][指令][Genesis]FengZi(9):/l
+[11:31:25][指令][R_omantic]Ambros(8):/f
+[11:31:47][指令][R_omantic]Ambros(8):/r s Misc
+[11:31:51][指令][R_omantic]Ambros(8):/r leave
+[11:32:0][指令][R_ST]Promise_DC(12):/c 411
+[11:32:0][指令][Genesis]FengZi(9):/l
+[11:32:2][指令][R_ST]Promise_DC(12):/r s
+[11:32:8][指令][R_ST]Promise_DC(12):/r s
+[11:32:10][指令][Genesis]FengZi(9):/l
+[11:32:12][指令][R_omantic]Ambros(8):/r s CHN1_Docks_Drifting
+[11:32:15][指令][R_omantic]Ambros(8):/r s
+[11:32:19][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:32:22][指令]THOR_KD.(10):/tp 9
+[11:32:25][指令][R_ST]Promise_DC(12):/r s
+[11:32:46][指令][Genesis]FengZi(9):/TA
+[11:32:59][指令][Genesis]FengZi(9):/TA
+[11:33:11][指令][R_omantic]Ambros(8):/r leave
+[11:33:21][指令][Genesis]FengZi(9):/L
+[11:33:28][指令][R_omantic]Ambros(8):/wdac
+[11:33:30][指令][R_omantic]Ambros(8):/ac
+[11:33:33][指令][Genesis]FengZi(9):/L
+[11:33:36][指令][Genesis]FengZi(9):/L
+[11:33:42][指令][R_omantic]Ambros(8):/c 411
+[11:33:48][指令][Genesis]FengZi(9):/L
+[11:33:55][指令][Genesis]FengZi(9):/L
+[11:34:9][指令][Genesis]FengZi(9):/L
+[11:34:10][指令][R_omantic]Ambros(8):/r s Misc
+[11:34:11][指令][R_omantic]Ambros(8):/r s
+[11:34:21][指令][Genesis]FengZi(9):/L
+[11:34:25][指令][R_ST]Promise_DC(12):/r s
+[11:34:28][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:34:31][指令][R_ST]Promise_DC(12):/r s
+[11:34:50][指令][Genesis]FengZi(9):/L
+[11:35:3][指令][Genesis]FengZi(9):/L
+[11:35:6][指令][Genesis]FengZi(9):/L
+[11:35:18][指令][Genesis]FengZi(9):/L
+[11:35:57][指令][Genesis]FengZi(9):/S
+[11:35:58][指令][Genesis]FengZi(9):/L
+[11:36:0][指令][R_omantic]Ambros(8):/r l
+[11:36:2][指令][R_omantic]Ambros(8):/help
+[11:36:8][指令][R_omantic]Ambros(8):/r s Misc6
+[11:36:10][指令][R_omantic]Ambros(8):/r s
+[11:36:10][指令][Genesis]FengZi(9):/L
+[11:36:20][指令][R_ST]Promise_DC(12):/r leave
+[11:36:22][指令][Genesis]FengZi(9):/L
+[11:36:22][指令][R_ST]Promise_DC(12):/r s
+[11:36:26][指令][R_ST]Promise_DC(12):/r s
+[11:36:29][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:36:34][指令][R_ST]Promise_DC(12):/r s
+[11:36:41][指令][Genesis]FengZi(9):/L
+[11:36:45][指令][Genesis]FengZi(9):/L
+[11:36:55][指令][R_ST]Promise_DC(12):/r leave
+[11:36:56][指令][R_ST]Promise_DC(12):/r s
+[11:36:58][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:37:0][指令][R_ST]Promise_DC(12):/r s
+[11:37:1][指令][Genesis]FengZi(9):/L
+[11:37:13][指令][Genesis]FengZi(9):/L
+[11:37:26][指令][Genesis]FengZi(9):/L
+[11:37:46][指令][Genesis]FengZi(9):/s
+[11:37:48][指令][Genesis]FengZi(9):/l
+[11:38:11][指令][Genesis]FengZi(9):/l
+[11:38:13][指令][R_omantic]Ambros(8):/r l
+[11:38:58][指令][R_ST]Promise_DC(12):/r s
+[11:39:1][指令][R_ST]Promise_DC(12):/r s CHN1_Docks_Drifting
+[11:39:1][指令][Genesis]FengZi(9):/l
+[11:39:3][指令][R_ST]Promise_DC(12):/r s
+[11:39:7][指令][Genesis]FengZi(9):/C 411
+[11:39:24][指令][R_omantic]Ambros(8):/c 411
+[11:39:33][指令][Genesis]FengZi(9):/l
+[11:39:51][指令][Genesis]FengZi(9):/wdsz
+[11:40:0][指令][R_omantic]Ambros(8):/f
+[11:40:17][指令][Genesis]FengZi(9):/l
+[11:40:38][指令][R_omantic]Ambros(8):/c 562 1
+[11:40:58][指令][R_omantic]Ambros(8):/f
+[11:41:27][指令][R_ST]Promise_DC(12):/r s
+[11:41:48][指令][R_ST]Promise_DC(12):/r s
+[11:41:51][指令][R_ST]Promise_DC(12):/r s CAArv
+[11:42:5][指令][R_omantic]Ambros(8):/c 411
+[11:42:5][指令][R_ST]Promise_DC(12):/r s
+[11:42:19][指令][R_ST]Promise_DC(12):/r leave
+[11:42:21][指令][R_ST]Promise_DC(12):/r s
+[11:42:25][指令][R_ST]Promise_DC(12):/r s CAArv
+[11:42:29][指令][R_ST]Promise_DC(12):/r s
+[11:53:8][指令][R_ST]Promise_DC(8):/help
+[11:54:18][指令][R_ST]Promise_DC(8):/r s
+[11:54:32][指令][R_ST]Promise_DC(8):/r s AirRace
+[11:54:40][指令][R_ST]Promise_DC(8):/c 541
+[11:54:43][指令][R_ST]Promise_DC(8):/r s
+[11:54:47][指令][R_ST]Promise_DC(8):/r s AirRace
+[11:54:49][指令][R_ST]Promise_DC(8):/r s
+[11:57:43][指令][R_ST]Promise_DC(8):/r s
+[11:57:49][指令][R_ST]Promise_DC(8):/r s AirRace
+[11:57:52][指令][R_ST]Promise_DC(8):/r s
+[12:0:20][指令][R_ST]Promise_DC(8):/r s
+[12:0:35][指令][R_ST]Promise_DC(8):/r s AirRace
+[12:0:37][指令][R_ST]Promise_DC(8):/r s
+[12:0:54][指令][R_ST]Promise_DC(8):/r leave
+[12:0:55][指令][R_ST]Promise_DC(8):/r s
+[12:1:0][指令][R_ST]Promise_DC(8):/r s
+[12:1:3][指令][R_ST]Promise_DC(8):/r s AirRace
+[12:1:5][指令][R_ST]Promise_DC(8):/r s
+[12:2:57][指令][R_ST]Promise_DC(8):/r s
+[12:3:0][指令][R_ST]Promise_DC(8):/r s AirRace
+[12:3:2][指令][R_ST]Promise_DC(8):/r s
+[12:3:11][指令]THOR_KD.(10):/c 520
+[12:4:19][指令][Genesis]Asso(12):/help
+[12:4:21][指令][R_ST]Promise_DC(8):/r leave
+[12:4:22][指令][R_ST]Promise_DC(8):/r s
+[12:4:26][指令][R_ST]Promise_DC(8):/r s AirRace
+[12:4:29][指令][R_ST]Promise_DC(8):/r s
+[12:4:40][指令][Genesis]Asso(12):/C 559
+[12:4:41][指令][Genesis]Asso(12):/C COLOR 1
+[12:5:33][指令][Genesis]Asso(12):/HELP
+[12:5:40][指令][Genesis]Asso(12):/help
+[12:5:40][指令]THOR_KD.(10):/sz
+[12:5:42][指令]THOR_KD.(10):/kgobj
+[12:5:42][指令]THOR_KD.(10):/sz
+[12:5:43][指令][R_ST]Promise_DC(8):/R LEAVE
+[12:5:47][指令]THOR_KD.(10):/c 562
+[12:5:48][指令][R_ST]Promise_DC(8):/r leave
+[12:5:49][指令]THOR_KD.(10):/c color 11 
+[12:5:51][指令][Genesis]Asso(12):/help
+[12:5:52][指令]THOR_KD.(10):/c color 1 1
+[12:5:54][指令][Genesis]Asso(12):/TIANQI 4
+[12:6:23][指令][Genesis]Asso(12):/SZ
+[12:6:27][指令][Genesis]Asso(12):/wudi
+[12:6:27][指令][Genesis]Asso(12):/sz
+[12:6:40][指令][R_ST]Promise_DC(8):/C 562
+[12:6:44][指令][R_ST]KiVen(13):/GOTO 9
+[12:6:49][指令][R_ST]KiVen(13):/GOTO 10
+[12:6:56][指令][R_ST]KiVen(13):/WDAC
+[12:6:56][指令][Genesis]Asso(12):/C 562
+[12:6:57][指令][Genesis]Asso(12):/C COLOR 1
+[12:7:35][指令][R_ST]Promise_DC(8):/help
+[12:7:38][指令][R_ST]KiVen(13):/WDSZ
+[12:7:43][指令][R_ST]Promise_DC(8):/C 562 
+[12:7:58][指令][R_ST]Promise_DC(8):/CC 144
+[12:8:0][指令][R_ST]Promise_DC(8):/CC 144 144
+[12:8:3][指令][R_ST]Promise_DC(8):/CC 155 155
+[12:9:27][指令][R_ST]KiVen(13):/TV 8
+[12:9:29][指令][R_ST]KiVen(13):/TV OFF
+[12:10:34][指令][R_ST]KiVen(13):/c 411
+[12:10:40][指令][R_ST]KiVen(13):/tv 
+[12:10:42][指令][R_ST]KiVen(13):/tv 0
+[12:10:44][指令][R_ST]KiVen(13):/tv 1
+[12:10:45][指令][R_ST]KiVen(13):/tv 2
+[12:10:47][指令][R_ST]KiVen(13):/tv 3
+[12:10:48][指令][R_ST]KiVen(13):/tv 4
+[12:10:52][指令][R_ST]KiVen(13):/tv 8
+[12:10:54][指令]THOR_KD.(8):/help
+[12:10:55][指令][R_ST]Promise_DC(10):/help
+[12:10:55][指令][R_ST]KiVen(13):/tv 9
+[12:10:57][指令][R_ST]KiVen(13):/tv off
+[12:10:59][指令][R_ST]Promise_DC(10):/help
+[12:11:2][指令]THOR_KD.(8):/sz
+[12:11:6][指令]THOR_KD.(8):/kgobj
+[12:11:6][指令]THOR_KD.(8):/sz
+[12:11:11][指令][R_ST]Promise_DC(10):/C 562 0 0
+[12:11:12][指令]THOR_KD.(8):/c 562
+[12:11:15][指令]THOR_KD.(8):/c color e e
+[12:11:17][指令][R_ST]KiVen(13):/tv 10
+[12:11:30][指令][R_ST]Promise_DC(10):/KGOBJ
+[12:11:33][指令]THOR_KD.(8):/wdsz
+[12:11:35][指令][R_ST]KiVen(13):/tv 11
+[12:11:36][指令][R_ST]KiVen(13):/tv 11
+[12:11:39][指令]THOR_KD.(8):/kgobj
+[12:11:39][指令][R_ST]KiVen(13):/tv 10
+[12:11:40][指令]THOR_KD.(8):/kgobj
+[12:11:47][指令][R_ST]Promise_DC(10):/CC 155 155
+[12:12:4][指令][R_ST]KiVen(13):/tv 8
+[12:12:7][指令][R_ST]KiVen(13):/tv 10
+[12:12:10][指令][R_ST]KiVen(13):/tv off
+[12:12:21][指令]THOR_KD.(8):/c color 1 1
+[12:12:30][指令][R_ST]KiVen(13):/cars create 562 4000
+[12:13:20][指令][R_ST]Promise_DC(10):/WDAC
+[12:13:33][指令][R_ST]Promise_DC(10):/WDAC
+[12:13:55][指令][R_ST]Promise_DC(10):/WDAC
+[12:14:5][指令][R_ST]Promise_DC(10):/KGOBJ
+[12:14:33][指令][R_ST]Promise_DC(10):/ACZB
+[12:14:47][指令]THOR_KD.(8):/ac
+[12:14:56][指令]THOR_KD.(8):/help
+[12:15:5][指令]THOR_KD.(8):/cars buy
+[12:15:13][指令]THOR_KD.(8):/cars list
+[12:15:17][指令][R_ST]Promise_DC(10):/WDAC
+[12:15:18][指令][R_ST]KiVen(13):/wdac
+[12:15:20][指令]THOR_KD.(8):/cars list
+[12:15:25][指令]THOR_KD.(8):/cars list
+[12:15:29][指令]THOR_KD.(8):/cars list
+[12:15:30][指令][R_ST]Promise_DC(10):/WDAC
+[12:15:43][指令]THOR_KD.(8):/cars buy
+[12:15:46][指令][R_ST]Promise_DC(10):/WDAC
+[12:15:54][指令]THOR_KD.(8):/c 562
+[12:15:56][指令][Genesis]Asso(12):/help
+[12:15:56][指令]THOR_KD.(8):/c color e e
+[12:16:5][指令][R_ST]Promise_DC(10):/WDAC
+[12:16:14][指令][R_ST]Promise_DC(10):/WDAC
+[12:17:19][指令][R_ST]Promise_DC(10):/WDAC
+[12:17:20][指令]THOR_KD.(8):/c color 1 1
+[12:17:28][指令][R_ST]Promise_DC(10):/WDAC
+[12:17:31][指令][R_ST]Promise_DC(10):/WDAC
+[12:18:10][指令][R_ST]Promise_DC(10):/WDAC
+[12:18:30][指令][R_ST]Promise_DC(10):/WDAC
+[12:18:36][指令][R_ST]Promise_DC(10):/WDAC
+[12:18:39][指令][R_ST]Promise_DC(10):/WDAC
+[12:19:6][指令][R_ST]KiVen(13):/WDAC
+[12:19:9][指令][R_ST]KiVen(13):/WDZB
+[12:19:9][指令][R_ST]Promise_DC(10):/WDAC
+[12:19:12][指令][R_ST]Promise_DC(10):/WDAC
+[12:19:17][指令][R_ST]KiVen(13):/WDZB
+[12:19:21][指令][R_ST]KiVen(13):/WDZB
+[12:19:24][指令][R_ST]KiVen(13):/WDZB
+[12:19:27][指令][R_ST]KiVen(13):/WDZB
+[12:19:30][指令][R_ST]KiVen(13):/WDZB
+[12:19:33][指令][R_ST]KiVen(13):/WDZB
+[12:19:36][指令][R_ST]KiVen(13):/WDZB
+[12:19:39][指令][R_ST]KiVen(13):/WDZB
+[12:19:42][指令][R_ST]KiVen(13):/WDZB
+[12:19:46][指令][R_ST]KiVen(13):/WDZB
+[12:19:49][指令][R_ST]KiVen(13):/WDZB
+[12:19:52][指令][R_ST]KiVen(13):/WDZB
+[12:19:56][指令][R_ST]KiVen(13):/WDZB
+[12:20:8][指令][R_ST]Promise_DC(10):/WDAC
+[12:20:14][指令]THOR_KD.(8):/fxq
+[12:20:27][指令][R_ST]KiVen(13):/WDAC
+[12:20:30][指令]THOR_KD.(8):/fxq
+[12:20:54][指令][R_ST]KiVen(13):/GOTO 1
+[12:20:55][指令][R_ST]KiVen(13):/GOTO 12
+[12:21:12][指令][R_ST]Promise_DC(10):/WDAC
+[12:21:27][指令][Genesis]Asso(12):/C 411
+[12:21:45][指令][R_ST]Promise_DC(10):/BUYATTIRE
+[12:21:55][指令][R_ST]Promise_DC(10):/BUYATTIRE
+[12:21:59][指令][R_ST]Promise_DC(10):/BUYATTIRE
+[12:22:6][指令][R_ST]Promise_DC(10):/WDAC
+[12:22:8][指令][Genesis]Asso(12):/C COLOR 1
+[12:22:9][指令][Genesis]Asso(12):/C COLOR 2
+[12:22:10][指令][Genesis]Asso(12):/C COLOR 3
+[12:22:11][指令]THOR_KD.(8):/c 1000
+[12:22:13][指令][Genesis]Asso(12):/C COLOR 4
+[12:22:13][指令][R_ST]Promise_DC(10):/SZ
+[12:22:14][指令]THOR_KD.(8):/c color 1000
+[12:22:16][指令][Genesis]Asso(12):/C COLOR 5
+[12:22:18][指令]THOR_KD.(8):/c color 255
+[12:22:18][指令][Genesis]Asso(12):/C COLOR 6
+[12:22:19][指令][Genesis]Asso(12):/C COLOR 7
+[12:22:20][指令][Genesis]Asso(12):/C COLOR 8
+[12:22:21][指令][Genesis]Asso(12):/C COLOR 9
+[12:22:21][指令][R_ST]Promise_DC(10):/SZ
+[12:22:22][指令]THOR_KD.(8):/c color 154
+[12:22:22][指令][Genesis]Asso(12):/C COLOR 10
+[12:22:23][指令][Genesis]Asso(12):/C COLOR 11
+[12:22:24][指令][Genesis]Asso(12):/C COLOR 12
+[12:22:24][指令]THOR_KD.(8):/c color 155
+[12:22:25][指令][Genesis]Asso(12):/C COLOR 13
+[12:22:26][指令][Genesis]Asso(12):/C COLOR 14
+[12:22:27][指令][Genesis]Asso(12):/C COLOR 15
+[12:22:28][指令][Genesis]Asso(12):/C COLOR 16
+[12:22:29][指令][Genesis]Asso(12):/C COLOR 17
+[12:22:30][指令]THOR_KD.(8):/c color 154
+[12:22:33][指令][Genesis]Asso(12):/C COLOR 16
+[12:22:36][指令]THOR_KD.(8):/c color 145
+[12:22:37][指令][Genesis]Asso(12):/C COLOR 18
+[12:22:38][指令]THOR_KD.(8):/c color 144
+[12:22:39][指令]THOR_KD.(8):/c color 143
+[12:22:40][指令][Genesis]Asso(12):/C COLOR 154
+[12:22:42][指令]THOR_KD.(8):/c color 154
+[12:22:48][指令][R_ST]KiVen(13):/wdzb
+[12:22:53][指令][R_ST]Promise_DC(10):/buyattire
+[12:23:23][指令][Genesis]Asso(12):/C 562
+[12:23:24][指令][Genesis]Asso(12):/C COLOR 1
+[12:23:24][指令][R_ST]KiVen(13):/wdzb
+[12:23:44][指令][R_ST]KiVen(13):/wdzb
+[12:23:49][指令][R_ST]KiVen(13):/wdzb
+[12:23:55][指令][R_ST]KiVen(13):/wdzb
+[12:23:59][指令][R_ST]KiVen(13):/wdzb
+[12:24:16][指令][R_ST]Promise_DC(10):/buyattire
+[12:24:16][指令]THOR_KD.(8):/f
+[12:24:38][指令][R_ST]Promise_DC(10):/WDAC
+[12:24:42][指令][R_ST]Promise_DC(10):/WDAC
+[12:25:6][指令][R_ST]Promise_DC(10):/WDAC
+[12:25:19][指令][R_ST]Promise_DC(10):/C
+[12:25:23][指令][R_ST]Promise_DC(10):/C WODE
+[12:26:0][指令][R_ST]Promise_DC(10):/WDAC
+[12:26:28][指令][Genesis]FengZi(9):/AC 
+[12:26:48][指令][Genesis]FengZi(9):/PPC
+[12:27:1][指令]Donji(8):/C 562
+[12:27:20][指令][Genesis]THOR.(12):/help
+[12:27:28][指令][Genesis]THOR.(12):/skin 23
+[12:27:34][指令]Donji(8):/ppc
+[12:27:39][指令][Genesis]THOR.(12):/ppc
+[12:28:5][指令][R_ST]KiVen(13):/WDTD
+[12:28:9][指令][R_ST]KiVen(13):/HELP
+[12:28:12][指令][R_ST]KiVen(13):/help
+[12:30:41][指令][R_ST]Promise_DC(10):/KGOBJ
+[12:30:47][指令][R_ST]Promise_DC(10):/C 562 0 0
+[12:31:5][指令][R_ST]KiVen(13):/wdtd
+[12:31:24][指令][R_ST]KiVen(13):/wdtd
+[12:31:27][指令][R_ST]Hygen(14):/t list
+[12:31:46][指令][R_ST]Hygen(14):/c 510
+[12:32:20][指令][R_ST]KiVen(13):/wdtd
+[12:32:39][指令][R_ST]KiVen(13):/t goto 10
+[12:32:57][指令][R_ST]Promise_DC(10):/SZ
+[12:33:17][指令][R_ST]Hygen(14):/tv 9
+[12:33:22][指令][R_ST]Hygen(14):/tv off
+[12:34:4][指令][R_ST]Promise_DC(10):/SZ
+[12:36:18][指令][R_ST]Promise_DC(10):/r s
+[12:37:14][指令][R_ST]Promise_DC(10):/r s
+[12:37:30][指令][R_ST]Promise_DC(10):/r s
+[12:37:54][指令][R_ST]Promise_DC(10):/r s DiRT3
+[12:37:56][指令]Donji(8):/ppc
+[12:38:3][指令][R_ST]Promise_DC(10):/r s
+[12:38:58][指令][Genesis]FengZi(9):/PPC
+[12:39:4][指令][Genesis]FengZi(9):/C 600
+[12:39:5][指令][Genesis]THOR.(12):/help
+[12:39:5][指令][Genesis]THOR.(12):/ppc
+[12:39:13][指令][Genesis]THOR.(12):/sz
+[12:39:14][指令][Genesis]THOR.(12):/kgobj
+[12:39:14][指令][Genesis]THOR.(12):/sz
+[12:39:34][指令][Genesis]THOR.(12):/c 562
+[12:39:36][指令][Genesis]THOR.(12):/c color 1 1
+[12:39:40][指令][Genesis]THOR.(12):/c 600
+[12:39:43][指令][Genesis]THOR.(12):/c color 1 1
+[12:40:1][指令]Donji(8):/c 600
+[12:40:17][指令]Donji(8):/f
+[12:41:32][指令][R_ST]Promise_DC(10):/r s
+[12:41:47][指令][R_ST]Promise_DC(10):/r s
+[12:42:38][指令][R_ST]Promise_DC(10):/help
+[12:42:42][指令][R_ST]Promise_DC(10):/help
+[12:42:55][指令][R_ST]Promise_DC(10):/WDAC
+[12:43:17][指令][R_ST]Promise_DC(10):/r s
+[12:43:24][指令][R_ST]Promise_DC(10):/r s ElegyDritf1
+[12:43:35][指令][R_ST]Promise_DC(10):/r s
+[12:44:17][指令][Genesis]THOR.(12):/c color 126
+[12:45:20][指令][R_ST]Promise_DC(10):/r leave
+[12:45:21][指令][R_ST]Promise_DC(10):/r s
+[12:45:31][指令][R_ST]Promise_DC(10):/r s
+[12:45:43][指令][R_ST]Promise_DC(10):/r s HRace
+[12:45:51][指令][R_ST]Promise_DC(10):/r s
+[12:46:55][指令][Genesis]THOR.(12):/c color e e
+[12:48:4][指令][R_ST]Promise_DC(10):/r s
+[12:48:13][指令][R_ST]Promise_DC(10):/r s Igniz
+[12:48:15][指令][R_ST]Promise_DC(10):/r s
+[12:50:29][指令][R_ST]Promise_DC(10):/r s
+[12:50:39][指令][R_ST]Promise_DC(10):/r s
+[12:50:43][指令][R_ST]Promise_DC(10):/r s
+[12:50:53][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:50:59][指令][R_ST]Promise_DC(10):/r s
+[12:54:13][指令][R_ST]Promise_DC(10):/r s
+[12:54:24][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:54:30][指令][Genesis]THOR.(12):/r s LDZ
+[12:54:35][指令][Genesis]FengZi(9):/R
+[12:54:35][指令][R_ST]Promise_DC(10):/r s
+[12:54:35][指令][Genesis]FengZi(9):/help
+[12:54:36][指令][Genesis]THOR.(12):/r s
+[12:54:38][指令][Genesis]FengZi(9):/R
+[12:54:38][指令][Genesis]FengZi(9):/help
+[12:54:43][指令][Genesis]FengZi(9):/r j 12
+[12:54:49][指令][R_ST]Promise_DC(10):/r leave
+[12:54:51][指令][R_ST]Promise_DC(10):/r s
+[12:54:58][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:55:1][指令][R_ST]Promise_DC(10):/r s
+[12:57:53][指令][R_ST]Promise_DC(10):/r s
+[12:57:59][指令][Genesis]THOR.(12):/c 451
+[12:58:4][指令][Genesis]FengZi(9):/c 411
+[12:58:7][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:58:13][指令][R_ST]Promise_DC(10):/r s
+[12:58:27][指令][R_ST]Promise_DC(10):/r leave
+[12:58:28][指令][Genesis]FengZi(9):/c 411
+[12:58:28][指令][R_ST]Promise_DC(10):/r s
+[12:58:31][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:58:33][指令][R_ST]Promise_DC(10):/r s
+[12:59:19][指令][R_ST]Promise_DC(10):/r leave
+[12:59:20][指令][R_ST]Promise_DC(10):/r s
+[12:59:23][指令][R_ST]Promise_DC(10):/r s Kaous
+[12:59:25][指令][R_ST]Promise_DC(10):/r s
+[13:0:4][指令][R_ST]Promise_DC(10):/r leave
+[13:0:5][指令][R_ST]Promise_DC(10):/r s
+[13:0:8][指令][R_ST]Promise_DC(10):/r s Kaous
+[13:0:10][指令][R_ST]Promise_DC(10):/r s
+[13:1:29][指令][R_ST]KiVen(13):/c 562
+[13:1:49][指令][R_ST]KiVen(13):/TV 10
+[13:1:54][指令][R_ST]KiVen(13):/r s
+[13:2:38][指令]LangShenXiaoGenBan(12):/help
+[13:2:39][指令][R_ST]KiVen(13):/r s
+[13:2:46][指令]LangShenXiaoGenBan(12):/c 562
+[13:3:22][指令][R_ST]KiVen(13):/tv off
+[13:3:26][指令][R_ST]Promise_DC(10):/r s
+[13:3:50][指令][R_ST]KiVen(13):/goto 12
+[13:4:0][指令][R_ST]Promise_DC(10):/r s ddt_Rally2
+[13:4:4][指令][R_ST]Promise_DC(10):/r s
+[13:6:48][指令][R_omantic]FS1111(12):/C 477
+[13:6:59][指令][R_ST]Promise_DC(10):/r s
+[13:7:6][指令][R_ST]Promise_DC(10):/r s
+[13:7:24][指令][R_ST]Promise_DC(10):/r s qns_xiashan
+[13:7:25][指令][R_omantic]FS1111(12):/SZ
+[13:7:27][指令][R_omantic]FS1111(12):/time 24 0
+[13:7:27][指令][R_omantic]FS1111(12):/sz
+[13:7:31][指令][R_ST]Promise_DC(10):/r s
+[13:8:51][指令][R_omantic]FS1111(12):/C WODE
+[13:8:56][指令]LangShenXiaoGenBan(13):/help
+[13:10:16][指令][R_ST]Promise_DC(10):/sz
+[13:10:28][指令][R_ST]Promise_DC(10):/sz
+[13:11:28][指令][R_ST]Promise_DC(10):/sz
+[13:11:40][指令][R_ST]Promise_DC(10):/R S
+[13:11:47][指令][R_ST]Promise_DC(10):/r s
+[13:12:3][指令][R_ST]Promise_DC(10):/r s xcsd
+[13:12:5][指令][R_ST]Promise_DC(10):/r s
+[13:12:40][指令][R_ST]Hygen(12):/c 411
+[13:13:14][指令][R_ST]Promise_DC(10):/r s
+[13:14:20][指令][R_ST]Promise_DC(10):/r s xcsd
+[13:14:24][指令][R_ST]Promise_DC(10):/r s
+[13:14:47][指令][R_omantic]FS1111(12):/C WODE
+[13:14:49][指令][R_omantic]FS1111(12):/C 488
+[13:14:51][指令][R_omantic]FS1111(12):/C 477
+[13:15:31][指令][R_omantic]FS1111(12):/C 411
+[13:17:6][指令][R_omantic]FS1111(12):/C 477
+[13:18:0][指令][R_ST]Promise_DC(10):/r s
+[13:18:5][指令][R_ST]Promise_DC(10):/r s xcsd
+[13:18:18][指令][R_ST]Promise_DC(10):/r s
+[13:19:33][指令]Donji(8):/c 411
+[13:19:34][指令]Donji(8):/r s
+[13:19:44][指令]Donji(8):/r s Misc
+[13:19:52][指令]Donji(8):/r s
+[13:19:54][指令][Genesis]FengZi(9):/r j 8
+[13:20:2][指令]Donji(8):/r l
+[13:20:2][指令][R_omantic]FS1111(11):/C 466
+[13:20:3][指令]Donji(8):/r s
+[13:20:6][指令]Donji(8):/r s Misc
+[13:20:8][指令]Donji(8):/r s
+[13:20:8][指令][R_omantic]FS1111(11):/C 477
+[13:20:9][指令][Genesis]FengZi(9):/r j 8
+[13:20:26][指令][Genesis]FengZi(9):/r j 8
+[13:20:27][指令][Genesis]FengZi(9):/r j 8
+[13:20:28][指令]Donji(8):/r l
+[13:20:29][指令]LangShenXiaoGenBan(13):/c 562
+[13:20:33][指令][R_omantic]FS1111(11):/T
+[13:20:36][指令]KiVen(12):/c 562
+[13:20:37][指令][R_omantic]FS1111(11):/t create
+[13:20:38][指令]Donji(8):/r s
+[13:20:42][指令]Donji(8):/r s Misc
+[13:20:43][指令]Donji(8):/r s
+[13:20:45][指令]KiVen(12):/kgobj
+[13:20:46][指令][Genesis]FengZi(9):/r j 8
+[13:20:51][指令][R_omantic]FS1111(11):/C 411
+[13:20:56][指令][R_omantic]FS1111(11):/r s Bank
+[13:21:2][指令][R_omantic]FS1111(11):/r s bank
+[13:21:4][指令][R_omantic]FS1111(11):/r s
+[13:21:14][指令][R_omantic]FS1111(11):/r s bank
+[13:21:17][指令][R_omantic]FS1111(11):/r s
+[13:21:27][指令][R_omantic]FS1111(11):/r s bank
+[13:21:29][指令][R_omantic]FS1111(11):/r s
+[13:21:38][指令][R_ST]Promise_DC(10):/r s
+[13:21:38][指令][R_omantic]FS1111(11):/r s bank
+[13:21:40][指令][R_omantic]FS1111(11):/r s
+[13:21:45][指令][Genesis]FengZi(9):/r s bank
+[13:21:48][指令][Genesis]FengZi(9):/r s
+[13:21:48][指令][R_omantic]FS1111(11):/r s bank
+[13:21:50][指令][R_omantic]FS1111(11):/r s
+[13:21:53][指令][R_ST]Promise_DC(10):/c 562
+[13:21:59][指令][R_ST]Promise_DC(10):/cc 155 155
+[13:21:59][指令][R_omantic]FS1111(11):/r s bank
+[13:22:1][指令][R_omantic]FS1111(11):/r s
+[13:22:10][指令][R_omantic]FS1111(11):/r s bank
+[13:22:12][指令][R_omantic]FS1111(11):/r s
+[13:22:21][指令][R_omantic]FS1111(11):/r s bank
+[13:22:22][指令]LangShenXiaoGenBan(13):/c 451
+[13:22:22][指令][R_omantic]FS1111(11):/r s
+[13:22:25][指令]LangShenXiaoGenBan(13):/c 541
+[13:22:41][指令][R_omantic]FS1111(11):/r s bank
+[13:22:44][指令][R_omantic]FS1111(11):/r s
+[13:22:44][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:22:52][指令][R_omantic]FS1111(11):/r s bank
+[13:22:52][指令]LangShenXiaoGenBan(13):/r s
+[13:22:54][指令][R_omantic]FS1111(11):/r s
+[13:23:2][指令][R_omantic]FS1111(11):/r s bank
+[13:23:5][指令][R_omantic]FS1111(11):/r s
+[13:23:11][指令]Donji(8):/r l
+[13:23:13][指令][R_omantic]FS1111(11):/r s bank
+[13:23:15][指令][R_omantic]FS1111(11):/r s
+[13:23:23][指令][R_omantic]FS1111(11):/r s bank
+[13:23:25][指令][R_omantic]FS1111(11):/r s
+[13:23:33][指令][R_omantic]FS1111(11):/r s bank
+[13:23:35][指令][R_omantic]FS1111(11):/r s
+[13:23:41][指令]KiVen(12):/T GOTO 13
+[13:23:43][指令]KiVen(12):/t goto 
+[13:23:44][指令][R_omantic]FS1111(11):/r s bank
+[13:23:45][指令][R_omantic]FS1111(11):/r s
+[13:23:45][指令]KiVen(12):/t goto 13
+[13:23:55][指令][R_omantic]FS1111(11):/r s bank
+[13:23:57][指令][R_omantic]FS1111(11):/r s
+[13:24:5][指令][R_omantic]FS1111(11):/r s bank
+[13:24:6][指令][R_omantic]FS1111(11):/r s
+[13:24:8][指令][Genesis]FengZi(9):/r 
+[13:24:8][指令]Donji(8):/r s
+[13:24:9][指令][Genesis]FengZi(9):/help
+[13:24:11][指令]Donji(8):/r s Misc
+[13:24:14][指令][Genesis]FengZi(9):/r j 8
+[13:24:15][指令][R_omantic]FS1111(11):/r s bank
+[13:24:16][指令][R_omantic]FS1111(11):/r s
+[13:24:16][指令]Donji(8):/r s
+[13:24:25][指令]KiVen(12):/C 415
+[13:24:33][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:24:33][指令][R_omantic]FS1111(11):/r s bank
+[13:24:35][指令][R_omantic]FS1111(11):/r s
+[13:24:42][指令]KiVen(12):/r j 13
+[13:24:43][指令][R_omantic]FS1111(11):/r s bank
+[13:24:45][指令][R_omantic]FS1111(11):/r s
+[13:24:47][指令][R_ST]Promise_DC(10):/sz
+[13:24:54][指令][R_omantic]FS1111(11):/r s bank
+[13:24:55][指令]LangShenXiaoGenBan(13):/r s
+[13:24:56][指令][R_ST]Promise_DC(10):/sz
+[13:24:56][指令][R_omantic]FS1111(11):/r s
+[13:25:3][指令][Genesis]FengZi(9):/r leave
+[13:25:4][指令][R_omantic]FS1111(11):/r s bank
+[13:25:5][指令]Donji(8):/r l
+[13:25:5][指令][R_omantic]FS1111(11):/r s
+[13:25:7][指令]Donji(8):/f
+[13:25:7][指令][Genesis]FengZi(9):/r s Misc
+[13:25:10][指令]Donji(8):/r j 9
+[13:25:14][指令][R_omantic]FS1111(11):/r s bank
+[13:25:14][指令][Genesis]FengZi(9):/r s
+[13:25:15][指令][R_omantic]FS1111(11):/r s
+[13:25:24][指令][R_omantic]FS1111(11):/r s bank
+[13:25:25][指令][R_omantic]FS1111(11):/r s
+[13:25:33][指令][R_omantic]FS1111(11):/r s bank
+[13:25:35][指令][R_omantic]FS1111(11):/r s
+[13:25:37][指令]LangShenXiaoGenBan(13):/r l
+[13:25:39][指令]LangShenXiaoGenBan(13):/c 451
+[13:25:43][指令][R_omantic]FS1111(11):/r s bank
+[13:25:45][指令][R_omantic]FS1111(11):/r s
+[13:26:1][指令][R_omantic]FS1111(11):/c 411
+[13:26:5][指令][R_omantic]FS1111(11):/r s bank
+[13:26:5][指令]Donji(8):/r l
+[13:26:6][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:26:8][指令][R_omantic]FS1111(11):/r s
+[13:26:17][指令][R_omantic]FS1111(11):/r s bank
+[13:26:17][指令]Donji(8):/r j 9
+[13:26:18][指令][R_omantic]FS1111(11):/r s
+[13:26:19][指令]Donji(8):/r j 9
+[13:26:24][指令][R_ST]Promise_DC(10):/r s
+[13:26:26][指令][R_omantic]FS1111(11):/r s bank
+[13:26:28][指令][R_omantic]FS1111(11):/r s
+[13:26:28][指令]KiVen(12):/r j
+[13:26:29][指令]LangShenXiaoGenBan(13):/r s
+[13:26:29][指令]Donji(8):/r s
+[13:26:29][指令][R_ST]Promise_DC(10):/r s
+[13:26:32][指令]Donji(8):/r s Misc
+[13:26:33][指令]KiVen(12):/r j 13
+[13:26:40][指令][R_omantic]FS1111(11):/r s bank
+[13:26:44][指令][R_omantic]FS1111(11):/r s
+[13:26:49][指令]Donji(8):/r l
+[13:26:52][指令][R_omantic]FS1111(11):/r s bank
+[13:26:54][指令][Genesis]FengZi(9):/r leave
+[13:26:54][指令][R_omantic]FS1111(11):/r s
+[13:27:1][指令][Genesis]FengZi(9):/r
+[13:27:2][指令][Genesis]FengZi(9):/help
+[13:27:2][指令][R_omantic]FS1111(11):/r s bank
+[13:27:4][指令][R_omantic]FS1111(11):/r s
+[13:27:11][指令]KiVen(12):/tv 13
+[13:27:14][指令][R_omantic]FS1111(11):/r s bank
+[13:27:15][指令][R_ST]Promise_DC(10):/r s CCS
+[13:27:16][指令][R_omantic]FS1111(11):/r s
+[13:27:19][指令][R_ST]Promise_DC(10):/r s
+[13:27:28][指令][R_omantic]FS1111(11):/r s bank
+[13:27:30][指令][R_omantic]FS1111(11):/r s
+[13:27:39][指令][R_omantic]FS1111(11):/r s bank
+[13:27:41][指令][R_omantic]FS1111(11):/r s
+[13:27:52][指令]KiVen(12):/tv off
+[13:27:53][指令][R_omantic]FS1111(11):/r s bank
+[13:27:57][指令][R_omantic]FS1111(11):/r s
+[13:28:4][指令]Donji(8):/f
+[13:28:6][指令][R_omantic]FS1111(11):/r s bank
+[13:28:8][指令][R_omantic]FS1111(11):/r s
+[13:28:15][指令]LangShenXiaoGenBan(13):/c 415
+[13:28:16][指令][R_omantic]FS1111(11):/r s bank
+[13:28:18][指令][R_omantic]FS1111(11):/r s
+[13:28:19][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:28:25][指令][Genesis]FengZi(9):/r s Misc
+[13:28:26][指令][R_omantic]FS1111(11):/r s bank
+[13:28:27][指令]Donji(8):/r j 9
+[13:28:28][指令][R_omantic]FS1111(11):/r s
+[13:28:31][指令]LangShenXiaoGenBan(13):/r s
+[13:28:35][指令][Genesis]FengZi(9):/r s
+[13:28:37][指令][R_omantic]FS1111(11):/r s bank
+[13:28:38][指令][R_omantic]FS1111(11):/r s
+[13:28:46][指令][R_omantic]FS1111(11):/r s bank
+[13:28:48][指令][R_omantic]FS1111(11):/r s
+[13:28:56][指令][R_omantic]FS1111(11):/r s bank
+[13:28:58][指令][R_omantic]FS1111(11):/r s
+[13:28:58][指令][R_ST]Promise_DC(10):/r s
+[13:28:59][指令]KiVen(12):/TV 13
+[13:29:6][指令][R_omantic]FS1111(11):/r s bank
+[13:29:7][指令][R_ST]Promise_DC(10):/r s CCS
+[13:29:10][指令][R_omantic]FS1111(11):/r s
+[13:29:14][指令][R_ST]Promise_DC(10):/r s
+[13:29:19][指令][R_omantic]FS1111(11):/r s bank
+[13:29:21][指令][R_omantic]FS1111(11):/r s
+[13:29:29][指令][R_omantic]FS1111(11):/r s bank
+[13:29:31][指令][R_omantic]FS1111(11):/r s
+[13:29:39][指令][R_omantic]FS1111(11):/r s bank
+[13:29:41][指令][R_omantic]FS1111(11):/r s
+[13:29:53][指令][R_omantic]FS1111(11):/r s
+[13:29:54][指令]KiVen(12):/tv off
+[13:30:0][指令][R_omantic]FS1111(11):/r s bank
+[13:30:3][指令][R_omantic]FS1111(11):/r s
+[13:30:5][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:30:12][指令][R_omantic]FS1111(11):/r s bank
+[13:30:14][指令][R_omantic]FS1111(11):/r s
+[13:30:17][指令]LangShenXiaoGenBan(13):/r s
+[13:30:17][指令][R_ST]Promise_DC(10):/r s
+[13:30:23][指令][R_omantic]FS1111(11):/r s bank
+[13:30:24][指令][R_ST]Promise_DC(10):/r s CCS
+[13:30:24][指令][R_omantic]FS1111(11):/r s
+[13:30:25][指令]LangShenXiaoGenBan(13):/r l
+[13:30:26][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:30:29][指令]KiVen(12):/TV 13
+[13:30:32][指令]KiVen(12):/TV OFF
+[13:30:32][指令][R_omantic]FS1111(11):/r s bank
+[13:30:34][指令]KiVen(12):/c 415
+[13:30:34][指令][R_omantic]FS1111(11):/r s
+[13:30:37][指令]KiVen(12):/r j 13
+[13:30:39][指令][R_ST]Promise_DC(10):/r s
+[13:30:42][指令][R_omantic]FS1111(11):/r s bank
+[13:30:46][指令][R_omantic]FS1111(11):/r s
+[13:30:51][指令]LangShenXiaoGenBan(13):/r s
+[13:30:54][指令][R_omantic]FS1111(11):/r s bank
+[13:30:57][指令][R_omantic]FS1111(11):/r s
+[13:31:5][指令][R_omantic]FS1111(11):/r s bank
+[13:31:7][指令][R_omantic]FS1111(11):/r s
+[13:31:15][指令][R_omantic]FS1111(11):/r s bank
+[13:31:17][指令][R_omantic]FS1111(11):/r s
+[13:31:26][指令][R_omantic]FS1111(11):/r s bank
+[13:31:28][指令][R_omantic]FS1111(11):/r s
+[13:31:36][指令][R_omantic]FS1111(11):/r s bank
+[13:31:38][指令][R_omantic]FS1111(11):/r s
+[13:31:54][指令][R_omantic]FS1111(11):/r s
+[13:31:56][指令]LangShenXiaoGenBan(13):/r l
+[13:31:58][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:32:0][指令][R_omantic]FS1111(11):/r s bank
+[13:32:1][指令][R_omantic]FS1111(11):/r s
+[13:32:10][指令][R_omantic]FS1111(11):/r s bank
+[13:32:14][指令][R_omantic]FS1111(11):/r s
+[13:32:18][指令]LangShenXiaoGenBan(13):/r s
+[13:32:20][指令][R_ST]Promise_DC(10):/r s
+[13:32:23][指令][R_omantic]FS1111(11):/r s bank
+[13:32:25][指令][R_omantic]FS1111(11):/r s
+[13:32:26][指令]KiVen(12):/r j 13
+[13:32:29][指令]KiVen(12):/tv 13
+[13:32:31][指令]LangShenXiaoGenBan(13):/r l
+[13:32:32][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:32:33][指令]KiVen(12):/tv off
+[13:32:34][指令][R_omantic]FS1111(11):/r s bank
+[13:32:34][指令]KiVen(12):/c 541
+[13:32:35][指令][R_ST]Promise_DC(10):/r s
+[13:32:36][指令]KiVen(12):/r j 13
+[13:32:36][指令][R_omantic]FS1111(11):/r s
+[13:32:44][指令][R_omantic]FS1111(11):/r s bank
+[13:32:44][指令]LangShenXiaoGenBan(13):/r s
+[13:32:46][指令][R_omantic]FS1111(11):/r s
+[13:32:54][指令][R_omantic]FS1111(11):/r s bank
+[13:32:56][指令][R_omantic]FS1111(11):/r s
+[13:32:57][指令][Genesis]FengZi(9):/r leave
+[13:33:0][指令][Genesis]FengZi(9):/r s Misc
+[13:33:3][指令][Genesis]FengZi(9):/r s
+[13:33:5][指令]Donji(8):/r j 9
+[13:33:5][指令][R_omantic]FS1111(11):/r s bank
+[13:33:5][指令][R_ST]Promise_DC(10):/sz
+[13:33:7][指令]Donji(8):/r j 9
+[13:33:7][指令][R_omantic]FS1111(11):/r s
+[13:33:8][指令]Donji(8):/r s
+[13:33:11][指令]Donji(8):/r s Misc
+[13:33:13][指令]Donji(8):/r s
+[13:33:16][指令][R_omantic]FS1111(11):/r s bank
+[13:33:17][指令][R_omantic]FS1111(11):/r s
+[13:33:21][指令][R_ST]Promise_DC(10):/sz
+[13:33:21][指令]Donji(8):/r l
+[13:33:22][指令]Donji(8):/r s
+[13:33:25][指令]Donji(8):/r s Misc
+[13:33:26][指令]Donji(8):/r s
+[13:33:26][指令][R_omantic]FS1111(11):/r s bank
+[13:33:28][指令][R_omantic]FS1111(11):/r s
+[13:33:42][指令]KiVen(12):/r l
+[13:33:43][指令][R_omantic]FS1111(11):/r s bank
+[13:33:43][指令]KiVen(12):/tv 13
+[13:33:44][指令][Genesis]FengZi(9):/r leave
+[13:33:44][指令][R_omantic]FS1111(11):/r s
+[13:33:46][指令][R_ST]Promise_DC(10):/buyattire
+[13:33:51][指令][Genesis]FengZi(9):/r s Misc
+[13:33:53][指令][Genesis]FengZi(9):/r s
+[13:33:56][指令][R_omantic]FS1111(11):/r s bank
+[13:33:57][指令][R_omantic]FS1111(11):/r s
+[13:34:6][指令]KiVen(12):/tv off
+[13:34:7][指令][R_omantic]FS1111(11):/r s bank
+[13:34:9][指令][R_omantic]FS1111(11):/r s
+[13:34:10][指令]KiVen(12):/c 
+[13:34:12][指令]KiVen(12):/c 451
+[13:34:18][指令][R_omantic]FS1111(11):/r s bank
+[13:34:19][指令][Genesis]FengZi(9):/r leave
+[13:34:21][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:34:21][指令][R_omantic]FS1111(11):/r s
+[13:34:21][指令][Genesis]FengZi(9):/r s Misc
+[13:34:23][指令][Genesis]FengZi(9):/r s
+[13:34:24][指令]KiVen(12):/r j 13
+[13:34:29][指令][R_omantic]FS1111(11):/r s bank
+[13:34:31][指令][R_omantic]FS1111(11):/r s
+[13:34:39][指令][Genesis]FengZi(9):/r LEAVE
+[13:34:42][指令][Genesis]FengZi(9):/r leave
+[13:34:43][指令][Genesis]FengZi(9):/r
+[13:34:44][指令][Genesis]FengZi(9):/help
+[13:34:44][指令][R_omantic]FS1111(11):/r s bank
+[13:34:44][指令]LangShenXiaoGenBan(13):/r l
+[13:34:46][指令][R_omantic]FS1111(11):/r s
+[13:34:47][指令][R_ST]Promise_DC(10):/buyattire
+[13:34:47][指令]LangShenXiaoGenBan(13):/tianqi 1
+[13:34:47][指令][Genesis]FengZi(9):/r s Misc
+[13:34:47][指令]KiVen(12):/tianqi 1
+[13:34:51][指令]LangShenXiaoGenBan(13):/tianqi 0
+[13:34:51][指令][Genesis]FengZi(9):/r s
+[13:34:54][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:34:56][指令][R_ST]Promise_DC(10):/buyattire
+[13:34:56][指令]KiVen(12):/r j 13
+[13:35:6][指令]LangShenXiaoGenBan(13):/r s
+[13:35:10][指令][R_omantic]FS1111(11):/T
+[13:35:17][指令][R_omantic]FS1111(11):/R CREATE
+[13:35:20][指令]Donji(8):/r l
+[13:35:20][指令][R_omantic]FS1111(11):/T CREATE
+[13:35:25][指令]Donji(8):/r s
+[13:35:38][指令]LangShenXiaoGenBan(13):/r l
+[13:35:47][指令][R_omantic]FS1111(11):/T CREATE RCF Romantic
+[13:36:4][指令]Donji(8):/r s CCS
+[13:36:6][指令][R_ST]Promise_DC(10):/sz
+[13:36:8][指令]Donji(8):/r l
+[13:36:10][指令]Donji(8):/r s
+[13:36:13][指令]Donji(8):/r s CCS
+[13:36:16][指令]Donji(8):/r l
+[13:36:19][指令][R_ST]Promise_DC(10):/sz
+[13:36:20][指令]Donji(8):/r s
+[13:36:23][指令]KiVen(12):/r l
+[13:36:24][指令]KiVen(12):/r j 13
+[13:36:25][指令]KiVen(12):/r j 1
+[13:36:27][指令]KiVen(12):/r j 13
+[13:36:30][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:36:36][指令]KiVen(12):/r j 13
+[13:36:40][指令]Donji(8):/r s
+[13:36:43][指令]Donji(8):/r s
+[13:36:45][指令]LangShenXiaoGenBan(13):/r s
+[13:36:53][指令][R_ST]Promise_DC(10):/sz
+[13:36:57][指令][R_omantic]FS1111(11):/C 477
+[13:36:59][指令][R_ST]Promise_DC(10):/help
+[13:37:6][指令][R_ST]Promise_DC(10):/help
+[13:37:10][指令][R_ST]Promise_DC(10):/help
+[13:37:14][指令][R_ST]Promise_DC(10):/help
+[13:37:19][指令][Genesis]FengZi(9):/r leave
+[13:37:22][指令][R_ST]Promise_DC(10):/help
+[13:37:22][指令][Genesis]FengZi(9):/r s Misc
+[13:37:24][指令][Genesis]FengZi(9):/r s
+[13:37:24][指令][R_ST]Promise_DC(10):/help
+[13:37:26][指令][R_ST]Promise_DC(10):/help
+[13:37:29][指令]Donji(8):/r s xcsd
+[13:37:30][指令][R_ST]Promise_DC(10):/help
+[13:37:32][指令][R_ST]Promise_DC(10):/help
+[13:37:32][指令]Donji(8):/r s
+[13:37:34][指令][R_ST]Promise_DC(10):/help
+[13:37:39][指令][R_ST]Promise_DC(10):/help
+[13:37:41][指令][R_ST]Promise_DC(10):/help
+[13:37:49][指令][R_ST]Promise_DC(10):/help
+[13:37:56][指令][R_ST]Promise_DC(10):/help
+[13:37:57][指令][R_omantic]FS1111(11):/C 411
+[13:38:1][指令][R_ST]Promise_DC(10):/board list
+[13:38:3][指令][R_ST]Promise_DC(10):/board goto 3
+[13:38:4][指令][R_omantic]FS1111(11):/c 451
+[13:38:7][指令]KiVen(12):/tv 13
+[13:38:8][指令][R_omantic]FS1111(11):/r s ldz
+[13:38:12][指令]KiVen(12):/tv off
+[13:38:12][指令][R_omantic]FS1111(11):/r s LDZ
+[13:38:13][指令]LangShenXiaoGenBan(13):/r l
+[13:38:15][指令]KiVen(12):/r s 
+[13:38:15][指令][R_ST]Promise_DC(10):/board list
+[13:38:17][指令][R_omantic]FS1111(11):/r s
+[13:38:17][指令][R_ST]Promise_DC(10):/board goto 8
+[13:38:18][指令]KiVen(12):/c 411
+[13:38:19][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:38:20][指令]KiVen(12):/c 451
+[13:38:22][指令]KiVen(12):/r j 13
+[13:38:26][指令][R_ST]Promise_DC(10):/board list
+[13:38:27][指令][R_ST]Promise_DC(10):/board goto 7
+[13:38:31][指令][Genesis]FengZi(9):/r leave
+[13:38:34][指令][R_ST]Promise_DC(10):/board list
+[13:38:34][指令][Genesis]FengZi(9):/r s Misc
+[13:38:35][指令][R_ST]Promise_DC(10):/board goto 9
+[13:38:36][指令][Genesis]FengZi(9):/r s
+[13:38:36][指令]LangShenXiaoGenBan(13):/r s
+[13:38:39][指令][R_ST]Promise_DC(10):/board 
+[13:38:43][指令][R_ST]Promise_DC(10):/board buy
+[13:38:55][指令][R_ST]Promise_DC(10):/help
+[13:38:58][指令][R_ST]Promise_DC(10):/help
+[13:39:0][指令][R_ST]Promise_DC(10):/help
+[13:39:6][指令][R_ST]Promise_DC(10):/help
+[13:39:14][指令][Genesis]FengZi(9):/r s
+[13:39:16][指令][R_ST]Promise_DC(10):/help
+[13:39:19][指令][R_ST]Promise_DC(10):/wdtd
+[13:39:49][指令][R_ST]Promise_DC(10):/wdtd
+[13:39:58][指令]LangShenXiaoGenBan(13):/tv 12
+[13:40:3][指令]LangShenXiaoGenBan(13):/tv off
+[13:40:3][指令]LangShenXiaoGenBan(13):/help
+[13:40:12][指令]LangShenXiaoGenBan(13):/c 451
+[13:40:14][指令]LangShenXiaoGenBan(13):/c 562
+[13:40:19][指令]KiVen(12):/r s CCS
+[13:40:23][指令]LangShenXiaoGenBan(13):/c 411
+[13:40:25][指令]KiVen(12):/R S
+[13:40:28][指令][R_ST]Promise_DC(10):/r s
+[13:40:29][指令]KiVen(12):/r s
+[13:40:32][指令]KiVen(12):/r l
+[13:40:32][指令][R_ST]Promise_DC(10):/help
+[13:40:34][指令]KiVen(12):/r s CCS
+[13:40:36][指令][R_ST]Promise_DC(10):/help
+[13:40:40][指令]LangShenXiaoGenBan(13):/r j 10
+[13:40:43][指令]LangShenXiaoGenBan(13):/r j 12
+[13:40:45][指令][R_ST]Promise_DC(10):/help
+[13:40:47][指令][R_ST]Promise_DC(10):/sz
+[13:40:50][指令]KiVen(12):/r s
+[13:40:58][指令][R_ST]Promise_DC(10):/sz
+[13:41:9][指令][R_ST]Promise_DC(10):/sz
+[13:41:10][指令]Donji(8):/r s
+[13:41:16][指令][R_omantic]FS1111(11):/c 411
+[13:41:19][指令][R_omantic]FS1111(11):/r s CCS
+[13:41:20][指令]Donji(8):/r s xcsd
+[13:41:21][指令]Donji(8):/r s
+[13:41:23][指令][R_omantic]FS1111(11):/r l
+[13:41:24][指令][R_ST]Promise_DC(10):/r s
+[13:41:52][指令]Donji(8):/r l
+[13:41:54][指令]Donji(8):/c 541
+[13:41:55][指令]Donji(8):/r s
+[13:41:59][指令]Donji(8):/r s xcsd
+[13:41:59][指令][R_omantic]FS1111(11):/r s xcsd
+[13:42:0][指令][R_omantic]FS1111(11):/r s
+[13:42:1][指令]Donji(8):/r s
+[13:42:13][指令]KiVen(12):/tv 13
+[13:42:13][指令]KiVen(12):/tv off
+[13:42:15][指令]KiVen(12):/r s CCS
+[13:42:24][指令]KiVen(12):/r s
+[13:42:34][指令]KiVen(12):/r l
+[13:42:35][指令]KiVen(12):/r s CCS
+[13:42:41][指令]LangShenXiaoGenBan(13):/r j 12
+[13:42:44][指令]KiVen(12):/r s
+[13:42:49][指令][R_omantic]FS1111(11):/r l
+[13:43:45][指令]LangShenXiaoGenBan(13):/r l
+[13:43:47][指令]LangShenXiaoGenBan(13):/f
+[13:44:10][指令]KiVen(12):/r s CCS
+[13:44:21][指令]KiVen(12):/r s
+[13:44:42][指令]LangShenXiaoGenBan(13):/r j 
+[13:44:46][指令]LangShenXiaoGenBan(13):/r j 12
+[13:44:51][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:45:1][指令]LangShenXiaoGenBan(13):/r s
+[13:45:9][指令]LangShenXiaoGenBan(13):/r l
+[13:45:11][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:45:17][指令]LangShenXiaoGenBan(13):/r s
+[13:45:49][指令]KiVen(12):/f
+[13:45:52][指令]Donji(8):/c 411
+[13:45:53][指令]Donji(8):/r s
+[13:45:57][指令]Donji(8):/r s xcsd
+[13:45:58][指令]Donji(8):/r s
+[13:46:5][指令]Donji(8):/r l
+[13:46:6][指令]KiVen(12):/tv 13
+[13:46:6][指令]Donji(8):/r s
+[13:46:31][指令]Donji(8):/r s LDZ
+[13:46:33][指令]Donji(8):/r s
+[13:46:39][指令]KiVen(12):/tv off
+[13:46:48][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:46:52][指令]KiVen(12):/r j 13
+[13:46:54][指令]KiVen(12):/c 411
+[13:46:55][指令]KiVen(12):/r j 13
+[13:46:59][指令]KiVen(12):/r l
+[13:47:2][指令]KiVen(12):/c 541
+[13:47:3][指令]KiVen(12):/r j 13
+[13:47:16][指令]LangShenXiaoGenBan(13):/R S
+[13:47:20][指令]LangShenXiaoGenBan(13):/R S
+[13:47:23][指令]LangShenXiaoGenBan(13):/r s
+[13:48:4][指令]Donji(8):/r l
+[13:48:30][指令]Donji(8):/r s
+[13:48:33][指令]Donji(8):/c 562
+[13:48:34][指令]Donji(8):/r s
+[13:48:41][指令]Donji(8):/r s LDZ
+[13:48:43][指令]Donji(8):/r s
+[13:48:47][指令]LangShenXiaoGenBan(13):/tv 12
+[13:48:53][指令]LangShenXiaoGenBan(13):/tv off
+[13:48:53][指令]LangShenXiaoGenBan(13):/help
+[13:48:59][指令]LangShenXiaoGenBan(13):/r s CCS
+[13:49:2][指令]KiVen(12):/f
+[13:49:5][指令]KiVen(12):/r s BFY
+[13:49:12][指令]LangShenXiaoGenBan(13):/r l
+[13:49:13][指令]KiVen(12):/C 562
+[13:49:21][指令]LangShenXiaoGenBan(13):/c 562
+[13:49:24][指令]LangShenXiaoGenBan(13):/c color 1
+[13:49:30][指令]Donji(8):/r l
+[13:49:32][指令]Donji(8):/r s
+[13:49:35][指令]Donji(8):/r s LDZ
+[13:49:37][指令]Donji(8):/r s
+[13:50:50][指令]KiVen(12):/CC 2 2
+[13:51:39][指令][R_ST]Hygen(9):/tv 12
+[13:51:44][指令][R_ST]Hygen(9):/tv 3
+[13:51:45][指令][R_ST]Hygen(9):/tv 13
+[13:51:46][指令][R_ST]Hygen(9):/tv 7
+[13:51:47][指令][R_ST]Hygen(9):/tv 12
+[13:51:48][指令][R_ST]Hygen(9):/tv 0
+[13:51:51][指令][R_ST]Hygen(9):/tv 5
+[13:51:54][指令][R_ST]Hygen(9):/tv 13
+[13:52:28][指令][R_ST]Hygen(9):/tv 8
+[13:52:30][指令][R_ST]Hygen(9):/tv off
+[13:52:31][指令][R_ST]Hygen(9):/c 411
+[13:52:34][指令][R_ST]Hygen(9):/help
+[13:52:36][指令][R_ST]Hygen(9):/help
+[13:52:36][指令][R_ST]Hygen(9):/help
+[13:52:39][指令][R_ST]Hygen(9):/adminhelp
+[13:52:41][指令][R_ST]Hygen(9):/help
+[13:53:2][指令][R_ST]Hygen(9):/adminhelp
+[13:53:4][指令][R_ST]Hygen(9):/help
+[13:53:5][指令]KiVen(12):/adminhelp
+[13:53:7][指令]KiVen(12):/help
+[13:53:7][指令]KiVen(12):/help
+[13:53:9][指令]LangShenXiaoGenBan(13):/c 411
+[13:53:18][指令]KiVen(12):/wdtd
+[13:53:21][指令]Donji(8):/r s
+[13:53:22][指令][R_ST]Hygen(9):/tv 8
+[13:53:23][指令]Donji(8):/r s LDZ
+[13:53:25][指令]Donji(8):/r s
+[13:53:25][指令][R_ST]Hygen(9):/tv off
+[13:53:28][指令][R_ST]Hygen(9):/c wode
+[13:53:30][指令]LangShenXiaoGenBan(13):/fxq
+[13:53:51][指令]LangShenXiaoGenBan(13):/c 451
+[13:53:52][指令]KiVen(12):/t goto 13
+[13:53:53][指令]KiVen(12):/t goto 13
+[13:53:59][指令]LangShenXiaoGenBan(13):/c 562
+[13:54:34][指令]LangShenXiaoGenBan(13):/vmake dd6
+[13:54:36][指令]KiVen(12):/cc 0 0
+[13:54:37][指令]LangShenXiaoGenBan(13):/vmake dd7
+[13:54:38][指令]KiVen(12):/cc 2 2
+[13:54:40][指令]KiVen(12):/cc 1 1
+[13:54:41][指令]LangShenXiaoGenBan(13):/hys
+[13:56:15][指令][R_ST]Hygen(9):/tv 12
+[13:56:19][指令][R_ST]Hygen(9):/tv off
+[13:56:20][指令]Donji(8):/r s
+[13:56:34][指令]Donji(8):/c 596
+[13:56:35][指令]Donji(8):/r s
+[13:56:44][指令]Donji(8):/r s LDZ
+[13:56:50][指令]Donji(8):/r s
+[13:56:57][指令]Donji(8):/r l
+[13:56:58][指令]Donji(8):/r s
+[13:57:2][指令]Donji(8):/r s LDZ
+[13:57:4][指令]Donji(8):/r s
+[13:58:6][指令]LangShenXiaoGenBan(13):/kgobj
+[13:58:24][指令]Donji(8):/r l
+[13:58:25][指令]Donji(8):/r s
+[13:58:27][指令]Donji(8):/r s LDZ
+[13:58:28][指令]Donji(8):/r s
+[13:59:0][指令]Donji(8):/r l
+[13:59:49][指令]KiVen(8):/c 411
+[14:2:33][指令]KiVen(8):/c 562
+[14:5:19][指令]LangShenXiaoGenBan(9):/help
+[14:5:25][指令]LangShenXiaoGenBan(9):/c 562
+[14:6:4][指令]KiVen(8):/t goto 9
+[14:6:49][指令]LangShenXiaoGenBan(9):/c 562
+[14:7:32][指令]KiVen(8):/t get 9
+[14:23:33][指令][R_ST]Hygen(8):/gmx
+[14:24:31][指令][R_ST]Hygen(8):/sz
+[14:24:35][指令][R_ST]Hygen(8):/c 411
+[14:24:41][指令][R_ST]Hygen(8):/t
+[14:24:42][指令][R_ST]Hygen(8):/t list
+[14:24:48][指令][R_ST]Hygen(8):/t list
+[14:25:21][指令][R_ST]Hygen(8):/t yes
+[14:25:53][指令]KiVen(9):/tv 8
+[14:26:1][指令]KiVen(9):/wdsz
+[14:26:6][指令]KiVen(9):/tv off
+[14:26:11][指令]KiVen(9):/c 411
+[14:26:16][指令]KiVen(9):/tv 8
+[14:26:19][指令][R_ST]Hygen(8):/sz
+[14:26:21][指令][R_ST]Hygen(8):/tv 9
+[14:27:9][指令]KiVen123(9):/help
+[14:27:15][指令][R_ST]Hygen(8):/t
+[14:27:17][指令][R_ST]Hygen(8):/t list
+[14:27:22][指令]KiVen123(9):/c 411
+[14:27:24][指令]KiVen123(9):/sdb
+[14:27:28][指令]KiVen123(9):/t no
+[14:27:32][指令]KiVen123(9):/t yes
+[14:27:37][指令][R_ST]Hygen(8):/t list
+[14:28:6][指令]KiVen123(9):/wdtd
+[14:28:8][指令]KiVen123(9):/wdtd
+[14:28:24][指令][R_ST]Hygen(8):/reset
+[14:28:28][指令][R_ST]Hygen(8):/reset KiVen123 123456
+[14:29:15][指令]KiVen123(9):/help
+[14:29:20][指令][R_ST]Hygen(8):/t list
+[14:30:16][指令][R_ST]Hygen(8):/goto 9
+[14:35:13][指令][R_ST]Hygen(8):/gmx
+[14:37:11][指令][R_ST]Hygen(8):/c 510
+[14:37:17][指令][R_ST]Hygen(8):/ww
+[14:39:33][指令][R_ST]KiVen(9):/help
+[14:39:38][指令][R_ST]KiVen(9):/help
+[14:39:46][指令][R_ST]KiVen(9):/help
+[17:9:8][指令][R_ST]Safford(8):/weather 0
+[17:9:12][指令][R_ST]Safford(8):/c 562
+[17:9:15][指令][R_ST]Safford(8):/cc 00 00.
+[17:9:17][指令][R_ST]Safford(8):/cc 00 00
+[17:24:12][指令][R_omantic]FS1111(9):/C 411
+[17:25:0][指令][R_omantic]FS1111(9):/FXQ
+[17:25:3][指令][R_omantic]FS1111(9):/C 411
+[17:25:5][指令][R_omantic]FS1111(9):/C 410
+[17:25:9][指令][R_omantic]FS1111(9):/FXQ
+[17:25:11][指令][R_omantic]FS1111(9):/C 410
+[17:25:13][指令][R_omantic]FS1111(9):/FXQ
+[17:25:24][指令][R_omantic]FS1111(9):/C 410
+[17:25:35][指令][R_omantic]FS1111(9):/FXQ
+[17:25:52][指令][R_omantic]FS1111(9):/C 410
+[17:26:10][指令][R_omantic]FS1111(9):/C 410
+[17:26:17][指令][R_omantic]FS1111(9):/C WODE
+[17:26:37][指令][R_omantic]FS1111(9):/F
+[17:26:46][指令][R_omantic]FS1111(9):/TP 
+[17:26:49][指令][R_omantic]FS1111(9):/TP 8
+[17:26:55][指令][R_ST]Safford(8):/ta
+[17:26:58][指令][R_omantic]FS1111(9):/C 546
+[17:28:2][指令][R_omantic]FS1111(9):/F
+[17:28:52][指令][R_omantic]FS1111(9):/FXQ
+[17:29:20][指令][R_omantic]FS1111(9):/C 546
+[17:29:23][指令][R_omantic]FS1111(9):/C COLOR 1 1
+[17:29:50][指令][R_omantic]FS1111(9):/FXQ
+[17:30:55][指令][R_ST]Safford(8):/c 541
+[17:31:1][指令][R_ST]Safford(8):/cc 79 01
+[17:34:33][指令][R_omantic]FS1111(9):/C 546
+[17:36:29][指令][R_ST]Safford(8):/r s CCS
+[17:36:31][指令][R_ST]Safford(8):/r l
+[17:36:39][指令][R_omantic]FS1111(9):/r j 8
+[17:39:6][指令][R_omantic]FS1111(9):/F
+[17:40:4][指令][R_omantic]FS1111(9):/C COLOR 1 1
+[17:40:34][指令][R_ST]Safford(8):/c 562
+[17:40:37][指令][R_ST]Safford(8):/cc 00 00
+[17:41:14][指令][R_omantic]FS1111(9):/C 541
+[17:44:28][指令][R_omantic]FS1111(9):/F
+[17:44:59][指令][R_omantic]FS1111(9):/F
+[17:45:7][指令][R_omantic]FS1111(9):/C 541
+[17:45:36][指令][R_ST]Safford(8):/c 411
+[17:45:43][指令][R_ST]Safford(8):/r s SpXSF01
+[17:45:51][指令][R_ST]Safford(8):/r s
+[17:46:3][指令][R_ST]Safford(8):/r l
+[17:46:30][指令][R_ST]Safford(8):/r s SpXSF01
+[17:46:35][指令][R_ST]Safford(8):/r s
+[17:46:51][指令][R_ST]Safford(8):/r l
+[17:46:54][指令][R_ST]Safford(8):/r s SpXSF01
+[17:46:59][指令][R_ST]Safford(8):/r s
+[17:48:5][指令][R_ST]Safford(8):/r l
+[17:48:9][指令][R_ST]Safford(8):/r s SpXSF01
+[17:48:14][指令][R_ST]Safford(8):/r s
+[17:52:56][指令][R_ST]Safford(8):/r s SpXSF01
+[17:53:2][指令][R_ST]Safford(8):/r s
+[17:53:52][指令][R_ST]Safford(8):/r l
+[17:53:55][指令][R_ST]Safford(8):/r s SpXSF01
+[17:54:10][指令][R_ST]Safford(8):/r s
+[17:55:49][指令][R_ST]Safford(8):/r l
+[17:56:2][指令][R_ST]Safford(8):/r s SpXSF01
+[17:56:9][指令][R_ST]Safford(8):/r s
+[17:58:41][指令][R_ST]Safford(8):/r l
+[17:59:38][指令][R_ST]Safford(8):/r s SpXSF01
+[17:59:52][指令][R_ST]Safford(8):/r s
+[18:3:56][指令][R_omantic]FS1111(9):/r s SpXSF01
+[18:4:25][指令][R_omantic]FS1111(9):/r s
+[18:5:10][指令][R_omantic]FS1111(9):/r l
+[18:5:11][指令][R_omantic]FS1111(9):/r s
+[18:5:34][指令][R_omantic]FS1111(9):/r s DiRT3
+[18:5:40][指令][R_omantic]FS1111(9):/r s
+[18:6:8][指令][R_omantic]FS1111(9):/r l
+[18:6:9][指令][R_omantic]FS1111(9):/r s
+[18:10:22][指令][R_omantic]FS1111(9):/C 411
+[18:10:32][指令][R_omantic]FS1111(9):/C 411
+[18:10:39][指令][R_omantic]FS1111(9):/C 411
+[18:10:52][指令][R_omantic]FS1111(9):/C 452
+[18:10:59][指令][R_omantic]FS1111(9):/C 452
+[18:11:9][指令][R_omantic]FS1111(9):/C 411
+[18:15:42][指令][R_ST]Safford(8):/s
+[18:15:57][指令][R_ST]Safford(8):/l
+[18:16:12][指令][R_ST]Safford(8):/l
+[18:16:14][指令][R_ST]Safford(8):/l
+[18:16:50][指令][R_omantic]FS1111(9):/FXQ
+[18:17:6][指令][R_ST]Safford(8):/s
+[18:17:13][指令][R_omantic]FS1111(9):/C 411
+[18:17:23][指令][R_ST]Safford(8):/l
+[18:17:41][指令][R_ST]Safford(8):/l
+[18:17:58][指令][R_ST]Safford(8):/l
+[18:18:21][指令][R_ST]Safford(8):/s
+[18:18:40][指令][R_ST]Safford(8):/s
+[18:18:48][指令][R_ST]Safford(8):/l
+[18:19:9][指令][R_ST]Safford(8):/l
+[18:20:22][指令][R_ST]Safford(8):/c 411
+[18:20:34][指令][R_ST]Safford(8):/tv 9
+[18:20:39][指令][R_ST]Safford(8):/tv off
+[18:20:42][指令][R_ST]Safford(8):/c 411
+[18:20:57][指令][R_ST]Safford(8):/r s zekkv1
+[18:21:0][指令][R_ST]Safford(8):/r s
+[18:23:24][指令][R_ST]Safford(8):/kill
+[18:23:50][指令][R_ST]Safford(8):/r l
+[18:23:52][指令][R_ST]Safford(8):/r s zekkv1
+[18:23:54][指令][R_ST]Safford(8):/r s
+[18:26:37][指令][R_ST]Safford(8):/r l
+[18:26:40][指令][R_ST]Safford(8):/r s zekkv1
+[18:26:45][指令][R_ST]Safford(8):/r s
+[18:27:54][指令][R_ST]Safford(8):/kill
+[18:28:13][指令][R_ST]Safford(8):/r l
+[18:28:15][指令][R_ST]Safford(8):/r s zekkv1
+[18:28:16][指令][R_ST]Safford(8):/r s
+[18:28:47][指令][R_ST]Safford(8):/r l
+[18:28:50][指令][R_ST]Safford(8):/r s zekkv1
+[18:28:51][指令][R_ST]Safford(8):/r s
+[18:31:35][指令][R_ST]Safford(8):/r l
+[18:31:37][指令][R_ST]Safford(8):/weather 0
+[18:31:40][指令][R_ST]Safford(8):/time 12 00
+[18:34:5][指令][R_ST]Safford(8):/r s FollowMe
+[18:34:8][指令][R_ST]Safford(8):/r s
+[18:35:30][指令][R_ST]Safford(8):/r l
+[20:52:50][指令]LastKing(8):/help
+[20:53:11][指令]LastKing(8):/skin 2
+[20:53:13][指令]LastKing(8):/c 562
+[21:15:6][指令][R_ST]KiVen(8):/sz
+[21:15:10][指令][R_ST]KiVen(8):/c 
+[21:15:12][指令][R_ST]KiVen(8):/c 411
+[21:15:18][指令][R_ST]KiVen(8):/sdb
+[21:15:20][指令][R_ST]KiVen(8):/sdb
+[21:15:23][指令][R_ST]KiVen(8):/wdsz
+[21:16:20][指令][R_ST]KiVen(8):/WDSZ
+[21:16:24][指令][R_ST]KiVen(8):/wudi
+[21:16:24][指令][R_ST]KiVen(8):/sz
+[21:16:38][指令][R_ST]KiVen(8):/WDSZ
+[21:17:32][指令][R_omantic]FS1111(9):/SZ
+[21:17:55][指令][R_ST]KiVen(8):/C 562
+[21:17:57][指令][R_ST]KiVen(8):/CC 2 2
+[21:18:50][指令][R_ST]KiVen(8):/CC 0
+[21:18:58][指令][R_ST]KiVen(8):/CC 0 0
+[21:19:10][指令][R_ST]KiVen(8):/S
+[21:19:17][指令][R_ST]KiVen(8):/wdzb
+[21:20:8][指令][R_ST]KiVen(8):/s
+[21:20:51][指令][R_ST]KiVen(8):/l
+[21:21:4][指令][R_omantic]FS1111(9):/C 410
+[21:21:6][指令][R_ST]KiVen(8):/l
+[21:21:38][指令][R_omantic]FS1111(9):/C 410
+[21:25:25][指令][R_ST]Hygen(9):/t goto 8
+[21:25:27][指令][R_ST]Hygen(9):/t goto 8
+[21:25:29][指令][R_ST]Hygen(9):/t goto 8
+[21:25:35][指令][R_ST]Hygen(9):/t goto 8
+[21:25:45][指令][R_ST]Hygen(9):/gmx
+[21:26:44][指令][R_ST]KiVen(8):/t goto 8
+[21:26:46][指令][R_ST]KiVen(8):/t goto 8
+[21:26:49][指令][R_ST]KiVen(8):/t goto 
+[21:26:51][指令][R_ST]KiVen(8):/t goto 9
+[21:26:56][指令][R_ST]Hygen(9):/telemenu
+[21:27:5][指令][R_ST]KiVen(8):/telemenu
+[21:27:7][指令][R_ST]Hygen(9):/telemenu
+[21:27:36][指令][R_ST]Hygen(9):/vsmake
+[21:27:44][指令][R_ST]KiVen(8):/vsmake
+[21:27:54][指令][R_ST]Hygen(9):/t goto 8
+[21:28:8][指令][R_ST]Hygen(9):/t goto 8
+[21:28:22][指令][R_ST]KiVen(8):/c 411
+[21:30:14][指令][R_ST]KiVen(8):/vsmake
+[21:30:22][指令][R_ST]KiVen(8):/vsmake dyc 电影厂
+[21:30:28][指令][R_ST]Hygen(9):/t list
+[21:30:34][指令][R_ST]Hygen(9):/telemenu
+[21:30:43][指令][R_ST]Hygen(9):/wuqi
+[21:31:21][指令][R_ST]KiVen(8):/vsmake jcj 警察局
+[21:31:38][指令][R_ST]Hygen(9):/wuqi
+[21:31:56][指令][R_ST]KiVen(8):/vsmake szf 市政府
+[21:32:29][指令][R_ST]Hygen(9):/telemenu
+[21:33:41][指令][R_omantic]FS1111(10):/WUQI
+[21:33:45][指令][R_ST]Hygen(9):/s
+[21:33:54][指令][R_ST]Hygen(9):/t list
+[21:35:21][指令][R_ST]KiVen(8):/t goto 9
+[21:35:28][指令][R_omantic]FS1111(10):/C 410
+[21:36:4][指令][R_ST]Hygen(9):/tv 10
+[21:36:10][指令][R_ST]KiVen(8):/c 562
+[21:36:14][指令][R_ST]Hygen(9):/tv off
+[21:36:16][指令][R_ST]Hygen(9):/t goto 8
+[21:36:17][指令][R_ST]KiVen(8):/vsmake
+[21:36:26][指令][R_omantic]FS1111(10):/FXQ
+[21:36:29][指令][R_ST]KiVen(8):/vsmake dw Elegy drift 1
+[21:36:38][指令][R_omantic]FS1111(10):/C 562
+[21:37:6][指令][R_ST]KiVen(8):/vsmake dw1 Elegy drift 1
+[21:37:17][指令][R_omantic]FS1111(10):/S
+[21:37:17][指令][R_ST]KiVen(8):/c 411
+[21:37:18][指令][R_omantic]FS1111(10):/SZ
+[21:37:19][指令][R_ST]Hygen(9):/telemenu
+[21:37:36][指令][R_ST]Hygen(9):/telemenu
+[21:37:40][指令][R_omantic]FS1111(10):/TELEMENU
+[21:37:58][指令][R_ST]Hygen(9):/wuqi
+[21:38:8][指令][R_ST]KiVen(8):/vsmake dw2 Elegy drift 2
+[21:39:31][指令][R_ST]KiVen(8):/vsmake dw3 Elegy drift 3
+[21:39:43][指令][R_ST]Hygen(9):/t goto 8
+[21:39:46][指令][R_ST]Hygen(9):/t goto 8
+[21:40:4][指令][R_ST]Hygen(9):/wuqi
+[21:40:30][指令][R_ST]Hygen(9):/wuqi
+[21:41:26][指令][R_ST]KiVen(8):/vsmake dw4 Elegy drift 4
+[21:42:15][指令][R_ST]KiVen(8):/c 562
+[21:42:38][指令][R_ST]KiVen(8):/vsmake dw5 Elegy drift 5
+[21:43:43][指令][R_ST]KiVen(8):/vsmake dw6 Elegy drift 6
+[21:44:21][指令][R_ST]KiVen(8):/c 411
+[21:45:43][指令][R_ST]KiVen(8):/vsmake dw7 Elegy drift 7
+[21:46:6][指令][R_omantic]Ambrose(11):/wdsz
+[21:47:6][指令][R_omantic]Ambrose(11):/wdsz
+[21:47:10][指令][R_ST]KiVen(8):/vsmake dw8 Elegy drift 8
+[21:47:29][指令][R_omantic]FS1111(10):/T
+[21:47:43][指令][R_omantic]FS1111(10):/T LIST
+[21:48:13][指令][R_omantic]FS1111(10):/T LIST
+[21:48:22][指令][R_ST]Hygen(9):/t list
+[21:48:26][指令][R_ST]Hygen(9):/t list
+[21:48:34][指令][R_omantic]Ambrose(11):/c 411 1
+[21:48:37][指令][R_ST]Hygen(9):/t list
+[21:48:45][指令][R_omantic]FS1111(10):/T LIST
+[21:48:53][指令][R_ST]Hygen(9):/t list
+[21:48:56][指令][R_ST]Hygen(9):/t list
+[21:49:23][指令][R_ST]Hygen(9):/t yes
+[21:49:34][指令][R_ST]KiVen(8):/vsmake
+[21:49:39][指令][R_omantic]FS1111(10):/T LIST
+[21:49:41][指令][R_ST]KiVen(8):/vsmake dw9 Elegy drift 9
+[21:49:42][指令][R_omantic]Ambrose(11):/t
+[21:49:53][指令][R_omantic]Ambrose(11):/c 562 1
+[21:50:8][指令][R_ST]Hygen(9):/telemenu
+[21:50:10][指令][R_ST]KiVen(8):/telemenu
+[21:50:12][指令][R_omantic]Ambrose(11):/telemenu
+[21:50:14][指令][R_omantic]FS1111(10):/C 562
+[21:50:21][指令][R_ST]KiVen(8):/c 411
+[21:50:34][指令][R_ST]Hygen(9):/t list
+[21:50:37][指令][R_ST]Hygen(9):/t list
+[21:51:2][指令][R_ST]Hygen(9):/t list
+[21:51:19][指令][R_ST]KiVen(8):/r s SFxLS01
+[21:52:11][指令][R_omantic]Ambrose(11):/cc 1 1
+[21:52:13][指令][R_ST]KiVen(8):/telemenu
+[21:52:24][指令][R_ST]KiVen(8):/telemenu
+[21:52:44][指令][R_ST]Hygen(9):/t yes
+[21:52:50][指令][R_ST]KiVen(8):/vsmake sfzay 经典城市赛起点
+[21:53:3][指令][R_omantic]FS1111(10):/C 411
+[21:53:6][指令][R_omantic]Ambrose(11):/c 411
+[21:53:28][指令][R_ST]KiVen(8):/get 9
+[21:53:49][指令][R_ST]Hygen(9):/t goto 8
+[21:54:49][指令][R_ST]KiVen(8):/c 497
+[21:54:56][指令][R_omantic]FS1111(10):/C 425
+[21:55:10][指令][R_omantic]FS1111(10):/C 425
+[21:55:14][指令][R_omantic]FS1111(10):/FXQ
+[21:55:59][指令][R_omantic]FS1111(10):/C 425
+[21:56:4][指令][R_omantic]FS1111(10):/F
+[21:56:6][指令][R_ST]Hygen(9):/F
+[21:56:9][指令][R_ST]KiVen(8):/vsmake gao 高楼跳伞点
+[21:56:12][指令][R_omantic]FS1111(10):/C LISR
+[21:56:13][指令][R_omantic]FS1111(10):/C LIST
+[21:56:27][指令][R_omantic]FS1111(10):/T LIST
+[21:56:40][指令][R_ST]Hygen(9):/wdtd
+[21:56:53][指令][R_omantic]FS1111(10):/T LIST
+[21:56:56][指令][R_ST]KiVen(8):/WDZB
+[21:57:1][指令][R_omantic]FS1111(10):/T LIST
+[21:57:8][指令][R_omantic]FS1111(10):/T LIST
+[21:57:10][指令][R_ST]KiVen(8):/C 411
+[21:57:20][指令][R_omantic]Ambrose(11):/c 494
+[21:57:32][指令][R_omantic]FS1111(10):/T LIST
+[21:57:36][指令][R_ST]Hygen(9):/t list
+[21:57:46][指令][R_omantic]FS1111(10):/T LIST
+[21:57:46][指令][R_ST]Hygen(9):/t list
+[21:58:6][指令][R_omantic]Ambrose(11):/t
+[21:58:10][指令][R_omantic]Ambrose(11):/t list
+[21:58:13][指令][R_omantic]FS1111(10):/T LIST
+[21:58:19][指令][R_ST]Hygen(9):/wdtd
+[21:58:22][指令][R_ST]KiVen(8):/WDTD
+[21:58:30][指令][R_omantic]Ambrose(11):/t 
+[21:58:30][指令][R_omantic]FS1111(10):/C 410
+[21:58:31][指令][R_ST]Hygen(9):/t list
+[21:58:32][指令][R_omantic]Ambrose(11):/t list
+[21:59:10][指令][R_omantic]Ambrose(11):/c 562 1
+[21:59:19][指令][R_omantic]Ambrose(11):/cc 1 1
+[21:59:20][指令][R_ST]Hygen(9):/wdtd
+[21:59:26][指令][R_ST]KiVen(8):/T YES
+[21:59:48][指令][R_ST]Hygen(9):/t yes
+[21:59:58][指令][R_ST]KiVen(8):/WDTD
+[22:0:1][指令][R_ST]KiVen(8):/WDTD
+[22:0:4][指令][R_ST]Hygen(9):/t list
+[22:0:24][指令][R_omantic]Ambrose(11):/t list
+[22:0:26][指令][R_ST]KiVen(8):/WDTD
+[22:0:31][指令][R_omantic]Ambrose(11):/t list
+[22:0:35][指令][R_ST]KiVen(8):/WDTD
+[22:0:37][指令][R_ST]KiVen(8):/WDTD
+[22:0:40][指令][R_ST]Hygen(9):/t list
+[22:0:43][指令][R_ST]Hygen(9):/t list
+[22:0:45][指令][R_ST]KiVen(8):/WDTD
+[22:0:47][指令][R_omantic]Ambrose(11):/t 
+[22:0:47][指令][R_ST]Hygen(9):/t goto 10
+[22:0:50][指令][R_ST]Hygen(9):/t goto 8
+[22:0:50][指令][R_omantic]Ambrose(11):/t list
+[22:0:57][指令][R_omantic]Ambrose(11):/t list
+[22:0:58][指令][R_ST]Hygen(9):/goto 10
+[22:1:5][指令][R_ST]KiVen(8):/wdtd
+[22:1:7][指令][R_ST]Hygen(9):/tv 8
+[22:1:9][指令][R_ST]Hygen(9):/tv 10
+[22:1:10][指令][R_ST]KiVen(8):/wdtd
+[22:1:10][指令][R_ST]Hygen(9):/tv 10
+[22:1:13][指令][R_ST]Hygen(9):/s
+[22:1:13][指令][R_ST]Hygen(9):/tv off
+[22:1:14][指令][R_ST]Hygen(9):/l
+[22:1:24][指令][R_ST]KiVen(8):/wdtd
+[22:1:34][指令][R_ST]Hygen(9):/wdtd
+[22:1:56][指令][R_ST]KiVen(8):/wdtd
+[22:2:12][指令][R_ST]KiVen(8):/c 411
+[22:2:14][指令][R_omantic]Ambrose(11):/t list
+[22:2:16][指令][R_ST]KiVen(8):/td
+[22:2:19][指令][R_omantic]Ambrose(11):/t list
+[22:2:22][指令][R_ST]KiVen(8):/help
+[22:2:32][指令][R_omantic]Ambrose(11):/t list
+[22:2:41][指令][R_ST]KiVen(8):/help
+[22:2:53][指令][R_ST]KiVen(8):/help
+[22:2:56][指令][R_ST]KiVen(8):/t list
+[22:3:11][指令][R_ST]KiVen(8):/goto 9
+[22:3:14][指令][R_omantic]Ambrose(11):/c 474
+[22:3:16][指令][R_omantic]Ambrose(11):/c dl
+[22:3:59][指令][R_omantic]Ambrose(11):/cc 1 0
+[22:4:4][指令][R_omantic]Ambrose(11):/cc 1 1
+[22:5:12][指令][R_ST]Hygen(9):/gmx
+[22:6:3][指令][R_ST]Hygen(9):/wdtd
+[22:6:9][指令][R_ST]KiVen(8):/td list
+[22:6:12][指令][R_ST]KiVen(8):/t list
+[22:6:26][指令][R_ST]Hygen(9):/c 510
+[22:6:43][指令][R_ST]Hygen(9):/dm
+[22:7:24][指令]Ansel(8):/help
+[22:7:29][指令][R_ST]Hygen(9):/wdtd
+[22:7:43][指令]Ansel(8):/TV 9
+[22:7:45][指令]Ansel(8):/TV OFF
+[22:7:45][指令]Ansel(8):/help
+[22:7:53][指令]Ansel(8):/WDSZ
+[22:7:57][指令][R_ST]Hygen(9):/td
+[22:7:59][指令]Ansel(8):/TV 9
+[22:8:1][指令][R_ST]Hygen(9):/wdtd
+[22:8:8][指令]Ansel(8):/t no
+[22:8:10][指令]Ansel(8):/t yes
+[22:8:15][指令]Ansel(8):/wdtd
+[22:8:16][指令]Ansel(8):/help
+[22:8:20][指令]Ansel(8):/wdtd
+[22:8:39][指令][R_ST]Hygen(9):/wdtd
+[22:8:45][指令]Ansel(8):/wdtd
+[22:8:52][指令][R_ST]Hygen(9):/c 510
+[22:8:58][指令]Ansel(8):/wdtd
+[22:9:6][指令]Ansel(8):/tv 10
+[22:9:8][指令]Ansel(8):/tv 10
+[22:18:21][指令][R_ST]KiVen(8):/c 411
+[22:19:14][指令][R_omantic]FS1111(10):/c 477
+[22:19:17][指令][R_omantic]FS1111(10):/c 546
+[22:19:21][指令][R_omantic]FS1111(10):/c color  1 1
+[22:21:3][指令][R_omantic]Ambrose(9):/c 562
+[22:21:4][指令][R_omantic]Ambrose(9):/cc 1
+[22:21:5][指令][R_omantic]Ambrose(9):/cc 1 1
+[22:21:9][指令][R_omantic]Ambrose(9):/cc 0 0
+[22:23:9][指令][R_omantic]Ambrose(9):/cc 1 1
+[22:24:1][指令][R_ST]KiVen(8):/c 451
+[22:24:10][指令][R_ST]KiVen(8):/cc 0 1
+[22:24:12][指令][R_ST]KiVen(8):/cc 1 0
+[22:27:13][指令][R_ST]KiVen(8):/TIME 15
+[22:27:18][指令][R_ST]KiVen(8):/TIME 15 5 30
+[22:27:23][指令][R_ST]KiVen(8):/TIME 5 30
+[22:34:24][指令][R_omantic]Ambrose(9):/sz
+[22:34:26][指令][R_omantic]Ambrose(9):/kgobj
+[22:34:26][指令][R_omantic]Ambrose(9):/sz
+[22:35:7][指令][R_ST]Promise_DC(10):/C 411
+[22:35:23][指令][R_ST]Promise_DC(10):/C 562
+[22:35:53][指令][R_ST]Promise_DC(10):/C 562
+[22:36:5][指令][R_ST]Promise_DC(10):/C 411
+[22:54:28][指令][R_ST]Promise_DC(9):/C 562
+[22:58:41][指令][R_ST]Promise_DC(9):/KGOBJ
+[23:0:17][指令][R_ST]Promise_DC(9):/r s
+[23:2:16][指令][R_ST]Promise_DC(9):/C 411
+[23:2:48][指令][R_ST]Promise_DC(9):/CC 1 1
+[23:2:51][指令][R_ST]Promise_DC(9):/r s
+[23:3:14][指令][R_ST]Promise_DC(9):/r s Misc
+[23:3:19][指令][R_ST]Promise_DC(9):/r s
+[23:3:33][指令][R_ST]Promise_DC(9):/r leave
+[23:3:34][指令][R_ST]Promise_DC(9):/r s
+[23:3:38][指令][R_ST]Promise_DC(9):/r s Misc
+[23:3:41][指令][R_ST]Promise_DC(9):/r s
+[23:5:27][指令][R_ST]Promise_DC(9):/r leave
+[23:5:29][指令][R_ST]Promise_DC(9):/kgobj
+[23:5:33][指令][R_ST]Promise_DC(9):/r s
+[23:5:35][指令][R_ST]Promise_DC(9):/r s Misc
+[23:5:38][指令][R_ST]Promise_DC(9):/r s
+[23:6:22][指令][R_ST]Promise_DC(9):/r leave
+[23:6:23][指令][R_ST]Promise_DC(9):/r s
+[23:6:26][指令][R_ST]Promise_DC(9):/r s Misc
+[23:6:28][指令][R_ST]Promise_DC(9):/r s
+[23:8:46][指令][R_ST]Promise_DC(9):/r leave
+[23:8:47][指令][R_ST]Promise_DC(9):/r s
+[23:8:50][指令][R_ST]Promise_DC(9):/r s Misc
+[23:8:53][指令][R_ST]Promise_DC(9):/r s
+[23:9:5][指令][R_ST]Promise_DC(9):/r leave
+[23:9:6][指令][R_ST]Promise_DC(9):/r s
+[23:9:9][指令][R_ST]Promise_DC(9):/r s Misc
+[23:9:13][指令][R_ST]Promise_DC(9):/r s
+[23:9:28][指令][R_ST]Promise_DC(9):/r leave
+[23:9:30][指令][R_ST]Promise_DC(9):/r s
+[23:9:33][指令][R_ST]Promise_DC(9):/r s Misc
+[23:9:35][指令][R_ST]Promise_DC(9):/r s
+[23:12:17][指令][R_ST]Promise_DC(9):/r s
+[23:12:43][指令][R_ST]Promise_DC(9):/r s Misc
+[23:12:59][指令][R_ST]Promise_DC(9):/r s
+[23:16:9][指令][R_ST]Promise_DC(9):/r leave
+[23:16:9][指令][R_ST]Promise_DC(9):/r s
+[23:16:12][指令][R_ST]Promise_DC(9):/r s Misc
+[23:16:14][指令][R_ST]Promise_DC(9):/r s
+[23:16:28][指令][R_ST]Promise_DC(9):/r leave
+[23:16:29][指令][R_ST]Promise_DC(9):/r s
+[23:16:31][指令][R_ST]Promise_DC(9):/r s Misc
+[23:16:33][指令][R_ST]Promise_DC(9):/r s
+[23:16:48][指令][R_ST]Promise_DC(9):/r leave
+[23:16:49][指令][R_ST]Promise_DC(9):/r s
+[23:16:51][指令][R_ST]Promise_DC(9):/r s Misc
+[23:16:53][指令][R_ST]Promise_DC(9):/r s
+[23:17:31][指令][R_ST]Promise_DC(9):/r leave
+[23:17:33][指令][R_ST]Promise_DC(9):/r s
+[23:17:36][指令][R_ST]Promise_DC(9):/r s Misc
+[23:17:38][指令][R_ST]Promise_DC(9):/r s
+[23:18:16][指令][R_ST]Promise_DC(9):/r leave
+[23:18:17][指令][R_ST]Promise_DC(9):/r s
+[23:18:20][指令][R_ST]Promise_DC(9):/r s Misc
+[23:18:21][指令][R_ST]Promise_DC(9):/r s
+[23:19:19][指令][R_ST]Promise_DC(9):/r leave
+[23:19:20][指令][R_ST]Promise_DC(9):/r s
+[23:19:22][指令][R_ST]Promise_DC(9):/r s Misc
+[23:19:24][指令][R_ST]Promise_DC(9):/r s
+[23:21:37][指令][R_ST]Promise_DC(9):/r leave
+[23:21:38][指令][R_ST]Promise_DC(9):/r s
+[23:21:40][指令][R_ST]Promise_DC(9):/r s Misc
+[23:21:42][指令][R_ST]Promise_DC(9):/r s
+[23:22:16][指令][R_ST]Promise_DC(9):/kill
+[23:22:24][指令][R_ST]Promise_DC(9):/r s
+[23:22:26][指令][R_ST]Promise_DC(9):/r s Misc
+[23:22:29][指令][R_ST]Promise_DC(9):/r s
+[23:24:10][指令][R_ST]Promise_DC(9):/r leave
+[23:24:11][指令][R_ST]Promise_DC(9):/r s
+[23:24:14][指令][R_ST]Promise_DC(9):/r s Misc
+[23:24:17][指令][R_ST]Promise_DC(9):/r s
+[23:26:4][指令][R_ST]KiVen(8):/C 411
+[23:26:11][指令][R_ST]KiVen(8):/CC 2 2
+[23:26:13][指令][R_ST]KiVen(8):/CC 1 1
+[23:26:16][指令][R_ST]KiVen(8):/TIME 5 30
+[23:26:58][指令][R_omantic]FS1111(9):/C 411
+[23:27:39][指令][R_ST]Promise_DC(10):/r s
+[23:27:50][指令][R_omantic]FS1111(9):/SZ
+[23:27:55][指令][R_ST]Promise_DC(10):/r s Misc
+[23:27:57][指令][R_omantic]FS1111(9):/time 24 0
+[23:27:57][指令][R_omantic]FS1111(9):/sz
+[23:28:0][指令][R_ST]Promise_DC(10):/c 411
+[23:28:12][指令][R_ST]Promise_DC(10):/r s
+[23:28:16][指令][R_ST]Promise_DC(10):/r s Misc
+[23:28:21][指令][R_ST]KiVen(8):/GOTO 
+[23:28:24][指令][R_ST]KiVen(8):/GOTO 9
+[23:28:24][指令][R_ST]Promise_DC(10):/r leave
+[23:28:27][指令][R_ST]KiVen(8):/GOTO 9
+[23:28:40][指令][R_ST]Promise_DC(10):/r s
+[23:28:44][指令][R_ST]Promise_DC(10):/r s Misc
+[23:28:48][指令][R_ST]Promise_DC(10):/r s
+[23:29:45][指令][R_ST]Promise_DC(10):/r leave
+[23:29:47][指令][R_ST]Promise_DC(10):/r leave
+[23:29:51][指令][R_ST]Promise_DC(10):/r s
+[23:29:54][指令][R_ST]Promise_DC(10):/r s Misc
+[23:29:55][指令][R_ST]Promise_DC(10):/r s
+[23:30:16][指令][R_ST]Promise_DC(10):/r leave
+[23:30:17][指令][R_ST]Promise_DC(10):/r s
+[23:30:21][指令][R_ST]Promise_DC(10):/r s Misc
+[23:30:23][指令][R_ST]Promise_DC(10):/r s
+[23:32:53][指令][R_ST]Promise_DC(10):/r leave
+[23:32:53][指令][R_ST]Promise_DC(10):/r s
+[23:32:56][指令][R_ST]Promise_DC(10):/r s Misc
+[23:32:59][指令][R_ST]Promise_DC(10):/r s
+[23:37:51][指令][R_ST]Promise_DC(10):/r s
+[23:37:56][指令][R_ST]Promise_DC(10):/r s Misc
+[23:37:59][指令][R_ST]Promise_DC(10):/r s
+[23:38:47][指令][R_ST]Promise_DC(10):/r leave
+[23:38:49][指令][R_ST]Promise_DC(10):/r s
+[23:38:51][指令][R_ST]Promise_DC(10):/r s Misc
+[23:38:53][指令][R_ST]Promise_DC(10):/r s
+[23:39:40][指令][R_ST]Promise_DC(10):/r leave
+[23:39:41][指令][R_ST]Promise_DC(10):/r s
+[23:39:43][指令][R_ST]Promise_DC(10):/r s Misc
+[23:39:45][指令][R_ST]Promise_DC(10):/r s
+[23:40:54][指令][R_ST]Promise_DC(10):/r leave
+[23:40:54][指令][R_ST]Promise_DC(10):/r s
+[23:40:56][指令][R_ST]Promise_DC(10):/r s Misc
+[23:40:58][指令][R_ST]Promise_DC(10):/r s
+[23:41:13][指令][R_ST]Promise_DC(10):/r leave
+[23:41:15][指令][R_ST]Promise_DC(10):/r s
+[23:41:18][指令][R_ST]Promise_DC(10):/r s Misc
+[23:41:19][指令][R_ST]Promise_DC(10):/r s
+[23:41:54][指令][R_ST]Promise_DC(10):/r s
+[23:41:56][指令][R_ST]Promise_DC(10):/r s

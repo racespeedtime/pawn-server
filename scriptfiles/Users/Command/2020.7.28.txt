@@ -1,0 +1,52 @@
+[1:45:49][指令]Nagahama_Neru(8):/skin
+[1:45:58][指令]Nagahama_Neru(8):/c 562
+[1:46:14][指令]Nagahama_Neru(8):/help
+[1:46:25][指令]Nagahama_Neru(8):/help
+[1:46:35][指令]Nagahama_Neru(8):/kgobj
+[1:46:39][指令]Nagahama_Neru(8):/sz
+[1:46:46][指令]Nagahama_Neru(8):/sz
+[1:47:13][指令]Nagahama_Neru(8):/sz
+[1:47:21][指令]Nagahama_Neru(8):/sz
+[1:47:38][指令]Nagahama_Neru(8):/c color 1 1
+[1:47:49][指令]Nagahama_Neru(8):/r s ldz
+[1:47:53][指令]Nagahama_Neru(8):/r s
+[1:48:37][指令]Nagahama_Neru(8):/r s LDZ
+[1:48:41][指令]Nagahama_Neru(8):/R S
+[1:48:45][指令]Nagahama_Neru(8):/R S
+[1:48:58][指令]Nagahama_Neru(8):/r s
+[1:49:10][指令]Nagahama_Neru(8):/r s
+[7:33:54][指令]EMx_speed(8):/help
+[7:34:0][指令]EMx_speed(8):/c 560
+[7:34:11][指令]EMx_speed(8):/c 5602
+[7:34:14][指令]EMx_speed(8):/c 560
+[7:36:19][指令]EMx_speed(8):/help
+[7:36:26][指令]EMx_speed(8):/c 560
+[7:36:40][指令]EMx_speed(8):/w 1
+[20:53:56][指令]HazelnutR(8):/help
+[20:54:1][指令]HazelnutR(8):/help
+[20:54:24][指令]HazelnutR(8):/c 555
+[20:55:39][指令]HazelnutR(8):/c 517
+[20:56:14][指令]HazelnutR(8):/c 560
+[20:56:56][指令]HazelnutR(8):/c 517
+[20:57:9][指令]HazelnutR(8):/cc
+[20:57:15][指令]HazelnutR(8):/cc 红色
+[20:57:20][指令]HazelnutR(8):/c red
+[20:57:33][指令]HazelnutR(8):/cc 517
+[20:57:44][指令]HazelnutR(8):/cc red
+[20:57:56][指令]HazelnutR(8):/c 517
+[20:58:29][指令]HazelnutR(8):/c 477
+[21:4:50][指令]HazelnutR(8):/c 562
+[21:5:2][指令]HazelnutR(8):/c 562
+[21:5:16][指令]HazelnutR(8):/c 562
+[21:7:27][指令]HazelnutR(8):/c 555
+[21:50:17][指令]HazelnutR(8):/wuqi
+[21:52:4][指令]HazelnutR(8):/c 541
+[21:52:39][指令]HazelnutR(8):/c 541
+[21:53:3][指令]HazelnutR(8):/c 541
+[21:54:26][指令]HazelnutR(8):/c 517
+[21:55:43][指令]HazelnutR(8):/c 541
+[21:56:2][指令]HazelnutR(8):/c 403
+[21:59:32][指令]HazelnutR(8):/c 404
+[21:59:37][指令]HazelnutR(8):/c 403
+[21:59:57][指令]HazelnutR(8):/time
+[22:1:57][指令]HazelnutR(8):/c 403

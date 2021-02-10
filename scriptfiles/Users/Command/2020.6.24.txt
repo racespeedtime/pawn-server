@@ -1,0 +1,78 @@
+[12:0:25][指令]JoshenKM(8):/c 411
+[12:0:30][指令]JoshenKM(8):/cc 1 1
+[12:0:32][指令]JoshenKM(8):/weather 14
+[12:0:38][指令]JoshenKM(8):/time 6 0
+[12:0:53][指令]JoshenKM(8):/time 21 0
+[12:1:23][指令]JoshenKM(8):/time 80
+[12:1:25][指令]JoshenKM(8):/time 8 0
+[12:2:34][指令]JoshenKM(8):/sdb
+[12:2:53][指令]JoshenKM(8):/time 21 0
+[12:2:57][指令]JoshenKM(8):/time 6 0
+[12:3:31][指令]JoshenKM(8):/time 21 0 
+[12:3:37][指令]JoshenKM(8):/time 8 0
+[12:4:29][指令]JoshenKM(8):/time 6 0
+[12:5:5][指令]JoshenKM(8):/time 8 0
+[12:6:57][指令]JoshenKM(8):/time 60 0
+[12:6:59][指令]JoshenKM(8):/time 6 0
+[12:7:2][指令]JoshenKM(8):/time 210
+[12:7:4][指令]JoshenKM(8):/time 21 0
+[12:7:8][指令]JoshenKM(8):/time 6 0
+[12:7:18][指令]JoshenKM(8):/time 8 0
+[12:8:33][指令]JoshenKM(8):/f
+[12:9:47][指令]JoshenKM(8):/time 6 0
+[12:9:50][指令]JoshenKM(8):/time 21 0
+[12:10:5][指令]JoshenKM(8):/time 8 0
+[12:10:10][指令]JoshenKM(8):/r s flycar
+[12:11:1][指令]JoshenKM(8):/time 21 0
+[12:11:45][指令]JoshenKM(8):/time 6 0
+[12:11:53][指令]JoshenKM(8):/time 8 0
+[12:12:22][指令]JoshenKM(8):/time 6 0
+[12:12:25][指令]JoshenKM(8):/time 21 0
+[12:12:37][指令]JoshenKM(8):/time 8 0
+[12:12:38][指令]JoshenKM(8):/tianqi
+[12:12:42][指令]JoshenKM(8):/tianqi 16
+[12:12:49][指令]JoshenKM(8):/time 21 0
+[12:12:56][指令]JoshenKM(8):/tianqi 16
+[12:12:59][指令]JoshenKM(8):/tianqi 8
+[12:13:9][指令]JoshenKM(8):/time 6 0
+[12:13:25][指令]JoshenKM(8):/tianqi 16
+[12:13:43][指令]JoshenKM(8):/time 0 0
+[12:13:47][指令]JoshenKM(8):/time 22 1
+[12:13:49][指令]JoshenKM(8):/time 22 0
+[12:13:52][指令]JoshenKM(8):/time 6 0
+[12:13:57][指令]JoshenKM(8):/time 12 0
+[12:14:3][指令]JoshenKM(8):/tianqi 8
+[12:14:5][指令]JoshenKM(8):/tianqi 1
+[12:14:9][指令]JoshenKM(8):/tianqi 2
+[12:14:10][指令]JoshenKM(8):/tianqi 3
+[12:14:11][指令]JoshenKM(8):/tianqi 4
+[12:14:12][指令]JoshenKM(8):/tianqi 5
+[12:14:13][指令]JoshenKM(8):/tianqi 6
+[12:14:14][指令]JoshenKM(8):/tianqi 7
+[12:14:15][指令]JoshenKM(8):/tianqi 8
+[12:14:16][指令]JoshenKM(8):/tianqi 9
+[12:14:17][指令]JoshenKM(8):/tianqi 1
+[12:14:18][指令]JoshenKM(8):/tianqi 11
+[12:14:20][指令]JoshenKM(8):/tianqi 12
+[12:14:21][指令]JoshenKM(8):/tianqi 13
+[12:14:22][指令]JoshenKM(8):/tianqi 14
+[12:14:23][指令]JoshenKM(8):/tianqi 15
+[12:14:26][指令]JoshenKM(8):/time 8 0
+[12:14:29][指令]JoshenKM(8):/tianqi 10
+[12:14:30][指令]JoshenKM(8):/tianqi 12
+[12:14:31][指令]JoshenKM(8):/tianqi 14
+[12:14:32][指令]JoshenKM(8):/tianqi 16
+[12:14:37][指令]JoshenKM(8):/tianqi 17
+[12:14:54][指令]JoshenKM(8):/tianqi 14
+[12:14:58][指令]JoshenKM(8):/time 7 0
+[12:15:1][指令]JoshenKM(8):/time 9 0
+[12:15:2][指令]JoshenKM(8):/time 12 0
+[12:15:4][指令]JoshenKM(8):/time 12 14
+[12:15:6][指令]JoshenKM(8):/time 14 0
+[12:15:8][指令]JoshenKM(8):/time 16 0
+[12:15:10][指令]JoshenKM(8):/time 17 0
+[12:15:12][指令]JoshenKM(8):/time 19 0
+[12:15:16][指令]JoshenKM(8):/time 23 0
+[12:15:18][指令]JoshenKM(8):/time 22 0
+[12:15:20][指令]JoshenKM(8):/time 12 0
+[12:15:24][指令]JoshenKM(8):/time 8 0

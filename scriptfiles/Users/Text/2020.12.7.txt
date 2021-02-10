@@ -1,0 +1,4 @@
+[14:10:16][世界][R_omantic]Ask2(8): AT400
+[14:12:9][世界][R_omantic]Ask2(8): GTABBS
+[14:12:13][世界][R_omantic]Ask2(8): GTAUN
+[14:12:22][世界][R_omantic]Ask2(8): gtaun
