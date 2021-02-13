@@ -1,4 +1,4 @@
-gamemodes/*.amx
+gamemodes/**/*.amx
 **/node_modules
 server.cfg
-server_log
+server_log.txt
