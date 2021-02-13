@@ -1,3 +1,4 @@
 gamemodes/*.amx
 **/node_modules
 server.cfg
+server_log
