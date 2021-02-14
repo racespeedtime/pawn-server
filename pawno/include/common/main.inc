@@ -1,5 +1,5 @@
 
-#define ServerVersion "Powered by MYSQLR41.4 v2021.2.13"
+#define ServerVersion "Powered by MYSQLR41.4 v2021.2.14"
 
 // 本次测试啥的记得随时调
 //----------MYSQL STUFFS----------------------

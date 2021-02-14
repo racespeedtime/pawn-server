@@ -9,7 +9,7 @@
        \/_/    \/_/  \/_______/        \/_/
 								The MIT License  
 								
-	Copyright (c) <2019-2020> <YuCarl77>  
+	Copyright (c) <2019-2021> <YuCarl77>  
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
 	in the Software without restriction, including without limitation the rights
@@ -27,7 +27,7 @@
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	THE SOFTWARE.  
 	==================================
-	版权(c) <2019-2020> <YuCarl77>   
+	版权(c) <2019-2021> <YuCarl77>   
 
 	使用该许可证的软件被授予以下权限，免费，任何人可以得到这个软件及其相关文档的一个拷贝，
 	并且经营该软件不受任何限制，包括无限制的使用、复制、修改、合并、出版、发行、发放从属证书、或者出售该软件的拷贝的权利。
@@ -42,7 +42,7 @@
 */
 
 // RaceSpeedTime
-// 版权所有 2020 RaceSpeedTime(YuCarl77) 保留所有权利。
+// 版权所有 2021 RaceSpeedTime(YuCarl77) 保留所有权利。
 // RaceSpeedTime服务器 的诞生离不开 5F(自由居民区) 开源项目以及其他开源脚本/插件和作者。
 // 具体请查看Credits
 #include "common/Credits"

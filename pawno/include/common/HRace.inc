@@ -988,7 +988,8 @@ function RaceRunRank(houseid) {
     }; //排行,默认6个排行都是player0,也就是基准CP点-1
     //new tick = GetTickCount();
     new trcp[racecptype];
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.4.1改 优化算法 实时根据人数去算
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.4.1改 优化算法 实时根据人数去算
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
         // for (new i = 0; i < 6; i++) {
         new player = RaceHouse[houseid][rplayers][i];
         if(player == INVALID_PLAYER_ID) continue;
@@ -1004,8 +1005,10 @@ function RaceRunRank(houseid) {
     }
     // for (new i = 0; i < 6; i++) {//
     new test;
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
-        for (new j = 0; j < RaceHouse[houseid][rps]; j++) {
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
+        // for (new j = 0; j < RaceHouse[houseid][rps]; j++) {
+        for (new j = 0; j < RACE_HOUSE_MAXPLAYER; j++) { //2021.2.14 改回正常优化版本
             // for (new j = 0; j < 6; j++) {
             if(test == 1) { //如果已经找到了位置
                 test = 0; //重置为0
@@ -1028,7 +1031,8 @@ function RaceRunRank(houseid) {
             }
         }
     }
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
         // for (new i = 0; i < 6; i++) {
         new idx = RaceHouse[houseid][rplayers][rank[i]];
         if(idx == INVALID_PLAYER_ID) continue;
@@ -1057,8 +1061,16 @@ function RaceRunRank(houseid) {
     return 0;
 }
 function RaceRunTime(houseid) { //莫个房间的比赛时间计时器
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) {
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) {
+        // 2021.2.14 难不成是因为退了玩家 然后循环次数问题 改成  i <= RaceHouse[houseid][rps]  ?
+        // 但是不太现实呀 应该不是这个问题 计时器应该还是在走的只是现实给玩家出不来了
+        // 如果玩家退了的话 只会循环剩下房间内的总人数了而不是开赛之前的玩家总数，所以当房主离开后，遍历不到房间里最后一个加入的玩家
+        // 所以这种 i < RaceHouse[houseid][rps] 的写法是8月2改出来的BUG 还是得配合判断玩家ID是否为有效ID进行
+        // 所有用了这种的还是改成 i < RACE_HOUSE_MAXPLAYER
         new pid = RaceHouse[houseid][rplayers][i];
+        // 2021.2.14 新增 如果是无效玩家ID就不循环
+        if(pid == INVALID_PLAYER_ID) continue;
         new msg[3], string[32];
         ms2time(msg, GetTickCount() - GameRace[pid][rtime]);
         msg[2] /= 10;
@@ -1104,7 +1116,8 @@ function Race_Game_Start_s(houseid) { //倒计时某个比赛房间
             //         }
             //     }
             // }
-            for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+            // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+            for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
                 new player = RaceHouse[houseid][rplayers][i];
                 if(player == INVALID_PLAYER_ID) continue;
                 pHouseid[player] = houseid;
@@ -1118,7 +1131,8 @@ function Race_Game_Start_s(houseid) { //倒计时某个比赛房间
         } else {
             format(msg, sizeof(msg), "~y~%i", RaceHouse[houseid][rtimes]);
             //Race_Game_Msg(houseid,msg);
-            for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+            // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+            for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
                 new player = RaceHouse[houseid][rplayers][i];
                 if(player == INVALID_PLAYER_ID) continue;
                 if(RaceHouse[houseid][rtimes] <= 1) {
@@ -1179,7 +1193,8 @@ stock Race_Game_Msg(const houseid, const str[]) //向指定房间的玩家发送消息
     //         }
     //     }
     // }
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
         new player = RaceHouse[houseid][rplayers][i];
         if(player == INVALID_PLAYER_ID) continue;
         SendClientMessage(player, Color_Race, str);
@@ -3004,7 +3019,8 @@ stock Race_InsertRecord(const playerid, const raceid,const rec_time){
 
 function RaceGameEndCount(houseid, winner) { //完成赛道后倒计时
     new msg[128];
-    for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+    // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.8.2改 优化算法 实时根据人数去算
+    for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //2021.2.14 改回正常优化版本
         new player = RaceHouse[houseid][rplayers][i];
         if(player == INVALID_PLAYER_ID) continue;
         if(RaceHouse[houseid][rtimes] < 1) {
@@ -3087,7 +3103,9 @@ Dialog:RecentlyRacing(playerid, response, listitem, inputtext[]) {
         return 1;
     }
     if(strcmp(tmp, "下一页") == 0) {
-        new mxpage = GetMaxPage(Race_GetPlayerRecordCut(playerid));
+        // new mxpage = GetMaxPage(Race_GetPlayerRecordCut(playerid));
+        // 2021.2.14尝试修复 点击页统计错玩家页数问题（点击其他人统计总页数还是自己的）
+        new mxpage = GetMaxPage(Race_GetPlayerRecordCut(SelectRecentlyClicked[playerid]));
         // if(SelectRecentlyRacePage[playerid] == 5 || SelectRecentlyRacePage[playerid] == mxpage) return Race_ShowRecentlyRacing(playerid, mxpage, SelectRecentlyClicked[playerid]);
         // 如果是第五页（每页20条，只能显示最近100条记录）或是最大页不进行增加页数操作
         if(SelectRecentlyRacePage[playerid] != 5 && SelectRecentlyRacePage[playerid] != mxpage)
