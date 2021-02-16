@@ -344,7 +344,8 @@ function BansEx(playerid) {
 main() {}
 public OnGameModeInit() {
     AntiDeAMX();
-    SetGameModeText("自由|赛车|拍摄|娱乐");
+    // SetGameModeText("自由|赛车|拍摄|娱乐");
+    SetGameModeText(GMText);
 
     g_Sql = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
     new errno = mysql_errno(g_Sql);
@@ -5715,6 +5716,8 @@ Dialog:pForgetPassWordChange(playerid, response, listitem, inputtext[]) {
         // mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
         // mysql_pquery(g_Sql, query);
         OnPlayerReloadRegister(playerid, inputtext, 0);
+        // 2021.2.15写的return 如果出问题去掉
+        return 1;
     }
     Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
     return 1;

@@ -1,4 +1,5 @@
 
+#define GMText "骇速之时 21.2.14"
 #define ServerVersion "Powered by MYSQLR41.4 v2021.2.14"
 
 // 本次测试啥的记得随时调
