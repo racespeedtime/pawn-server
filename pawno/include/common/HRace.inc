@@ -3388,9 +3388,13 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
                         rand+=random(50); //突破个人记录加金币和经验值
                         SendClientMessage(playerid, Color_Race, "[赛车] 恭喜你刷新了此赛道个人记录!");
                     }
+                    // 播放完赛音乐 音效为Mission passed
+                    PlayerPlaySoundEx(playerid, 183);
+                    // 计时器清除结束音效
+                    SetTimerEx_("ClearFinishSound", 7200, 7200, 1, "d", playerid);
                     // 插入个人记录
                     // ms2time(time, GetTickCount() - GameRace[playerid][rtime]);
-
+                    // 给玩家金币
                     GivePlayerCash(playerid, rand);
                     // if(level>201) level = 201;
                     new Float:randExp;
@@ -3404,7 +3408,7 @@ public OnPlayerEnterRaceCheckpoint(playerid) {
                     }
                     randExp*=exp_multiple;
                     // 方便一键控制全服经验活动
-
+                    // 给玩家经验
                     GivePlayerExp(playerid, randExp);
                     ms2time(time, tickracetime);
                     format(msg, sizeof(msg), "[赛车] %s 完成了赛道[%s],耗时%d:%d:%d [%s秒] (小组第%i) 获得 %d 金币 %.0f 经验", GetName(playerid), Race[raid][rname], time[0], time[1], time[2], MsToS(tickracetime), RaceHouse[GameRace[playerid][rgameid]][rtop], rand, randExp); //完成后显示他的排名
@@ -3588,5 +3592,12 @@ stock ReSpawnRaceVehicle(playerid) { //赛道重生
         LinkVehicleToInterior(PlayerInfo[playerid][BuyID], GetPlayerInterior(playerid));
         AddVehicleComponent(PlayerInfo[playerid][BuyID], 1010); //给车一个氮气
     }
+    return 1;
+}
+
+
+// 清除完赛后音效
+function ClearFinishSound(const playerid){
+    PlayerPlaySoundEx(playerid, 0);
     return 1;
 }

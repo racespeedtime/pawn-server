@@ -1102,7 +1102,9 @@ CMD:sound7(const playerid, const cmdtext[]) {
 CMD:soundstop(const playerid, const cmdtext[]) {
     //2020.1.12 修复soundstop无法停止歌曲
     // PlayerPlaySound(playerid, 1186, 0.0, 0.0, 0.0);
-    PlayerPlaySoundEx(playerid, 1186);
+    // PlayerPlaySoundEx(playerid, 1186);
+    PlayerPlaySoundEx(playerid, 0);
+    // 不知道影不影响 2021.2.16改 维基说是用0停止
     return 1;
 }
 CMD:moveme(const playerid, const cmdtext[]) {
@@ -5586,26 +5588,26 @@ stock SetupPlayerTable() {
 
 
 
-static stock ReSetAllPlayerPass() {
-    // 因为数据库Salt大改，并且曾经存在BUG，所以只临时使用
+// static stock ReSetAllPlayerPass() {
+//     // 因为数据库Salt大改，并且曾经存在BUG，所以只临时使用
 
-    new cuts, Cache:result = mysql_query(g_Sql, "SELECT * FROM `users`");
-    cuts = cache_num_rows();
-    for (new i = 0; i < cuts; i++) {
-        new pID;
-        cache_get_value_name_int(i, "ID", pID);
-        new temp[65], pSalt[12]; // 散列技术生成散列码
-        for (new j = 0; j < 11; j++) {
-            pSalt[j] = random(25) + 97;
-        }
-        SHA256_PassHash("123456", pSalt, temp, 65); //规定65固定
-        new query[256];
-        mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `Password` = '%e',`Salt` = '%e' WHERE `ID` = %d", temp, pSalt, pID);
-        mysql_pquery(g_Sql, query);
-    }
-    cache_delete(result);
-    printf("重置完毕");
-}
+//     new cuts, Cache:result = mysql_query(g_Sql, "SELECT * FROM `users`");
+//     cuts = cache_num_rows();
+//     for (new i = 0; i < cuts; i++) {
+//         new pID;
+//         cache_get_value_name_int(i, "ID", pID);
+//         new temp[65], pSalt[12]; // 散列技术生成散列码
+//         for (new j = 0; j < 11; j++) {
+//             pSalt[j] = random(25) + 97;
+//         }
+//         SHA256_PassHash("123456", pSalt, temp, 65); //规定65固定
+//         new query[256];
+//         mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `Password` = '%e',`Salt` = '%e' WHERE `ID` = %d", temp, pSalt, pID);
+//         mysql_pquery(g_Sql, query);
+//     }
+//     cache_delete(result);
+//     printf("重置完毕");
+// }
 
 
 // 即将废除的旧版邮箱验证
