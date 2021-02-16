@@ -95,7 +95,14 @@ public FilterScriptExit()
 #define RACE_RECENTLY_LIMIT 100 //查看最近比赛的上限 默认100条
 // #define CPSCRIPT:%0(%1,%2,%3,%4) function Race_Cp_Script_Function_%0(%1,%2,%3,%4)
 #define CPSCRIPT:%0(%1,%2,%3,%4) function RaceCpScript_func_%0(%1,%2,%3,%4)
-#define RACE_HOUSE_MAXPLAYER 6 //最大玩家数上限 目前只能最大10人房间 因为数据库中的写法问题 排名只能支持10个人
+// #define RACE_HOUSE_MAXPLAYER 6 //最大玩家数上限 目前只能最大10人房间 因为数据库中的写法问题 排名只能支持10个人
+
+
+// 见更新日志2020.8.2 >> 重做 PRace 主库，删除并重写原有的排行榜字段
+#define RACE_HOUSE_MAXPLAYER 16 //一个房间内最大玩家数上限 现在理论可以无限个玩家 该定义自动适配排名等其他textdraw计算 不可注释 不可乱改
+// 默认一个房间6个人，2021.2.16尝试适配16人一个房间
+
+
 // 赛道的话最好是支持无限扩展人数 那么就得废除原先的PRace排行榜写法
 // top榜通过个人记录表去获取 加个LIMIT 和 ASC记录就可以了
 // 那么最大的问题就是之前的一些记录只能人工转移了
@@ -974,18 +981,20 @@ function RaceGameEndQuery(playerid, raceid, time) {
 //测试实时排名 by ryddawn & YuCarl77
 function RaceRunRank(houseid) {
     new string[32];
-    new playerCP[7], //当前cp
-        Float:playerDist[7]; //距离下一个cp距离
-    playerCP[6] = -1;
-    new rank[7] = {
-        6,
-        6,
-        6,
-        6,
-        6,
-        6,
-        6
-    }; //排行,默认6个排行都是player0,也就是基准CP点-1
+    // new playerCP[7], //当前cp
+    //     Float:playerDist[7]; //距离下一个cp距离
+    // playerCP[6] = -1;
+
+
+    new playerCP[RACE_HOUSE_MAXPLAYER+1], //当前cp
+        Float:playerDist[RACE_HOUSE_MAXPLAYER+1]; //距离下一个cp距离
+    playerCP[RACE_HOUSE_MAXPLAYER] = -1;
+
+    // new rank[7] = {6, 6, 6, 6, 6, 6, 6}; //排行,默认6个排行都是player0,也就是基准CP点-1
+    
+    new rank[RACE_HOUSE_MAXPLAYER+1] = {RACE_HOUSE_MAXPLAYER,...}; //排行,默认房间内所有玩家的排行都是player0,也就是基准CP点-1
+    // 如果出问题 可能是不能用简写吧 {xxx,...}
+
     //new tick = GetTickCount();
     new trcp[racecptype];
     // for (new i = 0; i < RaceHouse[houseid][rps]; i++) { //2020.4.1改 优化算法 实时根据人数去算
@@ -1304,7 +1313,7 @@ stock Race_Game_Quit(const playerid) //使指定玩家退出房间
 
 stock Race_Game_Join(const playerid, const houseid) //使指定玩家加入指定房间.失败返回-1
 {
-    if(RaceHouse[houseid][rps] == RACE_HOUSE_MAXPLAYER) return -1;
+    if(RaceHouse[houseid][rps] == RACE_HOUSE_MAXPLAYER) return -1; //是否满人
     if(RaceHouse[houseid][rraceid] == -1) return -1;
     if(RaceHouse[houseid][rstate] != 0) return -1;
     for (new i = 0; i < RACE_HOUSE_MAXPLAYER; i++) { //也是循环所有槽位
@@ -2413,7 +2422,7 @@ CMD:r(playerid, params[]) //赛道操作
         }
         new ri = Race_Game_Join(playerid, GameRace[id][rgameid]);
         if(ri == -1) {
-            format(msg, sizeof(msg), "[赛车] 加入房间失败,这个房间已经开始比赛了..");
+            format(msg, sizeof(msg), "[赛车] 加入房间失败,这个房间已经满人或开始比赛了..");
             SendClientMessage(playerid, Color_Race, msg);
             return 1;
         }

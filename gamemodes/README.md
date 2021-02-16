@@ -1,3 +1,5 @@
+# 更新日志
+
 v1.7.5
 
 ## 2015-1-13 21:48:37
@@ -98,7 +100,7 @@ v1.7.5
 6. 想观看的对象正处观看他人时则提醒对方已进入 TV 状态
 7. 服务器动态名字
 
-#### 已知问题
+### 已知问题
 
 - ~~默认就是车辆无敌，进入游戏后首次输入 dcar 仍然提示开启车辆无敌（需重做）~~
 - 部分用户因刷车效率提升蹦游戏，后期需要调刷车延迟稍微大一点点
@@ -1188,6 +1190,7 @@ user_goods 引擎修改为 innodb
 
 ​ **未创建的 PRace 用户已默认注册账号，但无法登录(密码错误，需联系管理员重置)**
 
+```c
     INSERT INTO users(
     `Name` ,
     `Password` ,
@@ -1198,11 +1201,13 @@ user_goods 引擎修改为 innodb
         FROM `race` WHERE NOT EXISTS(
         SELECT `Name` FROM users WHERE `Name` = `rauthor`
     );
-
 ```
-更新列值为UID
-update race set race.rauthor =  (select users.id from users where race.rauthor = users.name) where
-exists (SELECT 1 from users where race.rauthor = users.name);
+
+更新列值为 UID
+
+```c
+  update race set race.rauthor = (select users.id from users where race.rauthor = users.name) where
+  exists (SELECT 1 from users where race.rauthor = users.name);
 ```
 
 赛道的话最好是支持无限扩展人数 那么就得废除原先的 PRace 排行榜写法 √
@@ -1302,18 +1307,25 @@ _2020 年 12 月 26 日 23 时 27 分_
 ## 2021.2.10
 
 - 尝试适配并修复`SetTimer_和SetTimerEx_`问题(npc,prace,gamemode)
-- 修复部分潜在的`settimer_和settimerex_` BUG(未被反馈)
+- 修复部分潜在的`settimer_和settimerex_` BUG(未被反馈),例如踢掉玩家
 - 修复卡 obj loading 问题
 
 ## 2021.2.13
 
 - 修复“最近比赛”选项卡经过翻页后，始终只能首页和尾页跳转问题
 
-## 2020.2.14
+## 2021.2.14
 
 - 已知 远古 BUG 赛道开赛后房主退出其他玩家计时显示异常
 - 已知 远古 BUG 最近比赛翻页其他人上一页下一页翻页的是自己的总页数 数据是对方的没问题
 - 尝试修复以上远古 BUG 以及隐藏关联同源未被发现的 BUG
+
+## 2021.2.16
+
+- 修复 2021.2.14 发现的问题
+- 完赛后播放任务完成音效
+- 标准化 Mode 和 Url 显示
+- 见更新日志 2020.8.2 >> 重做 PRace 主库，删除并重写原有的排行榜字段。此刻修改赛道排名计算系统数组下标为房间人数适配，理论可以实现无限房间人数计算，但不推荐，仍建议控制单房间人数，否则计算压力过大，20 人及以内房间应吃得住。
 
 **下一目标**
 
@@ -1485,3 +1497,7 @@ _2020 年 12 月 26 日 23 时 27 分_
 关于 NPC 的一些东西 可以去看看 FCNPC 的一些插件或者写法和功能 好像基于原版没法实现那么高的操作 比如说玩家重新刷车 赛道重生等 好像就很难去接管了?
 
 <https://github.com/ziggi/FCNPC>
+
+```
+
+```
