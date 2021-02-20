@@ -1264,7 +1264,7 @@ SetTimer 和 SetTimerEx 均适配为 Timerfix 的`SetTimer_`和`SetTimerEx_`
 
 _时间戳转日期_
 
-_原作者 Jochemd http://forum.sa-mp.com/member.php?u=580 BUG 修复:YuCarl77([R_ST]Hygen)_
+_原作者 Jochemd <http://forum.sa-mp.com/member.php?u=580> BUG 修复:YuCarl77([R_ST]Hygen)_
 
 _很抱歉给各位带来的影响，此 BUG 经研究调查后发现在 12 月才会出现，经过细密的排查，最终修复了该严重漏洞。_
 
@@ -1352,7 +1352,7 @@ _2020 年 12 月 26 日 23 时 27 分_
 
 - _支持 gmail 和自定义邮件（我们就用自定义的 smtp 就好了）√_
 
-​ *https://github.com/bruxo00/SAMPMailJS/wiki √*
+​ _<https://github.com/bruxo00/SAMPMailJS/wiki> √_
 
 **适配**
 
@@ -1374,7 +1374,7 @@ _2020 年 12 月 26 日 23 时 27 分_
 
 ​ 用鹏达之前开过服的 **Fusez's Map Editor (Version 3)**
 
-​ https://forum.sa-mp.com/showthread.php?t=648101
+​ <https://forum.sa-mp.com/showthread.php?t=648101>
 
 **仲裁举报系统**
 
@@ -1497,7 +1497,3 @@ _2020 年 12 月 26 日 23 时 27 分_
 关于 NPC 的一些东西 可以去看看 FCNPC 的一些插件或者写法和功能 好像基于原版没法实现那么高的操作 比如说玩家重新刷车 赛道重生等 好像就很难去接管了?
 
 <https://github.com/ziggi/FCNPC>
-
-```
-
-```
