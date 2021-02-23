@@ -6,4 +6,4 @@ plugins/*.dll
 plugins/*.so
 !plugins/linux
 !plugins/win
-/logs
+logs/
