@@ -5388,7 +5388,7 @@ function OnPlayerDataLoaded(playerid, race_check) {
     }
     // 判断玩家是否处在兼容模式下 非服务器版本0.3.7
     if(IsPlayerCompat(playerid)) {
-        new string[24];
+        new string[128];
         GetPlayerVersion(playerid, string, sizeof(string));
         format(string, sizeof(string), "[服务器]您的SA-MP版本为:%s, 服务器已尝试兼容，但可能存在游戏不稳定等问题。", string);
         SendClientMessage(playerid, Color_Yellow, string);

@@ -149,9 +149,11 @@ function destroyGpsObjects(playerid,size)
 // 	return 1;
 // }
 
-
 public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
 {
+	// 警告:在地图上被点击的区域距离玩家较远时，返回的 Z轴值为0 (无效)；
+
+	// 未来有空的话将支持根据玩家设置地图点模式，默认为地图传送，除DM/碰碰车/赛车外可传送，或设置为导航则提供导航
 	Gps_OnPlayerDisConnect(playerid, 1);
     FindPathGps(playerid, fX, fY, fZ);
 	SendClientMessage(playerid, Color_White,"[骇速导航]已为您开启导航");
