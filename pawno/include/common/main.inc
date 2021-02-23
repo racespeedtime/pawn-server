@@ -1,6 +1,6 @@
 
-#define GMText "骇速之时 v21.2.16"
-#define ServerVersion "Powered by MYSQLR41.4 v2021.2.16"
+#define GMText "骇速之时 v21.2.23"
+#define ServerVersion "Powered by MYSQLR41.4 v2021.2.23"
 
 // 本次测试啥的记得随时调
 //----------MYSQL STUFFS----------------------
@@ -69,7 +69,7 @@ new Float:exp_multiple = 1.0; //经验倍数 默认正常经验 如果有需要双倍经验等功能可
 #include <streamer>
 #include <mSelection>
 #include <easyDialog>
-
+#include <compat> //2021.2.23引入0.3dl和0.3.7兼容链接并添加插件
 
 #include <common/mkstr>
 #include <common/TimestampToDate>

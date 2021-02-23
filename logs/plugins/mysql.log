@@ -10,3 +10,7 @@
 [17£º50£º43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
 [17£º50£º43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
 [17£º50£º43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
+[17£º02£º57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
+[17£º02£º57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
+[17£º02£º57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'
+[17£º02£º57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'samp'@'localhost' (using password: YES)'

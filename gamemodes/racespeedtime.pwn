@@ -2775,7 +2775,7 @@ stock GetName(const playerid) {
 // forward UpdatePlayerIni(playerid); //更新玩家资料
 function OnPlayerLogin(playerid, inputtext[]) { //玩家登录
     if(PlayerInfo[playerid][LoginAttempts] >= 3) {
-        Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "登陆", "你被请出了服务器！原因:你输入的密码错误次数{FF0000}过多!", "确定", "");
+        Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "登录", "你被请出了服务器！原因:你输入的密码错误次数{FF0000}过多!", "确定", "");
         // SetTimerEx("KickEx", 100, false, "i", playerid);
         DelayedKick(playerid);
         return 1;
@@ -2800,7 +2800,7 @@ function OnPlayerLogin(playerid, inputtext[]) { //玩家登录
 
         if(Checked) {
             PlayerInfo[playerid][Login] = true;
-            // printf("[玩家]%s(%d) 已登陆.", GetName(playerid), playerid);
+            // printf("[玩家]%s(%d) 已登录.", GetName(playerid), playerid);
             new string[128];
             format(string, sizeof(string), "[系统]:%s (%d) 进入了服务器 ^^^", GetName(playerid), playerid);
             SCMALL(Color_LightBlue, string);
@@ -2819,9 +2819,9 @@ function OnPlayerLogin(playerid, inputtext[]) { //玩家登录
     }
     PlayerInfo[playerid][LoginAttempts]++;
     new string[128];
-    format(string, sizeof(string), "{FF0000}密码错误！{00FFFF}你还有{80FF80}%d次{00FFFF}机会登陆!", 4 - PlayerInfo[playerid][LoginAttempts]);
-    // ShowPlayerDialog(playerid, 1, DIALOG_STYLE_PASSWORD, "登陆", string, "登陆", "关闭");
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登陆", string, "登陆", "找回密码");
+    format(string, sizeof(string), "{FF0000}密码错误！{00FFFF}你还有{80FF80}%d次{00FFFF}机会登录!", 4 - PlayerInfo[playerid][LoginAttempts]);
+    // ShowPlayerDialog(playerid, 1, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "关闭");
+    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
     // db_free_result(uf);
     return 1;
 }
@@ -2858,7 +2858,7 @@ function OnPlayerRegister(playerid, inputtext[]) //玩家注册
 
 
     format(string, sizeof(string), "注册成功\n帐号:%s\n 密码:%s\n{FF0000}请牢记帐号密码.", GetName(playerid), inputtext);
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登陆", string, "登陆", "找回密码");
+    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
     return 1;
 }
 
@@ -4789,7 +4789,7 @@ Dialog:ClickPlayer(playerid, response, listitem, inputtext[]) {
 function OnLoginTimeout(playerid) {
     PlayerInfo[playerid][LoginTimer] = -1;
     if(!PlayerInfo[playerid][Login]) {
-        Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "登陆", "你被请出了服务器！原因:超时未登录!", "确定", "");
+        Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "登录", "你被请出了服务器！原因:超时未登录!", "确定", "");
         DelayedKick(playerid);
     }
     return 1;
@@ -5386,10 +5386,15 @@ function OnPlayerDataLoaded(playerid, race_check) {
     for (new i = 0; i <= 7; i++) {
         TextDrawShowForPlayer(playerid, Screen[i]);
     }
+    // 判断玩家是否处在兼容模式下 非服务器版本0.3.7
+    if(IsPlayerCompat(playerid)) {
+        new string[24];
+        GetPlayerVersion(playerid, string, sizeof(string));
+        format(string, sizeof(string), "[服务器]您的SA-MP版本为:%s, 服务器已尝试兼容，但可能存在游戏不稳定等问题。", string);
+        SendClientMessage(playerid, Color_Yellow, string);
+    }
+    // 播放音乐，随机视角
     LoginMusicCamera(playerid);
-    // InterpolateCameraPos(playerid, random(6000) - 3000, random(6000) - 3000, random(120) + 50, random(6000) - 3000, random(6000) - 3000, random(120) + 50, 60000, CAMERA_MOVE);
-    // new rand = random(sizeof(randSounds));
-    // PlayerPlaySoundEx(playerid, randSounds[rand]);
     new string[128];
     new year, month, day, hour, minute, second;
     if(cache_num_rows() > 0) {
@@ -5417,7 +5422,7 @@ function OnPlayerDataLoaded(playerid, race_check) {
         TimestampToDate(last_login_timestamp, year, month, day, hour, minute, second, 8);
         // saves the active cache in the memory and returns an cache-id to access it for later use
         PlayerInfo[playerid][Cache_ID] = cache_save();
-        format(string, sizeof(string), "欢迎,您的账号已注册\n请在下方输入密码登陆\n最后一次在线时间 %d-%d-%d %02d:%02d:%02d", year, month, day, hour, minute, second);
+        format(string, sizeof(string), "欢迎,您的账号已注册\n请在下方输入密码登录\n最后一次在线时间 %d-%d-%d %02d:%02d:%02d", year, month, day, hour, minute, second);
         Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "RaceSpeedTime团队官方服务器", string, "登录", "找回密码");
         // from now on, the player has 30 seconds to login
         PlayerInfo[playerid][LoginTimer] = SetTimerEx_("OnLoginTimeout", 300 * 1000, 300 * 1000, 1, "d", playerid);
