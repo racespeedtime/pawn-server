@@ -517,12 +517,14 @@ public OnPlayerConnect(playerid) //当玩家进入的时候
         return 1;
     }
 
-    // 检查是否安卓端
+
+
+    Welcome(playerid);
+    // 检查是否安卓端并 **延迟** 读取玩家个人信息 弹出登录框
     InitPlayerAndroid(playerid);
 
-    new query[103];
-    mysql_format(g_Sql, query, sizeof query, "SELECT * FROM `users` WHERE `Name` = '%e' LIMIT 1", GetName(playerid));
-    mysql_tquery(g_Sql, query, "OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
+
+
 
     // printf("[玩家]%s(%d) 进入了服务器 ", GetName(playerid), playerid);
     // if(AccountCheck(GetName(playerid))) { //如果账号存在那就获取他的salt值用来散列算法
@@ -555,15 +557,7 @@ public OnPlayerConnect(playerid) //当玩家进入的时候
     // SCM(playerid, Color_White, "本服需要安装中文补丁才能正常显示部分信息，如果没有中文补丁会显示异常");
     // SCM(playerid, Color_White, "汉化中文补丁请于RST团队主群或QQ群680977910下载");
     // SCM(playerid, Color_White, "指令大全请参考https://yucarl77.coding.me");
-    new hours;
-    gettime(hours);
-    new hello[96];
-    if(hours >= 6 && hours < 12) format(hello, sizeof(hello), "[服务器]早上好，%s，欢迎来到骇速之时。", GetName(playerid));
-    else if(hours >= 12 && hours < 18) format(hello, sizeof(hello), "[服务器]下午好，%s，欢迎来到骇速之时。", GetName(playerid));
-    else if(hours >= 18 && hours < 24) format(hello, sizeof(hello), "[服务器]晚上好，%s，欢迎来到骇速之时。", GetName(playerid));
-    else format(hello, sizeof(hello), "[服务器]%s，熬夜可不是好习惯。", GetName(playerid));
-    SCM(playerid, Color_White, hello);
-    SCM(playerid, Color_Yellow, "[服务器]我们始终以公益为宗旨，不接受捐赠。");
+
     // SCM(playerid, Color_Yellow, "我们确实和大服务器商不是一个量级的机房价位,但网络差不一定是机房的问题(机房位于上海)");
     // SCM(playerid, Color_Yellow, "这里的丢包对于游戏体验影响并不大,不像其他竞技类游戏那样一毫秒,丢包0.1%都很重要.");
     // SCM(playerid, Color_Yellow, "相互体谅最为重要.");
@@ -5437,7 +5431,7 @@ function OnPlayerDataLoaded(playerid, race_check) {
     // RegLoginTDrawCreate(playerid);
     // 适配安卓端 必须搭配check_android filterscript
     if(IsPlayerAndroid(playerid)) {
-        SendClientMessage(playerid, Color_Yellow, "[服务器]检测到您是移动端玩家,若您SAMP版本为1.08版本,可能出现闪退等不适配问题。");
+        SendClientMessage(playerid, Color_Yellow, "[服务器]检测到您可能是移动端玩家,若您SAMP版本为1.08版本,可能出现闪退等不适配问题。");
         SendClientMessage(playerid, Color_Yellow, "[服务器]OBJ/TextDraw/GameText/对话框无法显示或显示不全为正常现象");
         SendClientMessage(playerid, Color_White, ServerVersion);
     } else {
@@ -5463,7 +5457,7 @@ function OnPlayerDataLoaded(playerid, race_check) {
         cache_get_value(0, "Salt", PlayerInfo[playerid][Salt], 12);
 
         if(!strcmp(PlayerInfo[playerid][Salt], "null", true)) {
-            Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "{FFFF00}您的账号因特殊原因包括但不限于(保护早期ID,账号丢失)，安全起见对此进行冻结, 如需解冻请本人或家属联系服主!", "确定", "");
+            Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "{FFFF00}您的账号因特殊原因包括但不限于(保护早期ID,账号丢失)，安全起见对此进行冻结\n如需解冻请本人或家属联系服主,敬请谅解!", "确定", "");
             DelayedKick(playerid);
             return 1;
         }
@@ -5819,4 +5813,51 @@ Dialog:pForgetPassWordChange(playerid, response, listitem, inputtext[]) {
     }
 
     return 1;
+}
+
+
+
+// 初始化玩家是否安卓或移动端
+stock InitPlayerAndroid(const playerid) {
+    // 默认是安卓环境
+    PlayerInfo[playerid][Android] = true;
+    PlayerInfo[playerid][DelayLogin] = -1;
+    // 注意，该函数必须依赖fixes 否则只能在filterscript中使用！
+    SendClientCheck(playerid, 0x48, 0, 0, 2);
+    // 延迟登录便于
+    PlayerInfo[playerid][DelayLogin] = SetTimerEx_("DelayLoading", 200, 200, 1, "d", playerid);
+    return 1;
+}
+// 返回玩家是否为安卓端
+stock IsPlayerAndroid(const playerid) {
+    return PlayerInfo[playerid][Android];
+}
+
+// 检查玩家是否为安卓端 注意，该回调必须依赖fixes 否则只能在filterscript中使用！
+public OnClientCheckResponse(playerid, actionid, memaddr, retndata) {
+    if(actionid == 0x48) {
+        //  如果是PC端则取消默认环境为安卓即false
+        PlayerInfo[playerid][Android] = false;
+    }
+    return 1;
+}
+
+function DelayLoading(playerid) {
+    // 延迟加载登录系统，以便同步判断玩家是否为安卓系统
+    new query[103];
+    mysql_format(g_Sql, query, sizeof query, "SELECT * FROM `users` WHERE `Name` = '%e' LIMIT 1", GetName(playerid));
+    mysql_tquery(g_Sql, query, "OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
+}
+
+// 欢迎玩家信息
+stock Welcome(playerid) {
+    new hours;
+    gettime(hours);
+    new hello[96];
+    if(hours >= 6 && hours < 12) format(hello, sizeof(hello), "[服务器]早上好，%s，欢迎来到骇速之时。", GetName(playerid));
+    else if(hours >= 12 && hours < 18) format(hello, sizeof(hello), "[服务器]下午好，%s，欢迎来到骇速之时。", GetName(playerid));
+    else if(hours >= 18 && hours < 24) format(hello, sizeof(hello), "[服务器]晚上好，%s，欢迎来到骇速之时。", GetName(playerid));
+    else format(hello, sizeof(hello), "[服务器]%s，熬夜可不是好习惯。", GetName(playerid));
+    SCM(playerid, Color_White, hello);
+    SCM(playerid, Color_Yellow, "[服务器]我们始终以公益为宗旨，不接受捐赠。");
 }
