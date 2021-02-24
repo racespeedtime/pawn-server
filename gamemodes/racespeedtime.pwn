@@ -363,10 +363,8 @@ public OnGameModeInit() {
         SendRconCommand("hostname [错误]RaceSpeedTime数据库加载失败,请联系管理员");
         return 1;
     }
-    SetupPlayerTable();
+    // 设置mysql编码
     mysql_set_charset(MYSQL_charset);
-    // ReSetAllPlayerPass();//临时使用请及时删除！
-
 
     print("[提示]NPC加载中...");
     SetNameTagDrawDistance(200); //原来是70 设置最大距离以显示玩家的名称。
@@ -519,6 +517,9 @@ public OnPlayerConnect(playerid) //当玩家进入的时候
         return 1;
     }
 
+    // 检查是否安卓端
+    InitPlayerAndroid(playerid);
+
     new query[103];
     mysql_format(g_Sql, query, sizeof query, "SELECT * FROM `users` WHERE `Name` = '%e' LIMIT 1", GetName(playerid));
     mysql_tquery(g_Sql, query, "OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
@@ -578,6 +579,7 @@ public OnPlayerDisconnect(playerid, reason) //玩家离开服务器 掉线 退出服务器
         UnLoadVelo(playerid);
         return 1;
     }
+
     g_MysqlRaceCheck[playerid]++;
 
     UpdatePlayerData(playerid, reason);
@@ -602,11 +604,11 @@ public OnPlayerSpawn(playerid) //当玩家出生时
         InitializationNpcs(playerid); //初始化NPC
         return 1;
     }
-    SetPlayerSkin(playerid, PlayerInfo[playerid][Skin]);
     if(IsPlayerDeathMatch(playerid)) {
         DeathMatch_OnPlayerSpawn(playerid);
         return 1;
     }
+    SetPlayerSkin(playerid, PlayerInfo[playerid][Skin]);
     SpawnAttire(playerid); //玩家装扮
     if(CreateCamera[playerid][CreateStatus] != 0) return 1;
     if(pRaceing[playerid] != 1) {
@@ -2785,8 +2787,10 @@ function OnPlayerLogin(playerid, inputtext[]) { //玩家登录
     SHA256_PassHash(inputtext, PlayerInfo[playerid][Salt], Salted_Key, 65); //本来65
     if(strcmp(Salted_Key, PlayerInfo[playerid][Password], true) == 0) {
         // RegLoginTDrawDestroy(playerid);
-        for (new i = 0; i <= 7; i++) {
-            TextDrawHideForPlayer(playerid, Screen[i]);
+        if(!IsPlayerAndroid(playerid)) {
+            for (new i = 0; i <= 7; i++) {
+                TextDrawHideForPlayer(playerid, Screen[i]);
+            }
         }
         for (new i = GetPlayerPoolSize(); i >= 0; i--) {
             ShowPlayerNameTagForPlayer(playerid, i, true);
@@ -2820,8 +2824,12 @@ function OnPlayerLogin(playerid, inputtext[]) { //玩家登录
     PlayerInfo[playerid][LoginAttempts]++;
     new string[128];
     format(string, sizeof(string), "{FF0000}密码错误！{00FFFF}你还有{80FF80}%d次{00FFFF}机会登录!", 4 - PlayerInfo[playerid][LoginAttempts]);
-    // ShowPlayerDialog(playerid, 1, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "关闭");
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
+    // 兼容安卓
+    if(IsPlayerAndroid(playerid)) {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", string, "登录", "找回密码");
+    } else {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
+    }
     // db_free_result(uf);
     return 1;
 }
@@ -2858,7 +2866,11 @@ function OnPlayerRegister(playerid, inputtext[]) //玩家注册
 
 
     format(string, sizeof(string), "注册成功\n帐号:%s\n 密码:%s\n{FF0000}请牢记帐号密码.", GetName(playerid), inputtext);
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
+    if(IsPlayerAndroid(playerid)) {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", string, "登录", "找回密码");
+    } else {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", string, "登录", "找回密码");
+    }
     return 1;
 }
 
@@ -4482,9 +4494,30 @@ Dialog:helpMessageBox(playerid, response, listitem, inputtext[]) {
 }
 Dialog:Dialog_Register(playerid, response, listitem, inputtext[]) {
     if(!response) return Kick(playerid);
-    if(!strlen(inputtext)) return Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "该帐号还没有被{22DD22}注册{FFFFFF},请输入密码进行{22DD22}注册..", "注册", "退出");
-    if(strlen(inputtext) < 6 || strlen(inputtext) > 16) return Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "{FFFFFF}请输入密码进行{22DD22}注册{FFFFFF},密码必须为{22DD22}6-16位之间!.", "注册", "退出");
-    if(!IsValidPassword(inputtext)) return Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "该帐号还没有被注册,请输入密码进行注册.", "注册", "退出");
+    if(!strlen(inputtext)) {
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_INPUT, "注册", "该帐号还没有被{22DD22}注册{FFFFFF},请输入密码进行{22DD22}注册..", "注册", "退出");
+            return 1;
+        }
+        Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "该帐号还没有被{22DD22}注册{FFFFFF},请输入密码进行{22DD22}注册..", "注册", "退出");
+        return 1;
+    }
+    if(strlen(inputtext) < 6 || strlen(inputtext) > 16) {
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_INPUT, "注册", "{FFFFFF}请输入密码进行{22DD22}注册{FFFFFF},密码必须为{22DD22}6-16位之间!.", "注册", "退出");
+            return 1;
+        }
+        Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "{FFFFFF}请输入密码进行{22DD22}注册{FFFFFF},密码必须为{22DD22}6-16位之间!.", "注册", "退出");
+        return 1;
+    }
+    if(!IsValidPassword(inputtext)) {
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_INPUT, "注册", "该帐号还没有被注册,请输入密码进行注册.", "注册", "退出");
+            return 1;
+        }
+        Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "该帐号还没有被注册,请输入密码进行注册.", "注册", "退出");
+        return 1;
+    }
     OnPlayerRegister(playerid, inputtext);
     return 1;
 }
@@ -4501,6 +4534,10 @@ Dialog:Dialog_Login(playerid, response, listitem, inputtext[]) {
             new str[128];
             format(str, sizeof(str), "[安全]请在%d秒后尝试再次发送", PlayerInfo[playerid][Yztime]);
             SendClientMessage(playerid, Color_Yellow, str);
+            if(IsPlayerAndroid(playerid)) {
+                Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_INPUT, "找回密码", "已向您的邮箱发送验证码\n请稍加等待,如长时间无法收到再尝试重新发送", "确定", "返回");
+                return 1;
+            }
             Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_PASSWORD, "找回密码", "已向您的邮箱发送验证码\n请稍加等待,如长时间无法收到再尝试重新发送", "确定", "返回");
             return 1;
         }
@@ -4525,14 +4562,29 @@ Dialog:Dialog_Login(playerid, response, listitem, inputtext[]) {
             PlayerInfo[playerid][Yztime] = 90;
 
             format(str, sizeof(str), "您的安全邮箱为%s\n已向您的账户发送验证码,请及时输入.", pMailTemp);
+            if(IsPlayerAndroid(playerid)) {
+                Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_INPUT, "找回密码", str, "确定", "返回");
+                return 1;
+            }
             Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_PASSWORD, "找回密码", str, "确定", "返回");
             return 1;
         }
         SendClientMessage(playerid, Color_Yellow, "[安全]您的账号还没有绑定邮箱,暂不支持找回密码");
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+            return 1;
+        }
         Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
         return 1;
     }
-    if(!strlen(inputtext)) return Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.你还有{80FF80}3次机会{00FFFF}输入密码", "登录", "找回密码");
+    if(!strlen(inputtext)) {
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.你还有{80FF80}3次机会{00FFFF}输入密码", "登录", "找回密码");
+            return 1;
+        }
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.你还有{80FF80}3次机会{00FFFF}输入密码", "登录", "找回密码");
+        return 1;
+    }
     OnPlayerLogin(playerid, inputtext);
     return 1;
 }
@@ -5383,8 +5435,15 @@ function OnPlayerDataLoaded(playerid, race_check) {
     */
     if(race_check != g_MysqlRaceCheck[playerid]) return Kick(playerid);
     // RegLoginTDrawCreate(playerid);
-    for (new i = 0; i <= 7; i++) {
-        TextDrawShowForPlayer(playerid, Screen[i]);
+    // 适配安卓端 必须搭配check_android filterscript
+    if(IsPlayerAndroid(playerid)) {
+        SendClientMessage(playerid, Color_Yellow, "[服务器]检测到您是移动端玩家,若您SAMP版本为1.08版本,可能出现闪退等不适配问题。");
+        SendClientMessage(playerid, Color_Yellow, "[服务器]OBJ/TextDraw/GameText/对话框无法显示或显示不全为正常现象");
+        SendClientMessage(playerid, Color_White, ServerVersion);
+    } else {
+        for (new i = 0; i <= 7; i++) {
+            TextDrawShowForPlayer(playerid, Screen[i]);
+        }
     }
     // 判断玩家是否处在兼容模式下 非服务器版本0.3.7
     if(IsPlayerCompat(playerid)) {
@@ -5402,6 +5461,13 @@ function OnPlayerDataLoaded(playerid, race_check) {
         // and save the rest so we won't have to execute another query later
         cache_get_value(0, "Password", PlayerInfo[playerid][Password], 65);
         cache_get_value(0, "Salt", PlayerInfo[playerid][Salt], 12);
+
+        if(!strcmp(PlayerInfo[playerid][Salt], "null", true)) {
+            Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "{FFFF00}您的账号因特殊原因包括但不限于(保护早期ID,账号丢失)，安全起见对此进行冻结, 如需解冻请本人或家属联系服主!", "确定", "");
+            DelayedKick(playerid);
+            return 1;
+        }
+
         cache_get_value_name(0, "email", PlayerInfo[playerid][Email]); //获取邮箱
         cache_get_value_name_int(0, "yz", PlayerInfo[playerid][Confirmed]); //获取是否验证
         cache_get_value_name_int(0, "Yzwrong", PlayerInfo[playerid][yzwrong]);
@@ -5423,9 +5489,18 @@ function OnPlayerDataLoaded(playerid, race_check) {
         // saves the active cache in the memory and returns an cache-id to access it for later use
         PlayerInfo[playerid][Cache_ID] = cache_save();
         format(string, sizeof(string), "欢迎,您的账号已注册\n请在下方输入密码登录\n最后一次在线时间 %d-%d-%d %02d:%02d:%02d", year, month, day, hour, minute, second);
-        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "RaceSpeedTime团队官方服务器", string, "登录", "找回密码");
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "RaceSpeedTime团队官方服务器", string, "登录", "找回密码");
+        } else {
+            Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "RaceSpeedTime团队官方服务器", string, "登录", "找回密码");
+        }
         // from now on, the player has 30 seconds to login
         PlayerInfo[playerid][LoginTimer] = SetTimerEx_("OnLoginTimeout", 300 * 1000, 300 * 1000, 1, "d", playerid);
+        return 1;
+    }
+    // 如果注册了的话
+    if(IsPlayerAndroid(playerid)) {
+        Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_INPUT, "RaceSpeedTime团队官方服务器", "请在下方输入密码来完成注册!\n请牢记您的账号名字!\n已采用散列技术，无需担心数据泄露", "注册", "退出");
     } else {
         Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "RaceSpeedTime团队官方服务器", "请在下方输入密码来完成注册!\n请牢记您的账号名字!\n已采用散列技术，无需担心数据泄露", "注册", "退出");
     }
@@ -5449,7 +5524,9 @@ UpdatePlayerData(playerid, reason) {
     // mysql_format(g_SQL, query, sizeof query, "UPDATE `players` SET `x` = %f, `y` = %f, `z` = %f, `angle` = %f, `interior` = %d WHERE `id` = %d LIMIT 1", Player[playerid][X_Pos], Player[playerid][Y_Pos], Player[playerid][Z_Pos], Player[playerid][A_Pos], GetPlayerInterior(playerid), Player[playerid][ID]);
     // mysql_tquery(g_SQL, query);
 
+    // 卸载速度表
     UnLoadVelo(playerid);
+    // 卸载网络情况表
     for (new i = 0; i <= 10; i++) {
         PlayerTextDrawDestroy(playerid, PlayerText:network_txtdraw[playerid][i]);
     }
@@ -5705,12 +5782,20 @@ Dialog:Dialog_ForgetPass(playerid, response, listitem, inputtext[]) {
             PlayerInfo[playerid][yzwrong] = 0;
             return 1;
         }
-        Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_PASSWORD, "找回密码", "验证码错误!请仔细校对是否正确!已向您的邮箱发送验证码", "确定", "返回");
+        if(IsPlayerAndroid(playerid)) {
+            Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_INPUT, "找回密码", "验证码错误!请仔细校对是否正确!已向您的邮箱发送验证码", "确定", "返回");
+        } else {
+            Dialog_Show(playerid, Dialog_ForgetPass, DIALOG_STYLE_PASSWORD, "找回密码", "验证码错误!请仔细校对是否正确!已向您的邮箱发送验证码", "确定", "返回");
+        }
         PlayerInfo[playerid][yzwrong]++;
         pMailConfirmedCuts(playerid, 1);
         return 1;
     }
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    if(IsPlayerAndroid(playerid)) {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    } else {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    }
     return 1;
 }
 
@@ -5727,6 +5812,11 @@ Dialog:pForgetPassWordChange(playerid, response, listitem, inputtext[]) {
         // 2021.2.15写的return 如果出问题去掉
         return 1;
     }
-    Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    if(IsPlayerAndroid(playerid)) {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    } else {
+        Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_PASSWORD, "登录", "{00FFFF}你的账号已注册\n{00FFFF}请在下面输入你的密码.", "登录", "找回密码");
+    }
+
     return 1;
 }

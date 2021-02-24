@@ -1,6 +1,6 @@
 
-#define GMText "骇速之时 v21.2.23"
-#define ServerVersion "Powered by MYSQLR41.4 v2021.2.23"
+#define GMText "骇速之时 v21.2.24"
+#define ServerVersion "Powered by MYSQLR41.4 v2021.2.24"
 
 // 本次测试啥的记得随时调
 //----------MYSQL STUFFS----------------------
@@ -171,11 +171,10 @@ enum pInfo {
     tpa_gotoid,//传送玩家id
 	tpa_ban,//传送开关
 	tpa_requesttimer,//传送请求计时
+    bool:Android,//是否为安卓等移动端环境
     Cache: Cache_ID
 }
 new PlayerInfo[MAX_PLAYERS][pInfo]; //玩家资料
-
-
 
 enum Chars {
     ID,
@@ -7324,4 +7323,27 @@ function LoginMusicCamera(const playerid) {
     new rand = random(sizeof(randSounds));
     PlayerPlaySoundEx(playerid, randSounds[rand]);
     InterpolateCameraPos(playerid, random(6000) - 3000, random(6000) - 3000, random(120) + 50, random(6000) - 3000, random(6000) - 3000, random(120) + 50, 60000, CAMERA_MOVE);
+}
+
+
+// 初始化玩家是否安卓或移动端
+stock InitPlayerAndroid(const playerid) {
+    // 默认是
+    PlayerInfo[playerid][Android] = true;
+    // 注意，该函数必须依赖fixes 否则只能在filterscript中使用！
+    SendClientCheck(playerid, 0x48, 0, 0, 2);
+    return 1;
+}
+// 返回玩家是否为安卓端
+stock IsPlayerAndroid(const playerid) {
+    return PlayerInfo[playerid][Android];
+}
+
+// 检查玩家是否为安卓端 注意，该回调必须依赖fixes 否则只能在filterscript中使用！
+public OnClientCheckResponse(playerid, actionid, memaddr, retndata) {
+    if(actionid == 0x48) {
+        //  如果是PC端则取消为false
+        PlayerInfo[playerid][Android] = false;
+    }
+    return 1;
 }
