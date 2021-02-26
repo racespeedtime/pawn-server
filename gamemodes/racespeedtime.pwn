@@ -301,7 +301,7 @@ function GlobalAnnouncement() {
         }
         case 2:{
             SCMALL(Color_Announcement, ANNOUNCEMENTS[2]);
-            SendRconCommand("hostname RST团队官方服务器「赛车|自由|娱乐|碰碰车|房屋|家具」");
+            SendRconCommand("hostname [骇速之时] 跨平台互联互通「赛车|自由|娱乐|碰碰车|房屋|家具」");
             RandMsg++;
         }
         case 3:{
@@ -311,12 +311,12 @@ function GlobalAnnouncement() {
         }
         case 4:{
             SCMALL(Color_Announcement, ANNOUNCEMENTS[4]);
-            SendRconCommand("hostname RST团队服务器，B站搜索RaceSpeedTime");
+            SendRconCommand("hostname RST团队服务器，B站搜索RaceSpeedTime 跨平台互联互通(移动端需2.0及以上版本)");
             RandMsg++;
         }
         case 5:{
             SCMALL(Color_Announcement, ANNOUNCEMENTS[5]);
-            SendRconCommand("hostname RST团队官方服务器「骇速之时」");
+            SendRconCommand("hostname RST团队官方服务器「骇速之时」跨平台互联互通(移动端需2.0及以上版本)");
             RandMsg++;
         }
         case 6:{
