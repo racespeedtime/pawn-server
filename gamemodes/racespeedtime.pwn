@@ -80,6 +80,7 @@
 #include <common/World> // 2020.3.28ºÏ²¢ ÊÀ½ç
 #include <common/sampmailjs>//ÓÊÏäÑéÖ¤
 #include <common/Gps_system>//GPS
+#include <common/Monument>//2021.9.2 ¼ÍÄî±®¹È
 // #include <crashdetect> //²âÊÔ±ÀÀ£
 #define strlen mk_strlen
 #define strcmp mk_strcmp
@@ -390,6 +391,7 @@ public OnGameModeInit() {
     LoadNpcs(); //¼ÓÔØNPC
     Initialize_Camera(); //³õÊ¼»¯ÉãÏñ»ú 2020-3-15 16:41:07
     InitGoods(); //³õÊ¼»¯¼Ò¾ß.
+    Initialize_Monument(); //³õÊ¼»¯¼ÍÄî±®¹È
     // ¼ÓÔØTimers
     // StopGATimer = SetTimer_("GlobalAnnouncement", 250000, true); //¼ÓÔØ¹«¸æ¼ÆÊ±
     // StopMinuteTimer = SetTimer_("MinuteTimer", 60000, true); //·ÖÖÓ¼ÆÊ±Æ÷
@@ -439,6 +441,7 @@ public OnGameModeExit() { //print("[ÌáÊ¾]·şÎñÆ÷¹Ø±Õ/ÖØÆô");
     KillTimer_(StopTimer[3]);
 
     UnLoadNpcs(); //Ğ¶ÔØNPC
+    Destroy_Monument(); //Ïú»Ù¼ÍÄî±®¹È
     Boards_OnGameModeExit(); //¹«¸æÅÆĞ¶ÔØ
     Attire_OnGameModeExit(); //×°°çĞ¶ÔØ
     Cars_OnGameModeExit(); //°®³µĞ¶ÔØ
@@ -1178,7 +1181,7 @@ CMD:xiufu(const playerid, const cmdtext[]) { //µ±Íæ¼Ò¿¨×¡µÄÊ±ºò£¬ÊäÈëÕâ¸öÖ¸Áî¿ÉÒ
 CMD:skin(const playerid, const cmdtext[]) {
     new skinid;
     if(sscanf(cmdtext, "d", skinid)) return ShowModelSelectionMenu(playerid, skinlist, "Select Skin");
-    if(skinid < 0 || skinid > 311) return SCM(playerid, Color_White, "[»»·ô] ´íÎóµÄÆ¤·ôID.");
+    if(0 > skinid > 311 || skinid == 74) return SCM(playerid, Color_White, "[»»·ô] ´íÎóµÄÆ¤·ôID.");
     if(IsPlayerInAnyVehicle(playerid)) {
         new seat = GetPlayerVehicleSeat(playerid);
         new vehid = GetPlayerVehicleID(playerid);
@@ -3683,6 +3686,7 @@ function SecondsTimer() {
             }
         }
     }
+    seconds_Monument_Act(); // ¼ÍÄî±®Ê±¼ä
     return 1;
 }
 
