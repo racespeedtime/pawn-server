@@ -1,6 +1,0 @@
-[9:47:30][世界][R_ST]Hygen(9) [V]: e.e         NULL
-[18:12:36][世界][R_ST]JoshenKM(8) [V]: racespeedtime         NULL
-[18:12:40][世界][R_ST]JoshenKM(8) [V]: RaceSpeedTime         NULL
-[18:21:18][世界][R_ST]Hygen(8) [V]: 123         NULL
-[21:15:17][世界][R_ST]Hygen(8): 123
-[23:25:58][频道-1]EMx_speed(8): 汤米

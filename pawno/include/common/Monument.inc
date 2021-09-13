@@ -55,6 +55,35 @@ new Actor_SpawnPos[MAX_Monument][Actor_Pos] = { // 演员数据
 new Actor_IdList[MAX_Monument]; // 演员ID数组
 new Actor_upt_interval = 1; //演员时间计时器，用于计算多少秒后重置
 
+
+enum Actor_Rand_Anim {
+    Act_Animlib[18],
+        Act_Animname[18]
+
+}
+
+new Actor_Rand_AnimLibs[][Actor_Rand_Anim] = {
+    { "ATTRACTORS", "STEPSIT_LOOP" },
+    { "BAR", "BARMAN_IDLE" },
+    { "PED", "IDLE_CHAT" },
+    { "PED", "ENDCHAT_03" },
+    { "BASEBALL", "BAT_IDLE" },
+    { "BD_FIRE", "BD_GF_WAVE" },
+    { "BD_FIRE", "GRLFRD_KISS_03" },
+    { "BD_FIRE", "M_SMKLEAN_LOOP" },
+    { "BD_FIRE", "WASH_UP" },
+    { "BEACH", "PARKSIT_M_LOOP" },
+    { "BEACH", "PARKSIT_W_LOOP" },
+    { "BEACH", "SITNWAIT_LOOP_W" },
+    { "BMX", "BMX_PEDAL" },
+    { "BOMBER", "BOM_PLANT" },
+    { "BSKTBALL", "BBALL_IDLELOOP" },
+    { "BSKTBALL", "BBALL_JUMP_SHOT" },
+    { "BSKTBALL", "BBALL_REACT_MISS" },
+    { "BSKTBALL", "BBALL_REACT_SCORE" },
+    { "PARK", "Tai_Chi_Loop" }
+};
+
 stock Initialize_Monument() // 初始化纪念碑谷
 {
     for (new i = 0; i < sizeof(Actor_IdList); i++) {
@@ -69,14 +98,13 @@ stock Destroy_Monument() // 销毁纪念碑谷
             DestroyDynamic3DTextLabel(Actor_SpawnPos[i][Actor_LabelId]);
         }
         if (IsValidDynamicActor(Actor_IdList[i])) {
-            ClearDynamicActorAnimations(Actor_IdList[i]);
             DestroyDynamicActor(Actor_IdList[i]);
             Actor_IdList[i] = -1; // 重置默认值
         }
     }
 }
 
-stock setActorInfo(index) { // 根据指定的数组中的下标 初始化演员信息
+stock setActorInfo(const index) { // 根据指定的数组中的下标 初始化演员信息
     if (!IsValidDynamicActor(Actor_IdList[index])) {
         Actor_IdList[index] = CreateDynamicActor(Actor_SpawnPos[index][Actor_Skin], Actor_SpawnPos[index][Actor_X], Actor_SpawnPos[index][Actor_Y], Actor_SpawnPos[index][Actor_Z], Actor_SpawnPos[index][Actor_R], true, 100.0, 0);
         Rand_Anim_Monument(Actor_IdList[index]);
@@ -86,7 +114,7 @@ stock setActorInfo(index) { // 根据指定的数组中的下标 初始化演员信息
         DestroyDynamic3DTextLabel(Actor_SpawnPos[index][Actor_LabelId]);
     }
     Actor_SpawnPos[index][Actor_LabelId] = CreateDynamic3DTextLabel(Actor_SpawnPos[index][Actor_Label], Color_White,
-        Actor_SpawnPos[index][Actor_X], Actor_SpawnPos[index][Actor_Y], Actor_SpawnPos[index][Actor_Z], 7, INVALID_PLAYER_ID, INVALID_VEHICLE_ID);
+        Actor_SpawnPos[index][Actor_X] + 0.85, Actor_SpawnPos[index][Actor_Y], Actor_SpawnPos[index][Actor_Z], 7, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0);
 
 }
 
@@ -139,7 +167,9 @@ function update_Monument_Act() { // 获取随机玩家信息
     }
 }
 
-stock Rand_Anim_Monument(act_id) // 随机动作
+stock Rand_Anim_Monument(const act_id) // 随机动作
 {
-    ApplyDynamicActorAnimation(act_id, "WUZI", "WUZI_GREET_PLYR", 4.1, 0, 0, 0, 0, 0);
+    new Act_anim_index = random(sizeof(Actor_Rand_AnimLibs));
+    ApplyDynamicActorAnimation(act_id, Actor_Rand_AnimLibs[Act_anim_index][Act_Animlib], Actor_Rand_AnimLibs[Act_anim_index][Act_Animname], 4.1, 1, 0, 0, 0, 0);
+    // printf("act_id:%d, animlib:%s,animname:%s, rand:%d", act_id, Actor_Rand_AnimLibs[Act_anim_index][Act_Animlib], Actor_Rand_AnimLibs[Act_anim_index][Act_Animname],Act_anim_index);
 }

@@ -1,8 +1,0 @@
-[8:11:10][频道-6666][R_ST]DONJI(8): r s         
-[8:15:45][频道-6666][R_ST]DONJI(8): ssssssssssssssssssssssssssssss         
-[20:10:33][频道-6666]SDFRTOP(8): GTABBS         
-[20:15:51][频道-6666]SDFRTOP(8): WRL         
-[20:17:25][频道-6666]SDFRTOP(8): FWCS         
-[20:18:2][频道-6666]SDFRTOP(8): 6         
-[20:33:57][频道-6666]SDFRTOP(8): F         
-[21:5:50][世界]SDFRTOP(8): 411         

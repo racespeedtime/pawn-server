@@ -1,8 +1,0 @@
-[21:49:9][指令]Ryosuke(9):/help
-[21:49:9][指令]Ryosuke(9):/help
-[22:56:18][指令]JoshenKM(8):/c 411
-[22:57:51][指令]JoshenKM(8):/c 562
-[22:57:55][指令]JoshenKM(8):/cc 1 1w
-[22:57:57][指令]JoshenKM(8):/cc 1 1
-[23:10:37][指令]JoshenKM(8):/fxq
-[23:10:53][指令]JoshenKM(8):/c 411

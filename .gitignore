@@ -7,3 +7,4 @@ plugins/*.so
 !plugins/linux
 !plugins/win
 logs/
+*.log
