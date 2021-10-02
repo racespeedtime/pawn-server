@@ -2,9 +2,7 @@ gamemodes/**/*.amx
 **/node_modules
 server.cfg
 server_log.txt
-plugins/*.dll
-plugins/*.so
-!plugins/linux
-!plugins/win
 logs/
 *.log
+*.dll
+*.so
