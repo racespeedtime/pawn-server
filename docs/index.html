@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RST Document Center</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <nav>
+      <a href="#/">主页</a>
+    </nav>
+    <script>
+      window.$docsify = {
+        name: "骇速之时",
+        repo: "https://gitee.com/yucarl77/race-speed-time",
+        coverpage: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        homepage: "zh-cn/home.md", //设置中文的README.md作为首页
+        subMaxLevel: 4, //目录最大级数
+        maxLevel: 4, //可配置最大支持渲染的标题层级
+        //添加搜索功能，中文和英文文档同时搜索
+        search: {
+          paths: "auto",
+          placeholder: {
+            "/": "🔍 搜索",
+          },
+          //如果中文和英文文档都没有内容，则返回
+          noData: {
+            "/": "😒 找不到结果",
+          },
+
+          depth: 4, //搜索标题的最大层级
+          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        }, //增加搜索框
+        footer: {
+          copy: "Powered by 💖 &copy; 2021</span>",
+          auth: " <strong>-RaceSpeedTime-</strong>",
+          pre: "<hr/>",
+          style: "text-align: center;",
+        },
+        "flexible-alerts": {
+          style: "flat",
+        },
+      };
+    </script>
+    <!-- 搜索功能 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- docsify表情包 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <!-- 复制代码到剪切板 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <!-- 文档页脚增强 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
+    <!-- 图片缩放 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+    <!-- Markdown 引用样式美化 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+  </body>
+</html>
