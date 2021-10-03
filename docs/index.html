@@ -13,6 +13,20 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
     />
+    <style>
+      .text {
+        position: absolute;
+        z-index: 999;
+        font-weight: bold;
+        user-select: none;
+      }
+
+      @keyframes remove {
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -31,7 +45,7 @@
         maxLevel: 4, //可配置最大支持渲染的标题层级
         //添加搜索功能，中文和英文文档同时搜索
         search: {
-          paths: "auto",
+          // paths: "auto",
           placeholder: {
             "/": "🔍 搜索",
           },
@@ -67,5 +81,120 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
     <!-- Markdown 引用样式美化 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        let body = document.body;
+        let content = [
+          "[R_ST]Denver",
+          "[R_ST]Hygen",
+          "[R_ST]Safford",
+          "[R_ST]JoshenKM",
+          "[R_ST]KiVen",
+          "[R_ST]ArvinJM",
+          "[R_ST]Amosso",
+          "[R_ST]Promise.DC",
+          "[R_ST]Byron",
+          "[R_ST]Hurt",
+          "[R_ST]Amouons",
+          "[R_ST]_CyCt",
+          "[R_ST]Gemzf",
+          "[R_ST]Stnzzd",
+          "[R_ST]BoZai",
+          "[R_ST]Yuk1N6",
+          "[R_ST]QiuMeng",
+          "[R_ST]Rooftops",
+          "[R_ST]Asso",
+          "[R_ST]Donji",
+          "[R_ST]Andy",
+          "[R_ST]EX丶XH",
+          "[R_ST]Air",
+          "[R_ST]FunnySnake1111",
+          "[R_ST]Iridescent",
+          "[R_ST]Kodak",
+          "[R_ST]peretdk",
+          "[R_ST]Reaper",
+          "[R_ST]Shouamr",
+          "[R_ST]JiangU",
+          "[R_ST]Xy_Eddy",
+          "[R_ST]Johnny",
+          "[R_ST]Best.Yz",
+          "[R_ST]Harland",
+          "[R_ST]Myron",
+          "[R_ST]Death",
+          "[R_ST]Yhofficial",
+          "[R_ST]Ambrose",
+          "[R_ST]Amouons",
+          "[R_ST]Ap_Igniz",
+          "[R_ST]Best_Hz",
+          "[R_ST]Coid",
+          "[R_ST]E_Lope",
+          "[R_ST]FAMOSPRING",
+          "[R_ST]Glenn_DK",
+          "[R_ST]ASK46",
+          "[R_ST]Guy",
+          "[R_ST]Cold",
+          "[R_ST]Mark",
+          "[R_ST]Kniz77",
+          "[R_ST]ColdMoon",
+          "[R_ST]Yukine",
+        ]; //自定义内容的数组
+        body.addEventListener("click", function (e) {
+          let x = e.pageX;
+          let y = e.pageY; //当前坐标
+          let randContent = Math.ceil(Math.random() * content.length);
+          let text = new Text(x, y, randContent);
+          let span = document.createElement("span");
+          span.style.color = text.getRandom();
+          text.create(span);
+          setTimeout(function () {
+            text.out(span);
+          }, 1900);
+        });
+
+        function Text(x, y, rand) {
+          this.x = x;
+          this.y = y;
+          this.rand = rand;
+        }
+        Text.prototype.create = function (_this) {
+          let body = document.body;
+          _this.innerHTML = `❤${content[this.rand - 1]}❤`;
+          _this.className = "text";
+          _this.style.top = this.y - 20 + "px";
+          _this.style.left = this.x - 50 + "px";
+          _this.style.animation = "remove 2s";
+          body.appendChild(_this);
+          let i = 0;
+          setInterval(() => {
+            _this.style.top = this.y - 20 - i + "px";
+            i++;
+          }, 10);
+        };
+        Text.prototype.out = function (_this) {
+          _this.remove();
+        };
+        //设置随机颜色
+        Text.prototype.getRandom = function () {
+          let allType = "0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f"; //16进制颜色
+          let allTypeArr = allType.split(","); //通过','分割为数组
+          let color = "#";
+          for (var i = 0; i < 6; i++) {
+            //随机生成一个0-16的数
+            var random = parseInt(Math.random() * allTypeArr.length);
+            color += allTypeArr[random];
+          }
+          return color; //返回随机生成的颜色
+        };
+      });
+    </script>
+
+    <script>
+      const rst_logo =
+        atob(`IC9cXFxcXFxcXFxcICAgICAvXFxcXFxcXFxcXCAvXFxcXFxcXFxcXFxcDQogXC9cXFxfX19fL1xcXCAgL1xcXF9fX19fX18vIFwvX19fL1xcXF9fXy8NCiAgXC9cXFwgICBcL1xcXCBcL1xcXCAgICAgICAgICAgICBcL1xcXA0KICAgXC9cXFxcXFxcXC8gICBcL1xcXFxcXFxcXFwgICAgICBcL1xcXA0KICAgIFwvXFxcICBcL1xcXCAgXC9fX19fX19fL1xcXCAgICAgXC9cXFwNCiAgICAgXC9cXFwgICBcL1xcXCAgICAgICAgIFwvXFxcICAgICBcL1xcXA0KICAgICAgXC9cXFwgICBcL1xcXCAgL1xcXFxcXFxcXC8gICAgICBcL1xcXA0KICAgICAgIFwvXy8gICAgXC9fLyAgXC9fX19fX19fLyAgICAgICAgXC9fLw==
+        `);
+      console.log("%c" + rst_logo, "color:#355074");
+      console.log("%cPowered by RaceSpeedTime 2021","color:#f7030b");
+    </script>
   </body>
 </html>
