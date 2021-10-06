@@ -3184,43 +3184,43 @@ stock SetupRaceTable() {
     // 初始化赛道表
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `race`  (\
     `rid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,\
-    `rname` varchar(31) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `rpassword` varchar(31) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `rcreatedate` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `rauthor` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `miaoshu` varchar(63) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `rname` varchar(31) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `rpassword` varchar(31) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `rcreatedate` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `rauthor` varchar(10) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `miaoshu` varchar(63) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     PRIMARY KEY (`rid`) USING BTREE,\
     UNIQUE INDEX `Race_index`(`rname`, `rid`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
     // 初始化赛道cp表
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `race_cp`  (\
     `cpid` int(11) NOT NULL AUTO_INCREMENT,\
     `rid` int(11) NULL DEFAULT NULL,\
     `cp` int(11) NULL DEFAULT NULL,\
-    `x` varchar(13) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `y` varchar(13) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `z` varchar(13) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `a` varchar(13) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `size` varchar(13) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `x` varchar(13) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `y` varchar(13) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `z` varchar(13) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `a` varchar(13) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `size` varchar(13) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     PRIMARY KEY (`cpid`) USING BTREE,\
     INDEX `Rid_Cp_index`(`rid`, `cp`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
     // 初始化赛道个人记录表
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `race_record`  (\
     `uid` int(10) UNSIGNED NOT NULL,\
     `rid` int(11) NOT NULL,\
     `p_record` int(11) NOT NULL,\
     `finish_time` int(11) NOT NULL\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
     
     // 初始化赛道触发点表
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `race_cp_script`  (\
     `rid` int(11) NULL DEFAULT NULL,\
     `cpid` int(11) NULL DEFAULT NULL,\
     `list` int(11) NULL DEFAULT NULL,\
-    `script` varchar(99) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `script` varchar(99) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     INDEX `Rid_Cp_Script_index`(`cpid`, `rid`, `list`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 }
 
 

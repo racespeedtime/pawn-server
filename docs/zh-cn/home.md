@@ -17,6 +17,7 @@
   - 重生系统
   - 防碰撞系统
   - 增强信息显示
+  - 实时房间内排名
   - 重写个人纪录系统
   - 迁移未来世界赛车数据库
   - 地表级强化赛车反作弊系统
@@ -46,7 +47,8 @@
 - 个性速度表
 - 网络信息统计
 - 玩家纪念碑
-- OBJ脚本
+- 脏字屏蔽
+- OBJ载入脚本
 - 适配流光的三大高楼脚本
 
 注: 移动端兼容性较低，支持连入和基本功能。
@@ -58,6 +60,9 @@
 |-- announce
 |-- announce.exe
 |-- autoRestart.sh
+|-- log-core.dll
+|-- log-core.so
+|-- libmariadb.dll
 |-- LICENSE
 |-- README.md
 |-- samp-npc
@@ -172,6 +177,7 @@
 - `samp-npc`
 - `samp03svr`
 - `announce`
+- `log-core.so`
 - `server_linux.cfg`
 - `plugins\linux`
 
@@ -227,19 +233,21 @@
 7. 运行`samp-server.exe`
    - 如果提示数据库连接失败，请回到3重新配置数据库信息
 
-   - 如果控制台出现`runtime error`，请安装`Microsoft Visual C++`2005，2008，2010，2012，2013，2015 - 2019的`x64`和`x86`环境。
+   - 如果控制台出现`Run time error 19: "File or function is not found"`，请安装[Microsoft Visual C++2015](https://www.microsoft.com/zh-CN/download/details.aspx?id=48145)的`x64`和`x86`环境。
 
      如果已经有环境请先全部卸载该环境后重新安装。
 
    - 如果正常进入服务器并见到注册登录对话框代表运行成功
 
-8. 如果使用邮箱系统请通过终端，在`scriptfiles\SAMPMailJS-master`文件夹下执行`node sampmail.js`
+8. 如果使用邮箱系统请通过终端，在`scriptfiles\SAMPMailJS-master`文件夹下（首次请先执行`npm install`）执行`node sampmail.js`
 
 ### Linux
 
 **注意：Linux下运行需要系统底层GCC版本>=8.2.0**
 
 查看`gcc`版本`gcc -v`，如果低于8.2.0请先更新至8.2.0版本，**满足则跳过该步**。
+
+**以下以CentOS7为例**
 
 #### 升级GCC到8.2.0
 
@@ -278,6 +286,14 @@ mkdir build cd build …/configure --enable-languages=c,c++ --enable-checking=re
 
 #### 部署
 
+0. 安装必要环境后，运行时可能会出现`libmysqlclient.so.18`类似的提示，原因是缺少i386,i686的环境配置，比较耗费时间精力，尝试安装以下依赖或降低`Mysql`版本为`5.7`左右，再次安装。
+
+   ```sh
+   yum install mysql-community-libs
+   yum install mysql-community-libs.i386
+   yum install mysql-community-libs.i686
+   ```
+
 1. 提前在Win系统运行`pawno\pawno.exe`，编译`gamemodes\racespeedtime.pwn`，出现`gamemodes\racespeedtime.amx`即编译成功，如果编译有报错请自行根据提示修复问题，把编译后的文件上传至服务器
 
 2. 删除为`Win`部署提供的文件
@@ -286,6 +302,8 @@ mkdir build cd build …/configure --enable-languages=c,c++ --enable-checking=re
 - `samp-server.exe`
 - `announce.exe`
 - `server_win.cfg`
+- `libmariadb.dll`
+- `log-core.dll`
 - `plugins\win`
 
 3. 移动`plugins\linux`文件夹下所有文件到`plugins`下，之后删除`plugins\linux`文件夹
@@ -301,4 +319,4 @@ mkdir build cd build …/configure --enable-languages=c,c++ --enable-checking=re
    - 如果提示数据库连接失败，请回到4重新配置数据库信息
    - 如果正常进入服务器并见到注册登录对话框代表运行成功
 
-8. 如果使用邮箱系统请通过终端，再新建一个`screen`用于运行邮箱系统，进入对应`scriptfiles\SAMPMailJS-master`文件夹下执行`node sampmail.js`
+8. 如果使用邮箱系统请通过终端，再新建一个`screen`用于运行邮箱系统，进入对应`scriptfiles\SAMPMailJS-master`文件夹下，（首次请先执行`npm install`）执行`node sampmail.js`

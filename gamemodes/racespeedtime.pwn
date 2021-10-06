@@ -58,6 +58,10 @@
 #define FIX_KEY_AIM 0
 #define FIX_GogglesSync 0
 #define FIX_OnPlayerSpawn 0
+#define FIX_GetServerVarAsString 0
+#define FIX_GetServerVarAsFloat  0
+#define FIX_GetServerVarAsInt    0
+#define FIX_GetServerVarAsBool   0
 #include <common/fixes> //需要放在a_samp下面
 //https://github.com/pawn-lang/sa-mp-fixes
 //https://wiki.sa-mp.com/wiki/Fixes.inc#Expansion 

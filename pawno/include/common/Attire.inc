@@ -600,21 +600,21 @@ stock SetupAttireTable() {
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `attire`  (\
     `DBID` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,\
     `UID` int(10) UNSIGNED NULL DEFAULT NULL,\
-    `Name` varchar(24) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `Name` varchar(24) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `ModelID` int(11) NULL DEFAULT NULL,\
     `Bone` int(11) NULL DEFAULT NULL,\
-    `OffsetX` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `OffsetY` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `OffsetZ` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RotX` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RotY` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RotZ` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `ScaleX` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `ScaleY` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `ScaleZ` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `OffsetX` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `OffsetY` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `OffsetZ` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RotX` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RotY` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RotZ` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `ScaleX` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `ScaleY` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `ScaleZ` varchar(11) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `Color1` int(11) NULL DEFAULT NULL,\
     `Color2` int(11) NULL DEFAULT NULL,\
     `State` int(11) NULL DEFAULT NULL,\
     PRIMARY KEY (`DBID`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 }

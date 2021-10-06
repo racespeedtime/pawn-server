@@ -6,3 +6,7 @@ logs/
 *.log
 *.dll
 *.so
+*.pdb
+!log-core.dll
+!libmariadb.dll
+!log-core.so

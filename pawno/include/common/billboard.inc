@@ -923,23 +923,23 @@ stock SetupBillboardTable() {
     `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,\
     `ObjID` int(11) NOT NULL,\
     `UsersID` int(10) UNSIGNED NOT NULL,\
-    `Text` varchar(1023) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
+    `Text` varchar(1023) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
     `MaterialIndex` int(11) NOT NULL,\
     `MaterialSize` int(11) NOT NULL,\
-    `FontFace` varchar(63) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
+    `FontFace` varchar(63) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
     `FontSize` int(11) NOT NULL,\
     `Bold` int(11) NOT NULL,\
     `FontColor` int(11) NOT NULL,\
     `BackColor` int(11) NOT NULL,\
     `TextAlignment` int(11) NOT NULL,\
-    `X` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `Y` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `Z` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `RX` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `RY` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
-    `RZ` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,\
+    `X` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `Y` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `Z` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `RX` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `RY` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
+    `RZ` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,\
     `World` int(11) NOT NULL,\
     `Int` int(11) NOT NULL,\
     PRIMARY KEY (`ID`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 }

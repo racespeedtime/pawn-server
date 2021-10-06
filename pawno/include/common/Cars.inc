@@ -1775,12 +1775,12 @@ stock SetupCarsTable() {
     `Color1` int(11) NULL DEFAULT NULL,\
     `Color2` int(11) NULL DEFAULT NULL,\
     `Lock` int(11) NULL DEFAULT NULL,\
-    `X` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `Y` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `Z` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `A` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `X` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `Y` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `Z` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `A` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `Value` int(11) NULL DEFAULT NULL,\
-    `Text` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `Text` varchar(255) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `BanGoto` int(11) NULL DEFAULT NULL,\
     `SellValue` int(11) NULL DEFAULT 0,\
     `Mod1` int(11) NULL DEFAULT NULL,\
@@ -1796,20 +1796,20 @@ stock SetupCarsTable() {
     `Moded` int(11) NULL DEFAULT NULL,\
     `Printjob` int(11) NULL DEFAULT NULL,\
     PRIMARY KEY (`ID`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `va`  (\
     `ID` int(10) UNSIGNED NOT NULL DEFAULT 0,\
     `VehicleID` int(11) NULL DEFAULT NULL,\
     `Slot` int(11) NULL DEFAULT NULL,\
     `Model` int(11) NULL DEFAULT NULL,\
-    `X` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `Y` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `Z` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RX` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RY` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
-    `RZ` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,\
+    `X` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `Y` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `Z` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RX` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RY` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
+    `RZ` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `TagObjects` int(11) NULL DEFAULT NULL,\
     PRIMARY KEY (`ID`) USING BTREE\
-    ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;");
+    ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 }

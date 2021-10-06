@@ -108,16 +108,16 @@ stock SetupTeamTable() {
     strins(string, "`TID` int(11) NULL DEFAULT NULL,", strlen(string));
     strins(string, "`Level` tinyint(1) NULL DEFAULT NULL,", strlen(string));
     strins(string, "PRIMARY KEY (`UID`) USING BTREE", strlen(string));
-    strins(string, ") ENGINE = InnoDB CHARACTER SET = utf8;", strlen(string));
+    strins(string, ") ENGINE = InnoDB CHARACTER SET = gbk;", strlen(string));
     mysql_pquery(g_Sql, string);
     // 初始化团队表
     format(string, sizeof(string), "CREATE TABLE IF NOT EXISTS `teamsystem`  (");
     strins(string, "`TID` int(11) NOT NULL AUTO_INCREMENT,", strlen(string));
-    strins(string, "`ShortName` varchar(12) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,", strlen(string));
-    strins(string, "`FullName` varchar(24) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,", strlen(string));
-    strins(string, "`Description` varchar(512) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,", strlen(string));
+    strins(string, "`ShortName` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,", strlen(string));
+    strins(string, "`FullName` varchar(24) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,", strlen(string));
+    strins(string, "`Description` varchar(512) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,", strlen(string));
     strins(string, "PRIMARY KEY (`TID`) USING BTREE", strlen(string));
-    strins(string, ") ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8;", strlen(string));
+    strins(string, ") ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = gbk;", strlen(string));
     mysql_pquery(g_Sql, string);
 }
 
