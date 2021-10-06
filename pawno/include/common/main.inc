@@ -1,6 +1,6 @@
 
-#define GMText "骇速之时 v21.2.24"
-#define ServerVersion "Powered by MYSQLR41.4 v2021.9.4"
+#define GMText "骇速之时 v21.10.6"
+#define ServerVersion "Powered by MYSQLR41.4 v2021.10.6"
 
 // 本次测试啥的记得随时调
 //----------MYSQL STUFFS----------------------

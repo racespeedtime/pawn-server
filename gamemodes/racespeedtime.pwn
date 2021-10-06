@@ -2125,6 +2125,9 @@ public OnPlayerExitVehicle(playerid, vehicleid) { //当玩家离开载具且玩家是赛车系
         new Float:pPos[3];
         GetPlayerPos(playerid, pPos[0], pPos[1], pPos[2]);
         SetPlayerPos(playerid, pPos[0] + 2, pPos[1] + 1.5, pPos[2] + 0.5);
+        PlayerInfo[playerid][lastXMoved] = pPos[0] + 2;
+        PlayerInfo[playerid][lastYMoved] = pPos[1] + 1.5;
+        PlayerInfo[playerid][lastZMoved] = pPos[2] + 0.5;
         return Dialog_Show(playerid, RACE_RESPAWNDIALOG, DIALOG_STYLE_MSGBOX, "重生系统 By YuCarl77", "检测到您在赛车中下车了,是否需要重生?\n如想当乘客请点否.", "是", "否");
     }
     if(p_PPC[playerid]) {
