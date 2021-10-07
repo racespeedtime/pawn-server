@@ -272,6 +272,9 @@ stock SaveGoods(id) {
 // }
 
 
+// 2021.10.7 ÐÞ¸´
+//  error #1054 while executing query "UPDATE `user_goods`...... Unknown column 'OWNER' in 'field list'
+
 function Save_PlayerGoods(id)
 {
     // new value;
@@ -281,7 +284,7 @@ function Save_PlayerGoods(id)
     if(GOODS[id][issale] == true) format(sale, sizeof(sale), "YES");
     else format(sale, sizeof(sale), "NO");
     if(cache_num_rows()) {
-        mysql_format(g_Sql, string, sizeof(string), "UPDATE `user_goods` SET `TAKEN`='%d',`OWNER`='%d',`GNAME`='%e',`GOBJID`='%d',`SALE`='%e',`PRICE`='%d',`X`='%f',`Y`='%f',`Z`='%f',`RX`='%f',`RY`='%f',`RZ`='%f',`KEY`='%d',`WID`='%d' WHERE `GID`='%d'",
+        mysql_format(g_Sql, string, sizeof(string), "UPDATE `user_goods` SET `TAKEN`='%d',`UID`='%d',`GNAME`='%e',`GOBJID`='%d',`SALE`='%e',`PRICE`='%d',`X`='%f',`Y`='%f',`Z`='%f',`RX`='%f',`RY`='%f',`RZ`='%f',`KEY`='%d',`WID`='%d' WHERE `GID`='%d'",
             GOODS[id][GoodTaken],
             GOODS[id][GoodOwner],
             GOODS[id][GoodName],
@@ -300,7 +303,7 @@ function Save_PlayerGoods(id)
         mysql_pquery(g_Sql, string);
         return true;
     } 
-    mysql_format(g_Sql, string, sizeof(string), "INSERT INTO `user_goods` (`GID`,`TAKEN`,`OWNER`,`GNAME`,`GOBJID`,`SALE`,`PRICE`,`X`,`Y`,`Z`,`RX`,`RY`,`RZ`,`KEY`,`WID`)  VALUES ('%d','%d','%d','%e','%d','%e','%d','%f','%f','%f','%f','%f','%f','%d','%d')",
+    mysql_format(g_Sql, string, sizeof(string), "INSERT INTO `user_goods` (`GID`,`TAKEN`,`UID`,`GNAME`,`GOBJID`,`SALE`,`PRICE`,`X`,`Y`,`Z`,`RX`,`RY`,`RZ`,`KEY`,`WID`)  VALUES ('%d','%d','%d','%e','%d','%e','%d','%f','%f','%f','%f','%f','%f','%d','%d')",
             id,
             GOODS[id][GoodTaken],
             GOODS[id][GoodOwner],

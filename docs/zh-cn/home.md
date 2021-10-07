@@ -291,11 +291,51 @@ mkdir build cd build …/configure --enable-languages=c,c++ --enable-checking=re
 
 0. 安装必要环境后，运行时可能会出现`libmysqlclient.so.18`类似的提示，原因是缺少i386,i686的环境配置，比较耗费时间精力，尝试安装以下依赖或降低`Mysql`版本为`5.7`左右，再次安装。
 
-   ```sh
-   yum install mysql-community-libs
-   yum install mysql-community-libs.i386
-   yum install mysql-community-libs.i686
-   ```
+    ```sh
+    yum install mysql-community-libs
+    yum install mysql-community-libs.i386
+    yum install mysql-community-libs.i686
+    ```
+
+    **mysql修改默认字符集为utf8mb4，以CentOS为例**
+
+    打开my.cnf，一般情况下载`etc`目录下
+
+    ```bash
+    vi /etc/my.cnf    
+    ```
+
+    然后修改内容(只列出需要修改的地方)
+
+    [mysqld]的修改如下
+
+    ```bash
+    [mysqld]    
+    character-set-server = utf8mb4    
+    collation-server = utf8mb4_unicode_ci    
+    ```
+
+    [client]的修改如下
+
+    ```bash
+    [client]    
+    default-character-set = utf8mb4    
+    ```
+
+    [mysql]的修改如下
+
+    ```bash
+    [mysql]    
+    default-character-set = utf8mb4    
+    ```
+
+    然后保存退出、重启mysqld服务。
+
+    ```bash
+    systemctl restart mysqld    
+    ```
+
+    
 
 1. 提前在Win系统运行`pawno\pawno.exe`，编译`gamemodes\racespeedtime.pwn`，出现`gamemodes\racespeedtime.amx`即编译成功，如果编译有报错请自行根据提示修复问题，把编译后的文件上传至服务器
 

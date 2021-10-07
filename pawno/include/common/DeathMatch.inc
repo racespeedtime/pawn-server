@@ -268,10 +268,10 @@ stock DeathMatch_SetGunSpawn(const playerid) {
 }
 forward DeathMatch_TeleportDelay(playerid, randomid, mapid);
 public DeathMatch_TeleportDelay(playerid, randomid, mapid) {
-    SetPlayerPos(playerid, MapSpawns[mapid][randomid][0], MapSpawns[mapid][randomid][1], MapSpawns[mapid][randomid][2]);
     PlayerInfo[playerid][lastXMoved] = MapSpawns[mapid][randomid][0];
     PlayerInfo[playerid][lastYMoved] = MapSpawns[mapid][randomid][1];
     PlayerInfo[playerid][lastZMoved] = MapSpawns[mapid][randomid][2];
+    SetPlayerPos(playerid, MapSpawns[mapid][randomid][0], MapSpawns[mapid][randomid][1], MapSpawns[mapid][randomid][2]);
     SetPlayerFacingAngle(playerid, MapSpawns[mapid][randomid][3]);
     PlayerPlaySound(playerid, 1057, 0.0, 0.0, 0.0);
     for (new i = 0; i < 5; i++) {
@@ -279,14 +279,14 @@ public DeathMatch_TeleportDelay(playerid, randomid, mapid) {
     }
     SetPlayerHealth(playerid, MapHP[mapid]);
     SetPlayerArmour(playerid, 100.0);
-    SetTimerEx("DeathMatch_AntiCheat", 1500, false, "i", playerid); //加一点延迟不然反应太快了可能
+    // SetTimerEx("DeathMatch_AntiCheat", 1500, false, "i", playerid); //加一点延迟不然反应太快了可能
     DeathMatch_Game[playerid][g_anticheat] = 1;
 }
-forward DeathMatch_AntiCheat(playerid);
-public DeathMatch_AntiCheat(playerid) {
-    // DeathMatch_Game[playerid][g_anticheat] = 1;
-    return 1;
-}
+// forward DeathMatch_AntiCheat(playerid);
+// public DeathMatch_AntiCheat(playerid) {
+//     // DeathMatch_Game[playerid][g_anticheat] = 1;
+//     return 1;
+// }
 forward DeathMatch_Room_Start_Countdown(roomid);
 public DeathMatch_Room_Start_Countdown(roomid) {
     if(DeathMatch_Room[roomid][rcountdown] == 0) {

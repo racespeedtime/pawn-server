@@ -643,8 +643,10 @@ stock AdminCreateCar(const modelid, const value, Float:x, Float:y, Float:z, Floa
     SetVehicleParamsEx(vid, engine, lights, alarm, CarInfo[vid][Lock], bonnet, boot, objective);
     SetVehicleVirtualWorld(vid, 0);
     // mysql_tquery(g_Sql, "START TRANSACTION;"); // Start transaction.
-    mysql_format(g_Sql, msg, sizeof(msg), "INSERT INTO `cars` (UsersID,ModelID,Color1,Color2,Lock,X,Y,Z,A,Value,Text,BanGoto,Mod1,Mod2,\
-    Mod3,Mod4,Mod5,Mod6,Mod7,Mod8,Mod9,Mod10,Moded,Printjob) VALUES ('%d','%d','%d','%d','%d','%f','%f','%f','%f','%d','%e','%d','%d',\
+    // 2021.10.7 尝试修复插入数据库因关键词冲突报错问题
+    mysql_format(g_Sql, msg, sizeof(msg), "INSERT INTO `cars` (`UsersID`,`ModelID`,`Color1`,`Color2`,`Lock`,`X`,`Y`,`Z`,`A`,`Value`,`Text`, \
+    `BanGoto`,`Mod1`,`Mod2`,`Mod3`,`Mod4`,`Mod5`,`Mod6`,`Mod7`,`Mod8`,`Mod9`,`Mod10`,`Moded`,`Printjob`) VALUES ('%d','%d','%d','%d','%d','%f', \
+    '%f','%f','%f','%d','%e','%d','%d',\
     '%d','%d','%d','%d','%d','%d','%d','%d','%d','%d','%d');",usersid, modelid, 0, 0, 0, x, y, z, a, value, CarInfo[vid][Text], \
     CarInfo[vid][BanGoto], 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
     mysql_tquery(g_Sql, msg, "CreateCarIDQuery", "d", vid); // Commit transaction. 
@@ -1798,6 +1800,8 @@ stock SetupCarsTable() {
     PRIMARY KEY (`ID`) USING BTREE\
     ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 
+
+// 2021.10.7 修复TagObject没有默认值的问题
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `va`  (\
     `ID` int(10) UNSIGNED NOT NULL DEFAULT 0,\
     `VehicleID` int(11) NULL DEFAULT NULL,\
@@ -1809,7 +1813,7 @@ stock SetupCarsTable() {
     `RX` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `RY` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
     `RZ` varchar(12) CHARACTER SET gbk COLLATE gbk_chinese_ci NULL DEFAULT NULL,\
-    `TagObjects` int(11) NULL DEFAULT NULL,\
+    `TagObjects` int(1) NOT NULL DEFAULT 0,\
     PRIMARY KEY (`ID`) USING BTREE\
     ) ENGINE = InnoDB CHARACTER SET = gbk COLLATE = gbk_chinese_ci ROW_FORMAT = Compact;");
 }

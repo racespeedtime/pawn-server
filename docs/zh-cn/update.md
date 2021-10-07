@@ -1349,7 +1349,15 @@ ldz玩家纪念碑随机展示用户和动作基本实现
 
 备份数据库，整理目录结构，数据库由utf8转向gbk顺带修复中文名无法登录，修复后台提示SQL1252问题
 
+## 2021.10.7
 
+修复爱车数据表`TagObject` 没有默认值可能引发`cache_get_value_name_int: value 'NULL' is not a number`的问题
+
+修复家具系统`error #1054 while executing query "UPDATE `user_goods`...... Unknown column 'OWNER' in 'field list'` 
+
+修复赛车`cache_get_value_name_int: value 'xxx' is not a number`
+
+修复赛车`cache_get_value_name: field 'rmiaoshu' not found问题`
 
 ## ~~下一目标~~或许是有生之年会填的~~目标~~坑
 

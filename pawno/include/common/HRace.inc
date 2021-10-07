@@ -2156,11 +2156,12 @@ function UpdateRaceQuery() {
         cache_get_value_name_int(i, "rid", Race[i][rid]);
         cache_get_value_name(i, "rname", Race[i][rname], 32);
         cache_get_value_name(i, "rpassword", Race[i][rpassword], 32);
-        cache_get_value_name_int(i, "rpassword", Race[i][rcreatedate]);
+        cache_get_value_name_int(i, "rcreatedate", Race[i][rcreatedate]); // 2021.10.7修复已知问题 cache_get_value_name_int: value 'xxx' is not a number
         // cache_get_value_index(i, 4, Race[i][rauthor], 32);
-        cache_get_value_name_int(i, "rauthor", Race[i][rauthor]);
+        // cache_get_value_name_int(i, "rauthor", Race[i][rauthor]);
+        cache_get_value_name_int(i, "rauthor", Race[i][rauthor]); 
         cache_get_value_name(i, "Name", Race[i][rauthorName]);
-        cache_get_value_name(i, "rmiaoshu", Race[i][rmiaoshu], 64);
+        cache_get_value_name(i, "miaoshu", Race[i][rmiaoshu], 64); // 2021.10.7修复已知问题 cache_get_value_name: field 'rmiaoshu' not found问题
         // for (new n = 0; n < 10; n++) {
         //     new msg[32];
         //     format(msg, sizeof(msg), "top%i_name", n+1);
