@@ -1359,6 +1359,8 @@ ldz玩家纪念碑随机展示用户和动作基本实现
 
 修复赛车`cache_get_value_name: field 'rmiaoshu' not found问题`
 
+修复玩家纪念碑查询数据NULL造成的sql error问题
+
 ## ~~下一目标~~或许是有生之年会填的~~目标~~坑
 
 - readme添加服务器描述，部署介绍
