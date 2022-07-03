@@ -1,14 +1,5 @@
-// IORP Script
-// #include <a_samp>
 /*装扮编辑脚本 by Dylan*/
-// #include <izcmd>
-// #define attire_position					"Attire/Attire.db"
 #define MAX_PLAYER_ATTIRE				20 //玩家最大可拥有的装备数量
-// #define Dialog_Attire					400
-// #define Dialog_Attire_Select			Dialog_Attire + 1
-// #define Dialog_Attire_Bone				Dialog_Attire + 2//骨骼更改
-// #define Dialog_Attire_SellList			Dialog_Attire + 3//出售装扮
-// #define Dialog_Attire_Buyit				Dialog_Attire + 4//出售装扮的确定购买对话框
 enum attiretype {
     DBID, //数据库id
     UID, //玩家UID

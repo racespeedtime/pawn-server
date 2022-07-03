@@ -1,60 +1,3 @@
-// IORP Script
-/*
-    This server is modified from 5F free residential open source, Prace open source
-    To the makers of Prace:[Ghost]Rui ushio_p [Ghost]Dylan
-    Tribute to the makers of the free settlement :[ITC]dyq [ITC]fangye [ITC]Super_wlc [ITC
-    Special thanks to ryddawn and technical advisor [Fire]KiVen OBJ:JoshenKM;
-
-								The MIT License  
-								
-	Copyright (c) <2019-2020> <YuCarl77>  
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice shall be included in
-	all copies or substantial portions of the Software.  
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-	THE SOFTWARE.  
-	==================================
-	°æÈ¨(c) <2019-2020> <YuCarl77>   
-
-	Ê¹ÓÃ¸ÃĞí¿ÉÖ¤µÄÈí¼ş±»ÊÚÓèÒÔÏÂÈ¨ÏŞ£¬Ãâ·Ñ£¬ÈÎºÎÈË¿ÉÒÔµÃµ½Õâ¸öÈí¼ş¼°ÆäÏà¹ØÎÄµµµÄÒ»¸ö¿½±´£¬
-	²¢ÇÒ¾­Óª¸ÃÈí¼ş²»ÊÜÈÎºÎÏŞÖÆ£¬°üÀ¨ÎŞÏŞÖÆµÄÊ¹ÓÃ¡¢¸´ÖÆ¡¢ĞŞ¸Ä¡¢ºÏ²¢¡¢³ö°æ¡¢·¢ĞĞ¡¢·¢·Å´ÓÊôÖ¤Êé¡¢»òÕß³öÊÛ¸ÃÈí¼şµÄ¿½±´µÄÈ¨Àû¡£
-	Í¬Ê±ÔÊĞí»ñµÃÕâĞ©Èí¼şµÄÓÃ»§ÏíÊÜÕâĞ©È¨Àû£¬Ê¹Æä·ş´ÓÏÂÃæµÄÌõ¼ş£º  
-	
-	ÒÔÉÏµÄ°æÈ¨Í¨ÖªºÍÈ¨ÏŞÍ¨ÖªÓ¦¸Ã°üº¬ÔÚËùÓĞ¸ÃÈí¼şµÄ¿½±´ÖĞ»òÕßÊÇÆäËû¸ÃÈí¼şµÄÕæÊµ²¿·ÖÖĞ¡£
-	
-	¸ÃÈí¼ş°´±¾À´µÄÑù×ÓÌá¹©£¬Ã»ÓĞÈÎºÎĞÎÊ½µÄµ£±££¬²»¹ÜÊÇÃ÷È·µØ»òÕß°µº¬µÄ£¬°üº¬ÕâĞ©µ«ÊÇ²»ÊÜÉÌÒµĞÔÖÊµÄµ£±£µÄÏŞÖÆ¡£
-	ÊÊºÏÒ»¸öÌØ¶¨µÄÓÃÍ¾²¢ÇÒ²»ÊÜÇÖ·¸¡£×÷ÕßºÍ°æÈ¨³ÖÓĞÈËÔÚÈÎºÎ³¡ºÏ¶ÔÊ¹ÓÃ¸ÃÈí¼şÉæ¼°µÄÈÎºÎÒªÇó¡¢Ëğº¦»òÕßÆäËûÔğÈÎ¶¼²»Ó¦¸ºÔğ¡£
-	²»¹ÜËüÊÇÕıÔÚÆğ×÷ÓÃ»¹ÊÇÖ»ÊÇºÏÍ¬ĞÎÊ½¡¢ÃñÊÂÇÖÈ¨»òÊÇÆäËû·½Ê½£¬ÈçÓÉËüÒıÆğ£¬ÔÚÆä×÷ÓÃ·¶Î§ÄÚ¡¢Óë¸ÃÈí¼şÓĞÁªÏµ¡¢¸ÃÈí¼şµÄÊ¹ÓÃ»òÕßÓĞÕâ¸öÈí¼şÒıÆğµÄÆäËûĞĞÎª¡£  
-	=====================================   
-*/
-
-// #include <izcmd>
-
-// #define Team_Dialog 800 //ÍÅ¶Ódialog
-// #define Team_ListDialog Team_Dialog+1 //ÍÅ¶ÓÁĞ±í
-// #define Team_ManageDialog Team_Dialog+2 //ÍÅ¶Ó¹ÜÀí
-// #define Team_DisbandDialog Team_Dialog+3 //ÍÅ¶Ó¹ÜÀí½âÉ¢¶ş´ÎÈ·ÈÏ
-// #define Team_ChangeShortName Team_Dialog+4 //ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò³Æ
-// #define Team_ChangeFullName Team_Dialog+5 //ÍÅ¶Ó¹ÜÀíĞŞ¸ÄÈ«³Æ
-// #define Team_DescriptionDialog Team_Dialog+6 //ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò½é µÚÒ»ĞĞ
-// #define Team_NextDescription Team_Dialog+7 //ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò½é ÎŞÇî¾¡ÏÂÒ»ĞĞ
-// #define Team_MemberDialog Team_Dialog+8 //ÍÅ¶Ó³ÉÔ±ÁĞ±í
-// #define Team_MemberManageDialog Team_Dialog+9 //ÍÅ¶Ó³ÉÔ±¹ÜÀídialog
-// #define Team_InviteDialog Team_Dialog+10 //ÍÅ¶Ó¹ÜÀíÑûÇëÍæ¼Ò¼ÓÈëDialog
-// #define MemberManagerInviteList Team_Dialog+11 //ÍÅ¶Ó¹ÜÀíÑûÇëÍæ¼Ò¼ÓÈëºÍÍÅ¶Ó³ÉÔ±ÁĞ±í
-// #define Team_TransferDialog Team_Dialog+12 //ÍÅ¶Ó¹ÜÀí½âÉ¢¶ş´ÎÈ·ÈÏ
-// #define Team_Path "Team/Team.db" //ÍÅ¶ÓSQLITE DBÂ·¾¶
 #define MAX_TEAM 20 //×î´óÍÅ¶ÓÊıÉÏÏŞ
 #define MAX_TeamMember 50 //×î´óÍÅ¶ÓÈËÊıÉÏÏŞ
 #define TeamShortName_Length 12
@@ -74,31 +17,14 @@ enum tInfo {
     FullName[TeamFullName_Length+1], //ÍÅ¶ÓÈ«³Æ
     Description[TeamDescription_Length+1] //ÍÅ¶Ó¼ò½é
 };
+
 new TeamInfo[MAX_TEAM][tInfo];
 
-
 stock Initialize_Team() { //OnGameModeInitÊ±µ÷ÓÃ
-    // if(!fexist(Team_Path)) {
-    //     print("Team >> ÕÒ²»µ½Êı¾İ¿âÎÄ¼ş!");
-    // } else {
-    //     Teamdb = db_open(Team_Path);
     SetupTeamTable();
     UpDate_TeamList();
-    // }
     return 1;
 }
-
-
-// stock Team_OnGameModeExit() { //OnGameModeExitÊ±µ÷ÓÃ
-//     // for (new i = 0; i < TeamCount; i++) {
-//     //     TeamInfo[i][TID] = -1;
-//     //     format(TeamInfo[i][ShortName], 12, "");
-//     //     format(TeamInfo[i][FullName], 24, "");
-//     //     format(TeamInfo[i][Description], 512, "");
-//     // }
-//     // db_close(Teamdb);
-//     return 1;
-// }
 
 stock SetupTeamTable() {
     new string[512];
@@ -681,7 +607,8 @@ function tinviteTimer(playerid, inviter) {
     }
     return 1;
 }
- //µôÓÃÕâ¸öµÄÊ±ºòÏÈ°Ñ¼ò½éÇå¿Õ
+ // µ÷ÓÃÕâ¸öµÄÊ±ºòÏÈ°Ñ¼ò½éÇå¿Õ
+ // ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò½é µÚÒ»ĞĞ
 Dialog:Team_DescriptionDialog(playerid, response, listitem, inputtext[]){
     if(!response) {
         team_DescriptionChange(TeamInfo[SelectedTeam[playerid]][TID], TeamInfo[SelectedTeam[playerid]][Description]);
@@ -707,6 +634,7 @@ Dialog:Team_DescriptionDialog(playerid, response, listitem, inputtext[]){
     Dialog_Show(playerid, Team_NextDescription, DIALOG_STYLE_INPUT, "ÍÅ¶Ó¼ò½é", msg, "ÏÂÒ»ĞĞ", "È·¶¨");
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò½é ÎŞÇî¾¡ÏÂÒ»ĞĞ
 Dialog:Team_NextDescription(playerid, response, listitem, inputtext[]) {
     if(!response) {
         team_DescriptionChange(TeamInfo[SelectedTeam[playerid]][TID], TeamInfo[SelectedTeam[playerid]][Description]);
@@ -732,6 +660,7 @@ Dialog:Team_NextDescription(playerid, response, listitem, inputtext[]) {
     Dialog_Show(playerid, Team_NextDescription, DIALOG_STYLE_INPUT, "ÍÅ¶Ó¼ò½é", msg, "ÏÂÒ»ĞĞ", "È·¶¨");
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀí½âÉ¢¶ş´ÎÈ·ÈÏ
 Dialog:Team_DisbandDialog(playerid, response, listitem, inputtext[]) {
     if(!response) {
         if(!strcmp(TeamInfo[SelectedTeam[playerid]][FullName], PlayerInfo[playerid][Team], true)) {
@@ -743,6 +672,7 @@ Dialog:Team_DisbandDialog(playerid, response, listitem, inputtext[]) {
     }
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀíĞŞ¸Ä¼ò³Æ
 Dialog:Team_ChangeShortName(playerid, response, listitem, inputtext[]) { //Òª¼Ó¸öÅĞ¶ÏÊÇ²»ÊÇÓĞÈËÓÃÁË
     if(response) {
         if(strlen(inputtext) < 2 || strlen(inputtext) > 12) return Dialog_Show(playerid, Team_ChangeShortName, DIALOG_STYLE_INPUT, "ĞŞ¸Ä¼ò³Æ", "ÇëÔÚÏÂ·½ÊäÈëÍÅ¶ÓµÄ¼ò³Æ\n³¤¶ÈĞè2~12Î»ÒÔÄÚ", "È·ÈÏ", "È¡Ïû");
@@ -769,6 +699,7 @@ Dialog:Team_ChangeShortName(playerid, response, listitem, inputtext[]) { //Òª¼Ó¸
     }
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀíĞŞ¸ÄÈ«³Æ
 Dialog:Team_ChangeFullName(playerid, response, listitem, inputtext[]) {  //Òª¼Ó¸öÅĞ¶ÏÊÇ²»ÊÇÓĞÈËÓÃÁË
     if(response) {
         if(strlen(inputtext) < 2 || strlen(inputtext) > TeamFullName_Length) return Dialog_Show(playerid, Team_ChangeShortName, DIALOG_STYLE_INPUT, "ĞŞ¸Ä¼ò³Æ", "ÇëÔÚÏÂ·½ÊäÈëÍÅ¶ÓµÄ¼ò³Æ\n³¤¶ÈĞè2~12Î»ÒÔÄÚ", "È·ÈÏ", "È¡Ïû");
@@ -796,6 +727,7 @@ Dialog:Team_ChangeFullName(playerid, response, listitem, inputtext[]) {  //Òª¼Ó¸
     }
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀí
 Dialog:Team_ManageDialog(playerid, response, listitem, inputtext[]) { 
     // ĞŞ¸Ä¼ò³Æ\nĞŞ¸ÄÈ«³Æ\nĞŞ¸Ä½éÉÜ\n¹ÜÀí³ÉÔ±\n×ªÈÃÍÅ¶Ó\n{FF0000}½âÉ¢ÍÅ¶Ó
     // ¹ÜÀí³ÉÔ±ÓĞ³ÉÔ±ÁĞ±í Ìß³ö³ÉÔ± ¸ø¹ÜÀíÔ± È¡Ïû¹ÜÀíÔ± ÑûÇë¼ÓÈë ×ªÈÃÍÅ¶Ó
@@ -828,6 +760,7 @@ Dialog:Team_ManageDialog(playerid, response, listitem, inputtext[]) {
     }
     return 1;
 }
+// ÍÅ¶Ó³ÉÔ±¹ÜÀídialog
 Dialog:Team_MemberManageDialog(playerid, response, listitem, inputtext[]) { 
     if(response) {
         if(listitem == 0) {
@@ -841,6 +774,7 @@ Dialog:Team_MemberManageDialog(playerid, response, listitem, inputtext[]) {
     }
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀíÑûÇëÍæ¼Ò¼ÓÈëDialog
 Dialog:Team_InviteDialog(playerid, response, listitem, inputtext[]) {
     if(response) {
         if(strlen(inputtext) < 2 || strlen(inputtext) > MAX_PLAYER_NAME) return Dialog_Show(playerid, Team_InviteDialog, DIALOG_STYLE_INPUT, "ÑûÇë¼ÓÈë", "ÇëÔÚÏÂ·½ÊäÈëÄúÏëÒªÑûÇëµÄÍæ¼ÒID", "È·¶¨", "È¡Ïû");
@@ -900,6 +834,7 @@ Dialog:Team_InviteDialog(playerid, response, listitem, inputtext[]) {
     }
     return 1;
 }
+// ÍÅ¶Ó³ÉÔ±ÁĞ±í
 Dialog:Team_MemberDialog(playerid, response, listitem, inputtext[]) { 
     if(response) {
         new msg[1024], idx;
@@ -936,6 +871,7 @@ Dialog:Team_MemberDialog(playerid, response, listitem, inputtext[]) {
     Dialog_Show(playerid, Team_Dialog, DIALOG_STYLE_LIST, "ÏêÏ¸ĞÅÏ¢", msg, "È·¶¨", "·µ»Ø");
     return 1;
 }
+// ÍÅ¶Ó¹ÜÀíÑûÇëÍæ¼Ò¼ÓÈëºÍÍÅ¶Ó³ÉÔ±ÁĞ±í
 Dialog:MemberManagerInviteList(playerid, response, listitem, inputtext[]) { 
     if(response) {
         if(listitem == 1) {
@@ -1012,6 +948,8 @@ Dialog:MemberManagerInviteList(playerid, response, listitem, inputtext[]) {
     team_Manage(playerid, SelectedTeam[playerid]);
     return 1;
 }
+
+// ÍÅ¶Ó¹ÜÀí½âÉ¢¶ş´ÎÈ·ÈÏ
 Dialog:Team_TransferDialog(playerid, response, listitem, inputtext[]) { 
     if(!response) {
         if(SelectedUID[playerid] == PlayerInfo[playerid][ID]) return SendClientMessage(playerid, Color_Team, "[ÍÅ¶Ó]Äú²»¿É×ªÈÃ¸øÄú×Ô¼º");
@@ -1024,6 +962,7 @@ Dialog:Team_TransferDialog(playerid, response, listitem, inputtext[]) {
     }
     return 1;
 }
+// ÍÅ¶ÓÁĞ±í
 Dialog:Team_ListDialog(playerid, response, listitem, inputtext[]) { 
     if(response) {
         new msg[1200], idx;
@@ -1047,6 +986,7 @@ Dialog:Team_ListDialog(playerid, response, listitem, inputtext[]) {
     // team_List(playerid, SelectTeamPage[playerid]);
     return 1;
 }
+// ÍÅ¶ÓÏµÍ³¶Ô»°¿ò
 Dialog:Team_Dialog(playerid, response, listitem, inputtext[]) { 
     if(response) {
         if(listitem <= 1) return team_List(playerid, SelectTeamPage[playerid]);

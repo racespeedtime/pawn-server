@@ -1,4 +1,3 @@
-// IORP Script
 enum ppctype {
     Float:X,
     Float:Y,

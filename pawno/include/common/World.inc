@@ -1,5 +1,3 @@
-// IORP Script
-// #include <izcmd>
 #define	BasicWorld		10002 //基础数字号  
 // 5666~6666是赛车世界 10001是DM
 

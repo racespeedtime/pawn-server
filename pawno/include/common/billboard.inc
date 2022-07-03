@@ -1,6 +1,3 @@
-// IORP Script
-// #include <a_samp>
-// #define BillDBFile "BillBoards/BillBoards.db"
 // OBJID
 #define BOARDOBJ5  7606
 #define BOARDOBJ3  9314
@@ -21,21 +18,6 @@
 #define BOARDOBJ7PRICE 8000
 #define BOARDOBJ8PRICE 8000
 #define MAX_BOARDS 8000
-// 对话框ID
-// #define Dialog_BOARDS Dialog_BUYBOARDS+1
-// #define Dialog_BOARDSTEXT Dialog_BUYBOARDS+2
-// #define Dialog_BOARDSMINDEX Dialog_BUYBOARDS+3
-// #define Dialog_BOARDSMSIZE Dialog_BUYBOARDS+4
-// #define Dialog_BOARDSFONTFACE Dialog_BUYBOARDS+5
-// #define BOARDSFONTFACESIZE Dialog_BUYBOARDS+6
-// #define Dialog_BOARDSBOLD Dialog_BUYBOARDS+7
-// #define Dialog_BOARDSFONTCOLOR Dialog_BUYBOARDS+8
-// #define Dialog_BOARDSBACKCOLOR Dialog_BUYBOARDS+9
-// #define Dialog_BOARDSTextA Dialog_BUYBOARDS+10
-// #define Dialog_BOARDSPOS Dialog_BUYBOARDS+11
-// #define Dialog_BOARDSTEXT2 Dialog_BUYBOARDS+12
-// #define BoardsListDialog Dialog_BUYBOARDS+13 //+14给传送用了 也就是714
-// #define Dialog_BUYBOARDS 700
 new pInEditTagBoards[MAX_PLAYERS];
 new SelectBoardsPage[MAX_PLAYERS];//广告牌选择页 2020.3.2 By YuCarl77
 enum bInfo {

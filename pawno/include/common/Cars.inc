@@ -1,29 +1,7 @@
-// IORP Script
-// #include <a_samp>
-#define Text_Strlen             256 //默认24
+#define Text_Strlen             256 // 默认24
 #define ChangeCarsScore     	3000
 #define MAX_VEHICLE             500
-// #define AC_Dialog   			600
 #define ChangeCarTextScore      1500
-// #define AC_List                 AC_Dialog + 1
-// #define AC_MyCar                AC_Dialog + 2
-// #define AC_Text                 AC_Dialog + 3
-// #define AC_Color                AC_Dialog + 4
-// #define AC_KickPassengers       AC_Dialog + 5
-// #define AC_ChangeCars           AC_Dialog + 6
-// #define AC_GiveCars             AC_Dialog + 7
-// #define CDIALOG_CarZBEditSave   AC_Dialog + 8
-// #define CDIALOG_CarZB           AC_Dialog + 9
-// #define CDIALOG_CarZBSpeed      AC_Dialog + 10
-// #define CDIALOG_MIAN            AC_Dialog + 11
-// #define CDIALOG_CarZBParcel     AC_Dialog + 12
-// #define AC_DressupList			AC_Dialog + 13
-// #define AC_Sell					AC_Dialog + 14 //2020.3.4新增回收给系统 选择卖给系统还是玩家
-// #define AC_Sell1				AC_Dialog + 15 //卖给玩家
-// #define AC_BUY                  AC_Dialog + 16 //上车提示是否买车的对话框
-//修改玩家颜色 已经定义为了AC_Dialog + 17 不要再使用17
-// #define Color_ACColor 0xFF8040FF
-
 new VehicleColoursTableRGBA[256] = {
     // The existing colours from San Andreas
     0x000000FF,

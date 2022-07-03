@@ -94,7 +94,7 @@
 // #define PRESSED(%0) \ (((newkeys & ( % 0)) == ( % 0)) && ((oldkeys & ( % 0)) != ( % 0)))
 #define HOLDING(%0) \
 ((newkeys & ( % 0)) == ( % 0))
-#pragma dynamic 30000 
+#pragma dynamic 30000
 
 //堆栈问题 Stack/heap size:16384 bytes; estimated max. usage:unknown, due to recursion 
 // 代码一直没有优化过 需要尽可能减少变量的长度 特别是全局变量   字符型不要超过1024
