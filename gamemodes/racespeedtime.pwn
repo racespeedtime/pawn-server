@@ -62,6 +62,7 @@
 #define FIX_GetServerVarAsFloat  0
 #define FIX_GetServerVarAsInt    0
 #define FIX_GetServerVarAsBool   0
+#define FIX_SetObjectsDefaultCameraCol   0 // 关闭了镜头碰撞的fixes，不关闭传1无效，未测试true的效果
 #include <common/fixes> //需要放在a_samp下面
 //https://github.com/pawn-lang/sa-mp-fixes
 //https://wiki.sa-mp.com/wiki/Fixes.inc#Expansion 
@@ -352,7 +353,7 @@ public OnGameModeInit() {
     AntiDeAMX();
     // SetGameModeText("自由|赛车|拍摄|娱乐");
     SetGameModeText(GMText);
-
+    SetObjectsDefaultCameraCol(1); // omp 可能需要传参为true，因为内置了sa-mp-fixes 0.3.7新增的函数，和mta一个视角，赛车不会阻挡视角了
     g_Sql = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
     new errno = mysql_errno(g_Sql);
     if(g_Sql == MYSQL_INVALID_HANDLE || errno != 0) {
