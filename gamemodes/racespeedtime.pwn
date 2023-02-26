@@ -1,4 +1,5 @@
 /*
+
  /\\\\\\\\\\     /\\\\\\\\\\ /\\\\\\\\\\\\
  \/\\\____/\\\  /\\\_______/ \/___/\\\___/
   \/\\\   \/\\\ \/\\\             \/\\\
@@ -7,46 +8,8 @@
      \/\\\   \/\\\         \/\\\     \/\\\
       \/\\\   \/\\\  /\\\\\\\\\/      \/\\\
        \/_/    \/_/  \/_______/        \/_/
-       
-								The MIT License  
-								
-	Copyright (c) <2019-2021> <YuCarl77>  
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
 
-	The above copyright notice and this permission notice shall be included in
-	all copies or substantial portions of the Software.  
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-	THE SOFTWARE.  
-	==================================
-	版权(c) <2019-2021> <YuCarl77>   
-
-	使用该许可证的软件被授予以下权限，免费，任何人可以得到这个软件及其相关文档的一个拷贝，
-	并且经营该软件不受任何限制，包括无限制的使用、复制、修改、合并、出版、发行、发放从属证书、或者出售该软件的拷贝的权利。
-	同时允许获得这些软件的用户享受这些权利，使其服从下面的条件：  
-	
-	以上的版权通知和权限通知应该包含在所有该软件的拷贝中或者是其他该软件的真实部分中。
-	
-	该软件按本来的样子提供，没有任何形式的担保，不管是明确地或者暗含的，包含这些但是不受商业性质的担保的限制。
-	适合一个特定的用途并且不受侵犯。作者和版权持有人在任何场合对使用该软件涉及的任何要求、损害或者其他责任都不应负责。
-	不管它是正在起作用还是只是合同形式、民事侵权或是其他方式，如由它引起，在其作用范围内、与该软件有联系、该软件的使用或者有这个软件引起的其他行为。  
-	=====================================   
 */
-
-// RaceSpeedTime
-// 版权所有 2021 RaceSpeedTime(YuCarl77) 保留所有权利。
-// RaceSpeedTime服务器 的诞生离不开 5F(自由居民区) 开源项目以及其他开源脚本/插件和作者。
-// 具体请查看Credits
-#include "common/Credits"
 
 
 
@@ -86,18 +49,15 @@
 #include <common/sampmailjs>//邮箱验证
 #include <common/Gps_system>//GPS
 #include <common/Monument>//2021.9.2 纪念碑谷
-// #include <crashdetect> //测试崩溃
 #define strlen mk_strlen
 #define strcmp mk_strcmp
 #define strfind mk_strfind
 #define MailDialogContent "\n请选择↓↓↓↓↓\n重新发送\n设置邮箱\n输入验证码\n修改密码\n修改用户名"
-// #define PlayerInfoDialog 1300
-// #define PRESSED(%0) \ (((newkeys & ( % 0)) == ( % 0)) && ((oldkeys & ( % 0)) != ( % 0)))
 #define HOLDING(%0) \
 ((newkeys & ( % 0)) == ( % 0))
 #pragma dynamic 30000
 
-//堆栈问题 Stack/heap size:16384 bytes; estimated max. usage:unknown, due to recursion 
+// 堆栈问题 Stack/heap size:16384 bytes; estimated max. usage:unknown, due to recursion 
 // 代码一直没有优化过 需要尽可能减少变量的长度 特别是全局变量   字符型不要超过1024
 // 曾经的自由者给过15W的栈 我觉得还是太大了 30000编译出去12W 差不多
 // 默认栈是16384bytes 好像就16KB？
@@ -134,13 +94,6 @@ public OnQueryError(errorid, const error[], const callback[], const query[], MyS
     return 1;
 }
 
-// #include <YSI\y_ini>
-
-//无敌时间标题
-// new Text3D:NoDieTime[MAX_PLAYERS];
-// PlayerText:LetterForYou[MAX_PLAYERS][4]
-
-
 AntiDeAMX() {
     new a[][] = {
         "Unarmed (Fist)",
@@ -148,17 +101,6 @@ AntiDeAMX() {
     };
     #pragma unused a
 }
-
-// new StopSecondsTimer = -1, StopGATimer = -1, StopMinuteTimer = -1, StopupdateSpeedometer = -1; //秒计时器 用于自动修车 积分判断等 系统计时器
-
-
-
-// stock IsNumeric(const string[]) {
-//     for (int i = 0, j = strlen(string); i < j; i++)
-//         if(string[i] > '9' || string[i] < '0')
-//             return 0;
-//     return 1;
-// }
 
 new dinfobj[MAX_PLAYERS], jd[MAX_PLAYERS], wy[MAX_PLAYERS], splp[MAX_PLAYERS];
 //是否警灯,警灯OBJ,尾翼OBJ,是否保存/s 换颜色
@@ -191,92 +133,10 @@ static PPC_SpawnPos[][ppctype] = {
         234.615264,
         242.834381
     }
-    // {
-    //     -1790.714599,
-    //     552.736389,
-    //     234.615280,
-    //     322.741027
-    // },
-    // {
-    //     -1808.469238,
-    //     579.068603,
-    //     234.617675,
-    //     88.461364
-    // },
-    // {
-    //     -1773.020874,
-    //     578.919433,
-    //     234.617996,
-    //     103.577575
-    // },
-    // {
-    //     -1804.983642,
-    //     519.567504,
-    //     234.618896,
-    //     355.549987
-    // },
-    // {
-    //     -1840.326049,
-    //     578.858642,
-    //     234.614852,
-    //     237.597930
-    // },
-    // {
-    //     -1820.136474,
-    //     545.843017,
-    //     234.614517,
-    //     201.193878
-    // }
 };
 
 new p_PPC[MAX_PLAYERS], p_ppcCar[MAX_PLAYERS];
-
-// static Float:RandomCameraLookAt[][6] = {
-//     //镜头坐标:x,y,z 注视坐标:x,y,z
-//     {
-//         2005.628173,
-//         1161.630615,
-//         96.700424,
-//         2186.356201,
-//         1112.973510,
-//         26.706451
-//     },
-//     {
-//         1471.778564,
-//         -941.493041,
-//         117.865547,
-//         1412.722290,
-//         -809.165771,
-//         80.828323
-//     },
-//     {
-//         -2298.547851,
-//         2200.615478,
-//         70.029342,
-//         -2417.087890,
-//         2310.907470,
-//         1.660755
-//     },
-//     {
-//         -2565.568847,
-//         1407.917358,
-//         120.223480,
-//         -2663.229248,
-//         1587.976440,
-//         109.718269
-//     },
-//     {
-//         726.227416,
-//         -1640.945312,
-//         27.079547,
-//         764.914245,
-//         -1655.571289,
-//         4.716124
-//     }
-// };
-// new CountDown = -1; //倒计时
 new Count[MAX_PLAYERS], Timer[MAX_PLAYERS];
-// new wdzt[MAX_PLAYERS];
 
 new RandMsg;
 //原来是new ANNOUNCEMENTS[7][128] = {
@@ -297,7 +157,6 @@ function GlobalAnnouncement() {
             new year = 0, month = 0, day = 0;
             getdate(year, month, day);
             if(year == 2020 && month <= 3 && day <= 15) SendRconCommand("hostname RST团队官方服务器，一起为武汉加油!");
-            // else SendRconCommand("hostname {****新 年 快 乐****}RST团队官方服务器2020");
             RandMsg++;
         }
         case 1:{
@@ -312,7 +171,6 @@ function GlobalAnnouncement() {
         }
         case 3:{
             SCMALL(Color_Announcement, ANNOUNCEMENTS[3]);
-            // SendRconCommand("hostname Race Speed Time 骇速之时 2020");
             RandMsg++;
         }
         case 4:{
@@ -331,8 +189,6 @@ function GlobalAnnouncement() {
             RandMsg++;
         }
         case 7:{
-            //SCMALL(Color_Announcement, ANNOUNCEMENTS[2]);
-            // SendRconCommand("hostname RST团队官方服务器「24/7运行中...」");
             RandMsg = 0;
         }
     }
@@ -380,7 +236,6 @@ public OnGameModeInit() {
     UsePlayerPedAnims();
     // AddPlayerClass(0, 1958.3782, 1343.1572, 15.3746, 269.1424, 0, 0, 0, 0, 0, 0);
 
-    // Race_Load();
     Initialize_Main();
     Initialize_SysTransfer();
     Initialize_Transfer();
@@ -398,31 +253,11 @@ public OnGameModeInit() {
     InitGoods(); //初始化家具.
     Initialize_Monument(); //初始化纪念碑谷
     // 加载Timers
-    // StopGATimer = SetTimer_("GlobalAnnouncement", 250000, true); //加载公告计时
-    // StopMinuteTimer = SetTimer_("MinuteTimer", 60000, true); //分钟计时器
-    // StopupdateSpeedometer = SetTimer_("updateSpeedometer", 100, true); //速度表计时器
-    // StopSecondsTimer = SetTimer_("SecondsTimer", 1000, true); //秒计时器
-    // 因为用不到KillTimer了 所以就不写那些个变量了;
     StopTimer[0] = SetTimer_("GlobalAnnouncement", 250000, 250000, -1); //加载公告计时
     StopTimer[1] = SetTimer_("MinuteTimer", 60000, 60000, -1); //分钟计时器
     StopTimer[2] = SetTimer_("updateSpeedometer", 200, 200, -1); //速度表计时器
     StopTimer[3] = SetTimer_("SecondsTimer", 1000, 1000, -1); //秒计时器
-    // sqlconnect = mysql_connect("127.0.0.1","用户名","库名","密码");
 
-    // 邮箱验证用的表名是players
-    // 需要把架设php服务 把php文件夹下的架上去 php文件里有需要修改用户名和密码的地方
-    // if(mysql_connect("127.0.0.1","root","sampemail","123456") == 0)
-    // {
-    //     print("[警告]邮箱验证数据库连接失败[请及时修复.]");
-    //     // print("[警告]邮箱验证数据库连接失败[请及时修复,否则无法开启服务器.]");
-    // 	// SendRconCommand("exit");
-    // }
-    // else
-    // {
-    // 	print("[提示]邮箱验证数据库连接成功!但如果出生后服务器崩溃请开启相关服务.");
-    // }
-    // mysql_set_charset("gbk");
-    // mysql_debug(1);
     print("-------------------------------------------------");
     print("本服修改自5F开源，Prace开源 致敬开源Prace，制作者：[Ghost]Rui ushio_p [Ghost]Dylan");
     print("致敬自由居民区开源,制作者:[ITC]dyq  [ITC]fangye  [ITC]Super_wlc [ITC]RR_LXD  mk124  Shindo(aka. ssh)  vvg, yezizhu(aka. yzz)");
@@ -432,14 +267,6 @@ public OnGameModeInit() {
     return 1;
 }
 public OnGameModeExit() { //print("[提示]服务器关闭/重启");
-    // SCMALL(Color_Red, "[系统] 即将刷新服务器，正在保存玩家数据中...");
-    // for (StopMinuteTimeri = GetPlayerPoolSize(); i >= 0; i--) {
-    //     if(IsPlayerConnected(i)) OnPlayerDisconnect(i,1); // We do that so players wouldn't lose their data upon server's close.
-    // }
-    // KillTimer(StopGATimer);
-    // KillTimer(StopMinuteTimer);
-    // KillTimer(StopupdateSpeedometer);
-    // KillTimer(StopSecondsTimer);
     KillTimer_(StopTimer[0]);
     KillTimer_(StopTimer[1]);
     KillTimer_(StopTimer[2]);
@@ -450,13 +277,9 @@ public OnGameModeExit() { //print("[提示]服务器关闭/重启");
     Boards_OnGameModeExit(); //公告牌卸载
     Attire_OnGameModeExit(); //装扮卸载
     Cars_OnGameModeExit(); //爱车卸载
-    // Team_OnGameModeExit(); //团队卸载
-    // db_close(Racedb); //PRace卸载
     db_close(pHouseData); //print("[PHouse]卸载");
-    // db_close(user); //关闭用户数据库
     for (new i = 0, j = GetPlayerPoolSize(); i <= j; i++) {
         if(IsPlayerConnected(i)) {
-            // reason is set to 1 for normal 'Quit'
             OnPlayerDisconnect(i, 1);
         }
     }
@@ -484,12 +307,6 @@ public OnPlayerRequestSpawn(playerid) {
     new rand = random(sizeof BirthPointInfo);
     SetSpawnInfo(playerid, NO_TEAM, PlayerInfo[playerid][Skin], BirthPointInfo[rand][0], BirthPointInfo[rand][1], BirthPointInfo[rand][2], BirthPointInfo[rand][3], 0, 0, 0, 0, 0, 0);
     SpawnPlayer(playerid); //让玩家出生
-    // if(PlayerInfo[playerid][Login]) 
-    // {
-    //     SetSpawnInfo(playerid, NO_TEAM, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-    //     SpawnPlayer(playerid);
-    //     return 1;
-    // }
     return 1;
 }
 public OnPlayerConnect(playerid) //当玩家进入的时候
@@ -504,20 +321,13 @@ public OnPlayerConnect(playerid) //当玩家进入的时候
     g_MysqlRaceCheck[playerid]++;
 
     PlayerInfo[playerid][LoginTimer] = -1;
-    // InitializationVelo(playerid); //初始化速度表
     PlayerInfo[playerid][Login] = false;
-    // PlayerInfo[playerid][Register] = false;
     PlayerInfo[playerid][tvzt] = false;
     PlayerInfo[playerid][tvid] = playerid;
     p_PPC[playerid] = 0;
     p_ppcCar[playerid] = 0; //碰碰车
-    //PlayerInfo[playerid][CheckYesNo] = false;
     PlayerInfo[playerid][LoginAttempts] = 1;
-    //PlayerInfo[playerid][AntiRaceTP] = 0;
     Initialize_DeathMatch_Game(playerid);
-    // for (new i = 0; i <= 7; i++) {
-    //     TextDrawShowForPlayer(playerid, Screen[i]);
-    // }
 
     if(IsPlayerAlreadyConnected(playerid) != -1) {
         SendClientMessage(playerid, Color_White, "[系统]服务器暂不支持多个账号同时登录");
@@ -530,47 +340,6 @@ public OnPlayerConnect(playerid) //当玩家进入的时候
     Welcome(playerid);
     // 检查是否安卓端并 **延迟** 读取玩家个人信息 弹出登录框
     InitPlayerAndroid(playerid);
-
-
-
-
-    // printf("[玩家]%s(%d) 进入了服务器 ", GetName(playerid), playerid);
-    // if(AccountCheck(GetName(playerid))) { //如果账号存在那就获取他的salt值用来散列算法
-    //     new msg[128], DBResult:uf;
-    //     // format(msg, sizeof(msg), "SELECT `ID`,`Salt` FROM `Users` where `Name` = '%e'", GetName(playerid));
-    //     format(msg, sizeof(msg), "SELECT `Salt` FROM `Users` where `Name` = '%e'", GetName(playerid));
-    //     uf = db_query(user, msg);
-    //     db_get_field_assoc(uf, "Salt", PlayerInfo[playerid][Salt], 11); //原本是11
-    //     db_free_result(uf);
-    // } else { //如果这个账号从来没注册过的话是不能带脏字和{}的
-    //     if(strfind(GetName(playerid), "{", true) != -1 || strfind(GetName(playerid), "}", true) != -1) {
-    //         SendClientMessage(playerid, Color_White, "[系统]不支持用户名中带有{}");
-    //         DelayedKick(playerid);
-    //         return 1;
-    //     }
-    //     new placeholder;
-    //     for (new i = 0; i < sizeof InvalidWords; i++) //屏蔽词自动变*
-    //     {
-    //         placeholder = strfind(GetName(playerid), InvalidWords[i], true);
-    //         if(placeholder != -1) {
-    //             SendClientMessage(playerid, Color_White, "[系统]用户名带有禁止使用的词汇");
-    //             DelayedKick(playerid);
-    //             return 1;
-    //         }
-    //     }
-    // }
-    // SCM(playerid, Color_White, "本服修改自5F开源，Prace开源 致敬开源Prace，制作者：[Ghost]Rui ushio_p [Ghost]Dylan");
-    // SCM(playerid, Color_White, "致敬自由居民区开源,制作者:[ITC]dyq  [ITC]fangye  [ITC]Super_wlc [ITC]RR_LXD  mk124  Shindo(aka. ssh)  vvg, yezizhu(aka. yzz)");
-    // SCM(playerid, Color_White, "特别鸣谢 ryddawn 技术及OBJ指导；[Fire]KiVen JoshenKM");
-    // SCM(playerid, Color_White, "本服需要安装中文补丁才能正常显示部分信息，如果没有中文补丁会显示异常");
-    // SCM(playerid, Color_White, "汉化中文补丁请于RST团队主群或QQ群680977910下载");
-    // SCM(playerid, Color_White, "指令大全请参考https://yucarl77.coding.me");
-
-    // SCM(playerid, Color_Yellow, "我们确实和大服务器商不是一个量级的机房价位,但网络差不一定是机房的问题(机房位于上海)");
-    // SCM(playerid, Color_Yellow, "这里的丢包对于游戏体验影响并不大,不像其他竞技类游戏那样一毫秒,丢包0.1%都很重要.");
-    // SCM(playerid, Color_Yellow, "相互体谅最为重要.");
-    // SCM(playerid, Color_Red, "[严重级BUG]由于工作繁忙以及BUG只会出现在12月的情况，排除花费了些许时间。");
-    // SCM(playerid, Color_Red, "[严重级BUG]时间戳转日期函数BUG导致用户无法登录已修复，非常抱歉在此期间对您产生的影响。");
     return 1;
 }
 
@@ -614,33 +383,16 @@ public OnPlayerSpawn(playerid) //当玩家出生时
     SpawnAttire(playerid); //玩家装扮
     if(CreateCamera[playerid][CreateStatus] != 0) return 1;
     if(pRaceing[playerid] != 1) {
-        // SetPlayerVirtualWorld(playerid, 0);
         SetPlayerHealth(playerid, 1000000);
         SetPlayerPos_Birth(playerid);
-        // SetPlayerPos(playerid, 1958.835693, 1343.151123, 15.374607);
-        // SetPlayerFacingAngle(playerid, 269.142425);
-        // SetCameraBehindPlayer(playerid);
-        // new Float:X, Float:Y, Float:Z;
-        // GetPlayerPos(playerid, X, Y, Z);
-        // NoDieTime[playerid] = CreateDynamic3DTextLabel("无敌时间中...\n", 0xFF0000FF, X, Y, Z, 40.0, playerid);
-        // // Attach3DTextLabelToPlayer(NoDieTime[playerid], playerid, 0.0, 0.0, 0.7);
-        // SetTimerEx("CheckAso", 3000, 0, "i", playerid); //复活五秒无敌
         if(GetPlayerScore(playerid) < 120) {
             SendClientMessage(playerid, Color_White, "[系统]检测到您游戏时长未满120分钟，自动打开帮助提示");
             AntiCommand[playerid] = 0;
             CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/help");
-            // OnPlayerCommandText(playerid, "/help");
         }
     } else if(p_PPC[playerid]) { //碰碰车的话
         PPC_Veh(playerid);
     } else { //赛车时重生后
-        // new raid = RaceHouse[GameRace[playerid][rgameid]][rraceid];
-        // new trcp[racecptype];
-        // if(GameRace[playerid][rgamecp] - 1 <= 0) Race_GetCp(raid, 1, trcp); //如果是第一个点的话就重生到第一个点，不然会是负数
-        // else Race_GetCp(raid, GameRace[playerid][rgamecp] - 1, trcp);
-        // 2020.3.17 注释 好像冗余了 
-
-        //SetTimerEx("", 1000, 0, "i", playerid);
         PlayerInfo[playerid][lastVehSpeed] = 0;
         ReSpawnRaceVehicle(playerid); //2020.1.12改，提升重生效率
     }
@@ -921,70 +673,11 @@ public OnPlayerCommandPerformed(const playerid, const cmdtext[], const success) 
     return 1;
 }
 
-//放在DM里了
-// public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ) {
-//     DeathMatch_OnPlayerWeaponShot(playerid, hittype, hitid);
-//     return 1;
-// }
-//命令格式 CMD:命令(playerid,params[]) 一般为了更容易迁移直接把params写成cmdtext
-// {
-//     请注意，params[]永远不会为空。如果播放器未为命令提供任何参数，params[0]则将为'\1'。使用包含isnull(string[])随附的宏来检查无效性。
-// iZCMD with sscanf is an efficient way to process commands
-//  if(sscanf(params, "is[字符串长度]", skinid,str))
-//     return 1;
-// }
-// CMD:pm(const playerid, const cmdtext[]) { //PM私聊玩家 放在这是为了绕开PRace的检测 允许在赛车时pm
-//     new Message[128],gMessage[128],idx;
-//     Message = strtok(cmdtext, idx);
-//     if(!strlen(Message) || strlen(Message) > 5) {
-//         SCM(playerid, Color_White, "[pm] 请使用:/pm ID 要说的话！"); //PM错误信息
-//         return 0;
-//     }
-//     new id = strval(Message);
-//     gMessage = strrest(cmdtext, idx);
-//     if(!strlen(gMessage)) {
-//         SCM(playerid, Color_White, "[pm]请使用:/pm ID 要说的话！"); //PM错误信息
-//         return 0;
-//     }
-//     if(!IsPlayerConnected(id)) {
-//         SCM(playerid, Color_White, "[pm]/pm :错误玩家ID！"); //错误信息
-//         return 0;
-//     }
-//     if(playerid == id) {
-//         SCM(playerid, Color_White, "[pm] 你不能PM你自己");
-//         return 0;
-//     }
-//     format(Message, sizeof(Message), "[pm] 密语给 %s(%d):%s", GetName(id), id, gMessage);
-//     SCM(playerid, Color_White, Message);
-//     GameTextForPlayer(playerid, "~n~~n~~n~~n~~n~~n~~n~~n~~w~Private message ~r~Sent~w~.", 3000, 3); //当A玩家PM给B玩家的时候 A玩家会显示这个
-//     format(Message, sizeof(Message), "[pm] 密语来自 %s(%d):%s", GetName(playerid), playerid, gMessage);
-//     SCM(id, Color_White, Message);
-//     GameTextForPlayer(id, "~n~~n~~n~~n~~n~~n~~n~~n~~w~Private message ~r~Recieved~w~.", 3000, 3); //当B玩家收到A玩家的PM的时候 B玩家会显示这个
-//     PlayerPlaySound(playerid, 1057, 0.0, 0.0, 0.0);
-//     PlayerPlaySound(id, 1057, 0.0, 0.0, 0.0);
-//     AntiCommand[playerid] = 1; //这个不加pm就发电报了
-//     return 1;
-// }
 CMD:chat(const playerid, const cmdtext[]) { //小世界等其他地方使用大世界说话 前面加个!同理
     new text[145];
     if(sscanf(cmdtext, "s[145]", text)) return SendClientMessage(playerid, Color_White, "[系统]请在后面加上想说的话,送达大世界");
     format(text, sizeof(text), "!%s", text);
     CallRemoteFunction("OnPlayerText", "is", playerid, text);
-    // if(!strcmp(PlayerInfo[playerid][Team], "null", true)) {
-    //     if(!isnull(PlayerInfo[playerid][Designation])) {
-    //         format(ChatText, sizeof(ChatText), "[世界]%s{%06x}%s(%d):{FFFFFF} %s         %s", PlayerInfo[playerid][Designation], GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text, PlayerInfo[playerid][Tail]);
-    //     } else {
-    //         format(ChatText, sizeof(ChatText), "[世界]{%06x}%s(%d):{FFFFFF} %s         %s", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text, PlayerInfo[playerid][Tail]);
-    //     }
-    // } else {
-    //     if(!isnull(PlayerInfo[playerid][Designation])) {
-    //         format(ChatText, sizeof(ChatText), "[世界]%s{%06x}%s(%d) {FFBA51}[V]:{FFFFFF} %s         %s", PlayerInfo[playerid][Designation], GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text, PlayerInfo[playerid][Tail]);
-    //     } else {
-    //         format(ChatText, sizeof(ChatText), "[世界]{%06x}%s(%d) {FFBA51}[V]:{FFFFFF} %s         %s", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text, PlayerInfo[playerid][Tail]);
-    //     }
-    // }
-    // SCMALL(Color_White, ChatText);
-    // PlayerTextRecord(ChatText);
     return 1;
 }
 CMD:help(const playerid, const cmdtext[]) {
@@ -1066,7 +759,7 @@ CMD:anim(const playerid, const cmdtext[]) { //动作脚本
 }
 CMD:mynetstats(const playerid, const cmdtext[]) {
     new stats[256];
-    GetPlayerNetworkStats(playerid, stats, sizeof(stats)); // get your own networkstats
+    GetPlayerNetworkStats(playerid, stats, sizeof(stats));
     Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "我的 当前网络状态", stats, "Okay", "");
     return 1;
 }
@@ -1106,10 +799,7 @@ CMD:sound7(const playerid, const cmdtext[]) {
 }
 CMD:soundstop(const playerid, const cmdtext[]) {
     //2020.1.12 修复soundstop无法停止歌曲
-    // PlayerPlaySound(playerid, 1186, 0.0, 0.0, 0.0);
-    // PlayerPlaySoundEx(playerid, 1186);
     PlayerPlaySoundEx(playerid, 0);
-    // 不知道影不影响 2021.2.16改 维基说是用0停止
     return 1;
 }
 CMD:moveme(const playerid, const cmdtext[]) {
@@ -1130,7 +820,6 @@ CMD:kill(const playerid, const cmdtext[]) {
     if(PlayerInfo[playerid][tvzt]) { //如果玩家处于TV状态 必须让他先退出TV再自杀 不然会出BUG
         AntiCommand[playerid] = 0;
         CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/tv off");
-        // OnPlayerCommandText(playerid, "/tv off");
     }
     if(pRaceing[playerid]) {
         new Float:POS[3];
@@ -1164,18 +853,6 @@ CMD:l(const playerid, const cmdtext[]) { //传送到保存的坐标
 }
 
 CMD:lp(const playerid, const cmdtext[]) return cmd_l(playerid, cmdtext); //传送到保存的坐标 代码复用
-// CMD:stunt(const playerid, const cmdtext[]) {
-//     new tmp[8];
-//     if(sscanf(cmdtext, "s[8]", tmp)) return SCM(playerid, Color_White, "[系统]/stunt on开启 off关闭特技显示");
-//     if(strcmp(tmp, "on", true) == 0) {
-//         EnableStuntBonusForPlayer(playerid, 1);
-//         SCM(playerid, Color_White, "[系统] 已开启特技奖励显示.");
-//     } else {
-//         EnableStuntBonusForPlayer(playerid, 0);
-//         SCM(playerid, Color_White, "[系统] 已关闭特技奖励显示.");
-//     }
-//     return 1;
-// }
 
 CMD:xiufu(const playerid, const cmdtext[]) { //当玩家卡住的时候，输入这个指令可以修复。这个功能很像
     new Float:X, Float:Y, Float:Z;
@@ -1264,18 +941,6 @@ CMD:f(const playerid, const cmdtext[]) {
 CMD:count(const playerid, const cmdtext[]) return cmd_djs(playerid, cmdtext);
 CMD:daojishi(const playerid, const cmdtext[]) return cmd_djs(playerid, cmdtext);
 CMD:djs(const playerid, const cmdtext[]) {
-    // new count;
-    // if(sscanf(cmdtext, "i", count)) count = 6; //如果玩家没有输入秒数 默认6-1 = 5秒
-    // if(count > 30) return SendClientMessage(playerid, 0xFFFF00AA, "[倒计时]单次时间不可超过30s");
-    // if(CountDown == -1) {
-    //     new string[128];
-    //     format(string, sizeof(string), "[倒计时] 由 %s (%d) 发起的倒计时开始", GetName(playerid), playerid);
-    //     SCMALL(0xFFFF00AA, string);
-    //     CountDown = count;
-    //     SetTimer_("countdown", 1000, 0);
-    //     return 1;
-    // } 
-    // else return SCM(playerid, Color_Red, "[倒计时] 错误:倒计时正在进行");
     if(Count[playerid]) return SCM(playerid, Color_Red, "[倒计时] 错误:倒计时正在进行");
     new Float:X, Float:Y, Float:Z;
     GetPlayerPos(playerid, X, Y, Z);
@@ -1328,7 +993,6 @@ CMD:jls(const playerid, const cmdtext[]) { //当玩家输入/jls的时候 给玩家一个降落
 CMD:c(const playerid, const cmdtext[]) //刷车
 {
     if(GetPlayerCreditpoints(playerid) <= 90) return SendClientMessage(playerid, Color_Yellow, "[系统]您的游戏信誉分过低,请健康游戏,将会自动补回");
-    // printf("%s", cmdtext);
     new carcmd[128], str[128], idx;
     carcmd = strtok(cmdtext, idx);
     if(!strlen(carcmd)) {
@@ -1368,17 +1032,12 @@ CMD:c(const playerid, const cmdtext[]) //刷车
             else GetPlayerFacingAngle(playerid, Angle);
             GetPlayerPos(playerid, POS[0], POS[1], POS[2]);
             if(IsPlayerInAnyVehicle(playerid)) SetPlayerPos(playerid, POS[0], POS[1], POS[2]);
-            // for (new i; i < MAX_PLAYERS; i++) //说实话没看懂写这句话到底是图个啥
-            // {
-            //     if(IsPlayerConnected(i) && IsPlayerInAnyVehicle(i) && GetPlayerVehicleID(i) == PlayerInfo[playerid][BuyID]) SetPlayerPos(playerid, POS[0], POS[1], POS[2]);
-            // }
             SetVehiclePos(PlayerInfo[playerid][BuyID], POS[0], POS[1], POS[2]);
             SetVehicleVirtualWorld(PlayerInfo[playerid][BuyID], GetVehicleVirtualWorld(playerid));
             PutPlayerInVehicle(playerid, PlayerInfo[playerid][BuyID], 0);
             //PlayerInfo[playerid][pVehicleEnteColor_Red] = GetPlayerVehicleID(playerid);
             SetVehicleZAngle(PlayerInfo[playerid][BuyID], Angle);
             LinkVehicleToInterior(PlayerInfo[playerid][BuyID], GetPlayerInterior(playerid));
-            // SetTimerEx("CarCheck", 500, false, "i", playerid);
         }
         return 1;
     }
@@ -1450,11 +1109,6 @@ CMD:c(const playerid, const cmdtext[]) //刷车
     car = strval(carcmd);
     if(car < 400 || car > 611) return SCM(playerid, Color_White, "[交通工具] 车辆ID必须在{FFFFFF}400-611之间！");
     SpawnVehicle(playerid, car);
-    //2020.1.12 16:20变动
-    // new Float:x, Float:y, Float:z;
-    // GetPlayerPos(playerid, x, y, z);
-    // SetPlayerPos(playerid, x, y, z);
-    // SetTimerEx("SpawnVehicle", 300, false, "ii", playerid, car);
     return 1;
 }
 CMD:cc(const playerid, const cmdtext[]) { //更换玩家载具颜色
@@ -1468,24 +1122,6 @@ CMD:cc(const playerid, const cmdtext[]) { //更换玩家载具颜色
     return 1;
 }
 
-// CMD:ww(const playerid, const cmdtext[]) { //2020.3.9新增
-//     // 2020.3.15修复进入专属世界不会把载具放进去的问题
-//     if(GetPlayerState(playerid) == PLAYER_STATE_DRIVER) SetVehicleVirtualWorld(GetPlayerVehicleID(playerid), playerid + 1);
-//     SetPlayerVirtualWorld(playerid, playerid + 1);
-//     SCM(playerid, Color_Orange, "[系统] 你进入了你的专属世界.");
-//     for (new i = GetPlayerPoolSize(); i >= 0; i--) {
-//         if(IsPlayerConnected(i)) {
-//             if(PlayerInfo[i][tvid] == playerid && i != playerid) {
-//                 SetPlayerVirtualWorld(i, GetPlayerVirtualWorld(playerid));
-//                 SetPlayerInterior(i, GetPlayerInterior(playerid));
-//                 if(IsPlayerInAnyVehicle(i)) PlayerSpectateVehicle(i, GetPlayerVehicleID(playerid));
-//                 else PlayerSpectatePlayer(i, playerid);
-//                 SCM(i, Color_Orange, "[TV]:对方切换了世界，自动追踪观看.");
-//             }
-//         }
-//     }
-//     return 1;
-// }
 CMD:pos(const playerid, const cmdtext[]) {
     new Float:x, Float:y, Float:z, str[128];
     GetPlayerPos(playerid, x, y, z);
@@ -1536,15 +1172,11 @@ CMD:infobj(const playerid, const cmdtext[]) { //继承dylan时代兰草乡村的警灯
         wy[playerid] = CreateDynamicObject(18646, pX, pY, pZ, 0.0, 0.0, 0.0, -1, -1, -1, STREAMER_OBJECT_SD, STREAMER_OBJECT_DD, -1);
         AttachDynamicObjectToVehicle(jd[playerid], GetPlayerVehicleID(playerid), -0.05, -2.35, 0.3099, 0, 0, 0);
         AttachDynamicObjectToVehicle(wy[playerid], GetPlayerVehicleID(playerid), -0.48, 0.28, 0.7099, 0, 0, 0);
-        // AttachObjectToVehicle(jd[playerid], GetPlayerVehicleID(playerid), -0.05, -2.35, 0.3099, 0, 0, 0);
-        // AttachObjectToVehicle(wy[playerid], GetPlayerVehicleID(playerid), -0.48, 0.28, 0.7099, 0, 0, 0);
         SCM(playerid, Color_Announcement, "[infobj] 你给车辆添加了INFOBJ");
     } else {
         dinfobj[playerid] = 0;
         DestroyDynamicObject(jd[playerid]); //销毁警灯
         DestroyDynamicObject(wy[playerid]); //销毁尾翼
-        // DestroyObject(jd[playerid]);
-        // DestroyObject(wy[playerid]);
         SCM(playerid, Color_Announcement, "[infobj] 你给车辆删去了INFOBJ");
     }
     return 1;
@@ -1553,7 +1185,6 @@ CMD:vmake(const playerid, const cmdtext[]) { //玩家创建坐标
     if(PlayerInfo[playerid][Score] < 30) return SCM(playerid, 0xFFFF00FF, "[传送] 为防止玩家过度建立传送点，需时间分达到30分以上才可创建.");
     if(PlayerInfo[playerid][Cash] < 30) return SCM(playerid, 0xFFFF00FF, "[传送] 需要30金币创建一次传送点.");
     new tmp[48];
-    // tmp = strtok(cmdtext, idx);
     if(sscanf(cmdtext, "s[48]", tmp)) return SCM(playerid, 0xFFFF00FF, "[传送] 用法:/vmake [传送昵称,不用带'/'] 例如/vmake sf");
     if(strlen(tmp) >= 48) return SCM(playerid, 0xFFFF00FF, "[传送] 名字过长……仅支持48位英文/数字或24位中文");
     if(make_findgo(tmp) != -1) return SCM(playerid, 0xFFFF00FF, "[传送] 该传送点已经存在了.");
@@ -1598,22 +1229,6 @@ CMD:tpa(const playerid, const cmdtext[]) {
     }
     if(sscanf(cmdtext, "i", id)) return SCM(playerid, Color_White, "[TP] * 请使用:/tpa ID");
     pVGotoRequest(playerid, id);
-    // if(tpaB[id] == 1) return SCM(playerid, Color_White, "[TP] * * {FFA8FF}对方正在考虑别人的传送请求.");
-    // if(tpaB[id] == 2) return SCM(playerid, Color_White, "[TP] * {FFA8FF}正在请求传送到其他玩家身边.");
-    // if(tpaB[id] == 3) return SCM(playerid, Color_White, "[TP] * {FFA8FF}对方已经屏蔽了传送请求信息.");
-    // if(playerid == id) return SCM(playerid, Color_White, "[TP] * 你不能tpa你自己");
-    // tpaid[playerid] = id;
-    // tpaid[id] = playerid;
-    // tpaB[id] = 1;
-    // tpaB[playerid] = 2;
-    // format(tmp, sizeof(tmp), "[TP] * 你请求传送到 {FFFFFF}%s(%d)身边,请等待回复.", GetName(id), id);
-    // SCM(playerid, Color_White, tmp);
-    // format(tmp, sizeof(tmp), "[TP] * 一个TPA请求来自 %s(%d) /ta同意 /td 拒绝", GetName(playerid), playerid);
-    // SCM(id, Color_White, tmp);
-    // SCM(id, Color_White, "[TP] * 如需{00FF80}开启{FFFF00}/{FF0000}取消{FFFFFF}屏蔽模式,/tpa ban");
-    // GameTextForPlayer(id, "~n~~n~~n~~n~~n~~n~~n~~n~~w~Player want to move ~r~you~w~.", 3000, 3);
-    // tpatime[playerid] = SetTimerEx("tpaTimer", 60000, false, "i", playerid);
-    // tpatime[id] = SetTimerEx("tpaTimer", 60000, false, "i", id);
     return 1;
 }
 CMD:tp(const playerid, const cmdtext[]) return cmd_tpa(playerid, cmdtext);
@@ -1623,50 +1238,6 @@ CMD:ta(const playerid, const cmdtext[]) {
     if(PlayerInfo[playerid][tpa_gotoid] != -1) {
         pVRequestAccept(playerid);
     }
-    // if(tpaB[playerid] == 1) {
-    //     new Float:x, Float:y, Float:z, Float:Angle;
-    //     new id = tpaid[playerid];
-    //     if(pRaceing[id]) {
-    //         tpaB[playerid] = 0;
-    //         tpaB[id] = 0;
-    //         KillTimer(tpatime[playerid]);
-    //         KillTimer(tpatime[id]);
-    //         tpaid[playerid] = -1;
-    //         tpaid[id] = -1;
-    //         return SendClientMessage(playerid, Color_White, "对方处于赛车世界,不能接受TP");
-    //         //2020.2.20新增
-    //     }
-    //     GetPlayerPos(playerid, x, y, z);
-    //     if(IsPlayerInAnyVehicle(tpaid[playerid])) {
-    //         GetVehicleZAngle(GetPlayerVehicleID(tpaid[playerid]), Angle);
-    //     } else GetPlayerFacingAngle(tpaid[playerid], Angle);
-    //     if(IsPlayerInAnyVehicle(tpaid[playerid])) {
-    //         SetVehiclePos(GetPlayerVehicleID(tpaid[playerid]), x + 3, y + 1, z);
-    //         LinkVehicleToInterior(GetPlayerVehicleID(tpaid[playerid]), GetPlayerInterior(tpaid[playerid]));
-    //         SetVehicleZAngle(GetPlayerVehicleID(tpaid[playerid]), Angle);
-    //         SCM(playerid, Color_White, "[TP] * 你成功接受了tpa请求");
-    //         SCM(tpaid[playerid], Color_White, "[TP] * 你已传送到Ta身边，如果Ta是在小世界，请私聊Ta.");
-    //         tpaB[playerid] = 0;
-    //         tpaB[id] = 0;
-    //         KillTimer(tpatime[playerid]);
-    //         KillTimer(tpatime[id]);
-    //         tpaid[playerid] = -1;
-    //         tpaid[id] = -1;
-    //     } else {
-    //         SetPlayerPos(tpaid[playerid], x + 3, y + 1, z);
-    //         SetPlayerFacingAngle(tpaid[playerid], Angle);
-    //         SCM(playerid, Color_White, "[TP] * 你成功接受了tpa请求");
-    //         SCM(tpaid[playerid], Color_White, "[TP] * 你已传送到Ta身边，如果Ta是在小世界，请私聊Ta.");
-    //         KillTimer(tpatime[playerid]);
-    //         KillTimer(tpatime[id]);
-    //         tpaB[playerid] = 0;
-    //         tpaB[id] = 0;
-    //         tpaid[playerid] = -1;
-    //         tpaid[id] = -1;
-    //     }
-    // } else {
-    //     SCM(playerid, Color_White, "[TP] * 你当前没有tpa接受请求");
-    // }
     return 1;
 }
 stock pVShieldingChoose(const playerid) {
@@ -1745,49 +1316,9 @@ CMD:td(const playerid, const cmdtext[]) {
     if(PlayerInfo[playerid][tpa_gotoid] != -1) {
         pVRequestReject(playerid);
     }
-    // new id = tpaid[playerid];
-    // if(tpaB[playerid] == 1) {
-    //     tpaB[playerid] = 0;
-    //     tpaB[id] = 0;
-    //     tpaid[playerid] = -1;
-    //     tpaid[id] = -1;
-    //     SCM(playerid, Color_Red, "[tp] 你拒绝了对方请求!");
-    //     SCM(tpaid[playerid], Color_Red, "[tp] 对方拒绝了你的请求!");
-    //     KillTimer(tpatime[playerid]);
-    //     KillTimer(tpatime[id]);
-    // } else {
-    //     SCM(playerid, Color_Red, "[tp] 暂时没有传送请求!");
-    //     KillTimer(tpatime[playerid]);
-    //     KillTimer(tpatime[id]);
-    //     tpaB[playerid] = 0;
-    //     tpaB[id] = 0;
-    //     tpaid[playerid] = -1;
-    //     tpaid[id] = -1;
-    // }
     return 1;
 }
-//开启/关闭显示玩家名字
-// CMD:name(const playerid, const cmdtext[]) {
-//     new tmp[128];
-//     if(sscanf(cmdtext, "s[128]", tmp)) return SCM(playerid, Color_White, "[系统]/name on开启 off关闭");
-//     if(strcmp(tmp, "off", true) == 0) {
-//         for (new i = GetPlayerPoolSize(); i >= 0; i--) 
-//         {
-//             ShowPlayerNameTagForPlayer(playerid, i, false);
-//         }
-//         SCM(playerid, Color_White, "[系统] 已隐藏其他玩家名字.");
-//         return 1;
-//     }
-//     if(strcmp(tmp, "on", true) == 0) {
-//         // for (new i = GetPlayerPoolSize(); i != -1; --i) {
-//         for (new i = GetPlayerPoolSize(); i >= 0; i--) {
-//             ShowPlayerNameTagForPlayer(playerid, i, true);
-//         }
-//         SCM(playerid, Color_White, "[系统] 已显示其他玩家名字.");
-//         return 1;
-//     }
-//     return 1;
-// }
+
 //玩家观战系统
 CMD:tv(const playerid, const cmdtext[]) {
     new tmp[128];
@@ -1810,10 +1341,6 @@ CMD:tv(const playerid, const cmdtext[]) {
         // 顺便加到race_game_quit里去了
         if(pRaceing[PlayerInfo[playerid][tvid]]) {
             DestroyPRaceTextDraw(playerid);
-            // PlayerTextDrawHide(playerid, CpTextDraw[PlayerInfo[playerid][tvid]]);
-            // PlayerTextDrawHide(playerid, Time[PlayerInfo[playerid][tvid]]);
-            // PlayerTextDrawHide(playerid, Top[PlayerInfo[playerid][tvid]]);
-            // PlayerTextDrawHide(playerid, p_record[PlayerInfo[playerid][tvid]]);
         }
         Race_HideCp(playerid);
         TogglePlayerSpectating(playerid, false);
@@ -1841,15 +1368,7 @@ CMD:tv(const playerid, const cmdtext[]) {
     if(pRaceing[PlayerInfo[playerid][tvid]]) {
         DestroyPRaceTextDraw(playerid);
     }
-    // PlayerTextDrawHide(playerid, CpTextDraw[PlayerInfo[playerid][tvid]]);
-    // PlayerTextDrawHide(playerid, Time[PlayerInfo[playerid][tvid]]);
-    // PlayerTextDrawHide(playerid, Top[PlayerInfo[playerid][tvid]]);
-    // PlayerTextDrawHide(playerid, p_record[PlayerInfo[playerid][tvid]]);
     if(pRaceing[id]) {
-        // PlayerTextDrawShow(playerid, CpTextDraw[id]);
-        // PlayerTextDrawShow(playerid, Time[id]);
-        // PlayerTextDrawShow(playerid, Top[id]);
-        // PlayerTextDrawShow(playerid, p_record[id]);
         CreatePRaceTextDraw(playerid);
         Race_ShowCp(playerid, GameRace[id][rgameid], GameRace[id][rgamecp]);
     }
@@ -1961,7 +1480,6 @@ CMD:kick(const playerid, const cmdtext[]) {
     new id, reason[64], str[128];
     if(sscanf(cmdtext, "is[64]", id, reason)) return SCM(playerid, Color_Red, "[系统] 用法:/kick [玩家ID] [原因]");
     if(IsPlayerConnected(id) == 0 || IsPlayerNPC(id)) return SCM(playerid, Color_Red, "[系统] 错误玩家ID!或要T出的是NPC");
-    // SetTimerEx("KickEx", 200, false, "i", id);
     DelayedKick(id);
     format(str, sizeof(str), "[系统]%s(LV%d) 把 %s 踢出了服务器,原因:%s", GetName(playerid), PlayerInfo[playerid][AdminLevel], GetName(id), reason);
     SCMALL(Color_Red, str);
@@ -2011,18 +1529,13 @@ CMD:jail(const playerid, const cmdtext[]) {
     return 1;
 }
 CMD:kgobj(const playerid, const cmdtext[]) {
-    // new Float:pX, Float:pY, Float:pZ;
-    // GetPlayerPos(playerid, pX, pY, pZ);
     if(PlayerInfo[playerid][displayObject]) {
         PlayerInfo[playerid][displayObject] = 0;
         Streamer_UpdateEx(playerid, 0, 0, -50000);
-        // Streamer_UpdateEx(playerid, 0, 0, 3343077376, 4294967295, 4294967295);
         Streamer_ToggleItemUpdate(playerid, 0, 0);
         SendClientMessage(playerid, Color_White, "[系统]:你关闭了地图模型,再次输入开启");
     } else {
         PlayerInfo[playerid][displayObject] = 1;
-        // Streamer_UpdateEx(playerid, 0.0, 0.0, -50000.0);
-        // Streamer_UpdateEx(playerid, pX, pY, pZ);
         Streamer_UpdateEx(playerid, 0, 0, -50000);
         Streamer_ToggleItemUpdate(playerid, 0, 1);
         SendClientMessage(playerid, Color_White, "[系统]:你开启了地图模型,再次输入关闭");
@@ -2104,20 +1617,6 @@ public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger) {
         // 2020.2.28发现误封原因 如果在上NPC车的一瞬间NPC切了地方就会被误封 就得判断上的车是不是NPC的 如果不是 那就封
         return 1;
     }
-
-    // if(GetPlayerVehicleID(vehicleid) != PlayerInfo[playerid][BuyID]){
-    //     for (new i = GetPlayerPoolSize(); i >= 0; i--) 
-    //     {
-    //         if(IsPlayerConnected(i) && PlayerInfo[i][CarLock] && PlayerInfo[i][BuyID] == vehicleid && i!=playerid){
-    //             SendClientMessage(playerid, Color_White, "[交通工具] 载具已上锁");
-    //             RemovePlayerFromVehicle(playerid);
-    //         }
-    //         return 1;
-    //     }
-    //     new msg[64];
-    //     format(msg, sizeof(msg), "[交通工具]这辆载具不是你的哦，想要拥有这一辆吗？输入/c %d",vehicleid);
-    //     return SendClientMessage(playerid, Color_White, msg);
-    // }
     return 1;
 }
 
@@ -2139,24 +1638,7 @@ public OnPlayerExitVehicle(playerid, vehicleid) { //当玩家离开载具且玩家是赛车系
     // if(pRaceing[playerid])
     // {
     //     ReSpawningText[playerid] = TextDrawCreate(307.333374, 127.362937, "重生中...");
-    //     TextDrawLetterSize(ReSpawningText[playerid], 0.375666, 1.512889);
-    //     TextDrawTextSize(ReSpawningText[playerid], 18.000000, 187.000000);
-    //     TextDrawAlignment(ReSpawningText[playerid], 2);
-    //     TextDrawColor(ReSpawningText[playerid], 6736383);
-    //     TextDrawUseBox(ReSpawningText[playerid], 1);
-    //     TextDrawBoxColor(ReSpawningText[playerid], 73);
-    //     TextDrawSetShadow(ReSpawningText[playerid], 3);
-    //     TextDrawSetOutline(ReSpawningText[playerid], 1);
-    //     TextDrawBackgroundColor(ReSpawningText[playerid], 255);
-    //     TextDrawFont(ReSpawningText[playerid], 0);
-    //     TextDrawSetProportional(ReSpawningText[playerid], 1);
-    //     TextDrawSetShadow(ReSpawningText[playerid], 3);
-    //     TextDrawShowForPlayer(playerid, ReSpawningText[playerid]);
-    //     new raid = RaceHouse[GameRace[playerid][rgameid]][rraceid];
-    //     new trcp[racecptype];
-    //     if(GameRace[playerid][rgamecp] - 1 <= 0) Race_GetCp(raid, 1, trcp);//如果是第一个点的话就重生到第一个点，不然会是负数
-    //     else Race_GetCp(raid, GameRace[playerid][rgamecp] - 1, trcp);
-    //     ReSpawnRaceVehicle(playerid);//2020.1.12改，提升重生效率
+    //     ...
     // }
     return 1;
 }
@@ -2209,9 +1691,6 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
             for (new i = GetPlayerPoolSize(); i >= 0; i--) { //响应TV和本身自己 上车显示 下车隐藏
                 if(IsPlayerConnected(i)) {
                     if(PlayerInfo[i][tvid] == playerid) {
-                        // for (new a = 0; a < 22; a++) {
-                        //     TextDrawShowForPlayer(i, velo[playerid][a]);
-                        // }
                         if(i != playerid) PlayerSpectateVehicle(i, GetPlayerVehicleID(playerid)); //出问题删这
                     }
                     // 好像是这个引起的崩溃
@@ -2238,10 +1717,6 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
         for (new i = GetPlayerPoolSize(); i >= 0; i--) { //响应TV和本身自己 上车显示 下车隐藏
             if(IsPlayerConnected(i)) {
                 if(PlayerInfo[i][tvid] == playerid) {
-                    // for (new a = 0; a < 22; a++) 
-                    // {
-                    //     TextDrawHideForPlayer(i, velo[playerid][a]);
-                    // }
                     if(i != playerid) PlayerSpectatePlayer(i, playerid);
                 }
             }
@@ -2250,75 +1725,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate) {
     return 1;
 }
 
-public OnPlayerEnterCheckpoint(playerid) {
-    return 1;
-}
-
-public OnPlayerLeaveCheckpoint(playerid) {
-
-    return 1;
-}
-
-
-
-// public OnRconCommand(cmd[]) {
-//     return 1;
-// }
-
-public OnPlayerObjectMoved(playerid, objectid) {
-    return 1;
-}
-
-public OnPlayerPickUpPickup(playerid, pickupid) {
-    return 1;
-}
-
-
-public OnVehicleRespray(playerid, vehicleid, color1, color2) {
-    return 1;
-}
-
-public OnPlayerSelectedMenuRow(playerid, row) {
-    return 1;
-}
-
-public OnPlayerExitedMenu(playerid) {
-    return 1;
-}
-
-public OnPlayerInteriorChange(playerid, newinteriorid, oldinteriorid) {
-    return 1;
-}
-
 public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
-    //     /*if(newkeys & KEY_FIRE)//切换TV对象
-    //     {
-    //     	if(PlayerInfo[playerid][tvzt]==0)
-    //     	{
-    // 			new rd = random(MAX_PLAYERS);
-    // 			while(rd == lastrandom || rd == playerid || !IsPlayerConnected(rd))
-    // 			{
-    // 	    		rd = random(MAX_PLAYERS);
-    //  			}
-    //  			lastrandom = rd;
-    // 			TogglePlayerSpectating(playerid, 1);
-    //     		SetPlayerVirtualWorld(playerid,GetPlayerVirtualWorld(rd));
-    //     		SetPlayerInterior(playerid,GetPlayerInterior(rd));
-    // 			if(IsPlayerInAnyVehicle(rd)) PlayerSpectateVehicle(playerid, GetPlayerVehicleID(rd));
-    // 			else PlayerSpectatePlayer(playerid, rd);
-    // 		}
-    //     }*/
-    // if(PRESSED(KEY_FIRE) || PRESSED(KEY_ACTION))  旧版写法 编译报029错
-    // if(pRaceing[playerid] &&  HOLDING(KEY_CROUCH)){  // C键赛道系统重生
-    // // SetTimerEx("KickEx", 100, false, "i", playerid);
-    //     RaceReSpawnTextDraw(playerid);
-    //     SetTimerEx("ReSpawnRaceVehicle", 1000, false, "i", playerid);
-    // }
-
-    // if((newkeys & KEY_FIRE) && !(oldkeys & KEY_FIRE) || (newkeys & KEY_ACTION) && !(oldkeys & KEY_ACTION)) { 2020.2.9取消
-    // if((newkeys & KEY_ACTION) && !(oldkeys & KEY_ACTION)) {
-    //     if(IsPlayerInAnyVehicle(playerid)) AddVehicleComponent(GetPlayerVehicleID(playerid), 1010);
-    // }
     if(Attire_Presskey(playerid, newkeys) == 1) return 1;
     if(PlayerEdit[playerid][2] != 0) {
         new Keys, ud, lr;
@@ -2421,7 +1828,6 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
                         format(tmped, 16, "/tv %i", i);
                         AntiCommand[i] = 0;
                         CallRemoteFunction("OnPlayerCommandText", "is", playerid, tmped);
-                        // OnPlayerCommandText(playerid, tmped);
                         break;
                     }
                 }
@@ -2431,7 +1837,6 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
                     if(GetPlayerPoolSize() <= 1) {
                         AntiCommand[playerid] = 0;
                         CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/tv off");
-                        // OnPlayerCommandText(playerid, "/tv off");
                         break;
                     }
                     rd = random(MAX_PLAYERS);
@@ -2440,7 +1845,6 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
                 format(tmped, 16, "/tv %i", rd);
                 AntiCommand[playerid] = 0;
                 CallRemoteFunction("OnPlayerCommandText", "is", playerid, tmped);
-                // OnPlayerCommandText(playerid, tmped);
             }
         }
     }
@@ -2448,16 +1852,13 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
         if(KeyBoards(playerid) == 1) return 1; //按下Y调用公告牌 如果玩家是在搞公告牌的话 那就不往下执行了，不然会炸掉的
         if(config_Nochangeobj == 0) { //PHouse的
             UseChangeObj(playerid);
-            // return 1; //加了这个下面家具就读不到了
         }
         if(config_Nomoveobj == 0) { //好像还是Phouse的
             UseMoveObj(playerid);
             //加了这个家具读不到
-            // return 1;
         }
         if(GetPlayerState(playerid) == PLAYER_STATE_ONFOOT) {
             GOODS_OPRATEID[playerid] = getClosestGOODS(playerid);
-            // printf("GET ID = %d", GOODS_OPRATEID[playerid]);
             if(GOODS_STATUS[playerid] == true) return SendClientMessage(playerid, Color_Furniture, "[家具]错误,你正在搬一个物品!");
             if(GOODS[GOODS_OPRATEID[playerid]][Key]) return Dialog_Show(playerid, GODIOG_PASS, DIALOG_STYLE_INPUT, "安全验证程式", "请输入密码", "OK", "取消");
 
@@ -2466,11 +1867,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
                 format(string, sizeof(string), "{FFFFFF}[物品价格]:{80FF80} %d\n{FFFFFF}[物品ID]:{80FF80}%d\n{FFFFFF}[物品模型ID]:{80FF80}%d\n{FFFF80}確定要买么?", GOODS[GOODS_OPRATEID[playerid]][GoodPrize], GOODS_OPRATEID[playerid], GOODS[GOODS_OPRATEID[playerid]][GoodObjid]);
                 Dialog_Show(playerid, GODIOG_BUY, DIALOG_STYLE_MSGBOX, "{FFFF80}__要买么?__", string, "是", "算了");
             } else {
-                // new pname[65];
-                // GetPlayerName(playerid, pname, 65);
-                // if(!strlen((GOODS[GOODS_OPRATEID[playerid]][GoodOwner]))) return Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "{FF0000}ERROR>.<", "{FF0000}系统内部错误\n字符串为空!\n有可能此物品数据被损坏\n请联系开发者!\n---->{FFFF80}episodes27@gmail.com", "Close", "");
                 if(!strlen((GOODS[GOODS_OPRATEID[playerid]][GoodOwnerName]))) return Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "{FF0000}ERROR>.<", "{FF0000}系统内部错误\n字符串为空!\n有可能此物品数据被损坏\n请联系开发者!\n---->{FFFF80}episodes27@gmail.com", "Close", "");
-                // if(!strcmp(GOODS[GOODS_OPRATEID[playerid]][GoodOwner], GetName(playerid), true)) {
                 if(GOODS[GOODS_OPRATEID[playerid]][GoodOwner] == PlayerInfo[playerid][ID]) {
                     if(GOODS[GOODS_OPRATEID[playerid]][topublic] == true) {
                         new title[285];
@@ -2487,12 +1884,6 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys) {
             }
         }
     }
-    // if(newkeys == 262144 || newkeys == 2) {
-    //     if(config_Nomoveobj == 0) {
-    //         UseMoveObj(playerid);
-    //         return 1;
-    //     }
-    // }
     return 1;
 }
 public OnPlayerClickTextDraw(playerid, Text:clickedid) {
@@ -2637,22 +2028,10 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source) {
     else format(msg, sizeof(msg), "%s\n信誉分 {00FF00}%d", msg, GetPlayerCreditpoints(id));
     format(msg, sizeof(msg), "%s\n请求传送到TA身边", msg);
     SelectRecentlyClicked[playerid] = id;
-    // printf("%s", PlayerInfo[id][regdate]);
     Dialog_Show(playerid, ClickPlayer, DIALOG_STYLE_LIST, msgs, msg, "确定", "关闭");
     //2020.2.11修改为LIST样式
     return 1;
 }
-
-
-// forward PlaySoundForAll(soundid);
-// public PlaySoundForAll(soundid) {
-//     for (new i = GetPlayerPoolSize(); i >= 0; i--) {
-//         new Float:pX, Float:pY, Float:pZ;
-//         GetPlayerPos(i, pX, pY, pZ);
-//         PlayerPlaySound(i, soundid, pX, pY, pZ);
-//     }
-//     return 1;
-// }
 
 function CountDown(playerid) {
     new Float:X, Float:Y, Float:Z;
@@ -2682,28 +2061,7 @@ function CountDown(playerid) {
     }
     return 1;
 }
-// forward countdown();
-// public countdown() {
-//     CountDown--;
-//     if(CountDown == 0) {
-//         GameTextForAll("~g~GO~r~!~n~~g~GO~r~!~n~~g~GO~r~!", 1000, 3); //当计时开启后 屏幕中出现的字体。
-//         CountDown = -1;
-//         for (new i = GetPlayerPoolSize(); i >= 0; i--) {
-//             PlayerPlaySound(i, 1057, 0.0, 0.0, 0.0);
-//         }
-//         return 0;
-//     } else {
-//         new text[7];
-//         format(text, sizeof(text), "~w~%d", CountDown);
-//         for (new i = GetPlayerPoolSize(); i >= 0; i--) {
-//             PlayerPlaySound(i, 1056, 0.0, 0.0, 0.0);
-//         }
-//         GameTextForAll(text, 1000, 3);
-//     }
 
-//     SetTimer_("countdown", 1000, 0);
-//     return 0;
-// }
 function SpawnVehicle(playerid, car) { //刷车 产生车辆的时候
     new str[128];
     new Float:pos[3], Float:Angle;
@@ -2844,14 +2202,9 @@ function OnPlayerRegister(playerid, inputtext[]) //玩家注册
     if(AccountCheck(GetName(playerid))) //2020.3.29修复这个严重的BUG
     {
         SCM(playerid, Color_Red, "[系统]注册帐号时发生错误,可能该帐号已经存在,请重新上线");
-        // SetTimerEx("KickEx", 100, false, "i", playerid);
         DelayedKick(playerid);
         return 1;
     }
-    // if(strfind(inputtext, "123", true) != -1 || strfind(inputtext, "456", true) != -1) {
-    //     Dialog_Show(playerid, Dialog_Register, DIALOG_STYLE_PASSWORD, "注册", "请不要输入类似带有{22DD22}123等{FFFFFF}简单的密码!\n请在下方输入密码进行{22DD22}注册..\n本服采用散列技术,请放心注册", "注册", "退出");
-    //     return 1;
-    // }
     new msg[256], string[160], temp[64 + 1];
     for (new i = 0; i < 11; i++) {
         PlayerInfo[playerid][Salt][i] = random(25) + 97;
@@ -2861,15 +2214,6 @@ function OnPlayerRegister(playerid, inputtext[]) //玩家注册
     mysql_pquery(g_Sql, msg, "pRegisterInsert", "d", playerid);
     PlayerInfo[playerid][regdate] = gettime();
     format(PlayerInfo[playerid][Password], 65, temp);
-    // 邮箱验证的初始化注册用户数据
-    // 后期优化下，全局依赖uid,合并数据库，把用户数据库从db全部改到mysqlR41版本（大工程）
-    // new Query2[256];
-    // format(string, sizeof string, "INSERT INTO `players` (`name`,`code`,`email`,`yz`) VALUES('%s',0,0,0)", GetName(playerid));
-    // mysql_free_result(mysql_query(string));
-    // mysql_pquery(g_Sql, "INSERT INTO `players` (`name`,`code`,`email`,`yz`) VALUES('%s',0,0,0)", GetName(playerid));
-    // printf(Query2);
-
-
     format(string, sizeof(string), "注册成功\n帐号:%s\n 密码:%s\n{FF0000}请牢记帐号密码.", GetName(playerid), inputtext);
     if(IsPlayerAndroid(playerid)) {
         Dialog_Show(playerid, Dialog_Login, DIALOG_STYLE_INPUT, "登录", string, "登录", "找回密码");
@@ -2884,15 +2228,10 @@ function pRegisterInsert(playerid) {
 }
 stock OnPlayerReloadRegister(const playerid, const inputtext[], const pKick = 1) //重新注册
 {
-    // if(strfind(inputtext, "123", true) != -1 || strfind(inputtext, "qwerty", true) != -1 || strfind(inputtext, "456", true) != -1 || strfind(inputtext, "789", true) != -1) {
-    //     Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}安全中心", "{9AFF9A}欢迎!\n请在下面输入密码来完成修改!\n请牢记您的账号密码!\n已采用散列技术，无需担心数据泄露", "确定", "取消");
-    //     return 1;
-    // }
     new temp[65]; // 散列技术生成散列码
     for (new i = 0; i < 11; i++) {
         PlayerInfo[playerid][Salt][i] = random(25) + 97;
     }
-    // PlayerInfo[playerid][Salt][10] = 0;
     SHA256_PassHash(inputtext, PlayerInfo[playerid][Salt], temp, 65); //规定65固定
     new msg[256];
     mysql_format(g_Sql, msg, sizeof(msg), "UPDATE `users` SET `Password` = '%e',`Salt` = '%e' WHERE `Name` = '%e'", temp, PlayerInfo[playerid][Salt], GetName(playerid));
@@ -2900,7 +2239,6 @@ stock OnPlayerReloadRegister(const playerid, const inputtext[], const pKick = 1)
     format(msg, sizeof(msg), "[系统]:帐号:%s 密码:%s\n{FF0000}请牢记帐号密码\n可能需要重新登录", GetName(playerid), inputtext);
     SendClientMessage(playerid, Color_White, msg);
     Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", msg, "确定", "");
-    // SetTimerEx("KickEx", 100, false, "i", playerid);
     if(pKick) DelayedKick(playerid);
     return 1;
 }
@@ -2945,12 +2283,6 @@ stock AssignPlayerData(playerid) {
         mysql_pquery(g_Sql, query);
     }
 
-    // cache_get_value_name_int(0, "Yzwrong", PlayerInfo[playerid][yzwrong]);
-    // cache_get_value_name_int(0, "YzBanTime", PlayerInfo[playerid][yzbantime]);
-    // if(PlayerInfo[playerid][yzbantime] - gettime() < 21600000) { //邮箱验证时间的问题，如果一天超过了6次验证就会封24小时的验证
-    //     PlayerInfo[playerid][yzwrong] = 0;
-    //     PlayerInfo[playerid][yzbantime] = 0;
-    // }
     cache_get_value_name_int(0, "ID", PlayerInfo[playerid][ID]);
     cache_get_value_name_int(0, "AdminLevel", PlayerInfo[playerid][AdminLevel]);
     cache_get_value_name_int(0, "Skin", PlayerInfo[playerid][Skin]);
@@ -3023,13 +2355,6 @@ stock AssignPlayerData(playerid) {
     PlayerInfo[playerid][yssyjsq] = -1;
     return true;
 }
-
-
-
-// 已全局适配easydialog,放弃原有的dialogresponse
-// public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) {
-//     return 1;
-// }
 
 
 // 速度表和TV观战的速度表相关设定
@@ -3282,62 +2607,12 @@ function updateSpeedometer() {
                 for (new a = 1; a <= 21; a++) {
                     PlayerTextDrawShow(i, velo[i][a]); //drawcolor必须得重新show才会刷新  而速度不用 所以这里要这么写
                 }
-                // // 2020.3.29注释 如果有问题取消回去
-                // for (new j = GetPlayerPoolSize(); j >= 0; j--) {
-                //     if(IsPlayerConnected(j)) {
-                //         if(PlayerInfo[j][tvid] == i && PlayerInfo[j][speedoMeter]) {
-                //             for (new a = 1; a <= 21; a++) {
-                //                 PlayerTextDrawShow(j, velo[i][a]); //drawcolor必须得重新show才会刷新  而速度不用 所以这里要这么写
-                //             }
-                //         }
-                //     }
-                // }
             }
         }
     }
     return 0;
 }
 
-
-
-/*else
-{
-	for(new a; a<22; a++) TextDrawHideForPlayer(i,velo[i][a]);
-	PlayerTextDrawSetString(i,velo[i][1],"");
-}*/
-/*else
-				{
-					if(GetPlayerState(PlayerInfo[i][tvid]) == PLAYER_STATE_DRIVER) 
-					{
-						for(new a=0; a<24; a++)
-						{
-							TextDrawShowForPlayer(i,velo[PlayerInfo[i][tvid]][a]);
-						}
-					}
-					if(GetPlayerState(PlayerInfo[i][tvid]) == PLAYER_STATE_ONFOOT)
-					{
-						for(new a=0; a<24; a++)
-						{
-							TextDrawHideForPlayer(i,velo[PlayerInfo[i][tvid]][a]);
-						}
-					}
-				format(msg, sizeof(msg), "速度:%.1f km/h",GetSpeed(PlayerInfo[i][tvid]));//原仿兰草的速度表
-				TextDrawSetString(Speedtextdraw[PlayerInfo[i][tvid]], msg);	
-				}
-			}*/
-
-
-// function tpaTimer(playerid) {
-//     if(tpaB[playerid] == 1) {
-//         SCM(playerid, Color_White, "[tp]你在1分钟内没有接受传送请求,该条传送请求失效");
-//     }
-//     if(tpaB[playerid] == 2) {
-//         SCM(playerid, Color_White, "[tp]对方在1分钟内没有接受你的传送请求,该条传送请求失效.");
-//     }
-//     tpaB[playerid] = 0;
-//     tpaid[playerid] = -1;
-//     return 1;
-// }
 public OnPlayerModelSelection(playerid, response, listid, modelid) {
     if(listid == planelist || listid == chaopaolist || listid == Motorolalist || listid == Shiplist || listid == Otherlist || listid == trainlist || listid == minzhen || listid == yueyelist || listid == tuoche || listid == huoche || listid == jingchelist) {
         if(response) {
@@ -3366,9 +2641,6 @@ function SecondsTimer() {
         new hour, minute, second;
         gettime(hour, minute, second);
         new str[90];
-        // h = 24-h;
-        // m = 60-m;
-        // s = 60-s;
         hour = 24 - hour;
         if(hour == 24) hour = 0;
 
@@ -3389,9 +2661,6 @@ function SecondsTimer() {
         new hour, minute, second;
         gettime(hour, minute, second);
         new str[90];
-        // h = 24-h;
-        // m = 60-m;
-        // s = 60-s;
         hour = 24 - hour;
         if(hour == 24) hour = 0;
 
@@ -3446,7 +2715,6 @@ function SecondsTimer() {
                     PlayerInfo[i][JailSeconds]--;
                     if(PlayerInfo[i][JailSeconds] <= 0) {
                         PlayerInfo[i][JailSeconds] = 0; //等于0了就放出来，更新DB数据库
-                        // SetSpawnInfo(i, NO_TEAM, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
                         SpawnPlayer(i);
                         new query[128];
                         mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET JailSeconds = 0 WHERE `Name` = '%e'", GetName(i));
@@ -3557,8 +2825,6 @@ function SecondsTimer() {
                                         new trcp[racecptype];
                                         Race_GetCp(RaceHouse[GameRace[i][rgameid]][rraceid], GameRace[i][rgamecp] - 1, trcp);
                                         new ss = Race_GetCp_Scripts(trcp[rcpid]); //返回当前CP点有几个高级CP函数，如果是0的话 就直接封;
-                                        // new Float:health;
-                                        // GetPlayerHealth(i, health);
                                         if(!ss) {
                                             if(GameRace[i][rgamecp] > 2) {
                                                 //如果上一个点也不是高级CP点那么直接微加速 随便写写的 微加速要拿瞬时速度去写 就定一个计时器速度很快很快 
@@ -3591,8 +2857,6 @@ function SecondsTimer() {
                                     new trcp[racecptype];
                                     Race_GetCp(RaceHouse[GameRace[i][rgameid]][rraceid], GameRace[i][rgamecp] - 1, trcp);
                                     new ss = Race_GetCp_Scripts(trcp[rcpid]); //返回当前CP点有几个高级CP函数，如果是0的话 就直接封;
-                                    // new Float:health;
-                                    // GetPlayerHealth(i, health);
                                     if(!ss) {
                                         return FuckAnitCheat(i, "赛道中载具+Z轴高度和速度异常", 1);
                                     } else {
@@ -3698,44 +2962,6 @@ function SecondsTimer() {
     return 1;
 }
 
-/*if(GetPlayerState(i) == PLAYER_STATE_ONFOOT || (GetPlayerState(i) == PLAYER_STATE_DRIVER && JB::GetPlayerSpeed (i, true) < 30))
-{
-    new var,Float:x,y,z;
-    var = (floatround (floatsqroot (YukiGetSquaColor_Redistance (x, y, z, PlayerInfo [i][pCurrentPos][0], PlayerInfo [i][pCurrentPos][1], PlayerInfo [i][pCurrentPos][2])) * 3600) / (GetTickCount () - PlayerInfo [i][pLastCheck]));
-    if(var >= 300 && var <= 1500)
-    {
-        FuckAnitCheat (i, "空中移动");
-    }
-}*/
-
-// 可能会比较占用网络 算了
-// public OnVehicleDamageStatusUpdate(vehicleid, playerid) //0.3a的函数，当车辆损伤时如果开了自动修复则修复
-// {
-//     if(PlayerInfo[playerid][AutoFix] && p_PPC[playerid] == 0) RepairVehicle(vehicleid);
-//     return 1;
-// }
-
-/*stock GetRaceGameFinishList(playerid)
-{
-	if(pRaceing[playerid]=0 && GameRace[playerid][rgameid]]==kiven)
-	{
- 		new string[512];
-		format(string,sizeof(string),"%s\n%s (%d:%d:%d) 第%i名",string,PlayerName[playerid],time[0],time[1],time[2],RaceHouse[GameRace[playerid][rgameid]][rtop]);
-		ShowPlayerDialog(playerid,0, DIALOG_STYLE_MSGBOX,"赛车战绩",string,"确定","");
-	}
-	return 1;
-}*/
-
-/*stock JB::GetPlayerSpeed (playerid, get3d)
-{
-	if(IsPlayerInAnyVehicle (playerid))
-		GetVehicleVelocity (GetPlayerVehicleID (playerid), x, y, z);
-	else
-		GetPlayerVelocity (playerid, x, y, z);
-#define JB_Speed(%0,%1,%2,%3,%4)	floatround(floatsqroot((%4)?(%0*%0+%1*%1+%2*%2):(%0*%0+%1*%1))*%3*1.6)
-	//return JB::Speed(x, y, z, 100.0, get3d);
-	return floatround(floatsqroot((false)?(x*x+y*y+z*z):(x*x+y*y))*100.0*1.6)
-}*/
 stock SCMToAdmins(const color, const string[]) {
     for (new i = GetPlayerPoolSize(); i >= 0; i--) {
         if(IsPlayerConnected(i)) {
@@ -3840,38 +3066,6 @@ stock FuckAnitCheat(const playerid, const text[], const violationCode) {
     PlayerChestRecord(playerid, text);
     return 1;
 }
-// forward CheckAso(playerid);
-// public CheckAso(playerid) {
-//     DestroyDynamic3DTextLabel(NoDieTime[playerid]);
-//     if(wdzt[playerid] != 1) SetPlayerHealth(playerid, 100);
-//     return 1;
-// }
-// forward PutPlayerInVehicleEx(playerid, vehicleid, seatid);
-// public PutPlayerInVehicleEx(playerid, vehicleid, seatid) {
-//     if(IsPlayerConnected(playerid) && vehicleid != INVALID_VEHICLE_ID) {
-//         if(PutPlayerInVehicle(playerid, vehicleid, seatid)) {
-//             PlayerInfo[playerid][pVehicleEnteColor_Red] = vehicleid;
-//             return 1;
-//         }
-//     }
-//     return 0;
-// }
-// public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid) {
-//     if(playertextid == LetterForYou[playerid][3]) {
-//         for (new i; i < 4; i++) {
-//             PlayerTextDrawDestroy(playerid, LetterForYou[playerid][i]);
-//         }
-//         CancelSelectTextDraw(playerid);
-//         SendClientMessage(playerid, 0xFFFFFFAA, "谢谢你曾来过GTA:SAMP");
-//         if(GetPlayerScore(playerid) < 120) {
-//             SendClientMessage(playerid, Color_White, "[系统]检测到您游戏时长未满120分钟，自动打开帮助提示");
-//             AntiCommand[playerid] = 0;
-//             OnPlayerCommandText(playerid, "/help");
-//         }
-//         return 1;
-//     }
-//     return 0;
-// }
 
 stock Action_Play(const playerid, const aid) {
     if(aid < 1 || aid > 21) return SCM(playerid, Color_White, "[动作] 你输入的动作ID不存在.");
@@ -4086,17 +3280,6 @@ function SetPlayerYssyJisuan(playerid, howlong) {
 stock SetPlayerYssy(playerid, hour, minute) {
     printf("hour:%d minute:%d", hour, minute);
     SetPlayerTime(playerid, hour, minute);
-    // if(PlayerInfo[playerid][yssyh]>24) 
-    // {
-    //     if(hour>=PlayerInfo[playerid][yssyh] && minute>= PlayerInfo[playerid][yssym])
-    //     {
-    //         SendClientMessage(playerid, Color_White, "[延时]延时结束啦");
-    //         KillTimer(PlayerInfo[playerid][yssyjsq]);
-    //         PlayerInfo[playerid][yssyjsq]=-1;
-    //         // 设置玩家延时摄影状态为假
-    //     }
-    // }
-    // if(hour>=PlayerInfo[playerid][tHour] && minute>= PlayerInfo[playerid][tMinute])
     if(hour >= PlayerInfo[playerid][yssyh] && minute >= PlayerInfo[playerid][yssym]) {
         SendClientMessage(playerid, Color_White, "[延时]延时结束啦");
         KillTimer(PlayerInfo[playerid][yssyjsq]);
@@ -4121,15 +3304,6 @@ stock min_test(sh, sm, eh, em) //开始时，分，结束时，分 返回结束时间
     min_count = hour + minute; //返回的是秒数 
     printf("%d", min_count);
     //反正这个是计算从原本的时间到想要的时间 在原来的时间线上需要多少秒
-
-    // if(sh < eh)//判断开始时是不是大于结束时，就是晚上到第二天早上这种
-    // {
-    //     sh = sh - 12;
-    //     eh = eh + 12;//反过来
-    // }
-    // min_count = (sh - eh) * 60;//算出小时的间的分钟
-    // if(sm > em) min_count += sm - em; 
-    // else min_count -= em -sm;
     //就是分钟，大于就是要减 小宇就是要要加
     return min_count;
 }
@@ -4213,38 +3387,25 @@ Dialog:CustomSettings(playerid, response, listitem, inputtext[]) {
                 AntiCommand[playerid] = 0;
                 CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/tpa ban");
                 ShowCustomSettings(playerid);
-                // OnPlayerCommandText(playerid, "/tpa ban");
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
-                // break;
             }
             case 1:{ //人物无敌
                 AntiCommand[playerid] = 0;
                 CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/wudi");
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
-                // break;
             }
             case 2:{ //车辆无敌
                 AntiCommand[playerid] = 0;
                 CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/dcar");
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
-                // break;
             }
             case 3:{ //开关OBJ
                 AntiCommand[playerid] = 0;
                 CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/kgobj");
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
-                // break;
             }
             case 4:{ //
                 if(PlayerInfo[playerid][AutoFlip]) {
@@ -4255,8 +3416,6 @@ Dialog:CustomSettings(playerid, response, listitem, inputtext[]) {
                     SendClientMessage(playerid, Color_White, "[系统]车辆自动翻正已开启");
                 }
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
             }
             case 5:{ //屏蔽碰撞
@@ -4270,15 +3429,11 @@ Dialog:CustomSettings(playerid, response, listitem, inputtext[]) {
                     SendClientMessage(playerid, Color_White, "[系统]屏蔽碰撞已开启");
                 }
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
             }
             case 6:{ //速度表
                 cmd_sdb(playerid, "");
                 ShowCustomSettings(playerid);
-                // AntiCommand[playerid] = 0;
-                // CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
                 return 1;
             }
             case 7:{
@@ -4344,7 +3499,6 @@ Dialog:CustomSettings(playerid, response, listitem, inputtext[]) {
         }
         return 1;
     }
-    // ShowCustomSettings(playerid);
     AntiCommand[playerid] = 0;
     CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
     return 1;
@@ -4354,7 +3508,6 @@ Dialog:CustomSettings(playerid, response, listitem, inputtext[]) {
 stock tdSpeedo_Connect(const playerid) {
     PlayerInfo[playerid][tdSpeed] = INVALID_OBJECT_ID;
     PlayerInfo[playerid][tdEnabled] = 0;
-    // gTickCount[playerid] = 0;
 }
 
 stock tdSpeedo_Disconnect(const playerid) {
@@ -4363,10 +3516,6 @@ stock tdSpeedo_Disconnect(const playerid) {
 
 stock tdSpeedo_Update(const playerid, Float:velocity) {
     if(!PlayerInfo[playerid][tdEnabled]) return 1;
-    // if(!IsPlayerInAnyVehicle(playerid)) {
-    //     tdSpeedo_Toggle(playerid, 0);
-    //     return 1;
-    // } else 
     if(!IsPlayerNPC(playerid)) {
         new speedText[48];
         format(speedText, 48, "%03.0f KMH", velocity);
@@ -4529,9 +3678,6 @@ Dialog:Dialog_Register(playerid, response, listitem, inputtext[]) {
 }
 Dialog:Dialog_Login(playerid, response, listitem, inputtext[]) {
     if(!response) {
-        // ShowPlayerDialog(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
-        // return 1;
-        // return Kick(playerid); //没登录的话然后弹出玩家安全中心 并且只留找回密码的入口
         if(PlayerInfo[playerid][yzbantime] != 0) {
             SendClientMessage(playerid, Color_Red, "[安全]您的账号处于临时禁止验证状态");
             return 1;
@@ -4916,19 +4062,8 @@ Dialog:PlayerInfoDialog(playerid, response, listitem, inputtext[]) {
     if(response == 1) {
         switch (listitem) {
             case 0:{ //我的邮箱
-                // if(!strcmp(msg, "我的邮箱")) {
-                // if(PlayerInfo[playerid][yzwrong] >= 6) {
-                //     new msgs[512];
-                //     new t = gettime() + 86400;
-                //     mysql_format(g_Sql, msgs, sizeof(msgs), "UPDATE `users` SET `YzBanTime` = %d where `Name` = '%e'", t, GetName(playerid));
-                //     mysql_pquery(g_Sql, msgs);
-                //     Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "您验证次数过多,请明天再来尝试!", "确定", "");
-                //     return 1;
-                // } else {
                 Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
-                // }
                 return 1;
-                // break;
             }
             case 1:{ //装扮
                 ShowPlayerAttireDialog(playerid);
@@ -5013,17 +4148,6 @@ Dialog:PlayerSafeCenter(playerid, response, listitem, inputtext[]) {
 
             SendEmail(playerid, "RaceSpeedTime--安全中心", PlayerInfo[playerid][Email], "[RaceSpeedTime]安全中心--请确认您的邮箱", text, true, "confcode_RST.html");
             Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n重新发送(需要60秒后)\n设置邮箱\n输入验证码\n修改密码\n修改用户名", "确定", "取消");
-            // if(responded != 200) 
-            // {
-            //     format(text, sizeof(text), "[错误]安全中心邮箱验证系统发送失败,错误代码[%d]", responded); 
-            //     format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "null"); //重置邮箱
-            //     SendClientMessage(playerid, Color_Red, text);
-            //     return 1;
-            // }
-            // SendClientMessage(playerid, Color_Red, "[安全]验证码已经成功发送到你的邮箱,请查看邮箱进行验证");
-            // new Query[128];
-            // mysql_format(g_Sql, Query, sizeof(Query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-            // mysql_pquery(g_Sql, Query, "OnEmailResendQuery", "ds", playerid, inputtext);
             return 1;
         }
         case 2:{
@@ -5040,9 +4164,6 @@ Dialog:PlayerSafeCenter(playerid, response, listitem, inputtext[]) {
             }
             if(PlayerInfo[playerid][Yztime]) Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
             else Dialog_Show(playerid, PlayerEmailSet, DIALOG_STYLE_INPUT, "安全和邮箱", "{FFFFFF}请输入:{33CCCC}你的邮箱", "确定", "取消");
-            // new Query[128];
-            // mysql_format(g_Sql, Query, sizeof(Query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-            // mysql_pquery(g_Sql, Query, "OnEmailSettingQuery", "d", playerid);
             return 1;
         }
         case 3:{
@@ -5088,19 +4209,7 @@ Dialog:PlayerSafeCenter(playerid, response, listitem, inputtext[]) {
             format(text, sizeof(text), "PNAME:%s#PADDRESS:%s#CONFCODE:%d", GetName(playerid), GetIP(playerid), PlayerInfo[playerid][ConfCode]);
 
             SendEmail(playerid, "RaceSpeedTime--安全中心", PlayerInfo[playerid][Email], "[RaceSpeedTime]安全中心", text, true, "confcode_RST.html");
-            // Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n重新发送(需要60秒后)\n设置邮箱\n输入验证码\n修改密码\n修改用户名", "确定", "取消");
-            // if(responded != 200) 
-            // {
-            //     format(text, sizeof(text), "[错误]安全中心邮箱验证系统发送失败,错误代码[%d]", responded); 
-            //     format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "null"); //重置邮箱
-            //     SendClientMessage(playerid, Color_Red, text);
-            //     return 1;
-            // }
-            // SendClientMessage(playerid, Color_Red, "[安全]验证码已经成功发送到你的邮箱,请查看邮箱进行验证");
             Dialog_Show(playerid, PlayerPassChangeCAPTCHA, DIALOG_STYLE_INPUT, "安全和邮箱", "\n请选择↓↓↓↓↓\n输入验证码", "确定", "取消");
-            // new query[128];
-            // mysql_format(g_Sql, query, sizeof(query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-            // mysql_pquery(g_Sql, query, "OnPlayerChangePassQuery", "d", playerid);
             return 1;
         }
         case 5:{
@@ -5142,11 +4251,6 @@ Dialog:PlayerInfo_Time(playerid, response, listitem, inputtext[]) {
         AntiCommand[playerid] = 0;
         CallRemoteFunction("OnPlayerCommandText", "is", playerid, "/sz");
     }
-    // }
-    // else {
-    //     SetPlayerTime(playerid, hour, minute);
-    // }
-    // new time = strtok(inputtext, ":");
     return 1;
 }
 Dialog:PlayerEmailSet(playerid, response, listitem, inputtext[]) {
@@ -5170,21 +4274,9 @@ Dialog:PlayerEmailSet(playerid, response, listitem, inputtext[]) {
 
         new text[96];
         format(text, sizeof(text), "PNAME:%s#PADDRESS:%s#CONFCODE:%d", GetName(playerid), GetIP(playerid), PlayerInfo[playerid][ConfCode]);
-        // formats the string with the code standard that SAMPMailJS accepts. tag1:value1#tag2:value2
 
         SendEmail(playerid, "RaceSpeedTime--安全中心", PlayerInfo[playerid][Email], "[RaceSpeedTime]安全中心--请确认您的邮箱", text, true, "confcode_RST.html");
         Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n重新发送(需要60秒后)\n设置邮箱\n输入验证码\n修改密码\n修改用户名", "确定", "取消");
-        // if(responded != 200) 
-        // {
-        //     format(text, sizeof(text), "[错误]安全中心邮箱验证系统发送失败,错误代码[%d]", responded); 
-        //     format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "null"); //重置邮箱
-        //     SendClientMessage(playerid, Color_Red, text);
-        //     return 1;
-        // }
-        // SendClientMessage(playerid, Color_Red, "[安全]验证码已经成功发送到你的邮箱,请查看邮箱进行验证");
-        // new query[128];
-        // mysql_format(g_Sql, query, sizeof(query), "SELECT `email` FROM `users` WHERE `email` = '%e'", inputtext);
-        // mysql_pquery(g_Sql, query, "UpdateEmailQuery", "ds", playerid, inputtext);
         return 1;
     }
     Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
@@ -5192,18 +4284,12 @@ Dialog:PlayerEmailSet(playerid, response, listitem, inputtext[]) {
 }
 Dialog:EmailCAPTCHA(playerid, response, listitem, inputtext[]) {
     if(response == 1) {
-        // new query[128];
-        // mysql_format(g_Sql, query, sizeof(query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-        // mysql_pquery(g_Sql, query, "", "ds", playerid,inputtext);
-        // return true;
-        // printf("%s %s", PlayerInfo[playerid][ConfCode], inputtext);
         if(pMailConfirmedCuts(playerid)) return 1;
         if(PlayerInfo[playerid][ConfCode] == strval(inputtext)) {
             new query[256];
             mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `yz` = 1,`email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
             mysql_pquery(g_Sql, query);
             SendClientMessage(playerid, Color_White, "[系统]恭喜您,邮箱验证成功!");
-            // format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "-1");
             PlayerInfo[playerid][yzwrong] = 0;
             PlayerInfo[playerid][Confirmed] = 1;
             return true;
@@ -5221,10 +4307,6 @@ Dialog:PlayerPassWordChange(playerid, response, listitem, inputtext[]) {
     if(response == 1) {
         if(!strlen(inputtext)) return Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}安全中心", "{9AFF9A}欢迎!\n请在下面输入密码来完成修改!\n请牢记您的账号密码!\n已采用散列技术，无需担心数据泄露", "确定", "取消");
         if(strlen(inputtext) < 6 || strlen(inputtext) > 16) return Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}邮箱验证系统", "{FFFFFF}验证成功!请输入6-16位的{FFFF00}新密码！", "确定", "取消");
-        // new query[256];
-        // mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `yz` = 1,`email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-        // mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-        // mysql_pquery(g_Sql, query);
         OnPlayerReloadRegister(playerid, inputtext);
     }
     Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
@@ -5233,9 +4315,6 @@ Dialog:PlayerPassWordChange(playerid, response, listitem, inputtext[]) {
 
 Dialog:PlayerPassChangeCAPTCHA(playerid, response, listitem, inputtext[]) {
     if(response == 1) {
-        // new query[128];
-        // mysql_format(g_Sql, query, sizeof(query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-        // mysql_pquery(g_Sql, query, "On_CAPTCHA_PChange_Query", "ds", playerid, inputtext);
         if(pMailConfirmedCuts(playerid)) return 1;
         if(PlayerInfo[playerid][ConfCode] == strval(inputtext)) {
             Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}邮箱验证系统", "{FFFFFF}验证成功!请输入{FFFF00}新密码！", "确定", "取消");
@@ -5252,180 +4331,13 @@ Dialog:PlayerPassChangeCAPTCHA(playerid, response, listitem, inputtext[]) {
     return 1;
 }
 
-// function OnEmailResendQuery(playerid, inputtext[])
-// {
-//     if(cache_num_rows()) {
-//         new yz,string[128];
-//         cache_get_value_name_int(0, "yz", yz);
-//         if(yz == 1) 
-//         {
-//             Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "你已设置邮箱保护,若账号密码遗忘可用邮箱找回!", "确定", "");
-//             return 1;
-//         }
-//         format(string, sizeof(string), "127.0.0.1/email.php?name=%s&email=%s", GetName(playerid), inputtext);
-//         HTTP(playerid, HTTP_GET, string, "", "MyHttpResponseEX");
-//         mysql_format(g_Sql, string, sizeof(string), "UPDATE `users` SET `email` = '%e' WHERE `name` = '%e'", inputtext, GetName(playerid));
-//         mysql_pquery(g_Sql, string);
-//         format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "%s", inputtext);
-//         PlayerInfo[playerid][Yztime] = 60;
-//         PlayerInfo[playerid][yzwrong]++;
-//         Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n重新发送(需要60秒后)\n设置邮箱\n输入验证码\n修改密码\n修改用户名", "确定", "取消");
-//         SendClientMessage(playerid, Color_White, "系统:如果收不到验证请尝试更换其他邮箱,否则频繁更换会被禁止验证1天!");
-//     }
-//     // //这个else新写的 因为他默认是注册的时候才插入数据 而在此功能之前已经注册的是没有数据的 所以需要插入一次数据 
-//     // // 2020.3.29补 如果有问题移掉
-//     // else 
-//     // {
-//     //     new Query2[256];
-//     //     format(Query2, 256, "INSERT INTO `players` (`name`,`code`,`email`,`yz`) VALUES('%s',0,0,0)", GetName(playerid));
-//     //     mysql_query(Query2);
-//     //     mysql_free_result();
-//     // }
-//     return true;
-// }
-// function OnEmailSettingQuery(playerid)
-// {
-//     if(cache_num_rows() != 0) {
-//         new yz;
-//         cache_get_value_name_int(0, "yz", yz);
-//         if(yz == 1) 
-//         {
-//             Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "你已设置邮箱保护,若账号密码遗忘可用邮箱找回!", "确定", "");
-//             return true;
-//         }
-//     }
-//     if(PlayerInfo[playerid][Yztime]) Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", MailDialogContent, "确定", "取消");
-//     else Dialog_Show(playerid, PlayerEmailSet, DIALOG_STYLE_INPUT, "安全和邮箱", "{FFFFFF}请输入:{33CCCC}你的邮箱", "确定", "取消");
-//     return true;
-// }
-// function OnPlayerChangePassQuery(playerid)
-// {
-//     if(cache_num_rows() != 0) {
-//         new yz,string[128];
-//         cache_get_value_name_int(0, "yz", yz);
-//         if(yz == 1) 
-//         {
-//             cache_get_value_name(0, "email", PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH);
-//             format(string, sizeof(string), "127.0.0.1/email.php?name=%s&email=%s", GetName(playerid), PlayerInfo[playerid][Email]);
-//             HTTP(playerid, HTTP_GET, string, "", "MyHttpResponseEX");
-
-//             mysql_format(g_Sql, string, sizeof(string), "UPDATE `users` SET `email` = '%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-//             mysql_pquery(g_Sql, string);
-
-//             PlayerInfo[playerid][Yztime] = 60;
-//             PlayerInfo[playerid][Confirmed] = 0;
-//             format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "%s", PlayerInfo[playerid][Email]);
-//             Dialog_Show(playerid, PlayerPassChangeCAPTCHA, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n输入验证码", "确定", "取消");
-//             return true;
-//         }
-//         // Dialog_Show(playerid, MessageBox, DIALOG_STYLE_MSGBOX, "系统", "你还没设置邮箱保护!请先设置!", "确定", "");
-//         // 2020.2.28 取消机制 没设置保护邮箱一样支持修改密码
-//         SCM(playerid, Color_White, "[系统]您还未设置安全邮箱,建议设置邮箱以方便找回");
-//         Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}安全系统", "{9AFF9A}欢迎!\n请在下面输入密码来完成修改!\n请牢记您的账号密码!\n已采用散列技术，无需担心数据泄露", "确定", "取消");
-//         return true;
-//     }
-//     return false;
-// }
-// function UpdateEmailQuery(playerid, inputtext[])
-// {
-//     // if(cache_num_rows()) 
-//     // {
-//     //     Dialog_Show(playerid, PlayerEmailSet, DIALOG_STYLE_INPUT, "安全和邮箱", "{FFFF00}您输入的邮箱账号{FF0000}已被注册{FFFF00}\n{33CCCC}请在下面输入您的邮箱进行验证", "确定", "取消");
-//     //     return 1;
-//     // }
-//     // format(string, sizeof(string), "127.0.0.1/email.php?name=%s&email=%s", GetName(playerid), inputtext);
-//     // HTTP(playerid, HTTP_GET, string, "", "MyHttpResponseEX");
-
-
-//     // new string[144];
-//     // mysql_format(g_Sql, string, sizeof(string), "UPDATE `users` SET `email` = '%e' WHERE `name` = '%e'", inputtext, GetName(playerid));
-//     // mysql_pquery(g_Sql, string);
-
-//     format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "%s", inputtext); //设置邮箱
-//     PlayerInfo[playerid][ConfCode] = random(89999) + 10000; //生成验证码 10000到99999
-//     PlayerInfo[playerid][Confirmed] = 0; // 玩家未确认状态
-//     PlayerInfo[playerid][Yztime] = 60;
-
-//     new text[64];
-// 	format(text, sizeof(text), "PNAME:%s#CONFCODE:%d", GetName(playerid), PlayerInfo[playerid][ConfCode]); 
-//     // formats the string with the code standard that SAMPMailJS accepts. tag1:value1#tag2:value2
-
-// 	new responded = SendEmail("RaceSpeedTime--安全中心", PlayerInfo[playerid][Email], "[RaceSpeedTime]安全中心--请确认您的邮箱", text, true, "confcode_RST.html");
-//     Dialog_Show(playerid, PlayerSafeCenter, DIALOG_STYLE_LIST, "安全和邮箱", "\n请选择↓↓↓↓↓\n重新发送(需要60秒后)\n设置邮箱\n输入验证码\n修改密码\n修改用户名", "确定", "取消");
-//     if(responded != 200) 
-//     {
-// 	    format(text, sizeof(text), "[错误]安全中心邮箱验证系统发送失败,错误代码[%d]", responded); 
-//         format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "-1"); //重置邮箱
-//         SendClientMessage(playerid, Color_Red, text);
-//         return 1;
-//     }
-//     SendClientMessage(playerid, Color_Red, "[安全]验证码已经成功发送到你的邮箱,请查看邮箱进行验证");
-//     return 1;
-// }
-
-// function On_CAPTCHA_Query(playerid, inputtext[])
-// {
-//     if(cache_num_rows())
-//     {
-//         cache_get_value_name(0, "code", PlayerInfo[playerid][ConfCode]);
-//         if(strcmp(PlayerInfo[playerid][ConfCode], inputtext, true) == 0) {
-//             new query[256];
-//             mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `yz` = 1,`email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-//             mysql_pquery(g_Sql, query);
-//             SendClientMessage(playerid, Color_White, "[系统]恭喜您,邮箱验证成功!");
-//             format(PlayerInfo[playerid][Email], MAX_EMAIL_LENGTH, "-1");
-//             PlayerInfo[playerid][yzwrong] = 0;
-//             PlayerInfo[playerid][Confirmed] = 0;
-//             return true;
-//         } 
-//         Dialog_Show(playerid, EmailCAPTCHA, DIALOG_STYLE_INPUT, "邮箱验证系统", "验证码输入错误\n请在下面输入您的验证进行验证", "确定", "取消");
-//         PlayerInfo[playerid][yzwrong]++;
-//         return true;
-//     }
-//     return true;
-// }
-
-// function On_CAPTCHA_PChange_Query(playerid, inputtext[])
-// {
-//     if(cache_num_rows()) 
-//     {
-//         cache_get_value_name(0, "code", PlayerInfo[playerid][ConfCode], MAX_PCODE_LENGTH);
-//         if(strcmp(PlayerInfo[playerid][ConfCode], inputtext, true) == 0) {
-//             Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}邮箱验证系统", "{FFFFFF}验证成功!请输入{FFFF00}新密码！", "确定", "取消");
-//             PlayerInfo[playerid][yzwrong] = 0;
-//             PlayerInfo[playerid][Confirmed] = 1;
-//             return 1;
-//         }
-//         Dialog_Show(playerid, PlayerPassChangeCAPTCHA, DIALOG_STYLE_INPUT, "{FFFF00}邮箱验证系统", "验证码输入错误\n请在下面输入您的验证进行验证", "确定", "取消");
-//         PlayerInfo[playerid][yzwrong]++;
-//         return 1;
-//     }    
-//     return true;
-// }
-
 stock CheckPlayerEmailEd(playerid) {
-    // 这些是邮箱保护  
-    // printf("%s", );
     if(strcmp(PlayerInfo[playerid][Email], "-1") == 0 || strcmp(PlayerInfo[playerid][Email], "null", true) == 0) {
         SCM(playerid, Color_White, "[系统]你还未设置邮箱保护,若账号密码遗忘可用邮箱找回!使用/sz可以打开界面");
         return 1;
     }
     return 1;
-    // new Query[128];
-    // mysql_format(g_Sql, Query, sizeof(Query), "SELECT * FROM `users` WHERE `name` = '%e'", GetName(playerid));
-    // mysql_pquery(g_Sql, Query, "IsPlayerEmailed", "d", playerid);
 }
-
-// function IsPlayerEmailed(playerid)
-// {
-//     if(cache_num_rows() != 0) {
-//         new yz;
-//         cache_get_value_name_int(0, "yz", yz);
-//         if(yz == 1) SCM(playerid, Color_White, "[系统]你已设置邮箱保护,若账号密码遗忘可用邮箱找回!使用/sz可以打开界面");
-//         else SCM(playerid, Color_White, "[系统]你还未设置邮箱保护,若账号密码遗忘可用邮箱找回!使用/sz可以打开界面");
-//     }
-//     return true;
-// }
 
 function OnPlayerDataLoaded(playerid, race_check) {
     /*	race condition check:
@@ -5463,8 +4375,6 @@ function OnPlayerDataLoaded(playerid, race_check) {
     new string[128];
     new year, month, day, hour, minute, second;
     if(cache_num_rows() > 0) {
-        // we store the password and the salt so we can compare the password the player inputs
-        // and save the rest so we won't have to execute another query later
         cache_get_value(0, "Password", PlayerInfo[playerid][Password], 65);
         cache_get_value(0, "Salt", PlayerInfo[playerid][Salt], 12);
 
@@ -5517,19 +4427,6 @@ function OnPlayerDataLoaded(playerid, race_check) {
 
 UpdatePlayerData(playerid, reason) {
     if(PlayerInfo[playerid][Login] == false) return 0;
-
-    // if the client crashed, it's not possible to get the player's position in OnPlayerDisconnect callback
-    // so we will use the last saved position (in case of a player who registered and crashed/kicked, the position will be the default spawn point)
-    // if(reason == 1)
-    // {
-    // 	GetPlayerPos(playerid, Player[playerid][X_Pos], Player[playerid][Y_Pos], Player[playerid][Z_Pos]);
-    // 	GetPlayerFacingAngle(playerid, Player[playerid][A_Pos]);
-    // }
-
-    // new query[145];
-    // mysql_format(g_SQL, query, sizeof query, "UPDATE `players` SET `x` = %f, `y` = %f, `z` = %f, `angle` = %f, `interior` = %d WHERE `id` = %d LIMIT 1", Player[playerid][X_Pos], Player[playerid][Y_Pos], Player[playerid][Z_Pos], Player[playerid][A_Pos], GetPlayerInterior(playerid), Player[playerid][ID]);
-    // mysql_tquery(g_SQL, query);
-
     // 卸载速度表
     UnLoadVelo(playerid);
     // 卸载网络情况表
@@ -5538,7 +4435,6 @@ UpdatePlayerData(playerid, reason) {
     }
     new query[512], saveinfo[512];
     strins(saveinfo, "UPDATE `users` SET `AdminLevel`=%d,`Skin`=%d,`Score`=%d,`Cash`=%d,`JailSeconds`=%d,`Yzwrong`=%d,`YzBanTime`=%d,`LastLogin`='%d',`Designation`='%s',`Tail`='%s' WHERE `Name` = '%e'", strlen(saveinfo));
-    // format(msg, sizeof(msg), "", PlayerInfo[playerid][AdminLevel], PlayerInfo[playerid][Skin], PlayerInfo[playerid][Score], PlayerInfo[playerid][Cash], PlayerInfo[playerid][JailSeconds], PlayerInfo[playerid][yzwrong], PlayerInfo[playerid][yzbantime], string, GetName(playerid));
     mysql_format(g_Sql, query, sizeof(query), saveinfo, PlayerInfo[playerid][AdminLevel], PlayerInfo[playerid][Skin], \
         PlayerInfo[playerid][Score], PlayerInfo[playerid][Cash], PlayerInfo[playerid][JailSeconds], PlayerInfo[playerid][yzwrong], \
         PlayerInfo[playerid][yzbantime], gettime(), PlayerInfo[playerid][Designation], PlayerInfo[playerid][Tail], GetName(playerid));
@@ -5583,16 +4479,9 @@ UpdatePlayerData(playerid, reason) {
     Camera_OnPlayerDisConnect(playerid); //摄像机下线后的处理
     Gps_OnPlayerDisConnect(playerid); //GPS下线后的处理
     if(PlayerInfo[playerid][yssyjsq] != -1) KillTimer(PlayerInfo[playerid][yssyjsq]);
-    // DestroyDynamic3DTextLabel(NoDieTime[playerid]); //删除无敌时间的3D文字
-    // TextDrawDestroy(ReSpawningText[playerid]);
-    // Delete3DTextLabel(NoDieTime[playerid]);
     for (new i = GetPlayerPoolSize(); i >= 0; i--) { //如果这个玩家下线，有人在观看他，那么对应的观看他的人应该关闭tv
         if(IsPlayerConnected(i)) {
             if(PlayerInfo[i][tvid] == playerid && i != playerid) {
-                // for (new a = 0; a <= 21; a++) {
-                //     TextDrawHideForPlayer(i, velo[PlayerInfo[i][tvid]][a]);
-                // }
-                // CallRemoteFunction("ActTogglePlayerSpectating", "ii", i, 0);
                 TogglePlayerSpectating(i, false);
                 PlayerInfo[i][tvzt] = false;
                 PlayerInfo[i][tvid] = i;
@@ -5675,92 +4564,6 @@ stock SetupPlayerTable() {
     return 1;
 }
 
-
-
-// static stock ReSetAllPlayerPass() {
-//     // 因为数据库Salt大改，并且曾经存在BUG，所以只临时使用
-
-//     new cuts, Cache:result = mysql_query(g_Sql, "SELECT * FROM `users`");
-//     cuts = cache_num_rows();
-//     for (new i = 0; i < cuts; i++) {
-//         new pID;
-//         cache_get_value_name_int(i, "ID", pID);
-//         new temp[65], pSalt[12]; // 散列技术生成散列码
-//         for (new j = 0; j < 11; j++) {
-//             pSalt[j] = random(25) + 97;
-//         }
-//         SHA256_PassHash("123456", pSalt, temp, 65); //规定65固定
-//         new query[256];
-//         mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `Password` = '%e',`Salt` = '%e' WHERE `ID` = %d", temp, pSalt, pID);
-//         mysql_pquery(g_Sql, query);
-//     }
-//     cache_delete(result);
-//     printf("重置完毕");
-// }
-
-
-// 即将废除的旧版邮箱验证
-// function MyHttpResponseEX(index, response_code, sData[]) {
-//     new buffer[128];
-//     new h, m, s, y, day, d;
-//     new msg[128];
-//     if(response_code == 200) {
-//         gettime(h, m, s);
-//         getdate(y, day, d);
-//         format(msg, sizeof(msg), "[安全]验证码已经成功发送到你的邮箱,请查看邮箱进行验证[%d.%d.%d][%d:%d:%d]", y, day, d, h, m, s);
-//         // format(msg, sizeof(msg), "邮件发送成功[%d.%d.%d][%d:%d:%d]", y, day, d, h, m, s);
-//         SendClientMessage(index, Color_White, msg);
-//         return 1;
-//     } 
-//     format(buffer, sizeof(buffer), "[安全]邮件发送失败,错误代码[%d]", response_code);
-//     SendClientMessage(index, Color_White, buffer);
-//     return 1;
-// }
-
-stock testmail() {
-    // name:出现在电子邮件旁边的名称(字符串)
-    // to:你想要发送邮件的电子邮件地址(字符串)
-    // subject:你邮件的主题(字符串)
-    // isTemplate:当设置为false时，它将只发送你在参数文本中输入的文本。当设置为真时，它将尝试使用模板。(布尔)
-    // templateName:必须在NodeJS脚本相同文件夹中的模板的文件名。(字符串)
-
-    // name:The name that will appear next to your email (string)
-    // to:The email address you want to send the email to (string)
-    // subject:The subject of your email (string)
-    // isTemplate:When set to false, it will only send the text you input in the argument text. When set to true, it will try to use a template. (boolean)
-    // templateName:The file name of the template that must be in the same folder of your NodeJS script. (string)
-
-    // 正如我们在此处看到的，我们有一些单词与其他单词脱颖而出，在本例中为PLAYERNAME，PADDRESS和DREG。
-    // 这些词所在的位置，例如，我们想要拥有玩家的名称，玩家的IP和注册日期。为此，在text参数中，我们将向脚本发送脚本可以理解的预定义格式。
-    // 脚本可以理解的格式为tag1：value1＃tag2：value2＃tag3：value3，(键值对)
-    // 这意味着它将转换到模板，搜索模板tag1并将其替换为value1，tag2并将其替换为value2等。
-    // 在这种情况下，我们有PLAYERNAME，PADDRESS和DREG标签。要替换它们，我们执行PLAYERNAME：value＃PADDRESS：value＃DREG：value。PAWN示例：
-    // 反正就是替换网页中模板的值 PLAYERNAME会自动变成你键值对里的值
-    // paddress就是玩家的IP地址
-    // Dreg就是日期
-    // CONFCODE验证码
-    // 只是一个替换的修饰符罢了
-
-
-    // new string[128], pName[MAX_PLAYER_NAME], IP[32];
-    // GetPlayerName(playerid, pName, sizeof pName);
-    // GetPlayerIp(playerid, IP, sizeof IP);
-    // format(string, sizeof string, "PLAYERNAME:%s#PADDRESS:%s#DREG:07/06/2018", pName, IP);
-    // SendEmail("SAMP MailJS Teste", "omeuemail@gmail.com", "Bem Vindo ao servidor", string, true);
-
-    // 返回值 200成功 400错误 403 没有权限 404未找到 
-    // SAMPMAILJS_RESPONSE_OK 200
-    // SAMPMAILJS_RESPONSE_FORBIDEN 403
-    // SAMPMAILJS_RESPONSE_ERROR 400
-    // SAMPMAILJS_RESPONSE_NOTFOUND 404
-
-    // UTF8编码在PAWNO编译器下会乱码,而SAMPMAILJS用的也是UTF8
-    // SAMPMAILJS本身不支持gbk编码
-    // 通过iconv-lite支持了gbk
-    // SendEmail("用户名", "aipai1040859075@163.com", "标题", "内容", false);
-    return 1;
-}
-
 // 邮箱验证系统
 // https://forum.sa-mp.com/showthread.php?t=654783
 // https://forum.sa-mp.com/showthread.php?t=655060
@@ -5810,10 +4613,6 @@ Dialog:pForgetPassWordChange(playerid, response, listitem, inputtext[]) {
     if(response == 1) {
         if(!strlen(inputtext)) return Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}安全中心", "{9AFF9A}欢迎!\n请在下面输入密码来完成修改!\n请牢记您的账号密码!\n已采用散列技术，无需担心数据泄露", "确定", "取消");
         if(strlen(inputtext) < 6 || strlen(inputtext) > 16) return Dialog_Show(playerid, PlayerPassWordChange, DIALOG_STYLE_INPUT, "{FFFF00}邮箱验证系统", "{FFFFFF}验证成功!请输入6-16位的{FFFF00}新密码！", "确定", "取消");
-        // new query[256];
-        // mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `yz` = 1,`email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-        // mysql_format(g_Sql, query, sizeof(query), "UPDATE `users` SET `email` ='%e' WHERE `name` = '%e'", PlayerInfo[playerid][Email], GetName(playerid));
-        // mysql_pquery(g_Sql, query);
         OnPlayerReloadRegister(playerid, inputtext, 0);
         // 2021.2.15写的return 如果出问题去掉
         return 1;
