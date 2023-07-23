@@ -1781,7 +1781,7 @@ stock SetupCarsTable() {
 
 // 2021.10.7 修复TagObject没有默认值的问题
     mysql_pquery(g_Sql,"CREATE TABLE IF NOT EXISTS `va`  (\
-    `ID` int(10) UNSIGNED NOT NULL DEFAULT 0,\
+    `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,\
     `VehicleID` int(11) NULL DEFAULT NULL,\
     `Slot` int(11) NULL DEFAULT NULL,\
     `Model` int(11) NULL DEFAULT NULL,\
